@@ -32,7 +32,7 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.tbxAccGroup = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
+            this.tbxStartDate = new DevExpress.XtraEditors.TextEdit();
             this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
@@ -53,7 +53,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tbxAccGroup.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxStartDate.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
@@ -77,7 +77,7 @@
             this.layoutControl1.Controls.Add(this.labelControl2);
             this.layoutControl1.Controls.Add(this.simpleButton1);
             this.layoutControl1.Controls.Add(this.tbxAccGroup);
-            this.layoutControl1.Controls.Add(this.textEdit6);
+            this.layoutControl1.Controls.Add(this.tbxStartDate);
             this.layoutControl1.Controls.Add(this.textEdit5);
             this.layoutControl1.Controls.Add(this.textEdit7);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -117,13 +117,13 @@
             this.tbxAccGroup.StyleController = this.layoutControl1;
             this.tbxAccGroup.TabIndex = 5;
             // 
-            // textEdit6
+            // tbxStartDate
             // 
-            this.textEdit6.Location = new System.Drawing.Point(139, 66);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(262, 20);
-            this.textEdit6.StyleController = this.layoutControl1;
-            this.textEdit6.TabIndex = 6;
+            this.tbxStartDate.Location = new System.Drawing.Point(139, 66);
+            this.tbxStartDate.Name = "tbxStartDate";
+            this.tbxStartDate.Size = new System.Drawing.Size(262, 20);
+            this.tbxStartDate.StyleController = this.layoutControl1;
+            this.tbxStartDate.TabIndex = 6;
             // 
             // textEdit5
             // 
@@ -176,7 +176,7 @@
             // 
             // layoutControlItem3
             // 
-            this.layoutControlItem3.Control = this.textEdit6;
+            this.layoutControlItem3.Control = this.tbxStartDate;
             this.layoutControlItem3.CustomizationFormText = "End Month";
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 54);
             this.layoutControlItem3.Name = "layoutControlItem3";
@@ -304,7 +304,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tbxAccGroup.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxStartDate.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
@@ -331,7 +331,7 @@
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup1;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.TextEdit tbxAccGroup;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
+        private DevExpress.XtraEditors.TextEdit tbxStartDate;
         private DevExpress.XtraEditors.TextEdit textEdit5;
         private DevExpress.XtraEditors.TextEdit textEdit7;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
