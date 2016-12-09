@@ -954,6 +954,30 @@
     <Compile Include="Reports\Itemreceviable\Itemwisesummary.Designer.cs">
       <DependentUpon>Itemwisesummary.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reports\Jobworkreports\Jobregisteroutside.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Jobworkreports\Jobregisteroutside.Designer.cs">
+      <DependentUpon>Jobregisteroutside.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Jobworkreports\Jobsummaryoutside.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Jobworkreports\Jobsummaryoutside.Designer.cs">
+      <DependentUpon>Jobsummaryoutside.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Jobworkreports\Partyitemjobledger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Jobworkreports\Partyitemjobledger.Designer.cs">
+      <DependentUpon>Partyitemjobledger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Jobworkreports\Pendingjobitems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Jobworkreports\Pendingjobitems.Designer.cs">
+      <DependentUpon>Pendingjobitems.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports\MRPwisereports\MRPopeningstock.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -2178,6 +2202,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Itemreceviable\Itemwisesummary.resx">
       <DependentUpon>Itemwisesummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Jobworkreports\Jobregisteroutside.resx">
+      <DependentUpon>Jobregisteroutside.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Jobworkreports\Jobsummaryoutside.resx">
+      <DependentUpon>Jobsummaryoutside.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Jobworkreports\Partyitemjobledger.resx">
+      <DependentUpon>Partyitemjobledger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Jobworkreports\Pendingjobitems.resx">
+      <DependentUpon>Pendingjobitems.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\MRPwisereports\MRPopeningstock.resx">
       <DependentUpon>MRPopeningstock.cs</DependentUpon>
