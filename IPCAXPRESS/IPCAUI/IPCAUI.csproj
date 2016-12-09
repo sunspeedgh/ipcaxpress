@@ -378,6 +378,42 @@
     <Compile Include="Reports\BS_Vertical.Designer.cs">
       <DependentUpon>BS_Vertical.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reports\Callmanagement\Callhistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Callmanagement\Callhistory.Designer.cs">
+      <DependentUpon>Callhistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Callmanagement\Callregister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Callmanagement\Callregister.Designer.cs">
+      <DependentUpon>Callregister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Callmanagement\Contactpartysummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Callmanagement\Contactpartysummary.Designer.cs">
+      <DependentUpon>Contactpartysummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Callmanagement\Contactstagedwith.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Callmanagement\Contactstagedwith.Designer.cs">
+      <DependentUpon>Contactstagedwith.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Callmanagement\Daybook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Callmanagement\Daybook.Designer.cs">
+      <DependentUpon>Daybook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Callmanagement\Exectivesummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Callmanagement\Exectivesummary.Designer.cs">
+      <DependentUpon>Exectivesummary.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports\Checklist\Cancelledvouchers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1854,6 +1890,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\BS_Vertical.resx">
       <DependentUpon>BS_Vertical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Callmanagement\Callhistory.resx">
+      <DependentUpon>Callhistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Callmanagement\Callregister.resx">
+      <DependentUpon>Callregister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Callmanagement\Contactpartysummary.resx">
+      <DependentUpon>Contactpartysummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Callmanagement\Contactstagedwith.resx">
+      <DependentUpon>Contactstagedwith.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Callmanagement\Daybook.resx">
+      <DependentUpon>Daybook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Callmanagement\Exectivesummary.resx">
+      <DependentUpon>Exectivesummary.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Checklist\Cancelledvouchers.resx">
       <DependentUpon>Cancelledvouchers.cs</DependentUpon>
