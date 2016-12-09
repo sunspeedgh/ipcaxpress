@@ -115,5 +115,10 @@ namespace IPCAUI
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void MDIParent1_KeyDown(object sender, KeyEventArgs e)
+        {
+            
+        }
     }
 }
