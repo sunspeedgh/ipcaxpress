@@ -21,21 +21,28 @@ namespace IPCAUI
 
         private void ShowNewForm(object sender, EventArgs e)
         {
-            Form childForm = new Form();
-            childForm.MdiParent = this;
-            childForm.Text = "Window " + childFormNumber++;
-            childForm.Show();
+            Company.Companycreate frm = new Company.Companycreate();
+            frm.MdiParent = this;
+            frm.Show();
+            //frm.Dock = DockStyle.Fill;
+            //Form childForm = new Form();
+            //childForm.MdiParent = this;
+            //childForm.Text = "Window " + childFormNumber++;
+            //childForm.Show();
         }
 
         private void OpenFile(object sender, EventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
-            openFileDialog.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
-            if (openFileDialog.ShowDialog(this) == DialogResult.OK)
-            {
-                string FileName = openFileDialog.FileName;
-            }
+            Company.Backupdata frm = new Company.Backupdata();
+            frm.MdiParent = this;
+            frm.Show();
+            //OpenFileDialog openFileDialog = new OpenFileDialog();
+            //openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
+            //openFileDialog.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
+            //if (openFileDialog.ShowDialog(this) == DialogResult.OK)
+            //{
+            //    string FileName = openFileDialog.FileName;
+            //}
         }
 
         private void SaveAsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -118,7 +125,25 @@ namespace IPCAUI
 
         private void MDIParent1_KeyDown(object sender, KeyEventArgs e)
         {
-            
+            if (e.KeyCode == Keys.Enter)
+            {
+                this.SelectNextControl(this.ActiveControl, true, true, true, true);
+            }
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Company.Datarestoration frm = new Company.Datarestoration();
+            frm.MdiParent = this;
+            frm.Show();
+
+        }
+
+        private void printToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Company.SelectipcaModel frm = new Company.SelectipcaModel();
+            frm.MdiParent = this;
+            frm.Show(); 
         }
     }
 }

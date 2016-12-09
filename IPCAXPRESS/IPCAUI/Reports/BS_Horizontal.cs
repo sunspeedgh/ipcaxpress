@@ -15,6 +15,57 @@ namespace IPCAUI.Reports
         public BS_Horizontal()
         {
             InitializeComponent();
+            string[] str = { "January", "Febary", "Kathy Finch", "Mark Flora", "Greg Hull", "Matt Flora" };
+            AutoCompleteStringCollection collection = new AutoCompleteStringCollection();
+            collection.AddRange(str);
+            tbxStartMonth.MaskBox.AutoCompleteCustomSource = collection;
+            tbxStartMonth.MaskBox.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            tbxStartMonth.MaskBox.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+        }
+
+        private void BS_Horizontal_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                this.SelectNextControl(this.ActiveControl, true, true, true, true);
+            }
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Bshorizontalgrid frm = new Bshorizontalgrid();
+            frm.MdiParent = this.ParentForm;
+            frm.Show();
+        }
+
+        private void tbxStartmonth_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //if (e.KeyChar < 32 || e.KeyChar > 126)
+            //{
+            //    return;
+            //}
+            //string t = tbxStartmonth.Text;
+            //string typedT = t.Substring(0, tbxStartmonth.SelectionStart);
+            //string newT = typedT + e.KeyChar;
+
+            //int i = tbxStartmonth.text(newT);
+            //if (i == -1)
+            //{
+            //    e.Handled = true;
+            //}
+            //if (Char.IsLetter(e.KeyChar))
+            //{
+            //    e.KeyChar = Char.ToUpper(e.KeyChar);
+            //}
+        }
+
+        private void tbxBranch_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                tbxStartMonth.Focus();
+            }
         }
     }
 }

@@ -35,8 +35,10 @@
   <ItemGroup>
     <Reference Include="Accessibility" />
     <Reference Include="DevExpress.Data.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Mvvm.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.TreeMap.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -44,6 +46,7 @@
     <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeMap.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -72,11 +75,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Company\SelectipcaModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\SelectipcaModel.Designer.cs">
+      <DependentUpon>SelectipcaModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Setdatadirectory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Setdatadirectory.Designer.cs">
+      <DependentUpon>Setdatadirectory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Deletecompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Deletecompany.Designer.cs">
+      <DependentUpon>Deletecompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Reindexdatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Reindexdatabase.Designer.cs">
+      <DependentUpon>Reindexdatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Splitfinancialyear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Splitfinancialyear.Designer.cs">
+      <DependentUpon>Splitfinancialyear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Datarestoration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Datarestoration.Designer.cs">
+      <DependentUpon>Datarestoration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Backupdata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Backupdata.Designer.cs">
+      <DependentUpon>Backupdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Companycreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Companycreate.Designer.cs">
+      <DependentUpon>Companycreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Demo.Designer.cs">
+      <DependentUpon>Demo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
     <Compile Include="IPCADataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -102,6 +165,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportsmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportsmain.Designer.cs">
+      <DependentUpon>Reportsmain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports\Accountbooks\AccountGroupLedger.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -371,6 +440,12 @@
     </Compile>
     <Compile Include="Reports\Batchwisereports\Experingbatches.Designer.cs">
       <DependentUpon>Experingbatches.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Bshorizontalgrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Bshorizontalgrid.Designer.cs">
+      <DependentUpon>Bshorizontalgrid.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\BS_Grid.cs">
       <SubType>Form</SubType>
@@ -1728,6 +1803,12 @@
     <Compile Include="Reports\StockStatus\CSHierachical\Balancesonly.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Reports\TDSreports\narayana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\TDSreports\narayana.Designer.cs">
+      <DependentUpon>narayana.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports\TDSreports\Form26qannexure.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1764,8 +1845,38 @@
     <Compile Include="Transactions\SalesVoucher.Designer.cs">
       <DependentUpon>SalesVoucher.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Company\SelectipcaModel.resx">
+      <DependentUpon>SelectipcaModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Setdatadirectory.resx">
+      <DependentUpon>Setdatadirectory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Deletecompany.resx">
+      <DependentUpon>Deletecompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Reindexdatabase.resx">
+      <DependentUpon>Reindexdatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Splitfinancialyear.resx">
+      <DependentUpon>Splitfinancialyear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Datarestoration.resx">
+      <DependentUpon>Datarestoration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Backupdata.resx">
+      <DependentUpon>Backupdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Companycreate.resx">
+      <DependentUpon>Companycreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo.resx">
+      <DependentUpon>Demo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -1783,6 +1894,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Reportsmain.resx">
+      <DependentUpon>Reportsmain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\AccountGroupLedger.resx">
       <DependentUpon>AccountGroupLedger.cs</DependentUpon>
     </EmbeddedResource>
@@ -1917,6 +2031,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Batchwisereports\Experingbatches.resx">
       <DependentUpon>Experingbatches.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Bshorizontalgrid.resx">
+      <DependentUpon>Bshorizontalgrid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\BS_Grid.resx">
       <DependentUpon>BS_Grid.cs</DependentUpon>
@@ -2592,6 +2709,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\StockStatus\CSHierachical\Balancesonly.resx">
       <DependentUpon>Balancesonly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\TDSreports\narayana.resx">
+      <DependentUpon>narayana.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\TDSreports\Form26qannexure.resx">
       <DependentUpon>Form26qannexure.cs</DependentUpon>
