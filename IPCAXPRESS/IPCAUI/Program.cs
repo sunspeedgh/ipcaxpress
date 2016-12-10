@@ -16,7 +16,7 @@ namespace IPCAUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Reportsmain());
+            Application.Run(new MDIParent1());
         }
     }
 }

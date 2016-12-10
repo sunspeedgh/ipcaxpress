@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace IPCAUI.Reports.TDSreports
+namespace IPCAUI.Reports.VATSummeries
 {
-    public partial class narayana : Form
+    public partial class SaleVATSummary : Form
     {
-        public narayana()
+        public SaleVATSummary()
         {
             InitializeComponent();
         }

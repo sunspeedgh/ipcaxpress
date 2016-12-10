@@ -15,12 +15,29 @@ namespace IPCAUI.Reports
         public BS_Horizontal()
         {
             InitializeComponent();
-            string[] str = { "January", "Febary", "Kathy Finch", "Mark Flora", "Greg Hull", "Matt Flora" };
-            AutoCompleteStringCollection collection = new AutoCompleteStringCollection();
-            collection.AddRange(str);
-            tbxStartMonth.MaskBox.AutoCompleteCustomSource = collection;
-            tbxStartMonth.MaskBox.AutoCompleteSource = AutoCompleteSource.CustomSource;
-            tbxStartMonth.MaskBox.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            //ComboBox combo = new ComboBox();
+            ////ComboBoxEdit combo = new ComboBoxEdit();
+            //ComboBox coll = combo.Properties.Items;
+            //coll.BeginUpdate();
+            //try
+            //{
+            //    coll.Add(new PersonInfo("Sven", "Petersen"));
+            //    coll.Add(new PersonInfo("Cheryl", "Saylor"));
+            //    coll.Add(new PersonInfo("Dirk", "Luchte"));
+            //}
+            //finally
+            //{
+            //    coll.EndUpdate();
+            //}
+            //combo.SelectedIndex = -1;
+
+            //Controls.Add(combo);
+            //string[] str = { "January", "Febary", "Kathy Finch", "Mark Flora", "Greg Hull", "Matt Flora" };
+            //AutoCompleteStringCollection collection = new AutoCompleteStringCollection();
+            //collection.AddRange(str);
+            //tbxStartMonth.MaskBox.AutoCompleteCustomSource = collection;
+            //tbxStartMonth.MaskBox.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            //tbxStartMonth.MaskBox.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
         }
 
         private void BS_Horizontal_KeyDown(object sender, KeyEventArgs e)
@@ -34,9 +51,9 @@ namespace IPCAUI.Reports
         private void simpleButton1_Click(object sender, EventArgs e)
         {
             this.Close();
-            Bshorizontalgrid frm = new Bshorizontalgrid();
-            frm.MdiParent = this.ParentForm;
-            frm.Show();
+            //Bshorizontalgrid frm = new Bshorizontalgrid();
+            //frm.MdiParent = this.ParentForm;
+            //frm.Show();
         }
 
         private void tbxStartmonth_KeyPress(object sender, KeyPressEventArgs e)
@@ -64,7 +81,7 @@ namespace IPCAUI.Reports
         {
             if (e.KeyCode == Keys.Enter)
             {
-                tbxStartMonth.Focus();
+                //tbxStartMonth.Focus();
             }
         }
     }

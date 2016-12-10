@@ -40,7 +40,6 @@
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
             this.tbxBranch = new DevExpress.XtraEditors.TextEdit();
-            this.tbxStartMonth = new DevExpress.XtraEditors.TextEdit();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -62,6 +61,7 @@
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.comboBoxEdit = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
@@ -73,7 +73,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxBranch.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbxStartMonth.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
@@ -94,6 +93,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
@@ -109,7 +109,7 @@
             this.layoutControl1.Controls.Add(this.textEdit1);
             this.layoutControl1.Controls.Add(this.textEdit5);
             this.layoutControl1.Controls.Add(this.tbxBranch);
-            this.layoutControl1.Controls.Add(this.tbxStartMonth);
+            this.layoutControl1.Controls.Add(this.comboBoxEdit);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
@@ -131,7 +131,7 @@
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Location = new System.Drawing.Point(182, 12);
+            this.labelControl2.Location = new System.Drawing.Point(159, 12);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(92, 16);
             this.labelControl2.StyleController = this.layoutControl1;
@@ -140,9 +140,9 @@
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(200, 292);
+            this.simpleButton1.Location = new System.Drawing.Point(174, 292);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(71, 22);
+            this.simpleButton1.Size = new System.Drawing.Size(61, 22);
             this.simpleButton1.StyleController = this.layoutControl1;
             this.simpleButton1.TabIndex = 11;
             this.simpleButton1.Text = "OK";
@@ -212,15 +212,6 @@
             this.tbxBranch.StyleController = this.layoutControl1;
             this.tbxBranch.TabIndex = 1;
             this.tbxBranch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbxBranch_KeyDown);
-            // 
-            // tbxStartMonth
-            // 
-            this.tbxStartMonth.Location = new System.Drawing.Point(237, 66);
-            this.tbxStartMonth.Name = "tbxStartMonth";
-            this.tbxStartMonth.Size = new System.Drawing.Size(239, 20);
-            this.tbxStartMonth.StyleController = this.layoutControl1;
-            this.tbxStartMonth.TabIndex = 14;
-            this.tbxStartMonth.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbxStartmonth_KeyPress);
             // 
             // layoutControlGroup1
             // 
@@ -327,7 +318,7 @@
             this.emptySpaceItem3.CustomizationFormText = "emptySpaceItem3";
             this.emptySpaceItem3.Location = new System.Drawing.Point(0, 280);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(188, 26);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(162, 26);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem2
@@ -342,9 +333,9 @@
             // layoutControlItem9
             // 
             this.layoutControlItem9.Control = this.simpleButton1;
-            this.layoutControlItem9.Location = new System.Drawing.Point(188, 280);
+            this.layoutControlItem9.Location = new System.Drawing.Point(162, 280);
             this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(75, 26);
+            this.layoutControlItem9.Size = new System.Drawing.Size(65, 26);
             this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem9.TextVisible = false;
             // 
@@ -361,7 +352,7 @@
             this.emptySpaceItem5.AllowHotTrack = false;
             this.emptySpaceItem5.Location = new System.Drawing.Point(0, 0);
             this.emptySpaceItem5.Name = "emptySpaceItem5";
-            this.emptySpaceItem5.Size = new System.Drawing.Size(170, 20);
+            this.emptySpaceItem5.Size = new System.Drawing.Size(147, 20);
             this.emptySpaceItem5.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem6
@@ -375,9 +366,9 @@
             // emptySpaceItem7
             // 
             this.emptySpaceItem7.AllowHotTrack = false;
-            this.emptySpaceItem7.Location = new System.Drawing.Point(263, 280);
+            this.emptySpaceItem7.Location = new System.Drawing.Point(227, 280);
             this.emptySpaceItem7.Name = "emptySpaceItem7";
-            this.emptySpaceItem7.Size = new System.Drawing.Size(205, 26);
+            this.emptySpaceItem7.Size = new System.Drawing.Size(241, 26);
             this.emptySpaceItem7.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem11
@@ -400,15 +391,15 @@
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(266, 0);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(243, 0);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(202, 20);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(225, 20);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem10
             // 
             this.layoutControlItem10.Control = this.labelControl2;
-            this.layoutControlItem10.Location = new System.Drawing.Point(170, 0);
+            this.layoutControlItem10.Location = new System.Drawing.Point(147, 0);
             this.layoutControlItem10.Name = "layoutControlItem10";
             this.layoutControlItem10.Size = new System.Drawing.Size(96, 20);
             this.layoutControlItem10.TextSize = new System.Drawing.Size(0, 0);
@@ -416,11 +407,11 @@
             // 
             // layoutControlItem2
             // 
-            this.layoutControlItem2.Control = this.tbxStartMonth;
+            this.layoutControlItem2.Control = this.comboBoxEdit;
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 54);
             this.layoutControlItem2.Name = "layoutControlItem2";
             this.layoutControlItem2.Size = new System.Drawing.Size(468, 24);
-            this.layoutControlItem2.Text = "Starting Month";
+            this.layoutControlItem2.Text = "Starting Date";
             this.layoutControlItem2.TextSize = new System.Drawing.Size(222, 13);
             // 
             // labelControl1
@@ -433,6 +424,14 @@
             this.labelControl1.Size = new System.Drawing.Size(92, 16);
             this.labelControl1.TabIndex = 12;
             this.labelControl1.Text = "Balance Sheet";
+            // 
+            // comboBoxEdit
+            // 
+            this.comboBoxEdit.Location = new System.Drawing.Point(237, 66);
+            this.comboBoxEdit.Name = "comboBoxEdit";
+            this.comboBoxEdit.Size = new System.Drawing.Size(239, 20);
+            this.comboBoxEdit.StyleController = this.layoutControl1;
+            this.comboBoxEdit.TabIndex = 14;
             // 
             // BS_Horizontal
             // 
@@ -456,7 +455,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxBranch.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbxStartMonth.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
@@ -477,6 +475,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -516,6 +515,6 @@
         private DevExpress.XtraEditors.TextEdit tbxBranch;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
-        private DevExpress.XtraEditors.TextEdit tbxStartMonth;
+        private DevExpress.XtraEditors.TextEdit comboBoxEdit;
     }
 }

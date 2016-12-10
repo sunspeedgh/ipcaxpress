@@ -72,6 +72,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Company\Backupdata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Backupdata.Designer.cs">
+      <DependentUpon>Backupdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Companycreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Companycreate.Designer.cs">
+      <DependentUpon>Companycreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Datarestoration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Datarestoration.Designer.cs">
+      <DependentUpon>Datarestoration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Deletecompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Deletecompany.Designer.cs">
+      <DependentUpon>Deletecompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Reindexdatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Reindexdatabase.Designer.cs">
+      <DependentUpon>Reindexdatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\SelectipcaModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\SelectipcaModel.Designer.cs">
+      <DependentUpon>SelectipcaModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Setdatadirectory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Setdatadirectory.Designer.cs">
+      <DependentUpon>Setdatadirectory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Splitfinancialyear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Splitfinancialyear.Designer.cs">
+      <DependentUpon>Splitfinancialyear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Demo.Designer.cs">
+      <DependentUpon>Demo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1758,12 +1812,153 @@
     <Compile Include="Reports\TrackingReports\Daybook.Designer.cs">
       <DependentUpon>Daybook.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reports\VATSummaries\AnnualVATSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\AnnualVATSummary.Designer.cs">
+      <DependentUpon>AnnualVATSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\DailyPurchaseVATSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\DailyPurchaseVATSummary.Designer.cs">
+      <DependentUpon>DailyPurchaseVATSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\DailySaleVATSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\DailySaleVATSummary.Designer.cs">
+      <DependentUpon>DailySaleVATSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\ItemTaxRateWiseSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\ItemTaxRateWiseSummary.Designer.cs">
+      <DependentUpon>ItemTaxRateWiseSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\ItemwisePurchaseCSTSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\ItemwisePurchaseCSTSummary.Designer.cs">
+      <DependentUpon>ItemwisePurchaseCSTSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\ItemwisePurchaseVATSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\ItemwisePurchaseVATSummary.Designer.cs">
+      <DependentUpon>ItemwisePurchaseVATSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\ItemwiseSalesCSTSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\ItemwiseSalesCSTSummary.Designer.cs">
+      <DependentUpon>ItemwiseSalesCSTSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\ItemwiseSaleVATSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\ItemwiseSaleVATSummary.Designer.cs">
+      <DependentUpon>ItemwiseSaleVATSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\Party-WiseSaleVATSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\Party-WiseSaleVATSummary.Designer.cs">
+      <DependentUpon>Party-WiseSaleVATSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\PartyWisePurchaseVATSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\PartyWisePurchaseVATSummary.Designer.cs">
+      <DependentUpon>PartyWisePurchaseVATSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\PartywisePurchseCSTSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\PartywisePurchseCSTSummary.Designer.cs">
+      <DependentUpon>PartywisePurchseCSTSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\PartywiseSaleCSTSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\PartywiseSaleCSTSummary.Designer.cs">
+      <DependentUpon>PartywiseSaleCSTSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\PurchaseTypeSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\PurchaseTypeSummary.Designer.cs">
+      <DependentUpon>PurchaseTypeSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\PurchaseVATSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\PurchaseVATSummary.Designer.cs">
+      <DependentUpon>PurchaseVATSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\SaleTypeSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\SaleTypeSummary.Designer.cs">
+      <DependentUpon>SaleTypeSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\SaleVATSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\SaleVATSummary.Designer.cs">
+      <DependentUpon>SaleVATSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\VATcomputation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\VATcomputation.Designer.cs">
+      <DependentUpon>VATcomputation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\VATSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\VATSummary.Designer.cs">
+      <DependentUpon>VATSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\VRCVATSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VATSummaries\VRCVATSummary.Designer.cs">
+      <DependentUpon>VRCVATSummary.cs</DependentUpon>
+    </Compile>
     <Compile Include="Transactions\SalesVoucher.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Transactions\SalesVoucher.Designer.cs">
       <DependentUpon>SalesVoucher.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Company\Backupdata.resx">
+      <DependentUpon>Backupdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Companycreate.resx">
+      <DependentUpon>Companycreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Datarestoration.resx">
+      <DependentUpon>Datarestoration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Deletecompany.resx">
+      <DependentUpon>Deletecompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Reindexdatabase.resx">
+      <DependentUpon>Reindexdatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\SelectipcaModel.resx">
+      <DependentUpon>SelectipcaModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Setdatadirectory.resx">
+      <DependentUpon>Setdatadirectory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Splitfinancialyear.resx">
+      <DependentUpon>Splitfinancialyear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demo.resx">
+      <DependentUpon>Demo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
@@ -2607,6 +2802,63 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\TrackingReports\Daybook.resx">
       <DependentUpon>Daybook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\AnnualVATSummary.resx">
+      <DependentUpon>AnnualVATSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\DailyPurchaseVATSummary.resx">
+      <DependentUpon>DailyPurchaseVATSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\DailySaleVATSummary.resx">
+      <DependentUpon>DailySaleVATSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\ItemTaxRateWiseSummary.resx">
+      <DependentUpon>ItemTaxRateWiseSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\ItemwisePurchaseCSTSummary.resx">
+      <DependentUpon>ItemwisePurchaseCSTSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\ItemwisePurchaseVATSummary.resx">
+      <DependentUpon>ItemwisePurchaseVATSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\ItemwiseSalesCSTSummary.resx">
+      <DependentUpon>ItemwiseSalesCSTSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\ItemwiseSaleVATSummary.resx">
+      <DependentUpon>ItemwiseSaleVATSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\Party-WiseSaleVATSummary.resx">
+      <DependentUpon>Party-WiseSaleVATSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\PartyWisePurchaseVATSummary.resx">
+      <DependentUpon>PartyWisePurchaseVATSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\PartywisePurchseCSTSummary.resx">
+      <DependentUpon>PartywisePurchseCSTSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\PartywiseSaleCSTSummary.resx">
+      <DependentUpon>PartywiseSaleCSTSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\PurchaseTypeSummary.resx">
+      <DependentUpon>PurchaseTypeSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\PurchaseVATSummary.resx">
+      <DependentUpon>PurchaseVATSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\SaleTypeSummary.resx">
+      <DependentUpon>SaleTypeSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\SaleVATSummary.resx">
+      <DependentUpon>SaleVATSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\VATcomputation.resx">
+      <DependentUpon>VATcomputation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\VATSummary.resx">
+      <DependentUpon>VATSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VATSummaries\VRCVATSummary.resx">
+      <DependentUpon>VRCVATSummary.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\SalesVoucher.resx">
       <DependentUpon>SalesVoucher.cs</DependentUpon>
