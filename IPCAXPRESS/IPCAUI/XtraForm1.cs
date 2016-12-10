@@ -65,5 +65,10 @@ namespace IPCAUI
         {
 
         }
+
+        private void treeList1_FocusedNodeChanged(object sender, DevExpress.XtraTreeList.FocusedNodeChangedEventArgs e)
+        {
+
+        }
     }
 }
