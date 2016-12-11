@@ -13,20 +13,19 @@ namespace IPCAUI.Menu
 {
     public partial class ReportMenu : DevExpress.XtraBars.Ribbon.RibbonForm
     {
-        public ReportMenu()
+        XtraForm1 frm;
+        public ReportMenu(XtraForm1 frm)
         {
             InitializeComponent();
-
-            
+            this.frm = frm;                   
         }
 
         private void rptDayBook_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             Reports.Accountbooks.Grids.DayBook frmDayBook = new Reports.Accountbooks.Grids.DayBook();
-            frmDayBook.MdiParent = this;
+           frmDayBook.MdiParent = this;
             frmDayBook.Show();
-            splitContainerControl1.Panel2.Controls.Add(frmDayBook);
-           
+            splitContainerControl1.Panel2.Controls.Add(frmDayBook);           
         }
 
         private void dockPanel1_Click(object sender, EventArgs e)
@@ -66,6 +65,12 @@ namespace IPCAUI.Menu
         private void navBarItem1_ItemChanged(object sender, EventArgs e)
         {
             MessageBox.Show("Clicked");
+        }
+
+        private void ReportMenu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.frm.Visible = true;
+
         }
     }
 }
