@@ -38,6 +38,7 @@
     <Reference Include="DevExpress.Data.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.TreeMap.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -46,6 +47,7 @@
     <Reference Include="DevExpress.XtraNavBar.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeMap.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -79,6 +81,12 @@
     </Compile>
     <Compile Include="Company\Backupdata.Designer.cs">
       <DependentUpon>Backupdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Getsoftlocklicence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Getsoftlocklicence.Designer.cs">
+      <DependentUpon>Getsoftlocklicence.cs</DependentUpon>
     </Compile>
     <Compile Include="Company\Companycreate.cs">
       <SubType>Form</SubType>
@@ -121,6 +129,36 @@
     </Compile>
     <Compile Include="Company\Splitfinancialyear.Designer.cs">
       <DependentUpon>Splitfinancialyear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Changesoftlockemail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Changesoftlockemail.Designer.cs">
+      <DependentUpon>Changesoftlockemail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Updatedongleregidetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Updatedongleregidetails.Designer.cs">
+      <DependentUpon>Updatedongleregidetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Surrendersoftlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Surrendersoftlock.Designer.cs">
+      <DependentUpon>Surrendersoftlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Upgradeipca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Upgradeipca.Designer.cs">
+      <DependentUpon>Upgradeipca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company\Updatesignature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company\Updatesignature.Designer.cs">
+      <DependentUpon>Updatesignature.cs</DependentUpon>
     </Compile>
     <Compile Include="Demo.cs">
       <SubType>Form</SubType>
@@ -1967,6 +2005,9 @@
     <EmbeddedResource Include="Company\Backupdata.resx">
       <DependentUpon>Backupdata.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Company\Getsoftlocklicence.resx">
+      <DependentUpon>Getsoftlocklicence.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Company\Companycreate.resx">
       <DependentUpon>Companycreate.cs</DependentUpon>
     </EmbeddedResource>
@@ -1987,6 +2028,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Company\Splitfinancialyear.resx">
       <DependentUpon>Splitfinancialyear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Changesoftlockemail.resx">
+      <DependentUpon>Changesoftlockemail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Updatedongleregidetails.resx">
+      <DependentUpon>Updatedongleregidetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Surrendersoftlock.resx">
+      <DependentUpon>Surrendersoftlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Upgradeipca.resx">
+      <DependentUpon>Upgradeipca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company\Updatesignature.resx">
+      <DependentUpon>Updatesignature.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Demo.resx">
       <DependentUpon>Demo.cs</DependentUpon>

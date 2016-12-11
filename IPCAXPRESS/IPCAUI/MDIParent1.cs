@@ -113,7 +113,9 @@ namespace IPCAUI
 
         private void windowsMenu_Click(object sender, EventArgs e)
         {
-
+            Reports.BS_Horizontal frm = new Reports.BS_Horizontal();
+            frm.MdiParent = this;
+            frm.Show();
         }
 
         private void horizontalToolStripMenuItem_Click(object sender, EventArgs e)
