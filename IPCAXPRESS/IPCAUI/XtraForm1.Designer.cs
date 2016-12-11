@@ -48,8 +48,8 @@
             this.Reports = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.Settings = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPage4 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPage6 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.Configuration = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.Users = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.Transactions = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.dockManager1 = new DevExpress.XtraBars.Docking.DockManager();
             this.dockPanel1 = new DevExpress.XtraBars.Docking.DockPanel();
@@ -193,8 +193,8 @@
             this.Master,
             this.Reports,
             this.Settings,
-            this.ribbonPage4,
-            this.ribbonPage6,
+            this.Configuration,
+            this.Users,
             this.Transactions});
             this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.OfficeUniversal;
             this.ribbonControl1.Size = new System.Drawing.Size(1230, 98);
@@ -278,18 +278,18 @@
             this.Settings.Name = "Settings";
             this.Settings.Text = "Settings";
             // 
-            // ribbonPage4
+            // Configuration
             // 
-            this.ribbonPage4.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage4.Image")));
-            this.ribbonPage4.Name = "ribbonPage4";
-            this.ribbonPage4.Text = "Configuration";
+            this.Configuration.Image = ((System.Drawing.Image)(resources.GetObject("Configuration.Image")));
+            this.Configuration.Name = "Configuration";
+            this.Configuration.Text = "Configuration";
             // 
-            // ribbonPage6
+            // Users
             // 
-            this.ribbonPage6.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage6.Image")));
-            this.ribbonPage6.ImageAlign = DevExpress.Utils.HorzAlignment.Near;
-            this.ribbonPage6.Name = "ribbonPage6";
-            this.ribbonPage6.Text = "Users";
+            this.Users.Image = ((System.Drawing.Image)(resources.GetObject("Users.Image")));
+            this.Users.ImageAlign = DevExpress.Utils.HorzAlignment.Near;
+            this.Users.Name = "Users";
+            this.Users.Text = "Users";
             // 
             // Transactions
             // 
@@ -1206,8 +1206,8 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
         private DevExpress.XtraBars.Ribbon.RibbonPage Master;
         private DevExpress.XtraBars.Ribbon.RibbonPage Settings;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage4;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage6;
+        private DevExpress.XtraBars.Ribbon.RibbonPage Configuration;
+        private DevExpress.XtraBars.Ribbon.RibbonPage Users;
         private DevExpress.XtraBars.Ribbon.RibbonPage Transactions;
         private DevExpress.XtraBars.Docking.DockManager dockManager1;
         private DevExpress.XtraBars.Docking.DockPanel dockPanel2;

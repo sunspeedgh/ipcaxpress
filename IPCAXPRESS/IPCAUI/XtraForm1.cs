@@ -128,10 +128,15 @@ namespace IPCAUI
                     IPCAUI.Menu.TransactionsMenu frmTransMenu = new IPCAUI.Menu.TransactionsMenu(this);
                     frmTransMenu.Show();
                     break;
-                case "Monthly Summary":
-                   
+                case "Master":
+                    this.Hide();
+                    IPCAUI.Menu.MastersMenu frmMasterMenu = new IPCAUI.Menu.MastersMenu(this);
+                    frmMasterMenu.Show();
                     break;
-                case "Account-Wise":
+                case "Configuration":
+                    this.Hide();
+                    IPCAUI.Menu.ConfigurationMenu frmConfigMenu = new IPCAUI.Menu.ConfigurationMenu(this);
+                    frmConfigMenu.Show();
                     break;
                 case "Merged Accounts":
                     break;

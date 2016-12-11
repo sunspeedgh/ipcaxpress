@@ -194,11 +194,23 @@
     <Compile Include="MDIParent1.Designer.cs">
       <DependentUpon>MDIParent1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu\ConfigurationMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\ConfigurationMenu.Designer.cs">
+      <DependentUpon>ConfigurationMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu\ReportMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu\ReportMenu.Designer.cs">
       <DependentUpon>ReportMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MastersMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\MastersMenu.Designer.cs">
+      <DependentUpon>MastersMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu\TransactionsMenu.cs">
       <SubType>Form</SubType>
@@ -2062,8 +2074,14 @@
     <EmbeddedResource Include="MDIParent1.resx">
       <DependentUpon>MDIParent1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Menu\ConfigurationMenu.resx">
+      <DependentUpon>ConfigurationMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu\ReportMenu.resx">
       <DependentUpon>ReportMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MastersMenu.resx">
+      <DependentUpon>MastersMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\TransactionsMenu.resx">
       <DependentUpon>TransactionsMenu.cs</DependentUpon>
