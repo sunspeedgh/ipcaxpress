@@ -68,6 +68,41 @@ namespace IPCAUI
 
         private void treeList1_FocusedNodeChanged(object sender, DevExpress.XtraTreeList.FocusedNodeChangedEventArgs e)
         {
+            
+        }
+
+        private void treeList1_Click(object sender, EventArgs e)
+        {
+            //DevExpress.XtraTreeList.TreeList tree = sender as DevExpress.XtraTreeList.TreeList;
+            //DevExpress.XtraTreeList.TreeListHitInfo info = tree.CalcHitInfo(tree.PointToClient(MousePosition));
+            //if (info.HitInfoType == DevExpress.XtraTreeList.HitInfoType.Cell) ;
+            //Reports.Accountbooks.AccountGroupLedger frm = new Reports.Accountbooks.AccountGroupLedger();
+            //frm.Show();
+        
+        }
+
+        private void treeList1_NodeChanged(object sender, DevExpress.XtraTreeList.NodeChangedEventArgs e)
+        {
+
+        }
+
+        private void treeList1_AfterFocusNode(object sender, DevExpress.XtraTreeList.NodeEventArgs e)
+        {
+            //treeList1.FocusedNode = treeList1.Nodes[0];
+            tileControl1.Visible = false;
+            //e.Node.Selected = 1;
+            Reports.BS_Horizontal frm = new Reports.BS_Horizontal();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void treeList1_AfterCollapse(object sender, DevExpress.XtraTreeList.NodeEventArgs e)
+        {
+
+        }
+
+        private void treeList1_GetNodeDisplayValue(object sender, DevExpress.XtraTreeList.GetNodeDisplayValueEventArgs e)
+        {
 
         }
     }
