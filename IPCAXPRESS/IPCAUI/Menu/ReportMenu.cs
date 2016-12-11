@@ -1,0 +1,71 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using DevExpress.XtraEditors;
+
+namespace IPCAUI.Menu
+{
+    public partial class ReportMenu : DevExpress.XtraBars.Ribbon.RibbonForm
+    {
+        public ReportMenu()
+        {
+            InitializeComponent();
+
+            
+        }
+
+        private void rptDayBook_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Reports.Accountbooks.Grids.DayBook frmDayBook = new Reports.Accountbooks.Grids.DayBook();
+            frmDayBook.MdiParent = this;
+            frmDayBook.Show();
+            splitContainerControl1.Panel2.Controls.Add(frmDayBook);
+           
+        }
+
+        private void dockPanel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFilters_Click(object sender, EventArgs e)
+        {
+            Reports.Accountbooks.Daybook frmdayBook = new Reports.Accountbooks.Daybook();
+            frmdayBook.ShowDialog();
+        }
+
+        private void rptLedger_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+           // dockPanel1.Visibility = DevExpress.XtraBars.Docking.DockVisibility.Hidden;
+            //dockPanel2.Visibility = DevExpress.XtraBars.Docking.DockVisibility.Visible;
+
+            Reports.Accountbooks.Daybook frmdayBook = new Reports.Accountbooks.Daybook();
+            frmdayBook.ShowDialog();
+        }
+
+        private void rbtnAccountWise_CheckedChanged(object sender, EventArgs e)
+        {
+            //if (rbtnAccountWise.Checked)
+            //{
+            //    Reports.Accountbooks.Daybook frmdayBook = new Reports.Accountbooks.Daybook();
+            //    frmdayBook.ShowDialog();
+            //}
+        }
+        private void treeList1_SelectionChanged(object sender, EventArgs e)
+        {
+            //string s = (sender as TreeList).Selection.Count.ToString() + " node(s) selected";
+            //barStaticItem1.Caption = s;
+        }
+
+        private void navBarItem1_ItemChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("Clicked");
+        }
+    }
+}

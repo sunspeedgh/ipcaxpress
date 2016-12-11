@@ -243,3 +243,6 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/IPCAXPRESS/IPCAUI/ucAddCustomer.resx
+/IPCAXPRESS/IPCAUI/ucAddCustomer.Designer.cs
+/IPCAXPRESS/IPCAUI/ucAddCustomer.cs
