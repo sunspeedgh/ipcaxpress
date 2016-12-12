@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Deprecationchat));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.textEdit14 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
@@ -91,7 +92,7 @@
             // 
             // textEdit14
             // 
-            this.textEdit14.Location = new System.Drawing.Point(130, 114);
+            this.textEdit14.Location = new System.Drawing.Point(130, 126);
             this.textEdit14.Name = "textEdit14";
             this.textEdit14.Size = new System.Drawing.Size(218, 20);
             this.textEdit14.StyleController = this.layoutControl1;
@@ -99,7 +100,7 @@
             // 
             // textEdit5
             // 
-            this.textEdit5.Location = new System.Drawing.Point(130, 42);
+            this.textEdit5.Location = new System.Drawing.Point(130, 54);
             this.textEdit5.Name = "textEdit5";
             this.textEdit5.Size = new System.Drawing.Size(218, 20);
             this.textEdit5.StyleController = this.layoutControl1;
@@ -107,7 +108,7 @@
             // 
             // textEdit4
             // 
-            this.textEdit4.Location = new System.Drawing.Point(130, 90);
+            this.textEdit4.Location = new System.Drawing.Point(130, 102);
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Size = new System.Drawing.Size(218, 20);
             this.textEdit4.StyleController = this.layoutControl1;
@@ -115,7 +116,7 @@
             // 
             // textEdit3
             // 
-            this.textEdit3.Location = new System.Drawing.Point(130, 66);
+            this.textEdit3.Location = new System.Drawing.Point(130, 78);
             this.textEdit3.Name = "textEdit3";
             this.textEdit3.Size = new System.Drawing.Size(218, 20);
             this.textEdit3.StyleController = this.layoutControl1;
@@ -134,7 +135,8 @@
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(140, 167);
+            this.simpleButton1.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.Image")));
+            this.simpleButton1.Location = new System.Drawing.Point(140, 174);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(70, 22);
             this.simpleButton1.StyleController = this.layoutControl1;
@@ -177,7 +179,7 @@
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
             this.emptySpaceItem3.CustomizationFormText = "emptySpaceItem3";
-            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 155);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 162);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
             this.emptySpaceItem3.Size = new System.Drawing.Size(128, 26);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
@@ -186,15 +188,15 @@
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
             this.emptySpaceItem2.CustomizationFormText = "emptySpaceItem2";
-            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 181);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 188);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(340, 26);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(340, 19);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem9
             // 
             this.layoutControlItem9.Control = this.simpleButton1;
-            this.layoutControlItem9.Location = new System.Drawing.Point(128, 155);
+            this.layoutControlItem9.Location = new System.Drawing.Point(128, 162);
             this.layoutControlItem9.Name = "layoutControlItem9";
             this.layoutControlItem9.Size = new System.Drawing.Size(74, 26);
             this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);
@@ -214,7 +216,7 @@
             this.emptySpaceItem4.AllowHotTrack = false;
             this.emptySpaceItem4.Location = new System.Drawing.Point(0, 20);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
-            this.emptySpaceItem4.Size = new System.Drawing.Size(340, 10);
+            this.emptySpaceItem4.Size = new System.Drawing.Size(340, 22);
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem5
@@ -228,7 +230,7 @@
             // emptySpaceItem6
             // 
             this.emptySpaceItem6.AllowHotTrack = false;
-            this.emptySpaceItem6.Location = new System.Drawing.Point(202, 155);
+            this.emptySpaceItem6.Location = new System.Drawing.Point(202, 162);
             this.emptySpaceItem6.Name = "emptySpaceItem6";
             this.emptySpaceItem6.Size = new System.Drawing.Size(138, 26);
             this.emptySpaceItem6.TextSize = new System.Drawing.Size(0, 0);
@@ -236,15 +238,15 @@
             // emptySpaceItem7
             // 
             this.emptySpaceItem7.AllowHotTrack = false;
-            this.emptySpaceItem7.Location = new System.Drawing.Point(0, 126);
+            this.emptySpaceItem7.Location = new System.Drawing.Point(0, 138);
             this.emptySpaceItem7.Name = "emptySpaceItem7";
-            this.emptySpaceItem7.Size = new System.Drawing.Size(340, 29);
+            this.emptySpaceItem7.Size = new System.Drawing.Size(340, 24);
             this.emptySpaceItem7.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem6
             // 
             this.layoutControlItem6.Control = this.textEdit5;
-            this.layoutControlItem6.Location = new System.Drawing.Point(0, 30);
+            this.layoutControlItem6.Location = new System.Drawing.Point(0, 42);
             this.layoutControlItem6.Name = "layoutControlItem6";
             this.layoutControlItem6.Size = new System.Drawing.Size(340, 24);
             this.layoutControlItem6.Text = "Deprecation Amount";
@@ -253,7 +255,7 @@
             // layoutControlItem16
             // 
             this.layoutControlItem16.Control = this.textEdit14;
-            this.layoutControlItem16.Location = new System.Drawing.Point(0, 102);
+            this.layoutControlItem16.Location = new System.Drawing.Point(0, 114);
             this.layoutControlItem16.Name = "layoutControlItem16";
             this.layoutControlItem16.Size = new System.Drawing.Size(340, 24);
             this.layoutControlItem16.Text = "Upto Rs.";
@@ -262,7 +264,7 @@
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.textEdit3;
-            this.layoutControlItem4.Location = new System.Drawing.Point(0, 54);
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 66);
             this.layoutControlItem4.Name = "layoutControlItem4";
             this.layoutControlItem4.Size = new System.Drawing.Size(340, 24);
             this.layoutControlItem4.Text = "Amount to be Shown by";
@@ -271,7 +273,7 @@
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.textEdit4;
-            this.layoutControlItem5.Location = new System.Drawing.Point(0, 78);
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 90);
             this.layoutControlItem5.Name = "layoutControlItem5";
             this.layoutControlItem5.Size = new System.Drawing.Size(340, 24);
             this.layoutControlItem5.Text = "Amount Rounding Off";
@@ -294,9 +296,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 227);
             this.Controls.Add(this.layoutControl1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Deprecationchat";
-            this.Text = "BS_Horizontal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Deprecation Chat";
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.textEdit14.Properties)).EndInit();
