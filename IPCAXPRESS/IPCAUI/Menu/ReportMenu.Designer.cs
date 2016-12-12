@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReportMenu));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.rptDayBook = new DevExpress.XtraBars.BarButtonItem();
@@ -36,7 +37,6 @@
             this.rptAccountRegister = new DevExpress.XtraBars.BarButtonItem();
             this.rptAccountActivity = new DevExpress.XtraBars.BarButtonItem();
             this.rptPartyDayBook = new DevExpress.XtraBars.BarButtonItem();
-            this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
             this.barEditItem1 = new DevExpress.XtraBars.BarEditItem();
             this.repositoryItemButtonEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.barSubItem2 = new DevExpress.XtraBars.BarSubItem();
@@ -93,7 +93,7 @@
             this.layoutControlItem15 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem16 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem17 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.dockManager1 = new DevExpress.XtraBars.Docking.DockManager();
+            this.dockManager1 = new DevExpress.XtraBars.Docking.DockManager(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
@@ -132,11 +132,10 @@
             this.rptAccountRegister,
             this.rptAccountActivity,
             this.rptPartyDayBook,
-            this.barSubItem1,
             this.barEditItem1,
             this.barSubItem2});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 11;
+            this.ribbonControl1.MaxItemId = 1;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.rpgAccountBooks,
@@ -200,12 +199,6 @@
             this.rptPartyDayBook.Id = 6;
             this.rptPartyDayBook.Name = "rptPartyDayBook";
             // 
-            // barSubItem1
-            // 
-            this.barSubItem1.Caption = "barSubItem1";
-            this.barSubItem1.Id = 8;
-            this.barSubItem1.Name = "barSubItem1";
-            // 
             // barEditItem1
             // 
             this.barEditItem1.Caption = "barEditItem1";
@@ -222,7 +215,7 @@
             // 
             // barSubItem2
             // 
-            this.barSubItem2.Caption = "barSubItem2";
+            this.barSubItem2.Caption = "IPCA Software Solutions";
             this.barSubItem2.Id = 10;
             this.barSubItem2.Name = "barSubItem2";
             // 
@@ -329,6 +322,7 @@
             // 
             // ribbonStatusBar1
             // 
+            this.ribbonStatusBar1.ItemLinks.Add(this.barSubItem2);
             this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 398);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
@@ -732,7 +726,7 @@
             this.ClientSize = new System.Drawing.Size(993, 521);
             this.Controls.Add(this.splitContainerControl1);
             this.Controls.Add(this.ribbonControl1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -833,7 +827,6 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem16;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem17;
         private DevExpress.XtraBars.Docking.DockManager dockManager1;
-        private DevExpress.XtraBars.BarSubItem barSubItem1;
         private DevExpress.XtraBars.BarEditItem barEditItem1;
         private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit repositoryItemButtonEdit1;
         private DevExpress.XtraBars.BarSubItem barSubItem2;
