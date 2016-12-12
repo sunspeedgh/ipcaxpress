@@ -16,5 +16,10 @@ namespace IPCAUI.Reports.AccountSummary
         {
             InitializeComponent();
         }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

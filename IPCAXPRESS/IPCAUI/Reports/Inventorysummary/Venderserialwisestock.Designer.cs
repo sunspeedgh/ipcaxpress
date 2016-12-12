@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Venderserialwisestock));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.textEdit13 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit12 = new DevExpress.XtraEditors.TextEdit();
@@ -131,7 +132,7 @@
             // 
             // textEdit13
             // 
-            this.textEdit13.Location = new System.Drawing.Point(221, 223);
+            this.textEdit13.Location = new System.Drawing.Point(221, 221);
             this.textEdit13.Name = "textEdit13";
             this.textEdit13.Size = new System.Drawing.Size(166, 20);
             this.textEdit13.StyleController = this.layoutControl1;
@@ -139,7 +140,7 @@
             // 
             // textEdit12
             // 
-            this.textEdit12.Location = new System.Drawing.Point(221, 199);
+            this.textEdit12.Location = new System.Drawing.Point(221, 197);
             this.textEdit12.Name = "textEdit12";
             this.textEdit12.Size = new System.Drawing.Size(166, 20);
             this.textEdit12.StyleController = this.layoutControl1;
@@ -147,7 +148,7 @@
             // 
             // textEdit4
             // 
-            this.textEdit4.Location = new System.Drawing.Point(221, 175);
+            this.textEdit4.Location = new System.Drawing.Point(221, 173);
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Size = new System.Drawing.Size(166, 20);
             this.textEdit4.StyleController = this.layoutControl1;
@@ -155,7 +156,7 @@
             // 
             // textEdit3
             // 
-            this.textEdit3.Location = new System.Drawing.Point(221, 151);
+            this.textEdit3.Location = new System.Drawing.Point(221, 149);
             this.textEdit3.Name = "textEdit3";
             this.textEdit3.Size = new System.Drawing.Size(166, 20);
             this.textEdit3.StyleController = this.layoutControl1;
@@ -163,7 +164,7 @@
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(221, 127);
+            this.textEdit1.Location = new System.Drawing.Point(221, 125);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Size = new System.Drawing.Size(166, 20);
             this.textEdit1.StyleController = this.layoutControl1;
@@ -182,16 +183,17 @@
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(157, 376);
+            this.simpleButton1.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.Image")));
+            this.simpleButton1.Location = new System.Drawing.Point(151, 372);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(78, 22);
+            this.simpleButton1.Size = new System.Drawing.Size(91, 22);
             this.simpleButton1.StyleController = this.layoutControl1;
             this.simpleButton1.TabIndex = 12;
             this.simpleButton1.Text = "OK";
             // 
             // textEdit2
             // 
-            this.textEdit2.Location = new System.Drawing.Point(221, 55);
+            this.textEdit2.Location = new System.Drawing.Point(221, 53);
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Size = new System.Drawing.Size(166, 20);
             this.textEdit2.StyleController = this.layoutControl1;
@@ -199,7 +201,7 @@
             // 
             // textEdit6
             // 
-            this.textEdit6.Location = new System.Drawing.Point(221, 79);
+            this.textEdit6.Location = new System.Drawing.Point(221, 77);
             this.textEdit6.Name = "textEdit6";
             this.textEdit6.Size = new System.Drawing.Size(166, 20);
             this.textEdit6.StyleController = this.layoutControl1;
@@ -207,7 +209,7 @@
             // 
             // textEdit5
             // 
-            this.textEdit5.Location = new System.Drawing.Point(221, 103);
+            this.textEdit5.Location = new System.Drawing.Point(221, 101);
             this.textEdit5.Name = "textEdit5";
             this.textEdit5.Size = new System.Drawing.Size(166, 20);
             this.textEdit5.StyleController = this.layoutControl1;
@@ -215,7 +217,7 @@
             // 
             // textEdit8
             // 
-            this.textEdit8.Location = new System.Drawing.Point(221, 247);
+            this.textEdit8.Location = new System.Drawing.Point(221, 245);
             this.textEdit8.Name = "textEdit8";
             this.textEdit8.Size = new System.Drawing.Size(166, 20);
             this.textEdit8.StyleController = this.layoutControl1;
@@ -223,7 +225,7 @@
             // 
             // textEdit9
             // 
-            this.textEdit9.Location = new System.Drawing.Point(221, 271);
+            this.textEdit9.Location = new System.Drawing.Point(221, 269);
             this.textEdit9.Name = "textEdit9";
             this.textEdit9.Size = new System.Drawing.Size(166, 20);
             this.textEdit9.StyleController = this.layoutControl1;
@@ -231,7 +233,7 @@
             // 
             // textEdit10
             // 
-            this.textEdit10.Location = new System.Drawing.Point(221, 295);
+            this.textEdit10.Location = new System.Drawing.Point(221, 293);
             this.textEdit10.Name = "textEdit10";
             this.textEdit10.Size = new System.Drawing.Size(166, 20);
             this.textEdit10.StyleController = this.layoutControl1;
@@ -239,7 +241,7 @@
             // 
             // textEdit11
             // 
-            this.textEdit11.Location = new System.Drawing.Point(221, 319);
+            this.textEdit11.Location = new System.Drawing.Point(221, 317);
             this.textEdit11.Name = "textEdit11";
             this.textEdit11.Size = new System.Drawing.Size(166, 20);
             this.textEdit11.StyleController = this.layoutControl1;
@@ -280,7 +282,7 @@
             // 
             this.layoutControlItem2.Control = this.textEdit2;
             this.layoutControlItem2.CustomizationFormText = "Start Month";
-            this.layoutControlItem2.Location = new System.Drawing.Point(0, 43);
+            this.layoutControlItem2.Location = new System.Drawing.Point(0, 41);
             this.layoutControlItem2.Name = "layoutControlItem2";
             this.layoutControlItem2.Size = new System.Drawing.Size(379, 24);
             this.layoutControlItem2.Text = "Select Account Master Name";
@@ -290,7 +292,7 @@
             // 
             this.layoutControlItem3.Control = this.textEdit6;
             this.layoutControlItem3.CustomizationFormText = "End Month";
-            this.layoutControlItem3.Location = new System.Drawing.Point(0, 67);
+            this.layoutControlItem3.Location = new System.Drawing.Point(0, 65);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(379, 24);
             this.layoutControlItem3.Text = "Select Account Group Name";
@@ -300,7 +302,7 @@
             // 
             this.layoutControlItem4.Control = this.textEdit5;
             this.layoutControlItem4.CustomizationFormText = "Show Second Level Group Details";
-            this.layoutControlItem4.Location = new System.Drawing.Point(0, 91);
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 89);
             this.layoutControlItem4.Name = "layoutControlItem4";
             this.layoutControlItem4.Size = new System.Drawing.Size(379, 24);
             this.layoutControlItem4.Text = "Select Account Name";
@@ -319,26 +321,26 @@
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
             this.emptySpaceItem3.CustomizationFormText = "emptySpaceItem3";
-            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 400);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 360);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(145, 26);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(139, 26);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
             this.emptySpaceItem2.CustomizationFormText = "emptySpaceItem2";
-            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 426);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 386);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(379, 26);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(379, 28);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem9
             // 
             this.layoutControlItem9.Control = this.simpleButton1;
-            this.layoutControlItem9.Location = new System.Drawing.Point(145, 364);
+            this.layoutControlItem9.Location = new System.Drawing.Point(139, 360);
             this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(82, 26);
+            this.layoutControlItem9.Size = new System.Drawing.Size(95, 26);
             this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem9.TextVisible = false;
             // 
@@ -356,7 +358,7 @@
             this.emptySpaceItem4.AllowHotTrack = false;
             this.emptySpaceItem4.Location = new System.Drawing.Point(0, 20);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
-            this.emptySpaceItem4.Size = new System.Drawing.Size(379, 25);
+            this.emptySpaceItem4.Size = new System.Drawing.Size(379, 21);
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem5
@@ -370,23 +372,23 @@
             // emptySpaceItem6
             // 
             this.emptySpaceItem6.AllowHotTrack = false;
-            this.emptySpaceItem6.Location = new System.Drawing.Point(227, 400);
+            this.emptySpaceItem6.Location = new System.Drawing.Point(234, 360);
             this.emptySpaceItem6.Name = "emptySpaceItem6";
-            this.emptySpaceItem6.Size = new System.Drawing.Size(152, 26);
+            this.emptySpaceItem6.Size = new System.Drawing.Size(145, 26);
             this.emptySpaceItem6.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem7
             // 
             this.emptySpaceItem7.AllowHotTrack = false;
-            this.emptySpaceItem7.Location = new System.Drawing.Point(0, 333);
+            this.emptySpaceItem7.Location = new System.Drawing.Point(0, 329);
             this.emptySpaceItem7.Name = "emptySpaceItem7";
-            this.emptySpaceItem7.Size = new System.Drawing.Size(379, 67);
+            this.emptySpaceItem7.Size = new System.Drawing.Size(379, 31);
             this.emptySpaceItem7.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem1
             // 
             this.layoutControlItem1.Control = this.textEdit1;
-            this.layoutControlItem1.Location = new System.Drawing.Point(0, 115);
+            this.layoutControlItem1.Location = new System.Drawing.Point(0, 113);
             this.layoutControlItem1.Name = "layoutControlItem1";
             this.layoutControlItem1.Size = new System.Drawing.Size(379, 24);
             this.layoutControlItem1.Text = "Select Item Master Range";
@@ -395,7 +397,7 @@
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.textEdit3;
-            this.layoutControlItem5.Location = new System.Drawing.Point(0, 139);
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 137);
             this.layoutControlItem5.Name = "layoutControlItem5";
             this.layoutControlItem5.Size = new System.Drawing.Size(379, 24);
             this.layoutControlItem5.Text = "Select Item Group Name";
@@ -404,7 +406,7 @@
             // layoutControlItem6
             // 
             this.layoutControlItem6.Control = this.textEdit4;
-            this.layoutControlItem6.Location = new System.Drawing.Point(0, 163);
+            this.layoutControlItem6.Location = new System.Drawing.Point(0, 161);
             this.layoutControlItem6.Name = "layoutControlItem6";
             this.layoutControlItem6.Size = new System.Drawing.Size(379, 24);
             this.layoutControlItem6.Text = "Select Item Name";
@@ -414,7 +416,7 @@
             // 
             this.layoutControlItem13.Control = this.textEdit11;
             this.layoutControlItem13.CustomizationFormText = "Master to be Picked ?";
-            this.layoutControlItem13.Location = new System.Drawing.Point(0, 307);
+            this.layoutControlItem13.Location = new System.Drawing.Point(0, 305);
             this.layoutControlItem13.Name = "layoutControlItem13";
             this.layoutControlItem13.Size = new System.Drawing.Size(379, 24);
             this.layoutControlItem13.Text = "Exclude Stock Trransfor Sale Type Enteries";
@@ -423,7 +425,7 @@
             // layoutControlItem14
             // 
             this.layoutControlItem14.Control = this.textEdit12;
-            this.layoutControlItem14.Location = new System.Drawing.Point(0, 187);
+            this.layoutControlItem14.Location = new System.Drawing.Point(0, 185);
             this.layoutControlItem14.Name = "layoutControlItem14";
             this.layoutControlItem14.Size = new System.Drawing.Size(379, 24);
             this.layoutControlItem14.Text = "Starting Date";
@@ -432,7 +434,7 @@
             // layoutControlItem15
             // 
             this.layoutControlItem15.Control = this.textEdit13;
-            this.layoutControlItem15.Location = new System.Drawing.Point(0, 211);
+            this.layoutControlItem15.Location = new System.Drawing.Point(0, 209);
             this.layoutControlItem15.Name = "layoutControlItem15";
             this.layoutControlItem15.Size = new System.Drawing.Size(379, 24);
             this.layoutControlItem15.Text = "Ending Date";
@@ -442,7 +444,7 @@
             // 
             this.layoutControlItem8.Control = this.textEdit8;
             this.layoutControlItem8.CustomizationFormText = "Master to be Picked ?";
-            this.layoutControlItem8.Location = new System.Drawing.Point(0, 235);
+            this.layoutControlItem8.Location = new System.Drawing.Point(0, 233);
             this.layoutControlItem8.Name = "layoutControlItem8";
             this.layoutControlItem8.Size = new System.Drawing.Size(379, 24);
             this.layoutControlItem8.Text = "Account to be Shown by";
@@ -452,7 +454,7 @@
             // 
             this.layoutControlItem11.Control = this.textEdit9;
             this.layoutControlItem11.CustomizationFormText = "Master to be Picked ?";
-            this.layoutControlItem11.Location = new System.Drawing.Point(0, 259);
+            this.layoutControlItem11.Location = new System.Drawing.Point(0, 257);
             this.layoutControlItem11.Name = "layoutControlItem11";
             this.layoutControlItem11.Size = new System.Drawing.Size(379, 24);
             this.layoutControlItem11.Text = "Item To be Shown by";
@@ -462,7 +464,7 @@
             // 
             this.layoutControlItem12.Control = this.textEdit10;
             this.layoutControlItem12.CustomizationFormText = "Master to be Picked ?";
-            this.layoutControlItem12.Location = new System.Drawing.Point(0, 283);
+            this.layoutControlItem12.Location = new System.Drawing.Point(0, 281);
             this.layoutControlItem12.Name = "layoutControlItem12";
             this.layoutControlItem12.Size = new System.Drawing.Size(379, 24);
             this.layoutControlItem12.Text = "Show Value of Item Serial No. ? ";
@@ -485,9 +487,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(399, 434);
             this.Controls.Add(this.layoutControl1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Venderserialwisestock";
-            this.Text = "BS_Horizontal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Vender-Serial No. Wise Stock";
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).EndInit();
