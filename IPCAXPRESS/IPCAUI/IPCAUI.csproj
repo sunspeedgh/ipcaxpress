@@ -46,6 +46,8 @@
     <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraTreeMap.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -2002,11 +2004,65 @@
     <Compile Include="Reports\VATSummaries\VRCVATSummary.Designer.cs">
       <DependentUpon>VRCVATSummary.cs</DependentUpon>
     </Compile>
+    <Compile Include="Transactions\CreditNote .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\CreditNote .Designer.cs">
+      <DependentUpon>CreditNote .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\DebitNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\DebitNote.Designer.cs">
+      <DependentUpon>DebitNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\ContraVoucher .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\ContraVoucher .Designer.cs">
+      <DependentUpon>ContraVoucher .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\JournalVoucher  .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\JournalVoucher  .Designer.cs">
+      <DependentUpon>JournalVoucher  .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\ReceiptVoucher .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\ReceiptVoucher .Designer.cs">
+      <DependentUpon>ReceiptVoucher .cs</DependentUpon>
+    </Compile>
     <Compile Include="Transactions\PaymentVoucher.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Transactions\PaymentVoucher.Designer.cs">
       <DependentUpon>PaymentVoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\Purchase Voucher .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\Purchase Voucher .Designer.cs">
+      <DependentUpon>Purchase Voucher .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\Purchase ReturnVoucher .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\Purchase ReturnVoucher .Designer.cs">
+      <DependentUpon>Purchase ReturnVoucher .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\Productionvoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\Productionvoucher.Designer.cs">
+      <DependentUpon>Productionvoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\StockTransfervoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\StockTransfervoucher.Designer.cs">
+      <DependentUpon>StockTransfervoucher.cs</DependentUpon>
     </Compile>
     <Compile Include="Transactions\SalesReturn.cs">
       <SubType>Form</SubType>
@@ -2990,8 +3046,35 @@
     <EmbeddedResource Include="Reports\VATSummaries\VRCVATSummary.resx">
       <DependentUpon>VRCVATSummary.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\CreditNote .resx">
+      <DependentUpon>CreditNote .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\DebitNote.resx">
+      <DependentUpon>DebitNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\ContraVoucher .resx">
+      <DependentUpon>ContraVoucher .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\JournalVoucher  .resx">
+      <DependentUpon>JournalVoucher  .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\ReceiptVoucher .resx">
+      <DependentUpon>ReceiptVoucher .cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Transactions\PaymentVoucher.resx">
       <DependentUpon>PaymentVoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\Purchase Voucher .resx">
+      <DependentUpon>Purchase Voucher .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\Purchase ReturnVoucher .resx">
+      <DependentUpon>Purchase ReturnVoucher .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\Productionvoucher.resx">
+      <DependentUpon>Productionvoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\StockTransfervoucher.resx">
+      <DependentUpon>StockTransfervoucher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\SalesReturn.resx">
       <DependentUpon>SalesReturn.cs</DependentUpon>
