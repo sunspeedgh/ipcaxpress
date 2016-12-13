@@ -28,39 +28,6 @@ namespace IPCAUI.Menu
 
         private void rbCtrlTransactions_Click(object sender, EventArgs e)
         {
-            string selectedPage = (sender as RibbonControl).SelectedPage.Name.ToString();
-
-            switch (selectedPage)
-            {
-                case "Sales":
-                    if (this.ActiveMdiChild != null)
-                        break;
-                    
-                    IPCAUI.Transactions.SalesVoucher frmSales = new Transactions.SalesVoucher();
-                    frmSales.MdiParent = this;
-                    frmSales.Show();
-                    splitContainerControl1.Panel2.Controls.Add(frmSales);
-                    break;
-                case "Transactions":
-                    
-                    break;
-                case "Master":
-                    
-                    break;
-                case "Configuration":
-                    
-                    break;
-                case "Merged Accounts":
-                    break;
-                case "Single Column":
-                    break;
-                case "Multiple Column":
-                    break;
-                case "Bank Book(As per Clr.Date)":
-                    break;
-                default:
-                    break;
-            }
 
         }
 
@@ -107,6 +74,29 @@ namespace IPCAUI.Menu
         private void barButtonItem16_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
 
+        }
+
+        private void Payment_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (this.ActiveMdiChild != null)
+                this.ActiveMdiChild.Close();
+
+            IPCAUI.Transactions.PaymentVoucher frmPayment = new Transactions.PaymentVoucher();
+            frmPayment.MdiParent = this;
+            frmPayment.Show();
+            splitContainerControl1.Panel2.Controls.Add(frmPayment);
+        }
+
+        private void SalesEntry_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (this.ActiveMdiChild != null)
+                this.ActiveMdiChild.Close();
+                
+
+            IPCAUI.Transactions.SalesVoucher frmSales = new Transactions.SalesVoucher();
+            frmSales.MdiParent = this;
+            frmSales.Show();
+            splitContainerControl1.Panel2.Controls.Add(frmSales);
         }
     }
 }

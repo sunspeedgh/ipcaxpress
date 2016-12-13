@@ -28,9 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TransactionsMenu));
-            DevExpress.XtraBars.Ribbon.ReduceOperation reduceOperation3 = new DevExpress.XtraBars.Ribbon.ReduceOperation();
+            DevExpress.XtraBars.Ribbon.ReduceOperation reduceOperation2 = new DevExpress.XtraBars.Ribbon.ReduceOperation();
             this.rbCtrlTransactions = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
@@ -59,7 +58,7 @@
             this.FormsIssued = new DevExpress.XtraBars.BarButtonItem();
             this.MatIssuedtoParty = new DevExpress.XtraBars.BarButtonItem();
             this.MatRecievedfromParty = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonMiniToolbar1 = new DevExpress.XtraBars.Ribbon.RibbonMiniToolbar(this.components);
+            this.ribbonMiniToolbar1 = new DevExpress.XtraBars.Ribbon.RibbonMiniToolbar();
             this.Sales = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.NewSales = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.SalesReturn = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -143,7 +142,6 @@
             this.rbCtrlTransactions.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.TabletOffice;
             this.rbCtrlTransactions.Size = new System.Drawing.Size(986, 96);
             this.rbCtrlTransactions.StatusBar = this.ribbonStatusBar1;
-            this.rbCtrlTransactions.Click += new System.EventHandler(this.rbCtrlTransactions_Click);
             // 
             // barButtonItem1
             // 
@@ -192,6 +190,7 @@
             this.SalesEntry.Caption = "Sales Entry\r\n";
             this.SalesEntry.Id = 3;
             this.SalesEntry.Name = "SalesEntry";
+            this.SalesEntry.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.SalesEntry_ItemClick);
             // 
             // barButtonItem9
             // 
@@ -228,6 +227,7 @@
             this.Payment.Caption = "Payment";
             this.Payment.Id = 9;
             this.Payment.Name = "Payment";
+            this.Payment.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.Payment_ItemClick);
             // 
             // Receipt
             // 
@@ -329,12 +329,12 @@
             this.Sales.Image = ((System.Drawing.Image)(resources.GetObject("Sales.Image")));
             this.Sales.KeyTip = "SALES";
             this.Sales.Name = "Sales";
-            reduceOperation3.Behavior = DevExpress.XtraBars.Ribbon.ReduceOperationBehavior.Single;
-            reduceOperation3.Group = null;
-            reduceOperation3.ItemLinkIndex = 0;
-            reduceOperation3.ItemLinksCount = 0;
-            reduceOperation3.Operation = DevExpress.XtraBars.Ribbon.ReduceOperationType.ButtonGroups;
-            this.Sales.ReduceOperations.Add(reduceOperation3);
+            reduceOperation2.Behavior = DevExpress.XtraBars.Ribbon.ReduceOperationBehavior.Single;
+            reduceOperation2.Group = null;
+            reduceOperation2.ItemLinkIndex = 0;
+            reduceOperation2.ItemLinksCount = 0;
+            reduceOperation2.Operation = DevExpress.XtraBars.Ribbon.ReduceOperationType.ButtonGroups;
+            this.Sales.ReduceOperations.Add(reduceOperation2);
             this.Sales.Text = "Sales/Purchase";
             // 
             // NewSales
