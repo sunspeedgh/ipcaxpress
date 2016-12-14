@@ -2004,6 +2004,18 @@
     <Compile Include="Reports\VATSummaries\VRCVATSummary.Designer.cs">
       <DependentUpon>VRCVATSummary.cs</DependentUpon>
     </Compile>
+    <Compile Include="Transactions\Forms Issued Voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\Forms Issued Voucher.Designer.cs">
+      <DependentUpon>Forms Issued Voucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\Forms Received voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\Forms Received voucher.Designer.cs">
+      <DependentUpon>Forms Received voucher.cs</DependentUpon>
+    </Compile>
     <Compile Include="Transactions\CreditNote .cs">
       <SubType>Form</SubType>
     </Compile>
@@ -2027,6 +2039,42 @@
     </Compile>
     <Compile Include="Transactions\JournalVoucher  .Designer.cs">
       <DependentUpon>JournalVoucher  .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\Physical Stock voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\Physical Stock voucher.Designer.cs">
+      <DependentUpon>Physical Stock voucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\Mat Received from Party.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\Mat Received from Party.Designer.cs">
+      <DependentUpon>Mat Received from Party.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\StockJournalvoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\StockJournalvoucher.Designer.cs">
+      <DependentUpon>StockJournalvoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\Mat Issued to party voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\Mat Issued to party voucher.Designer.cs">
+      <DependentUpon>Mat Issued to party voucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\VAT Journals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\VAT Journals.Designer.cs">
+      <DependentUpon>VAT Journals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\Unassemble Voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\Unassemble Voucher.Designer.cs">
+      <DependentUpon>Unassemble Voucher.cs</DependentUpon>
     </Compile>
     <Compile Include="Transactions\ReceiptVoucher .cs">
       <SubType>Form</SubType>
@@ -3046,6 +3094,12 @@
     <EmbeddedResource Include="Reports\VATSummaries\VRCVATSummary.resx">
       <DependentUpon>VRCVATSummary.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\Forms Issued Voucher.resx">
+      <DependentUpon>Forms Issued Voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\Forms Received voucher.resx">
+      <DependentUpon>Forms Received voucher.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Transactions\CreditNote .resx">
       <DependentUpon>CreditNote .cs</DependentUpon>
     </EmbeddedResource>
@@ -3057,6 +3111,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\JournalVoucher  .resx">
       <DependentUpon>JournalVoucher  .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\Physical Stock voucher.resx">
+      <DependentUpon>Physical Stock voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\Mat Received from Party.resx">
+      <DependentUpon>Mat Received from Party.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\StockJournalvoucher.resx">
+      <DependentUpon>StockJournalvoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\Mat Issued to party voucher.resx">
+      <DependentUpon>Mat Issued to party voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\VAT Journals.resx">
+      <DependentUpon>VAT Journals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\Unassemble Voucher.resx">
+      <DependentUpon>Unassemble Voucher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\ReceiptVoucher .resx">
       <DependentUpon>ReceiptVoucher .cs</DependentUpon>
