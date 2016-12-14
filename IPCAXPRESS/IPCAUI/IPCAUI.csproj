@@ -46,8 +46,6 @@
     <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraScheduler.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraScheduler.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraTreeMap.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -78,6 +76,156 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administration\Referencegroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Referencegroup.Designer.cs">
+      <DependentUpon>Referencegroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Executivemaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Executivemaster.Designer.cs">
+      <DependentUpon>Executivemaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Contactgroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Contactgroup.Designer.cs">
+      <DependentUpon>Contactgroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Employeegroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Employeegroup.Designer.cs">
+      <DependentUpon>Employeegroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Contactmaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Contactmaster.Designer.cs">
+      <DependentUpon>Contactmaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Employeemaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Employeemaster.Designer.cs">
+      <DependentUpon>Employeemaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\BillsofMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\BillsofMaterial.Designer.cs">
+      <DependentUpon>BillsofMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\TDSCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\TDSCategory.Designer.cs">
+      <DependentUpon>TDSCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Taxcategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Taxcategory.Designer.cs">
+      <DependentUpon>Taxcategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Stformmaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Stformmaster.Designer.cs">
+      <DependentUpon>Stformmaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Unitconversion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Unitconversion.Designer.cs">
+      <DependentUpon>Unitconversion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Unitmaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Unitmaster.Designer.cs">
+      <DependentUpon>Unitmaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Materialcentergroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Materialcentergroup.Designer.cs">
+      <DependentUpon>Materialcentergroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\MaterialCenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\MaterialCenter.Designer.cs">
+      <DependentUpon>MaterialCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Itemgroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Itemgroup.Designer.cs">
+      <DependentUpon>Itemgroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Masterseriesgroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Masterseriesgroup.Designer.cs">
+      <DependentUpon>Masterseriesgroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Itemsmaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Itemsmaster.Designer.cs">
+      <DependentUpon>Itemsmaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\StdNarration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\StdNarration.Designer.cs">
+      <DependentUpon>StdNarration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Author.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Author.Designer.cs">
+      <DependentUpon>Author.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Account.Designer.cs">
+      <DependentUpon>Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Salesman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Salesman.Designer.cs">
+      <DependentUpon>Salesman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Currencyadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Currencyadd.Designer.cs">
+      <DependentUpon>Currencyadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Costcentergroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Costcentergroup.Designer.cs">
+      <DependentUpon>Costcentergroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Costcenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Costcenter.Designer.cs">
+      <DependentUpon>Costcenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Accountgroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Accountgroup.Designer.cs">
+      <DependentUpon>Accountgroup.cs</DependentUpon>
+    </Compile>
     <Compile Include="Company\Backupdata.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -2004,113 +2152,47 @@
     <Compile Include="Reports\VATSummaries\VRCVATSummary.Designer.cs">
       <DependentUpon>VRCVATSummary.cs</DependentUpon>
     </Compile>
-    <Compile Include="Transactions\Forms Issued Voucher.cs">
+    <Compile Include="Settings\Vatgstsetting.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Transactions\Forms Issued Voucher.Designer.cs">
-      <DependentUpon>Forms Issued Voucher.cs</DependentUpon>
+    <Compile Include="Settings\Vatgstsetting.Designer.cs">
+      <DependentUpon>Vatgstsetting.cs</DependentUpon>
     </Compile>
-    <Compile Include="Transactions\Forms Received voucher.cs">
+    <Compile Include="Settings\Inventorysettings.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Transactions\Forms Received voucher.Designer.cs">
-      <DependentUpon>Forms Received voucher.cs</DependentUpon>
+    <Compile Include="Settings\Inventorysettings.Designer.cs">
+      <DependentUpon>Inventorysettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Transactions\CreditNote .cs">
+    <Compile Include="Settings\Accountsettings.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Transactions\CreditNote .Designer.cs">
-      <DependentUpon>CreditNote .cs</DependentUpon>
+    <Compile Include="Settings\Accountsettings.Designer.cs">
+      <DependentUpon>Accountsettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Transactions\DebitNote.cs">
+    <Compile Include="Settings\Generalsettings.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Transactions\DebitNote.Designer.cs">
-      <DependentUpon>DebitNote.cs</DependentUpon>
+    <Compile Include="Settings\Generalsettings.Designer.cs">
+      <DependentUpon>Generalsettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Transactions\ContraVoucher .cs">
+    <Compile Include="Settings\Displaysettings.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Transactions\ContraVoucher .Designer.cs">
-      <DependentUpon>ContraVoucher .cs</DependentUpon>
+    <Compile Include="Settings\Displaysettings.Designer.cs">
+      <DependentUpon>Displaysettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Transactions\JournalVoucher  .cs">
+    <Compile Include="Settings\Regionalsettings.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Transactions\JournalVoucher  .Designer.cs">
-      <DependentUpon>JournalVoucher  .cs</DependentUpon>
-    </Compile>
-    <Compile Include="Transactions\Physical Stock voucher.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Transactions\Physical Stock voucher.Designer.cs">
-      <DependentUpon>Physical Stock voucher.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Transactions\Mat Received from Party.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Transactions\Mat Received from Party.Designer.cs">
-      <DependentUpon>Mat Received from Party.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Transactions\StockJournalvoucher.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Transactions\StockJournalvoucher.Designer.cs">
-      <DependentUpon>StockJournalvoucher.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Transactions\Mat Issued to party voucher.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Transactions\Mat Issued to party voucher.Designer.cs">
-      <DependentUpon>Mat Issued to party voucher.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Transactions\VAT Journals.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Transactions\VAT Journals.Designer.cs">
-      <DependentUpon>VAT Journals.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Transactions\Unassemble Voucher.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Transactions\Unassemble Voucher.Designer.cs">
-      <DependentUpon>Unassemble Voucher.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Transactions\ReceiptVoucher .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Transactions\ReceiptVoucher .Designer.cs">
-      <DependentUpon>ReceiptVoucher .cs</DependentUpon>
+    <Compile Include="Settings\Regionalsettings.Designer.cs">
+      <DependentUpon>Regionalsettings.cs</DependentUpon>
     </Compile>
     <Compile Include="Transactions\PaymentVoucher.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Transactions\PaymentVoucher.Designer.cs">
       <DependentUpon>PaymentVoucher.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Transactions\Purchase Voucher .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Transactions\Purchase Voucher .Designer.cs">
-      <DependentUpon>Purchase Voucher .cs</DependentUpon>
-    </Compile>
-    <Compile Include="Transactions\Purchase ReturnVoucher .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Transactions\Purchase ReturnVoucher .Designer.cs">
-      <DependentUpon>Purchase ReturnVoucher .cs</DependentUpon>
-    </Compile>
-    <Compile Include="Transactions\Productionvoucher.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Transactions\Productionvoucher.Designer.cs">
-      <DependentUpon>Productionvoucher.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Transactions\StockTransfervoucher.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Transactions\StockTransfervoucher.Designer.cs">
-      <DependentUpon>StockTransfervoucher.cs</DependentUpon>
     </Compile>
     <Compile Include="Transactions\SalesReturn.cs">
       <SubType>Form</SubType>
@@ -2130,6 +2212,81 @@
     <Compile Include="XtraForm1.Designer.cs">
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Administration\Referencegroup.resx">
+      <DependentUpon>Referencegroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Executivemaster.resx">
+      <DependentUpon>Executivemaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Contactgroup.resx">
+      <DependentUpon>Contactgroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Employeegroup.resx">
+      <DependentUpon>Employeegroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Contactmaster.resx">
+      <DependentUpon>Contactmaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Employeemaster.resx">
+      <DependentUpon>Employeemaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\BillsofMaterial.resx">
+      <DependentUpon>BillsofMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\TDSCategory.resx">
+      <DependentUpon>TDSCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Taxcategory.resx">
+      <DependentUpon>Taxcategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Stformmaster.resx">
+      <DependentUpon>Stformmaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Unitconversion.resx">
+      <DependentUpon>Unitconversion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Unitmaster.resx">
+      <DependentUpon>Unitmaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Materialcentergroup.resx">
+      <DependentUpon>Materialcentergroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\MaterialCenter.resx">
+      <DependentUpon>MaterialCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Itemgroup.resx">
+      <DependentUpon>Itemgroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Masterseriesgroup.resx">
+      <DependentUpon>Masterseriesgroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Itemsmaster.resx">
+      <DependentUpon>Itemsmaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\StdNarration.resx">
+      <DependentUpon>StdNarration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Author.resx">
+      <DependentUpon>Author.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Account.resx">
+      <DependentUpon>Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Salesman.resx">
+      <DependentUpon>Salesman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Currencyadd.resx">
+      <DependentUpon>Currencyadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Costcentergroup.resx">
+      <DependentUpon>Costcentergroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Costcenter.resx">
+      <DependentUpon>Costcenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Accountgroup.resx">
+      <DependentUpon>Accountgroup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Company\Backupdata.resx">
       <DependentUpon>Backupdata.cs</DependentUpon>
     </EmbeddedResource>
@@ -3094,59 +3251,26 @@
     <EmbeddedResource Include="Reports\VATSummaries\VRCVATSummary.resx">
       <DependentUpon>VRCVATSummary.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\Forms Issued Voucher.resx">
-      <DependentUpon>Forms Issued Voucher.cs</DependentUpon>
+    <EmbeddedResource Include="Settings\Vatgstsetting.resx">
+      <DependentUpon>Vatgstsetting.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\Forms Received voucher.resx">
-      <DependentUpon>Forms Received voucher.cs</DependentUpon>
+    <EmbeddedResource Include="Settings\Inventorysettings.resx">
+      <DependentUpon>Inventorysettings.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\CreditNote .resx">
-      <DependentUpon>CreditNote .cs</DependentUpon>
+    <EmbeddedResource Include="Settings\Accountsettings.resx">
+      <DependentUpon>Accountsettings.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\DebitNote.resx">
-      <DependentUpon>DebitNote.cs</DependentUpon>
+    <EmbeddedResource Include="Settings\Generalsettings.resx">
+      <DependentUpon>Generalsettings.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\ContraVoucher .resx">
-      <DependentUpon>ContraVoucher .cs</DependentUpon>
+    <EmbeddedResource Include="Settings\Displaysettings.resx">
+      <DependentUpon>Displaysettings.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\JournalVoucher  .resx">
-      <DependentUpon>JournalVoucher  .cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\Physical Stock voucher.resx">
-      <DependentUpon>Physical Stock voucher.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\Mat Received from Party.resx">
-      <DependentUpon>Mat Received from Party.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\StockJournalvoucher.resx">
-      <DependentUpon>StockJournalvoucher.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\Mat Issued to party voucher.resx">
-      <DependentUpon>Mat Issued to party voucher.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\VAT Journals.resx">
-      <DependentUpon>VAT Journals.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\Unassemble Voucher.resx">
-      <DependentUpon>Unassemble Voucher.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\ReceiptVoucher .resx">
-      <DependentUpon>ReceiptVoucher .cs</DependentUpon>
+    <EmbeddedResource Include="Settings\Regionalsettings.resx">
+      <DependentUpon>Regionalsettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\PaymentVoucher.resx">
       <DependentUpon>PaymentVoucher.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\Purchase Voucher .resx">
-      <DependentUpon>Purchase Voucher .cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\Purchase ReturnVoucher .resx">
-      <DependentUpon>Purchase ReturnVoucher .cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\Productionvoucher.resx">
-      <DependentUpon>Productionvoucher.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\StockTransfervoucher.resx">
-      <DependentUpon>StockTransfervoucher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\SalesReturn.resx">
       <DependentUpon>SalesReturn.cs</DependentUpon>
