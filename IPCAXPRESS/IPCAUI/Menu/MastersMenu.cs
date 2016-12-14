@@ -11,7 +11,7 @@ using DevExpress.XtraEditors;
 
 namespace IPCAUI.Menu
 {
-    public partial class MastersMenu : DevExpress.XtraEditors.XtraForm
+    public partial class MastersMenu : DevExpress.XtraBars.Ribbon.RibbonForm
     {
         XtraForm1 frm;
         public MastersMenu(XtraForm1 frm)
@@ -23,6 +23,28 @@ namespace IPCAUI.Menu
         private void MastersMenu_FormClosing(object sender, FormClosingEventArgs e)
         {
             frm.Visible = true;
+        }
+
+        private void barbtnAccount_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (this.ActiveMdiChild != null)
+                this.ActiveMdiChild.Close();
+
+            Administration.Account frmacc = new Administration.Account();
+            frmacc.MdiParent = this;
+            frmacc.Show();
+            sptCtrlMastermenu.Panel2.Controls.Add(frmacc);
+        }
+
+        private void barbtnAccGroup_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (this.ActiveMdiChild != null)
+                this.ActiveMdiChild.Close();
+
+            Administration.Accountgroup frmaccgrp = new Administration.Accountgroup();
+            frmaccgrp.MdiParent = this;
+            frmaccgrp.Show();
+            sptCtrlMastermenu.Panel2.Controls.Add(frmaccgrp);
         }
     }
 }
