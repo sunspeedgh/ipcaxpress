@@ -29,6 +29,29 @@
         private void InitializeComponent()
         {
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            this.cbxPartyDashboardinVch = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.checkEdit20 = new DevExpress.XtraEditors.CheckEdit();
+            this.tbxCurrconDecimal = new DevExpress.XtraEditors.TextEdit();
+            this.chkCompanyDescri = new DevExpress.XtraEditors.CheckEdit();
+            this.chkRoylatycal = new DevExpress.XtraEditors.CheckEdit();
+            this.chkPartydashboard = new DevExpress.XtraEditors.CheckEdit();
+            this.chkAccInterestrate = new DevExpress.XtraEditors.CheckEdit();
+            this.chkChequePrinting = new DevExpress.XtraEditors.CheckEdit();
+            this.chkLedgerreco = new DevExpress.XtraEditors.CheckEdit();
+            this.chkImgnotesMasterVoucher = new DevExpress.XtraEditors.CheckEdit();
+            this.chkAccountscurrentBalance = new DevExpress.XtraEditors.CheckEdit();
+            this.chkDoubleEnterysystem = new DevExpress.XtraEditors.CheckEdit();
+            this.chkAccountssalesreturn = new DevExpress.XtraEditors.CheckEdit();
+            this.chkDatedcheques = new DevExpress.XtraEditors.CheckEdit();
+            this.chkReconcilation = new DevExpress.XtraEditors.CheckEdit();
+            this.chkFbtReporting = new DevExpress.XtraEditors.CheckEdit();
+            this.chkCostcenters = new DevExpress.XtraEditors.CheckEdit();
+            this.chkTargets = new DevExpress.XtraEditors.CheckEdit();
+            this.chkBudgets = new DevExpress.XtraEditors.CheckEdit();
+            this.chkSaesmanBrokerwiseReport = new DevExpress.XtraEditors.CheckEdit();
+            this.chkCreditlimt = new DevExpress.XtraEditors.CheckEdit();
+            this.chkBillbybill = new DevExpress.XtraEditors.CheckEdit();
             this.btnQuit = new DevExpress.XtraEditors.SimpleButton();
             this.btnSave = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
@@ -47,54 +70,53 @@
             this.emptySpaceItem6 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem7 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem8 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.chkBillbybill = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkCreditlimt = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkSaesmanBrokerwiseReport = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkBudgets = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkTargets = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkCostcenters = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkFbtReporting = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkReconcilation = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkDatedcheques = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkAccountssalesreturn = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkDoubleEnterysystem = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem13 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkAccountscurrentBalance = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem14 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkImgnotesMasterVoucher = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem16 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkLedgerreco = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem18 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkChequePrinting = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem19 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkAccInterestrate = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem20 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkPartydashboard = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem21 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkRoylatycal = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem22 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.chkCompanyDescri = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem23 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.tbxCurrconDecimal = new DevExpress.XtraEditors.TextEdit();
             this.layoutControlItem24 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.checkEdit20 = new DevExpress.XtraEditors.CheckEdit();
             this.layoutControlItem25 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.layoutControlItem26 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.cbxPartyDashboardinVch = new DevExpress.XtraEditors.ComboBoxEdit();
             this.layoutControlItem27 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxPartyDashboardinVch.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit20.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxCurrconDecimal.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkCompanyDescri.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkRoylatycal.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkPartydashboard.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkAccInterestrate.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkChequePrinting.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkLedgerreco.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkImgnotesMasterVoucher.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkAccountscurrentBalance.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkDoubleEnterysystem.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkAccountssalesreturn.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkDatedcheques.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkReconcilation.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkFbtReporting.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkCostcenters.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkTargets.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkBudgets.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkSaesmanBrokerwiseReport.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkCreditlimt.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkBillbybill.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
@@ -110,50 +132,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkBillbybill.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkCreditlimt.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkSaesmanBrokerwiseReport.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkBudgets.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkTargets.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkCostcenters.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkFbtReporting.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkReconcilation.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkDatedcheques.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkAccountssalesreturn.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkDoubleEnterysystem.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkAccountscurrentBalance.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkImgnotesMasterVoucher.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkLedgerreco.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkChequePrinting.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkAccInterestrate.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkPartydashboard.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkRoylatycal.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkCompanyDescri.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbxCurrconDecimal.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit20.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbxPartyDashboardinVch.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem27)).BeginInit();
             this.SuspendLayout();
             // 
@@ -193,24 +193,231 @@
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(407, 535, 326, 350);
             this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(661, 516);
+            this.layoutControl1.Size = new System.Drawing.Size(740, 531);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
+            // cbxPartyDashboardinVch
+            // 
+            this.cbxPartyDashboardinVch.Location = new System.Drawing.Point(289, 403);
+            this.cbxPartyDashboardinVch.Name = "cbxPartyDashboardinVch";
+            this.cbxPartyDashboardinVch.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbxPartyDashboardinVch.Size = new System.Drawing.Size(439, 20);
+            this.cbxPartyDashboardinVch.StyleController = this.layoutControl1;
+            this.cbxPartyDashboardinVch.TabIndex = 55;
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Location = new System.Drawing.Point(12, 248);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(402, 13);
+            this.labelControl2.StyleController = this.layoutControl1;
+            this.labelControl2.TabIndex = 54;
+            this.labelControl2.Text = "(Above Option Can be Disabled If Any Payment/Receipt Voucher Has been Entered ";
+            // 
+            // checkEdit20
+            // 
+            this.checkEdit20.Location = new System.Drawing.Point(371, 156);
+            this.checkEdit20.Name = "checkEdit20";
+            this.checkEdit20.Properties.Caption = "Maintain Sub Ledgers";
+            this.checkEdit20.Size = new System.Drawing.Size(357, 19);
+            this.checkEdit20.StyleController = this.layoutControl1;
+            this.checkEdit20.TabIndex = 53;
+            // 
+            // tbxCurrconDecimal
+            // 
+            this.tbxCurrconDecimal.Location = new System.Drawing.Point(637, 132);
+            this.tbxCurrconDecimal.Name = "tbxCurrconDecimal";
+            this.tbxCurrconDecimal.Size = new System.Drawing.Size(91, 20);
+            this.tbxCurrconDecimal.StyleController = this.layoutControl1;
+            this.tbxCurrconDecimal.TabIndex = 52;
+            // 
+            // chkCompanyDescri
+            // 
+            this.chkCompanyDescri.Location = new System.Drawing.Point(360, 109);
+            this.chkCompanyDescri.Name = "chkCompanyDescri";
+            this.chkCompanyDescri.Properties.Caption = "Company\'s act Description";
+            this.chkCompanyDescri.Size = new System.Drawing.Size(368, 19);
+            this.chkCompanyDescri.StyleController = this.layoutControl1;
+            this.chkCompanyDescri.TabIndex = 51;
+            // 
+            // chkRoylatycal
+            // 
+            this.chkRoylatycal.Location = new System.Drawing.Point(360, 86);
+            this.chkRoylatycal.Name = "chkRoylatycal";
+            this.chkRoylatycal.Properties.Caption = "Roylaty Calculation";
+            this.chkRoylatycal.Size = new System.Drawing.Size(368, 19);
+            this.chkRoylatycal.StyleController = this.layoutControl1;
+            this.chkRoylatycal.TabIndex = 50;
+            // 
+            // chkPartydashboard
+            // 
+            this.chkPartydashboard.Location = new System.Drawing.Point(12, 380);
+            this.chkPartydashboard.Name = "chkPartydashboard";
+            this.chkPartydashboard.Properties.Caption = "Enable Party Dash Bord";
+            this.chkPartydashboard.Size = new System.Drawing.Size(716, 19);
+            this.chkPartydashboard.StyleController = this.layoutControl1;
+            this.chkPartydashboard.TabIndex = 49;
+            // 
+            // chkAccInterestrate
+            // 
+            this.chkAccInterestrate.Location = new System.Drawing.Point(12, 357);
+            this.chkAccInterestrate.Name = "chkAccInterestrate";
+            this.chkAccInterestrate.Properties.Caption = "Account Wise Interest Rate";
+            this.chkAccInterestrate.Size = new System.Drawing.Size(716, 19);
+            this.chkAccInterestrate.StyleController = this.layoutControl1;
+            this.chkAccInterestrate.TabIndex = 48;
+            // 
+            // chkChequePrinting
+            // 
+            this.chkChequePrinting.Location = new System.Drawing.Point(12, 334);
+            this.chkChequePrinting.Name = "chkChequePrinting";
+            this.chkChequePrinting.Properties.Caption = "Cheque Printing";
+            this.chkChequePrinting.Size = new System.Drawing.Size(716, 19);
+            this.chkChequePrinting.StyleController = this.layoutControl1;
+            this.chkChequePrinting.TabIndex = 47;
+            // 
+            // chkLedgerreco
+            // 
+            this.chkLedgerreco.Location = new System.Drawing.Point(12, 311);
+            this.chkLedgerreco.Name = "chkLedgerreco";
+            this.chkLedgerreco.Properties.Caption = "Ledger Reconcilation";
+            this.chkLedgerreco.Size = new System.Drawing.Size(716, 19);
+            this.chkLedgerreco.StyleController = this.layoutControl1;
+            this.chkLedgerreco.TabIndex = 46;
+            // 
+            // chkImgnotesMasterVoucher
+            // 
+            this.chkImgnotesMasterVoucher.Location = new System.Drawing.Point(12, 288);
+            this.chkImgnotesMasterVoucher.Name = "chkImgnotesMasterVoucher";
+            this.chkImgnotesMasterVoucher.Properties.Caption = "Maintain Images/Notes With Masters/Vouchers";
+            this.chkImgnotesMasterVoucher.Size = new System.Drawing.Size(716, 19);
+            this.chkImgnotesMasterVoucher.StyleController = this.layoutControl1;
+            this.chkImgnotesMasterVoucher.TabIndex = 45;
+            // 
+            // chkAccountscurrentBalance
+            // 
+            this.chkAccountscurrentBalance.Location = new System.Drawing.Point(12, 265);
+            this.chkAccountscurrentBalance.Name = "chkAccountscurrentBalance";
+            this.chkAccountscurrentBalance.Properties.Caption = "Show Accounts Current Balance During Voucher Entery";
+            this.chkAccountscurrentBalance.Size = new System.Drawing.Size(716, 19);
+            this.chkAccountscurrentBalance.StyleController = this.layoutControl1;
+            this.chkAccountscurrentBalance.TabIndex = 44;
+            // 
+            // chkDoubleEnterysystem
+            // 
+            this.chkDoubleEnterysystem.Location = new System.Drawing.Point(12, 225);
+            this.chkDoubleEnterysystem.Name = "chkDoubleEnterysystem";
+            this.chkDoubleEnterysystem.Properties.Caption = "Double Entery System For Payment && Receipt Vouchers";
+            this.chkDoubleEnterysystem.Size = new System.Drawing.Size(716, 19);
+            this.chkDoubleEnterysystem.StyleController = this.layoutControl1;
+            this.chkDoubleEnterysystem.TabIndex = 43;
+            // 
+            // chkAccountssalesreturn
+            // 
+            this.chkAccountssalesreturn.Location = new System.Drawing.Point(12, 202);
+            this.chkAccountssalesreturn.Name = "chkAccountssalesreturn";
+            this.chkAccountssalesreturn.Properties.Caption = "Posting Accounts Through Sales Return/Purchase Return";
+            this.chkAccountssalesreturn.Size = new System.Drawing.Size(716, 19);
+            this.chkAccountssalesreturn.StyleController = this.layoutControl1;
+            this.chkAccountssalesreturn.TabIndex = 42;
+            // 
+            // chkDatedcheques
+            // 
+            this.chkDatedcheques.Location = new System.Drawing.Point(12, 179);
+            this.chkDatedcheques.Name = "chkDatedcheques";
+            this.chkDatedcheques.Properties.Caption = "Post dated Cheques In Payment/Receipt Vouchers";
+            this.chkDatedcheques.Size = new System.Drawing.Size(716, 19);
+            this.chkDatedcheques.StyleController = this.layoutControl1;
+            this.chkDatedcheques.TabIndex = 41;
+            // 
+            // chkReconcilation
+            // 
+            this.chkReconcilation.Location = new System.Drawing.Point(12, 156);
+            this.chkReconcilation.Name = "chkReconcilation";
+            this.chkReconcilation.Properties.Caption = "Bank Reconcilation";
+            this.chkReconcilation.Size = new System.Drawing.Size(355, 19);
+            this.chkReconcilation.StyleController = this.layoutControl1;
+            this.chkReconcilation.TabIndex = 40;
+            // 
+            // chkFbtReporting
+            // 
+            this.chkFbtReporting.Location = new System.Drawing.Point(12, 132);
+            this.chkFbtReporting.Name = "chkFbtReporting";
+            this.chkFbtReporting.Properties.Caption = "FBT Reporting";
+            this.chkFbtReporting.Size = new System.Drawing.Size(344, 19);
+            this.chkFbtReporting.StyleController = this.layoutControl1;
+            this.chkFbtReporting.TabIndex = 39;
+            // 
+            // chkCostcenters
+            // 
+            this.chkCostcenters.Location = new System.Drawing.Point(12, 109);
+            this.chkCostcenters.Name = "chkCostcenters";
+            this.chkCostcenters.Properties.Caption = "Cost Centers";
+            this.chkCostcenters.Size = new System.Drawing.Size(344, 19);
+            this.chkCostcenters.StyleController = this.layoutControl1;
+            this.chkCostcenters.TabIndex = 38;
+            // 
+            // chkTargets
+            // 
+            this.chkTargets.Location = new System.Drawing.Point(12, 86);
+            this.chkTargets.Name = "chkTargets";
+            this.chkTargets.Properties.Caption = "Targets";
+            this.chkTargets.Size = new System.Drawing.Size(344, 19);
+            this.chkTargets.StyleController = this.layoutControl1;
+            this.chkTargets.TabIndex = 37;
+            // 
+            // chkBudgets
+            // 
+            this.chkBudgets.Location = new System.Drawing.Point(353, 63);
+            this.chkBudgets.Name = "chkBudgets";
+            this.chkBudgets.Properties.Caption = "Budgets";
+            this.chkBudgets.Size = new System.Drawing.Size(375, 19);
+            this.chkBudgets.StyleController = this.layoutControl1;
+            this.chkBudgets.TabIndex = 36;
+            // 
+            // chkSaesmanBrokerwiseReport
+            // 
+            this.chkSaesmanBrokerwiseReport.Location = new System.Drawing.Point(353, 40);
+            this.chkSaesmanBrokerwiseReport.Name = "chkSaesmanBrokerwiseReport";
+            this.chkSaesmanBrokerwiseReport.Properties.Caption = "Salesman/Broker-wise Reporting";
+            this.chkSaesmanBrokerwiseReport.Size = new System.Drawing.Size(375, 19);
+            this.chkSaesmanBrokerwiseReport.StyleController = this.layoutControl1;
+            this.chkSaesmanBrokerwiseReport.TabIndex = 35;
+            // 
+            // chkCreditlimt
+            // 
+            this.chkCreditlimt.Location = new System.Drawing.Point(12, 63);
+            this.chkCreditlimt.Name = "chkCreditlimt";
+            this.chkCreditlimt.Properties.Caption = "Credit Limits";
+            this.chkCreditlimt.Size = new System.Drawing.Size(337, 19);
+            this.chkCreditlimt.StyleController = this.layoutControl1;
+            this.chkCreditlimt.TabIndex = 34;
+            // 
+            // chkBillbybill
+            // 
+            this.chkBillbybill.Location = new System.Drawing.Point(12, 40);
+            this.chkBillbybill.Name = "chkBillbybill";
+            this.chkBillbybill.Properties.Caption = "Bill By Bill Details";
+            this.chkBillbybill.Size = new System.Drawing.Size(337, 19);
+            this.chkBillbybill.StyleController = this.layoutControl1;
+            this.chkBillbybill.TabIndex = 33;
+            // 
             // btnQuit
             // 
-            this.btnQuit.Location = new System.Drawing.Point(378, 448);
+            this.btnQuit.Location = new System.Drawing.Point(422, 462);
             this.btnQuit.Name = "btnQuit";
-            this.btnQuit.Size = new System.Drawing.Size(81, 22);
+            this.btnQuit.Size = new System.Drawing.Size(92, 22);
             this.btnQuit.StyleController = this.layoutControl1;
             this.btnQuit.TabIndex = 19;
             this.btnQuit.Text = "Quit";
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(216, 448);
+            this.btnSave.Location = new System.Drawing.Point(241, 462);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(87, 22);
+            this.btnSave.Size = new System.Drawing.Size(98, 22);
             this.btnSave.StyleController = this.layoutControl1;
             this.btnSave.TabIndex = 17;
             this.btnSave.Text = "Save";
@@ -219,7 +426,7 @@
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Verdana", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(265, 12);
+            this.labelControl1.Location = new System.Drawing.Point(296, 12);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(59, 14);
             this.labelControl1.StyleController = this.layoutControl1;
@@ -289,13 +496,13 @@
             this.layoutControlItem27});
             this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup1.Name = "Root";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(661, 516);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(740, 531);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem1
             // 
             this.layoutControlItem1.Control = this.labelControl1;
-            this.layoutControlItem1.Location = new System.Drawing.Point(253, 0);
+            this.layoutControlItem1.Location = new System.Drawing.Point(284, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
             this.layoutControlItem1.Size = new System.Drawing.Size(63, 18);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
@@ -304,9 +511,9 @@
             // layoutControlItem15
             // 
             this.layoutControlItem15.Control = this.btnSave;
-            this.layoutControlItem15.Location = new System.Drawing.Point(204, 436);
+            this.layoutControlItem15.Location = new System.Drawing.Point(229, 450);
             this.layoutControlItem15.Name = "layoutControlItem15";
-            this.layoutControlItem15.Size = new System.Drawing.Size(91, 26);
+            this.layoutControlItem15.Size = new System.Drawing.Size(102, 26);
             this.layoutControlItem15.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem15.TextVisible = false;
             // 
@@ -315,48 +522,48 @@
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.Location = new System.Drawing.Point(0, 415);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(641, 21);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(654, 35);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 462);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 476);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(641, 34);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(654, 35);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem17
             // 
             this.layoutControlItem17.Control = this.btnQuit;
-            this.layoutControlItem17.Location = new System.Drawing.Point(366, 436);
+            this.layoutControlItem17.Location = new System.Drawing.Point(410, 450);
             this.layoutControlItem17.Name = "layoutControlItem17";
-            this.layoutControlItem17.Size = new System.Drawing.Size(85, 26);
+            this.layoutControlItem17.Size = new System.Drawing.Size(96, 26);
             this.layoutControlItem17.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem17.TextVisible = false;
             // 
             // emptySpaceItem3
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
-            this.emptySpaceItem3.Location = new System.Drawing.Point(295, 436);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(301, 450);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(71, 26);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(72, 26);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem4
             // 
             this.emptySpaceItem4.AllowHotTrack = false;
-            this.emptySpaceItem4.Location = new System.Drawing.Point(451, 436);
+            this.emptySpaceItem4.Location = new System.Drawing.Point(460, 450);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
-            this.emptySpaceItem4.Size = new System.Drawing.Size(190, 26);
+            this.emptySpaceItem4.Size = new System.Drawing.Size(194, 26);
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem5
             // 
             this.emptySpaceItem5.AllowHotTrack = false;
-            this.emptySpaceItem5.Location = new System.Drawing.Point(0, 436);
+            this.emptySpaceItem5.Location = new System.Drawing.Point(0, 450);
             this.emptySpaceItem5.Name = "emptySpaceItem5";
-            this.emptySpaceItem5.Size = new System.Drawing.Size(204, 26);
+            this.emptySpaceItem5.Size = new System.Drawing.Size(208, 26);
             this.emptySpaceItem5.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem6
@@ -364,15 +571,15 @@
             this.emptySpaceItem6.AllowHotTrack = false;
             this.emptySpaceItem6.Location = new System.Drawing.Point(0, 0);
             this.emptySpaceItem6.Name = "emptySpaceItem6";
-            this.emptySpaceItem6.Size = new System.Drawing.Size(253, 18);
+            this.emptySpaceItem6.Size = new System.Drawing.Size(258, 18);
             this.emptySpaceItem6.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem7
             // 
             this.emptySpaceItem7.AllowHotTrack = false;
-            this.emptySpaceItem7.Location = new System.Drawing.Point(316, 0);
+            this.emptySpaceItem7.Location = new System.Drawing.Point(321, 0);
             this.emptySpaceItem7.Name = "emptySpaceItem7";
-            this.emptySpaceItem7.Size = new System.Drawing.Size(325, 18);
+            this.emptySpaceItem7.Size = new System.Drawing.Size(333, 18);
             this.emptySpaceItem7.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem8
@@ -380,420 +587,213 @@
             this.emptySpaceItem8.AllowHotTrack = false;
             this.emptySpaceItem8.Location = new System.Drawing.Point(0, 18);
             this.emptySpaceItem8.Name = "emptySpaceItem8";
-            this.emptySpaceItem8.Size = new System.Drawing.Size(641, 10);
+            this.emptySpaceItem8.Size = new System.Drawing.Size(654, 10);
             this.emptySpaceItem8.TextSize = new System.Drawing.Size(0, 0);
-            // 
-            // chkBillbybill
-            // 
-            this.chkBillbybill.Location = new System.Drawing.Point(12, 40);
-            this.chkBillbybill.Name = "chkBillbybill";
-            this.chkBillbybill.Properties.Caption = "Bill By Bill Details";
-            this.chkBillbybill.Size = new System.Drawing.Size(300, 19);
-            this.chkBillbybill.StyleController = this.layoutControl1;
-            this.chkBillbybill.TabIndex = 33;
             // 
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.chkBillbybill;
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 28);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(304, 23);
+            this.layoutControlItem2.Size = new System.Drawing.Size(341, 23);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextVisible = false;
-            // 
-            // chkCreditlimt
-            // 
-            this.chkCreditlimt.Location = new System.Drawing.Point(12, 63);
-            this.chkCreditlimt.Name = "chkCreditlimt";
-            this.chkCreditlimt.Properties.Caption = "Credit Limits";
-            this.chkCreditlimt.Size = new System.Drawing.Size(300, 19);
-            this.chkCreditlimt.StyleController = this.layoutControl1;
-            this.chkCreditlimt.TabIndex = 34;
             // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.chkCreditlimt;
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 51);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(304, 23);
+            this.layoutControlItem3.Size = new System.Drawing.Size(341, 23);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
-            // 
-            // chkSaesmanBrokerwiseReport
-            // 
-            this.chkSaesmanBrokerwiseReport.Location = new System.Drawing.Point(316, 40);
-            this.chkSaesmanBrokerwiseReport.Name = "chkSaesmanBrokerwiseReport";
-            this.chkSaesmanBrokerwiseReport.Properties.Caption = "Salesman/Broker-wise Reporting";
-            this.chkSaesmanBrokerwiseReport.Size = new System.Drawing.Size(333, 19);
-            this.chkSaesmanBrokerwiseReport.StyleController = this.layoutControl1;
-            this.chkSaesmanBrokerwiseReport.TabIndex = 35;
             // 
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.chkSaesmanBrokerwiseReport;
-            this.layoutControlItem4.Location = new System.Drawing.Point(304, 28);
+            this.layoutControlItem4.Location = new System.Drawing.Point(341, 28);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(337, 23);
+            this.layoutControlItem4.Size = new System.Drawing.Size(379, 23);
             this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem4.TextVisible = false;
-            // 
-            // chkBudgets
-            // 
-            this.chkBudgets.Location = new System.Drawing.Point(316, 63);
-            this.chkBudgets.Name = "chkBudgets";
-            this.chkBudgets.Properties.Caption = "Budgets";
-            this.chkBudgets.Size = new System.Drawing.Size(333, 19);
-            this.chkBudgets.StyleController = this.layoutControl1;
-            this.chkBudgets.TabIndex = 36;
             // 
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.chkBudgets;
-            this.layoutControlItem5.Location = new System.Drawing.Point(304, 51);
+            this.layoutControlItem5.Location = new System.Drawing.Point(341, 51);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(337, 23);
+            this.layoutControlItem5.Size = new System.Drawing.Size(379, 23);
             this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem5.TextVisible = false;
-            // 
-            // chkTargets
-            // 
-            this.chkTargets.Location = new System.Drawing.Point(12, 86);
-            this.chkTargets.Name = "chkTargets";
-            this.chkTargets.Properties.Caption = "Targets";
-            this.chkTargets.Size = new System.Drawing.Size(306, 19);
-            this.chkTargets.StyleController = this.layoutControl1;
-            this.chkTargets.TabIndex = 37;
             // 
             // layoutControlItem6
             // 
             this.layoutControlItem6.Control = this.chkTargets;
             this.layoutControlItem6.Location = new System.Drawing.Point(0, 74);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(310, 23);
+            this.layoutControlItem6.Size = new System.Drawing.Size(348, 23);
             this.layoutControlItem6.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem6.TextVisible = false;
-            // 
-            // chkCostcenters
-            // 
-            this.chkCostcenters.Location = new System.Drawing.Point(12, 109);
-            this.chkCostcenters.Name = "chkCostcenters";
-            this.chkCostcenters.Properties.Caption = "Cost Centers";
-            this.chkCostcenters.Size = new System.Drawing.Size(306, 19);
-            this.chkCostcenters.StyleController = this.layoutControl1;
-            this.chkCostcenters.TabIndex = 38;
             // 
             // layoutControlItem7
             // 
             this.layoutControlItem7.Control = this.chkCostcenters;
             this.layoutControlItem7.Location = new System.Drawing.Point(0, 97);
             this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(310, 23);
+            this.layoutControlItem7.Size = new System.Drawing.Size(348, 23);
             this.layoutControlItem7.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem7.TextVisible = false;
-            // 
-            // chkFbtReporting
-            // 
-            this.chkFbtReporting.Location = new System.Drawing.Point(12, 132);
-            this.chkFbtReporting.Name = "chkFbtReporting";
-            this.chkFbtReporting.Properties.Caption = "FBT Reporting";
-            this.chkFbtReporting.Size = new System.Drawing.Size(306, 19);
-            this.chkFbtReporting.StyleController = this.layoutControl1;
-            this.chkFbtReporting.TabIndex = 39;
             // 
             // layoutControlItem9
             // 
             this.layoutControlItem9.Control = this.chkFbtReporting;
             this.layoutControlItem9.Location = new System.Drawing.Point(0, 120);
             this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(310, 24);
+            this.layoutControlItem9.Size = new System.Drawing.Size(348, 24);
             this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem9.TextVisible = false;
-            // 
-            // chkReconcilation
-            // 
-            this.chkReconcilation.Location = new System.Drawing.Point(12, 156);
-            this.chkReconcilation.Name = "chkReconcilation";
-            this.chkReconcilation.Properties.Caption = "Bank Reconcilation";
-            this.chkReconcilation.Size = new System.Drawing.Size(316, 19);
-            this.chkReconcilation.StyleController = this.layoutControl1;
-            this.chkReconcilation.TabIndex = 40;
             // 
             // layoutControlItem10
             // 
             this.layoutControlItem10.Control = this.chkReconcilation;
             this.layoutControlItem10.Location = new System.Drawing.Point(0, 144);
             this.layoutControlItem10.Name = "layoutControlItem10";
-            this.layoutControlItem10.Size = new System.Drawing.Size(320, 23);
+            this.layoutControlItem10.Size = new System.Drawing.Size(359, 23);
             this.layoutControlItem10.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem10.TextVisible = false;
-            // 
-            // chkDatedcheques
-            // 
-            this.chkDatedcheques.Location = new System.Drawing.Point(12, 179);
-            this.chkDatedcheques.Name = "chkDatedcheques";
-            this.chkDatedcheques.Properties.Caption = "Post dated Cheques In Payment/Receipt Vouchers";
-            this.chkDatedcheques.Size = new System.Drawing.Size(637, 19);
-            this.chkDatedcheques.StyleController = this.layoutControl1;
-            this.chkDatedcheques.TabIndex = 41;
             // 
             // layoutControlItem11
             // 
             this.layoutControlItem11.Control = this.chkDatedcheques;
             this.layoutControlItem11.Location = new System.Drawing.Point(0, 167);
             this.layoutControlItem11.Name = "layoutControlItem11";
-            this.layoutControlItem11.Size = new System.Drawing.Size(641, 23);
+            this.layoutControlItem11.Size = new System.Drawing.Size(720, 23);
             this.layoutControlItem11.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem11.TextVisible = false;
-            // 
-            // chkAccountssalesreturn
-            // 
-            this.chkAccountssalesreturn.Location = new System.Drawing.Point(12, 202);
-            this.chkAccountssalesreturn.Name = "chkAccountssalesreturn";
-            this.chkAccountssalesreturn.Properties.Caption = "Posting Accounts Through Sales Return/Purchase Return";
-            this.chkAccountssalesreturn.Size = new System.Drawing.Size(637, 19);
-            this.chkAccountssalesreturn.StyleController = this.layoutControl1;
-            this.chkAccountssalesreturn.TabIndex = 42;
             // 
             // layoutControlItem12
             // 
             this.layoutControlItem12.Control = this.chkAccountssalesreturn;
             this.layoutControlItem12.Location = new System.Drawing.Point(0, 190);
             this.layoutControlItem12.Name = "layoutControlItem12";
-            this.layoutControlItem12.Size = new System.Drawing.Size(641, 23);
+            this.layoutControlItem12.Size = new System.Drawing.Size(720, 23);
             this.layoutControlItem12.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem12.TextVisible = false;
-            // 
-            // chkDoubleEnterysystem
-            // 
-            this.chkDoubleEnterysystem.Location = new System.Drawing.Point(12, 225);
-            this.chkDoubleEnterysystem.Name = "chkDoubleEnterysystem";
-            this.chkDoubleEnterysystem.Properties.Caption = "Double Entery System For Payment && Receipt Vouchers";
-            this.chkDoubleEnterysystem.Size = new System.Drawing.Size(637, 19);
-            this.chkDoubleEnterysystem.StyleController = this.layoutControl1;
-            this.chkDoubleEnterysystem.TabIndex = 43;
             // 
             // layoutControlItem13
             // 
             this.layoutControlItem13.Control = this.chkDoubleEnterysystem;
             this.layoutControlItem13.Location = new System.Drawing.Point(0, 213);
             this.layoutControlItem13.Name = "layoutControlItem13";
-            this.layoutControlItem13.Size = new System.Drawing.Size(641, 23);
+            this.layoutControlItem13.Size = new System.Drawing.Size(720, 23);
             this.layoutControlItem13.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem13.TextVisible = false;
-            // 
-            // chkAccountscurrentBalance
-            // 
-            this.chkAccountscurrentBalance.Location = new System.Drawing.Point(12, 265);
-            this.chkAccountscurrentBalance.Name = "chkAccountscurrentBalance";
-            this.chkAccountscurrentBalance.Properties.Caption = "Show Accounts Current Balance During Voucher Entery";
-            this.chkAccountscurrentBalance.Size = new System.Drawing.Size(637, 19);
-            this.chkAccountscurrentBalance.StyleController = this.layoutControl1;
-            this.chkAccountscurrentBalance.TabIndex = 44;
             // 
             // layoutControlItem14
             // 
             this.layoutControlItem14.Control = this.chkAccountscurrentBalance;
             this.layoutControlItem14.Location = new System.Drawing.Point(0, 253);
             this.layoutControlItem14.Name = "layoutControlItem14";
-            this.layoutControlItem14.Size = new System.Drawing.Size(641, 23);
+            this.layoutControlItem14.Size = new System.Drawing.Size(720, 23);
             this.layoutControlItem14.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem14.TextVisible = false;
-            // 
-            // chkImgnotesMasterVoucher
-            // 
-            this.chkImgnotesMasterVoucher.Location = new System.Drawing.Point(12, 288);
-            this.chkImgnotesMasterVoucher.Name = "chkImgnotesMasterVoucher";
-            this.chkImgnotesMasterVoucher.Properties.Caption = "Maintain Images/Notes With Masters/Vouchers";
-            this.chkImgnotesMasterVoucher.Size = new System.Drawing.Size(637, 19);
-            this.chkImgnotesMasterVoucher.StyleController = this.layoutControl1;
-            this.chkImgnotesMasterVoucher.TabIndex = 45;
             // 
             // layoutControlItem16
             // 
             this.layoutControlItem16.Control = this.chkImgnotesMasterVoucher;
             this.layoutControlItem16.Location = new System.Drawing.Point(0, 276);
             this.layoutControlItem16.Name = "layoutControlItem16";
-            this.layoutControlItem16.Size = new System.Drawing.Size(641, 23);
+            this.layoutControlItem16.Size = new System.Drawing.Size(720, 23);
             this.layoutControlItem16.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem16.TextVisible = false;
-            // 
-            // chkLedgerreco
-            // 
-            this.chkLedgerreco.Location = new System.Drawing.Point(12, 311);
-            this.chkLedgerreco.Name = "chkLedgerreco";
-            this.chkLedgerreco.Properties.Caption = "Ledger Reconcilation";
-            this.chkLedgerreco.Size = new System.Drawing.Size(637, 19);
-            this.chkLedgerreco.StyleController = this.layoutControl1;
-            this.chkLedgerreco.TabIndex = 46;
             // 
             // layoutControlItem18
             // 
             this.layoutControlItem18.Control = this.chkLedgerreco;
             this.layoutControlItem18.Location = new System.Drawing.Point(0, 299);
             this.layoutControlItem18.Name = "layoutControlItem18";
-            this.layoutControlItem18.Size = new System.Drawing.Size(641, 23);
+            this.layoutControlItem18.Size = new System.Drawing.Size(720, 23);
             this.layoutControlItem18.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem18.TextVisible = false;
-            // 
-            // chkChequePrinting
-            // 
-            this.chkChequePrinting.Location = new System.Drawing.Point(12, 334);
-            this.chkChequePrinting.Name = "chkChequePrinting";
-            this.chkChequePrinting.Properties.Caption = "Cheque Printing";
-            this.chkChequePrinting.Size = new System.Drawing.Size(637, 19);
-            this.chkChequePrinting.StyleController = this.layoutControl1;
-            this.chkChequePrinting.TabIndex = 47;
             // 
             // layoutControlItem19
             // 
             this.layoutControlItem19.Control = this.chkChequePrinting;
             this.layoutControlItem19.Location = new System.Drawing.Point(0, 322);
             this.layoutControlItem19.Name = "layoutControlItem19";
-            this.layoutControlItem19.Size = new System.Drawing.Size(641, 23);
+            this.layoutControlItem19.Size = new System.Drawing.Size(720, 23);
             this.layoutControlItem19.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem19.TextVisible = false;
-            // 
-            // chkAccInterestrate
-            // 
-            this.chkAccInterestrate.Location = new System.Drawing.Point(12, 357);
-            this.chkAccInterestrate.Name = "chkAccInterestrate";
-            this.chkAccInterestrate.Properties.Caption = "Account Wise Interest Rate";
-            this.chkAccInterestrate.Size = new System.Drawing.Size(637, 19);
-            this.chkAccInterestrate.StyleController = this.layoutControl1;
-            this.chkAccInterestrate.TabIndex = 48;
             // 
             // layoutControlItem20
             // 
             this.layoutControlItem20.Control = this.chkAccInterestrate;
             this.layoutControlItem20.Location = new System.Drawing.Point(0, 345);
             this.layoutControlItem20.Name = "layoutControlItem20";
-            this.layoutControlItem20.Size = new System.Drawing.Size(641, 23);
+            this.layoutControlItem20.Size = new System.Drawing.Size(720, 23);
             this.layoutControlItem20.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem20.TextVisible = false;
-            // 
-            // chkPartydashboard
-            // 
-            this.chkPartydashboard.Location = new System.Drawing.Point(12, 380);
-            this.chkPartydashboard.Name = "chkPartydashboard";
-            this.chkPartydashboard.Properties.Caption = "Enable Party Dash Bord";
-            this.chkPartydashboard.Size = new System.Drawing.Size(637, 19);
-            this.chkPartydashboard.StyleController = this.layoutControl1;
-            this.chkPartydashboard.TabIndex = 49;
             // 
             // layoutControlItem21
             // 
             this.layoutControlItem21.Control = this.chkPartydashboard;
             this.layoutControlItem21.Location = new System.Drawing.Point(0, 368);
             this.layoutControlItem21.Name = "layoutControlItem21";
-            this.layoutControlItem21.Size = new System.Drawing.Size(641, 23);
+            this.layoutControlItem21.Size = new System.Drawing.Size(720, 23);
             this.layoutControlItem21.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem21.TextVisible = false;
-            // 
-            // chkRoylatycal
-            // 
-            this.chkRoylatycal.Location = new System.Drawing.Point(322, 86);
-            this.chkRoylatycal.Name = "chkRoylatycal";
-            this.chkRoylatycal.Properties.Caption = "Roylaty Calculation";
-            this.chkRoylatycal.Size = new System.Drawing.Size(327, 19);
-            this.chkRoylatycal.StyleController = this.layoutControl1;
-            this.chkRoylatycal.TabIndex = 50;
             // 
             // layoutControlItem22
             // 
             this.layoutControlItem22.Control = this.chkRoylatycal;
-            this.layoutControlItem22.Location = new System.Drawing.Point(310, 74);
+            this.layoutControlItem22.Location = new System.Drawing.Point(348, 74);
             this.layoutControlItem22.Name = "layoutControlItem22";
-            this.layoutControlItem22.Size = new System.Drawing.Size(331, 23);
+            this.layoutControlItem22.Size = new System.Drawing.Size(372, 23);
             this.layoutControlItem22.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem22.TextVisible = false;
-            // 
-            // chkCompanyDescri
-            // 
-            this.chkCompanyDescri.Location = new System.Drawing.Point(322, 109);
-            this.chkCompanyDescri.Name = "chkCompanyDescri";
-            this.chkCompanyDescri.Properties.Caption = "Company\'s act Description";
-            this.chkCompanyDescri.Size = new System.Drawing.Size(327, 19);
-            this.chkCompanyDescri.StyleController = this.layoutControl1;
-            this.chkCompanyDescri.TabIndex = 51;
             // 
             // layoutControlItem23
             // 
             this.layoutControlItem23.Control = this.chkCompanyDescri;
-            this.layoutControlItem23.Location = new System.Drawing.Point(310, 97);
+            this.layoutControlItem23.Location = new System.Drawing.Point(348, 97);
             this.layoutControlItem23.Name = "layoutControlItem23";
-            this.layoutControlItem23.Size = new System.Drawing.Size(331, 23);
+            this.layoutControlItem23.Size = new System.Drawing.Size(372, 23);
             this.layoutControlItem23.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem23.TextVisible = false;
-            // 
-            // tbxCurrconDecimal
-            // 
-            this.tbxCurrconDecimal.Location = new System.Drawing.Point(599, 132);
-            this.tbxCurrconDecimal.Name = "tbxCurrconDecimal";
-            this.tbxCurrconDecimal.Size = new System.Drawing.Size(50, 20);
-            this.tbxCurrconDecimal.StyleController = this.layoutControl1;
-            this.tbxCurrconDecimal.TabIndex = 52;
             // 
             // layoutControlItem24
             // 
             this.layoutControlItem24.Control = this.tbxCurrconDecimal;
-            this.layoutControlItem24.Location = new System.Drawing.Point(310, 120);
+            this.layoutControlItem24.Location = new System.Drawing.Point(348, 120);
             this.layoutControlItem24.Name = "layoutControlItem24";
-            this.layoutControlItem24.Size = new System.Drawing.Size(331, 24);
+            this.layoutControlItem24.Size = new System.Drawing.Size(372, 24);
             this.layoutControlItem24.Text = "Currency Con Decimal Places";
             this.layoutControlItem24.TextSize = new System.Drawing.Size(274, 13);
-            // 
-            // checkEdit20
-            // 
-            this.checkEdit20.Location = new System.Drawing.Point(332, 156);
-            this.checkEdit20.Name = "checkEdit20";
-            this.checkEdit20.Properties.Caption = "Maintain Sub Ledgers";
-            this.checkEdit20.Size = new System.Drawing.Size(317, 19);
-            this.checkEdit20.StyleController = this.layoutControl1;
-            this.checkEdit20.TabIndex = 53;
             // 
             // layoutControlItem25
             // 
             this.layoutControlItem25.Control = this.checkEdit20;
-            this.layoutControlItem25.Location = new System.Drawing.Point(320, 144);
+            this.layoutControlItem25.Location = new System.Drawing.Point(359, 144);
             this.layoutControlItem25.Name = "layoutControlItem25";
-            this.layoutControlItem25.Size = new System.Drawing.Size(321, 23);
+            this.layoutControlItem25.Size = new System.Drawing.Size(361, 23);
             this.layoutControlItem25.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem25.TextVisible = false;
-            // 
-            // labelControl2
-            // 
-            this.labelControl2.Location = new System.Drawing.Point(12, 248);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(402, 13);
-            this.labelControl2.StyleController = this.layoutControl1;
-            this.labelControl2.TabIndex = 54;
-            this.labelControl2.Text = "(Above Option Can be Disabled If Any Payment/Receipt Voucher Has been Entered ";
             // 
             // layoutControlItem26
             // 
             this.layoutControlItem26.Control = this.labelControl2;
             this.layoutControlItem26.Location = new System.Drawing.Point(0, 236);
             this.layoutControlItem26.Name = "layoutControlItem26";
-            this.layoutControlItem26.Size = new System.Drawing.Size(641, 17);
+            this.layoutControlItem26.Size = new System.Drawing.Size(720, 17);
             this.layoutControlItem26.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem26.TextVisible = false;
-            // 
-            // cbxPartyDashboardinVch
-            // 
-            this.cbxPartyDashboardinVch.Location = new System.Drawing.Point(289, 403);
-            this.cbxPartyDashboardinVch.Name = "cbxPartyDashboardinVch";
-            this.cbxPartyDashboardinVch.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbxPartyDashboardinVch.Size = new System.Drawing.Size(360, 20);
-            this.cbxPartyDashboardinVch.StyleController = this.layoutControl1;
-            this.cbxPartyDashboardinVch.TabIndex = 55;
             // 
             // layoutControlItem27
             // 
             this.layoutControlItem27.Control = this.cbxPartyDashboardinVch;
             this.layoutControlItem27.Location = new System.Drawing.Point(0, 391);
             this.layoutControlItem27.Name = "layoutControlItem27";
-            this.layoutControlItem27.Size = new System.Drawing.Size(641, 24);
+            this.layoutControlItem27.Size = new System.Drawing.Size(720, 24);
             this.layoutControlItem27.Text = "Show Party Dash Board After Selecting Party in Vouchers";
             this.layoutControlItem27.TextSize = new System.Drawing.Size(274, 13);
             // 
@@ -801,7 +801,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(661, 516);
+            this.ClientSize = new System.Drawing.Size(740, 531);
             this.Controls.Add(this.layoutControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Accountsettings";
@@ -809,6 +809,28 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.cbxPartyDashboardinVch.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit20.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxCurrconDecimal.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkCompanyDescri.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkRoylatycal.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkPartydashboard.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkAccInterestrate.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkChequePrinting.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkLedgerreco.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkImgnotesMasterVoucher.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkAccountscurrentBalance.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkDoubleEnterysystem.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkAccountssalesreturn.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkDatedcheques.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkReconcilation.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkFbtReporting.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkCostcenters.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkTargets.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkBudgets.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkSaesmanBrokerwiseReport.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkCreditlimt.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkBillbybill.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
@@ -824,50 +846,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkBillbybill.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkCreditlimt.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkSaesmanBrokerwiseReport.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkBudgets.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkTargets.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkCostcenters.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkFbtReporting.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkReconcilation.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkDatedcheques.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkAccountssalesreturn.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkDoubleEnterysystem.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkAccountscurrentBalance.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkImgnotesMasterVoucher.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkLedgerreco.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkChequePrinting.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkAccInterestrate.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkPartydashboard.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkRoylatycal.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkCompanyDescri.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbxCurrconDecimal.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit20.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbxPartyDashboardinVch.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem27)).EndInit();
             this.ResumeLayout(false);
 

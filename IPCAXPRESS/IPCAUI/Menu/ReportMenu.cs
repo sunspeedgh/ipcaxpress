@@ -22,10 +22,16 @@ namespace IPCAUI.Menu
 
         private void rptDayBook_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Reports.Accountbooks.Grids.DayBook frmDayBook = new Reports.Accountbooks.Grids.DayBook();
-           frmDayBook.MdiParent = this;
-            frmDayBook.Show();
-            splitContainerControl1.Panel2.Controls.Add(frmDayBook);           
+            Reports.Accountbooks.Grids.DayBook frm;
+            frm = new Reports.Accountbooks.Grids.DayBook(); //generate new instance
+            frm.Owner = this;
+            frm.TopLevel = false;
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+           // Reports.Accountbooks.Grids.DayBook frmDayBook = new Reports.Accountbooks.Grids.DayBook();
+           //frmDayBook.MdiParent = this;
+           // frmDayBook.Show();
+           // splitContainerControl1.Panel2.Controls.Add(frmDayBook);           
         }
 
         private void dockPanel1_Click(object sender, EventArgs e)

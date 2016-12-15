@@ -27,13 +27,20 @@ namespace IPCAUI.Menu
 
         private void barbtnAccount_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (this.ActiveMdiChild != null)
-                this.ActiveMdiChild.Close();
+            Administration.Account frm;
+            frm = new Administration.Account(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+            
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
 
-            Administration.Account frmacc = new Administration.Account();
-            frmacc.MdiParent = this;
-            frmacc.Show();
-            sptCtrlMastermenu.Panel2.Controls.Add(frmacc);
+            //if (this.ActiveMdiChild != null)
+            //    this.ActiveMdiChild.Close();
+            //Administration.Account frmacc = new Administration.Account();
+            //frmacc.MdiParent = this;
+            //frmacc.Show();
+            //sptCtrlMastermenu.Panel2.Controls.Add(frmacc);
         }
 
         private void barbtnAccGroup_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)

@@ -25,7 +25,7 @@ namespace IPCAUI.Menu
         {
             frm.Visible = true;
         }
-
+        
         private void rbCtrlTransactions_Click(object sender, EventArgs e)
         {
 
@@ -78,25 +78,83 @@ namespace IPCAUI.Menu
 
         private void Payment_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (this.ActiveMdiChild != null)
-                this.ActiveMdiChild.Close();
+                Transactions.PaymentVoucher frm;                       
+                frm = new Transactions.PaymentVoucher(); //generate new instance
+                //frm.Owner = this;
+                frm.TopLevel = false;
+                splitContainerControl1.Panel2.Controls.Add(frm);
+                frm.Show();
+           
+            //if (this.ActiveMdiChild != null)
+            //    //this.MdiChild.Clone();
+            //    this.ActiveMdiChild.Close();
 
-            IPCAUI.Transactions.PaymentVoucher frmPayment = new Transactions.PaymentVoucher();
-            frmPayment.MdiParent = this;
-            frmPayment.Show();
-            splitContainerControl1.Panel2.Controls.Add(frmPayment);
+            //IPCAUI.Transactions.PaymentVoucher frmPayment = new Transactions.PaymentVoucher();
+            //frmPayment.StartPosition = FormStartPosition.WindowsDefaultLocation;
+            //frmPayment.MdiParent = this;
+            //frmPayment.Show();
+            //splitContainerControl1.Panel2.Controls.Add(frmPayment);
         }
-
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Escape)
+            {
+                this.Close();
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
         private void SalesEntry_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (this.ActiveMdiChild != null)
-                this.ActiveMdiChild.Close();
+            Transactions.SalesVoucher frm;
+            if(this.ActiveMdiChild!=null)
+            {
+                frm = new Transactions.SalesVoucher(); //generate new instance
                 
+                frm.Owner = this;
+                frm.TopLevel = false;
+                splitContainerControl1.Panel2.Controls.Add(frm);
+                frm.Show();
+            }
+            else
+            {
+                frm = new Transactions.SalesVoucher(); //generate new instance
 
-            IPCAUI.Transactions.SalesVoucher frmSales = new Transactions.SalesVoucher();
-            frmSales.MdiParent = this;
-            frmSales.Show();
-            splitContainerControl1.Panel2.Controls.Add(frmSales);
+                frm.Owner = this;
+                frm.TopLevel = false;
+                splitContainerControl1.Panel2.Controls.Add(frm);
+                frm.Show();
+            }
+            
+            //if (this.ActiveMdiChild != null)
+            ////    this.ActiveMdiChild.Close();
+            //{
+
+            //    Transactions.SalesVoucher frmSales = new Transactions.SalesVoucher();
+            //    frmSales.StartPosition = FormStartPosition.WindowsDefaultLocation;
+            //    frmSales.MdiParent = this.ParentForm;
+            //    frmSales.Show();
+            //    splitContainerControl1.Panel2.Controls.Add(frmSales);
+            // }
+            //else
+            //{ 
+            //Transactions.SalesVoucher frmSales = new Transactions.SalesVoucher();
+            //frmSales.StartPosition = FormStartPosition.WindowsDefaultLocation;
+            //frmSales.MdiParent = this;
+            //frmSales.Show();
+            //splitContainerControl1.Panel2.Controls.Add(frmSales);
+            //}
+        }
+
+        private void Receipt_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Account frm;
+            frm = new Administration.Account(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
         }
     }
 }

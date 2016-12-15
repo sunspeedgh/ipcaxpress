@@ -242,7 +242,6 @@
             // ribbonPageGroup2
             // 
             this.ribbonPageGroup2.ItemLinks.Add(this.rptLedger);
-            this.ribbonPageGroup2.ItemLinks.Add(this.barSubItem2);
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
             this.ribbonPageGroup2.Text = "Fin Report2";
             // 
@@ -322,7 +321,6 @@
             // 
             // ribbonStatusBar1
             // 
-            this.ribbonStatusBar1.ItemLinks.Add(this.barSubItem2);
             this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 398);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
