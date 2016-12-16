@@ -30,16 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(XtraForm1));
-            DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem3 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.XtraEditors.TileItemElement tileItemElement11 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement12 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement13 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement14 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement15 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem1 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement4 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement5 = new DevExpress.XtraEditors.TileItemElement();
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
+            this.barStaticItem1 = new DevExpress.XtraBars.BarStaticItem();
             this.ribbonPageCategory1 = new DevExpress.XtraBars.Ribbon.RibbonPageCategory();
             this.Company = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -52,6 +53,7 @@
             this.Configuration = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.Users = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.Transactions = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.dockManager1 = new DevExpress.XtraBars.Docking.DockManager(this.components);
             this.dockPanel1 = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanel1_Container = new DevExpress.XtraBars.Docking.ControlContainer();
@@ -142,9 +144,7 @@
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.layoutControlItem13 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.barStaticItem1 = new DevExpress.XtraBars.BarStaticItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
             this.dockPanel1.SuspendLayout();
@@ -219,6 +219,13 @@
             this.barButtonItem2.Id = 2;
             this.barButtonItem2.Name = "barButtonItem2";
             // 
+            // barStaticItem1
+            // 
+            this.barStaticItem1.Caption = "IPCA Software Solutions";
+            this.barStaticItem1.Id = 3;
+            this.barStaticItem1.Name = "barStaticItem1";
+            this.barStaticItem1.TextAlignment = System.Drawing.StringAlignment.Near;
+            // 
             // ribbonPageCategory1
             // 
             this.ribbonPageCategory1.Name = "ribbonPageCategory1";
@@ -240,11 +247,11 @@
             // 
             this.ribbonPageGroup1.Glyph = ((System.Drawing.Image)(resources.GetObject("ribbonPageGroup1.Glyph")));
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
-            toolTipTitleItem3.Appearance.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            toolTipTitleItem3.Appearance.Options.UseImage = true;
-            toolTipTitleItem3.Image = ((System.Drawing.Image)(resources.GetObject("toolTipTitleItem3.Image")));
-            superToolTip3.Items.Add(toolTipTitleItem3);
-            this.ribbonPageGroup1.SuperTip = superToolTip3;
+            toolTipTitleItem1.Appearance.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            toolTipTitleItem1.Appearance.Options.UseImage = true;
+            toolTipTitleItem1.Image = ((System.Drawing.Image)(resources.GetObject("toolTipTitleItem1.Image")));
+            superToolTip1.Items.Add(toolTipTitleItem1);
+            this.ribbonPageGroup1.SuperTip = superToolTip1;
             this.ribbonPageGroup1.Text = "Company";
             // 
             // ribbonPageGroup2
@@ -304,6 +311,15 @@
             this.Transactions.ImageAlign = DevExpress.Utils.HorzAlignment.Near;
             this.Transactions.Name = "Transactions";
             this.Transactions.Text = "Transactions";
+            // 
+            // ribbonStatusBar1
+            // 
+            this.ribbonStatusBar1.Dock = System.Windows.Forms.DockStyle.None;
+            this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem1);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(12, 353);
+            this.ribbonStatusBar1.Name = "ribbonStatusBar1";
+            this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(1206, 27);
             // 
             // dockManager1
             // 
@@ -795,7 +811,6 @@
             // navBarControl1
             // 
             this.navBarControl1.ActiveGroup = this.ShortCuts;
-            this.navBarControl1.Dock = System.Windows.Forms.DockStyle.Right;
             this.navBarControl1.Groups.AddRange(new DevExpress.XtraNavBar.NavBarGroup[] {
             this.ShortCuts});
             this.navBarControl1.Items.AddRange(new DevExpress.XtraNavBar.NavBarItem[] {
@@ -853,32 +868,56 @@
             // 
             // navBarItem27
             // 
-            this.navBarItem27.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem27.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem27.Appearance.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarItem27.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem27.Appearance.Options.UseBackColor = true;
             this.navBarItem27.Appearance.Options.UseFont = true;
+            this.navBarItem27.Appearance.Options.UseForeColor = true;
             this.navBarItem27.Caption = "F1 Online Help";
             this.navBarItem27.Name = "navBarItem27";
             // 
             // navBarItem28
             // 
-            this.navBarItem28.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem28.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem28.Appearance.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarItem28.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem28.Appearance.Options.UseBackColor = true;
             this.navBarItem28.Appearance.Options.UseFont = true;
+            this.navBarItem28.Appearance.Options.UseForeColor = true;
             this.navBarItem28.Caption = "F1 Add Account";
             this.navBarItem28.Name = "navBarItem28";
             // 
             // navBarItem29
             // 
-            this.navBarItem29.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem29.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem29.Appearance.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarItem29.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem29.Appearance.Options.UseBackColor = true;
             this.navBarItem29.Appearance.Options.UseFont = true;
+            this.navBarItem29.Appearance.Options.UseForeColor = true;
             this.navBarItem29.Caption = "F2 Add Item";
             this.navBarItem29.Name = "navBarItem29";
             // 
             // navBarItem30
             // 
+            this.navBarItem30.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem30.Appearance.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarItem30.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem30.Appearance.Options.UseBackColor = true;
+            this.navBarItem30.Appearance.Options.UseFont = true;
+            this.navBarItem30.Appearance.Options.UseForeColor = true;
             this.navBarItem30.Caption = "navBarItem30";
             this.navBarItem30.Name = "navBarItem30";
             // 
             // navBarItem31
             // 
+            this.navBarItem31.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem31.Appearance.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navBarItem31.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem31.Appearance.Options.UseBackColor = true;
+            this.navBarItem31.Appearance.Options.UseFont = true;
+            this.navBarItem31.Appearance.Options.UseForeColor = true;
             this.navBarItem31.Caption = "navBarItem31";
             this.navBarItem31.Name = "navBarItem31";
             // 
@@ -1038,9 +1077,9 @@
             // 
             // tileItem1
             // 
-            tileItemElement11.Image = ((System.Drawing.Image)(resources.GetObject("tileItemElement11.Image")));
-            tileItemElement11.Text = "Dashboard";
-            this.tileItem1.Elements.Add(tileItemElement11);
+            tileItemElement1.Image = ((System.Drawing.Image)(resources.GetObject("tileItemElement1.Image")));
+            tileItemElement1.Text = "Dashboard";
+            this.tileItem1.Elements.Add(tileItemElement1);
             this.tileItem1.Id = 0;
             this.tileItem1.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem1.Name = "tileItem1";
@@ -1053,9 +1092,9 @@
             // tileItem3
             // 
             this.tileItem3.ContentAnimation = DevExpress.XtraEditors.TileItemContentAnimationType.Fade;
-            tileItemElement12.Image = ((System.Drawing.Image)(resources.GetObject("tileItemElement12.Image")));
-            tileItemElement12.Text = "Licensing";
-            this.tileItem3.Elements.Add(tileItemElement12);
+            tileItemElement2.Image = ((System.Drawing.Image)(resources.GetObject("tileItemElement2.Image")));
+            tileItemElement2.Text = "Licensing";
+            this.tileItem3.Elements.Add(tileItemElement2);
             this.tileItem3.Id = 4;
             this.tileItem3.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.tileItem3.Name = "tileItem3";
@@ -1067,9 +1106,9 @@
             // 
             // tileItem2
             // 
-            tileItemElement13.Image = ((System.Drawing.Image)(resources.GetObject("tileItemElement13.Image")));
-            tileItemElement13.Text = "Custom Reports";
-            this.tileItem2.Elements.Add(tileItemElement13);
+            tileItemElement3.Image = ((System.Drawing.Image)(resources.GetObject("tileItemElement3.Image")));
+            tileItemElement3.Text = "Custom Reports";
+            this.tileItem2.Elements.Add(tileItemElement3);
             this.tileItem2.Id = 3;
             this.tileItem2.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.tileItem2.Name = "tileItem2";
@@ -1081,9 +1120,9 @@
             // 
             // tileItem4
             // 
-            tileItemElement14.Image = ((System.Drawing.Image)(resources.GetObject("tileItemElement14.Image")));
-            tileItemElement14.Text = "Training Videos";
-            this.tileItem4.Elements.Add(tileItemElement14);
+            tileItemElement4.Image = ((System.Drawing.Image)(resources.GetObject("tileItemElement4.Image")));
+            tileItemElement4.Text = "Training Videos";
+            this.tileItem4.Elements.Add(tileItemElement4);
             this.tileItem4.Id = 5;
             this.tileItem4.ItemSize = DevExpress.XtraEditors.TileItemSize.Wide;
             this.tileItem4.Name = "tileItem4";
@@ -1095,9 +1134,9 @@
             // 
             // tileItem5
             // 
-            tileItemElement15.Image = ((System.Drawing.Image)(resources.GetObject("tileItemElement15.Image")));
-            tileItemElement15.Text = "Announcements";
-            this.tileItem5.Elements.Add(tileItemElement15);
+            tileItemElement5.Image = ((System.Drawing.Image)(resources.GetObject("tileItemElement5.Image")));
+            tileItemElement5.Text = "Announcements";
+            this.tileItem5.Elements.Add(tileItemElement5);
             this.tileItem5.Id = 6;
             this.tileItem5.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.tileItem5.Name = "tileItem5";
@@ -1156,15 +1195,6 @@
             this.layoutControlItem12.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem12.TextVisible = false;
             // 
-            // ribbonStatusBar1
-            // 
-            this.ribbonStatusBar1.Dock = System.Windows.Forms.DockStyle.None;
-            this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem1);
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(12, 353);
-            this.ribbonStatusBar1.Name = "ribbonStatusBar1";
-            this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(1206, 27);
-            // 
             // layoutControlItem13
             // 
             this.layoutControlItem13.Control = this.ribbonStatusBar1;
@@ -1173,13 +1203,6 @@
             this.layoutControlItem13.Size = new System.Drawing.Size(1210, 24);
             this.layoutControlItem13.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem13.TextVisible = false;
-            // 
-            // barStaticItem1
-            // 
-            this.barStaticItem1.Caption = "IPCA Software Solutions";
-            this.barStaticItem1.Id = 3;
-            this.barStaticItem1.Name = "barStaticItem1";
-            this.barStaticItem1.TextAlignment = System.Drawing.StringAlignment.Near;
             // 
             // XtraForm1
             // 
