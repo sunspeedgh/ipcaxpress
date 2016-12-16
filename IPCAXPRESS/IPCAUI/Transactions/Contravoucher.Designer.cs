@@ -32,14 +32,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContraVoucher));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.contraVoucherBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colSNo = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colItem = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemLookUpEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit();
-            this.itemsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.itemsLookupEditBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.itemsLookupEdit = new IPCAUI.DataSets.ItemsLookupEdit();
             this.colQty = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colUnit = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colPrice = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -90,22 +86,12 @@
             this.layoutControlGroup2 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.approversBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.iPCADataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.iPCADataSet = new IPCAUI.IPCADataSet();
             this.approversBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.ipcaDataSet1 = new IPCAUI.IPCADataSet();
-            this.approversTableAdapter1 = new IPCAUI.IPCADataSet2TableAdapters.ApproversTableAdapter();
-            this.approversTableAdapter = new IPCAUI.IPCADataSetTableAdapters.ApproversTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.contraVoucherBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemLookUpEdit1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemsBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemsLookupEditBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemsLookupEdit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
@@ -132,11 +118,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.approversBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iPCADataSetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iPCADataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.approversBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ipcaDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
@@ -166,7 +148,6 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.DataSource = this.contraVoucherBindingSource;
             this.gridControl1.Location = new System.Drawing.Point(168, 60);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
@@ -176,11 +157,6 @@
             this.gridControl1.TabIndex = 23;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
-            // 
-            // contraVoucherBindingSource
-            // 
-            this.contraVoucherBindingSource.DataMember = "ContraVoucher";
-            this.contraVoucherBindingSource.DataSource = typeof(IPCAUI.DataSets.ContraVoucher);
             // 
             // gridView1
             // 
@@ -230,23 +206,7 @@
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Category", "Category"),
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Price", "Price"),
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Unit", "Unit")});
-            this.repositoryItemLookUpEdit1.DataSource = this.itemsBindingSource;
             this.repositoryItemLookUpEdit1.Name = "repositoryItemLookUpEdit1";
-            // 
-            // itemsBindingSource
-            // 
-            this.itemsBindingSource.DataMember = "Items";
-            this.itemsBindingSource.DataSource = this.itemsLookupEditBindingSource;
-            // 
-            // itemsLookupEditBindingSource
-            // 
-            this.itemsLookupEditBindingSource.DataSource = this.itemsLookupEdit;
-            this.itemsLookupEditBindingSource.Position = 0;
-            // 
-            // itemsLookupEdit
-            // 
-            this.itemsLookupEdit.DataSetName = "ItemsLookupEdit";
-            this.itemsLookupEdit.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // colQty
             // 
@@ -693,39 +653,6 @@
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
             // 
-            // approversBindingSource
-            // 
-            this.approversBindingSource.DataMember = "Approvers";
-            this.approversBindingSource.DataSource = this.iPCADataSetBindingSource;
-            // 
-            // iPCADataSetBindingSource
-            // 
-            this.iPCADataSetBindingSource.DataSource = this.iPCADataSet;
-            this.iPCADataSetBindingSource.Position = 0;
-            // 
-            // iPCADataSet
-            // 
-            this.iPCADataSet.DataSetName = "IPCADataSet";
-            this.iPCADataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // approversBindingSource1
-            // 
-            this.approversBindingSource1.DataMember = "Approvers";
-            this.approversBindingSource1.DataSource = this.iPCADataSetBindingSource;
-            // 
-            // ipcaDataSet1
-            // 
-            this.ipcaDataSet1.DataSetName = "IPCADataSet";
-            this.ipcaDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // approversTableAdapter1
-            // 
-            this.approversTableAdapter1.ClearBeforeFill = true;
-            // 
-            // approversTableAdapter
-            // 
-            this.approversTableAdapter.ClearBeforeFill = true;
-            // 
             // ContraVoucher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -740,12 +667,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.contraVoucherBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemLookUpEdit1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemsBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemsLookupEditBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemsLookupEdit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
@@ -772,11 +695,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.approversBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iPCADataSetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iPCADataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.approversBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ipcaDataSet1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -829,17 +748,10 @@
         private DevExpress.XtraEditors.TextEdit textEdit1;
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup2;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
-        private System.Windows.Forms.BindingSource iPCADataSetBindingSource;
-        private IPCADataSet iPCADataSet;
-        private IPCADataSet ipcaDataSet1;
-        private IPCADataSet2TableAdapters.ApproversTableAdapter approversTableAdapter1;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
-        private System.Windows.Forms.BindingSource approversBindingSource;
-        private IPCADataSetTableAdapters.ApproversTableAdapter approversTableAdapter;
         private System.Windows.Forms.BindingSource approversBindingSource1;
-        private System.Windows.Forms.BindingSource contraVoucherBindingSource;
         private DevExpress.XtraGrid.Columns.GridColumn colSNo;
         private DevExpress.XtraGrid.Columns.GridColumn colItem;
         private DevExpress.XtraGrid.Columns.GridColumn colQty;
@@ -847,8 +759,5 @@
         private DevExpress.XtraGrid.Columns.GridColumn colPrice;
         private DevExpress.XtraGrid.Columns.GridColumn colAmount;
         private DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit repositoryItemLookUpEdit1;
-        private System.Windows.Forms.BindingSource itemsLookupEditBindingSource;
-        private DataSets.ItemsLookupEdit itemsLookupEdit;
-        private System.Windows.Forms.BindingSource itemsBindingSource;
     }
 }

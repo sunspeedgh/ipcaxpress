@@ -334,21 +334,6 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="IPCADataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>IPCADataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="IPCADataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>IPCADataSet1.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="IPCADataSet2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>IPCADataSet2.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -680,12 +665,6 @@
     </Compile>
     <Compile Include="Reports\Bshorizontalgrid.Designer.cs">
       <DependentUpon>Bshorizontalgrid.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Reports\BS_Grid.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Reports\BS_Grid.Designer.cs">
-      <DependentUpon>BS_Grid.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\BS_Horizontal.cs">
       <SubType>Form</SubType>
@@ -2641,9 +2620,6 @@
     <EmbeddedResource Include="Reports\Bshorizontalgrid.resx">
       <DependentUpon>Bshorizontalgrid.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reports\BS_Grid.resx">
-      <DependentUpon>BS_Grid.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Reports\BS_Horizontal.resx">
       <DependentUpon>BS_Horizontal.cs</DependentUpon>
     </EmbeddedResource>
@@ -3491,39 +3467,6 @@
     </None>
     <None Include="DataSets\ItemsLookupEdit.xss">
       <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
-    </None>
-    <None Include="IPCADataSet.xsc">
-      <DependentUpon>IPCADataSet.xsd</DependentUpon>
-    </None>
-    <None Include="IPCADataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>IPCADataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="IPCADataSet.xss">
-      <DependentUpon>IPCADataSet.xsd</DependentUpon>
-    </None>
-    <None Include="IPCADataSet1.xsc">
-      <DependentUpon>IPCADataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="IPCADataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>IPCADataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="IPCADataSet1.xss">
-      <DependentUpon>IPCADataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="IPCADataSet2.xsc">
-      <DependentUpon>IPCADataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="IPCADataSet2.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>IPCADataSet2.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="IPCADataSet2.xss">
-      <DependentUpon>IPCADataSet2.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\IPCAUI.DataSets.ContraVoucher.datasource" />
