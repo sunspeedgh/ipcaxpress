@@ -2214,6 +2214,18 @@
     <Compile Include="Settings\Regionalsettings.Designer.cs">
       <DependentUpon>Regionalsettings.cs</DependentUpon>
     </Compile>
+    <Compile Include="Transactions\AdjustExciseAmounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\AdjustExciseAmounts.Designer.cs">
+      <DependentUpon>AdjustExciseAmounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\CallReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\CallReceipt.Designer.cs">
+      <DependentUpon>CallReceipt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Transactions\Contravoucher.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -2262,11 +2274,11 @@
     <Compile Include="Transactions\MatReceivedfromParty.Designer.cs">
       <DependentUpon>MatReceivedfromParty.cs</DependentUpon>
     </Compile>
-    <Compile Include="Transactions\PaymenVoucher.cs">
+    <Compile Include="Transactions\PaymentVoucher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Transactions\PaymenVoucher.Designer.cs">
-      <DependentUpon>PaymenVoucher.cs</DependentUpon>
+    <Compile Include="Transactions\PaymentVoucher.Designer.cs">
+      <DependentUpon>PaymentVoucher.cs</DependentUpon>
     </Compile>
     <Compile Include="Transactions\PhysicalStockvoucher.cs">
       <SubType>Form</SubType>
@@ -2279,6 +2291,24 @@
     </Compile>
     <Compile Include="Transactions\Productionvoucher.Designer.cs">
       <DependentUpon>Productionvoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\PurchaseindentVoucher .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\PurchaseindentVoucher .Designer.cs">
+      <DependentUpon>PurchaseindentVoucher .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\Purchaseorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\Purchaseorder.Designer.cs">
+      <DependentUpon>Purchaseorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\PurchaseQuotation .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\PurchaseQuotation .Designer.cs">
+      <DependentUpon>PurchaseQuotation .cs</DependentUpon>
     </Compile>
     <Compile Include="Transactions\PurchaseReturnVoucher .cs">
       <SubType>Form</SubType>
@@ -2297,6 +2327,24 @@
     </Compile>
     <Compile Include="Transactions\ReceiptVoucher .Designer.cs">
       <DependentUpon>ReceiptVoucher .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\SalaryCalculationVoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\SalaryCalculationVoucher.Designer.cs">
+      <DependentUpon>SalaryCalculationVoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\Salesorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\Salesorder.Designer.cs">
+      <DependentUpon>Salesorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\SalesQuotation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions\SalesQuotation.Designer.cs">
+      <DependentUpon>SalesQuotation.cs</DependentUpon>
     </Compile>
     <Compile Include="Transactions\SalesVoucher.cs">
       <SubType>Form</SubType>
@@ -3403,6 +3451,12 @@
     <EmbeddedResource Include="Settings\Regionalsettings.resx">
       <DependentUpon>Regionalsettings.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\AdjustExciseAmounts.resx">
+      <DependentUpon>AdjustExciseAmounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\CallReceipt.resx">
+      <DependentUpon>CallReceipt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Transactions\Contravoucher.resx">
       <DependentUpon>Contravoucher.cs</DependentUpon>
     </EmbeddedResource>
@@ -3427,14 +3481,23 @@
     <EmbeddedResource Include="Transactions\MatReceivedfromParty.resx">
       <DependentUpon>MatReceivedfromParty.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\PaymenVoucher.resx">
-      <DependentUpon>PaymenVoucher.cs</DependentUpon>
+    <EmbeddedResource Include="Transactions\PaymentVoucher.resx">
+      <DependentUpon>PaymentVoucher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\PhysicalStockvoucher.resx">
       <DependentUpon>PhysicalStockvoucher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\Productionvoucher.resx">
       <DependentUpon>Productionvoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\PurchaseindentVoucher .resx">
+      <DependentUpon>PurchaseindentVoucher .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\Purchaseorder.resx">
+      <DependentUpon>Purchaseorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\PurchaseQuotation .resx">
+      <DependentUpon>PurchaseQuotation .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\PurchaseReturnVoucher .resx">
       <DependentUpon>PurchaseReturnVoucher .cs</DependentUpon>
@@ -3445,6 +3508,15 @@
     <EmbeddedResource Include="Transactions\PurchaseVoucher.resx" />
     <EmbeddedResource Include="Transactions\ReceiptVoucher .resx">
       <DependentUpon>ReceiptVoucher .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\SalaryCalculationVoucher.resx">
+      <DependentUpon>SalaryCalculationVoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\Salesorder.resx">
+      <DependentUpon>Salesorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions\SalesQuotation.resx">
+      <DependentUpon>SalesQuotation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\SalesVoucher.resx">
       <DependentUpon>SalesVoucher.cs</DependentUpon>
