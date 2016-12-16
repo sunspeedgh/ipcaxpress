@@ -2181,6 +2181,12 @@
     <Compile Include="Reports\VATSummaries\VRCVATSummary.Designer.cs">
       <DependentUpon>VRCVATSummary.cs</DependentUpon>
     </Compile>
+    <Compile Include="Settings\AccountsDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\AccountsDemo.Designer.cs">
+      <DependentUpon>AccountsDemo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Settings\Vatgstsetting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -2300,12 +2306,6 @@
     </Compile>
     <Compile Include="Transactions\ReceiptVoucher .Designer.cs">
       <DependentUpon>ReceiptVoucher .cs</DependentUpon>
-    </Compile>
-    <Compile Include="Transactions\SalesReturn.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Transactions\SalesReturn.Designer.cs">
-      <DependentUpon>SalesReturn.cs</DependentUpon>
     </Compile>
     <Compile Include="Transactions\SalesVoucher.cs">
       <SubType>Form</SubType>
@@ -3388,6 +3388,9 @@
     <EmbeddedResource Include="Reports\VATSummaries\VRCVATSummary.resx">
       <DependentUpon>VRCVATSummary.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Settings\AccountsDemo.resx">
+      <DependentUpon>AccountsDemo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Settings\Vatgstsetting.resx">
       <DependentUpon>Vatgstsetting.cs</DependentUpon>
     </EmbeddedResource>
@@ -3448,9 +3451,6 @@
     <EmbeddedResource Include="Transactions\PurchaseVoucher.resx" />
     <EmbeddedResource Include="Transactions\ReceiptVoucher .resx">
       <DependentUpon>ReceiptVoucher .cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Transactions\SalesReturn.resx">
-      <DependentUpon>SalesReturn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Transactions\SalesVoucher.resx">
       <DependentUpon>SalesVoucher.cs</DependentUpon>

@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TransactionsMenu));
-            DevExpress.XtraBars.Ribbon.ReduceOperation reduceOperation2 = new DevExpress.XtraBars.Ribbon.ReduceOperation();
+            DevExpress.XtraBars.Ribbon.ReduceOperation reduceOperation1 = new DevExpress.XtraBars.Ribbon.ReduceOperation();
             this.rbCtrlTransactions = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
@@ -58,7 +59,10 @@
             this.FormsIssued = new DevExpress.XtraBars.BarButtonItem();
             this.MatIssuedtoParty = new DevExpress.XtraBars.BarButtonItem();
             this.MatRecievedfromParty = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonMiniToolbar1 = new DevExpress.XtraBars.Ribbon.RibbonMiniToolbar();
+            this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonMiniToolbar1 = new DevExpress.XtraBars.Ribbon.RibbonMiniToolbar(this.components);
             this.Sales = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.NewSales = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.SalesReturn = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -82,6 +86,9 @@
             this.ribbonPageGroup18 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup19 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup20 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
@@ -129,18 +136,22 @@
             this.FormsReceived,
             this.FormsIssued,
             this.MatIssuedtoParty,
-            this.MatRecievedfromParty});
+            this.MatRecievedfromParty,
+            this.barButtonItem8,
+            this.barButtonItem10,
+            this.barButtonItem11});
             this.rbCtrlTransactions.Location = new System.Drawing.Point(0, 0);
-            this.rbCtrlTransactions.MaxItemId = 23;
+            this.rbCtrlTransactions.MaxItemId = 26;
             this.rbCtrlTransactions.MiniToolbars.Add(this.ribbonMiniToolbar1);
             this.rbCtrlTransactions.Name = "rbCtrlTransactions";
             this.rbCtrlTransactions.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.Sales,
             this.ribbonPage3,
             this.ribbonPage5,
-            this.ribbonPage7});
+            this.ribbonPage7,
+            this.ribbonPage1});
             this.rbCtrlTransactions.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.TabletOffice;
-            this.rbCtrlTransactions.Size = new System.Drawing.Size(986, 96);
+            this.rbCtrlTransactions.Size = new System.Drawing.Size(994, 96);
             this.rbCtrlTransactions.StatusBar = this.ribbonStatusBar1;
             // 
             // barButtonItem1
@@ -234,6 +245,7 @@
             this.Receipt.Caption = "Receipt";
             this.Receipt.Id = 10;
             this.Receipt.Name = "Receipt";
+            this.Receipt.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.Receipt_ItemClick);
             // 
             // StockTransfer
             // 
@@ -309,6 +321,24 @@
             this.MatRecievedfromParty.Id = 22;
             this.MatRecievedfromParty.Name = "MatRecievedfromParty";
             // 
+            // barButtonItem8
+            // 
+            this.barButtonItem8.Caption = "Debit Note";
+            this.barButtonItem8.Id = 23;
+            this.barButtonItem8.Name = "barButtonItem8";
+            // 
+            // barButtonItem10
+            // 
+            this.barButtonItem10.Caption = "Credit Note";
+            this.barButtonItem10.Id = 24;
+            this.barButtonItem10.Name = "barButtonItem10";
+            // 
+            // barButtonItem11
+            // 
+            this.barButtonItem11.Caption = "barButtonItem11";
+            this.barButtonItem11.Id = 25;
+            this.barButtonItem11.Name = "barButtonItem11";
+            // 
             // ribbonMiniToolbar1
             // 
             this.ribbonMiniToolbar1.ItemLinks.Add(this.barButtonItem7);
@@ -329,12 +359,12 @@
             this.Sales.Image = ((System.Drawing.Image)(resources.GetObject("Sales.Image")));
             this.Sales.KeyTip = "SALES";
             this.Sales.Name = "Sales";
-            reduceOperation2.Behavior = DevExpress.XtraBars.Ribbon.ReduceOperationBehavior.Single;
-            reduceOperation2.Group = null;
-            reduceOperation2.ItemLinkIndex = 0;
-            reduceOperation2.ItemLinksCount = 0;
-            reduceOperation2.Operation = DevExpress.XtraBars.Ribbon.ReduceOperationType.ButtonGroups;
-            this.Sales.ReduceOperations.Add(reduceOperation2);
+            reduceOperation1.Behavior = DevExpress.XtraBars.Ribbon.ReduceOperationBehavior.Single;
+            reduceOperation1.Group = null;
+            reduceOperation1.ItemLinkIndex = 0;
+            reduceOperation1.ItemLinksCount = 0;
+            reduceOperation1.Operation = DevExpress.XtraBars.Ribbon.ReduceOperationType.ButtonGroups;
+            this.Sales.ReduceOperations.Add(reduceOperation1);
             this.Sales.Text = "Sales/Purchase";
             // 
             // NewSales
@@ -489,13 +519,34 @@
             this.ribbonPageGroup20.Name = "ribbonPageGroup20";
             this.ribbonPageGroup20.Text = "ribbonPageGroup20";
             // 
+            // ribbonPage1
+            // 
+            this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup3,
+            this.ribbonPageGroup4});
+            this.ribbonPage1.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage1.Image")));
+            this.ribbonPage1.Name = "ribbonPage1";
+            this.ribbonPage1.Text = "Debit/Credit Note";
+            // 
+            // ribbonPageGroup3
+            // 
+            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem8);
+            this.ribbonPageGroup3.Name = "ribbonPageGroup3";
+            this.ribbonPageGroup3.Text = "ribbonPageGroup3";
+            // 
+            // ribbonPageGroup4
+            // 
+            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem10);
+            this.ribbonPageGroup4.Name = "ribbonPageGroup4";
+            this.ribbonPageGroup4.Text = "ribbonPageGroup4";
+            // 
             // ribbonStatusBar1
             // 
             this.ribbonStatusBar1.Dock = System.Windows.Forms.DockStyle.None;
             this.ribbonStatusBar1.Location = new System.Drawing.Point(12, 362);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.rbCtrlTransactions;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(962, 27);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(970, 27);
             // 
             // layoutControl1
             // 
@@ -505,7 +556,7 @@
             this.layoutControl1.Location = new System.Drawing.Point(0, 96);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(986, 401);
+            this.layoutControl1.Size = new System.Drawing.Size(994, 401);
             this.layoutControl1.TabIndex = 9;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -516,7 +567,7 @@
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Text = "Panel2";
             this.splitContainerControl1.PanelVisibility = DevExpress.XtraEditors.SplitPanelVisibility.Panel2;
-            this.splitContainerControl1.Size = new System.Drawing.Size(962, 346);
+            this.splitContainerControl1.Size = new System.Drawing.Size(970, 346);
             this.splitContainerControl1.TabIndex = 4;
             this.splitContainerControl1.Text = "splitContainerControl1";
             // 
@@ -529,7 +580,7 @@
             this.layoutControlItem2});
             this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup1.Name = "layoutControlGroup1";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(986, 401);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(994, 401);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem1
@@ -537,7 +588,7 @@
             this.layoutControlItem1.Control = this.splitContainerControl1;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(966, 350);
+            this.layoutControlItem1.Size = new System.Drawing.Size(974, 350);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
@@ -546,7 +597,7 @@
             this.layoutControlItem2.Control = this.ribbonStatusBar1;
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 350);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(966, 31);
+            this.layoutControlItem2.Size = new System.Drawing.Size(974, 31);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextVisible = false;
             // 
@@ -554,7 +605,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(986, 497);
+            this.ClientSize = new System.Drawing.Size(994, 497);
             this.Controls.Add(this.layoutControl1);
             this.Controls.Add(this.rbCtrlTransactions);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -639,5 +690,11 @@
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem8;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem10;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem11;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;
     }
 }

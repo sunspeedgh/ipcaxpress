@@ -262,6 +262,7 @@
             this.btnQuit.StyleController = this.layoutControl1;
             this.btnQuit.TabIndex = 11;
             this.btnQuit.Text = "Quit";
+            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
             // btnSave
             // 
@@ -316,6 +317,7 @@
             // 
             // textEdit6
             // 
+            this.textEdit6.EnterMoveNextControl = true;
             this.textEdit6.Location = new System.Drawing.Point(903, 12);
             this.textEdit6.Name = "textEdit6";
             this.textEdit6.Size = new System.Drawing.Size(91, 20);
@@ -377,6 +379,7 @@
             this.navBarItem16.Caption = "Account Notes";
             this.navBarItem16.Name = "navBarItem16";
             this.navBarItem16.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem16.SmallImage")));
+            this.navBarItem16.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarItem16_LinkClicked);
             // 
             // navBarItem17
             // 
@@ -654,6 +657,7 @@
             // 
             // textEdit5
             // 
+            this.textEdit5.EnterMoveNextControl = true;
             this.textEdit5.Location = new System.Drawing.Point(539, 36);
             this.textEdit5.Name = "textEdit5";
             this.textEdit5.Size = new System.Drawing.Size(455, 20);
@@ -662,6 +666,7 @@
             // 
             // textEdit4
             // 
+            this.textEdit4.EnterMoveNextControl = true;
             this.textEdit4.Location = new System.Drawing.Point(697, 12);
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Size = new System.Drawing.Size(141, 20);
@@ -670,6 +675,7 @@
             // 
             // textEdit3
             // 
+            this.textEdit3.EnterMoveNextControl = true;
             this.textEdit3.Location = new System.Drawing.Point(214, 36);
             this.textEdit3.Name = "textEdit3";
             this.textEdit3.Size = new System.Drawing.Size(260, 20);
@@ -678,6 +684,7 @@
             // 
             // textEdit2
             // 
+            this.textEdit2.EnterMoveNextControl = true;
             this.textEdit2.Location = new System.Drawing.Point(214, 12);
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Size = new System.Drawing.Size(192, 20);
@@ -686,6 +693,7 @@
             // 
             // textEdit1
             // 
+            this.textEdit1.EnterMoveNextControl = true;
             this.textEdit1.Location = new System.Drawing.Point(214, 60);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Size = new System.Drawing.Size(780, 20);
@@ -694,6 +702,7 @@
             // 
             // dateEdit1
             // 
+            this.dateEdit1.EnterMoveNextControl = true;
             this.dateEdit1.Location = new System.Drawing.Point(471, 12);
             this.dateEdit1.Name = "dateEdit1";
             this.dateEdit1.Properties.DisplayFormat.FormatString = "d";

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace IPCAUI.Transactions
+namespace IPCAUI.Settings
 {
-    public partial class PaymentVoucher : Form
+    public partial class AccountsDemo : Form
     {
-        public PaymentVoucher()
+        public AccountsDemo()
         {
             InitializeComponent();
         }
@@ -24,11 +24,6 @@ namespace IPCAUI.Transactions
                 return true;
             }
             return base.ProcessCmdKey(ref msg, keyData);
-        }
-
-        private void btnQuit_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

@@ -34,6 +34,17 @@ namespace IPCAUI
             //if (e.Document == document2)
             //    e.Control = new Reports.Accountbooks.AccountLedger();
         }
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Escape)
+            {
+                MessageBox.Show("Are You Want To Exit IPCAExpress");
+                
+                this.Close();
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
 
         private void treeList1_CustomDrawNodeCell(object sender, DevExpress.XtraTreeList.CustomDrawNodeCellEventArgs e)
         {

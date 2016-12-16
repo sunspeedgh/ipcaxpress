@@ -37,21 +37,21 @@
             this.btnQuit = new DevExpress.XtraEditors.SimpleButton();
             this.btnSave = new DevExpress.XtraEditors.SimpleButton();
             this.navBarControl1 = new DevExpress.XtraNavBar.NavBarControl();
-            this.navBarGroup5 = new DevExpress.XtraNavBar.NavBarGroup();
-            this.navBarItem7 = new DevExpress.XtraNavBar.NavBarItem();
-            this.navBarItem8 = new DevExpress.XtraNavBar.NavBarItem();
-            this.navBarItem9 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarGroup3 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarItem1 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem2 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarGroup1 = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarItem10 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem11 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem12 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarGroup2 = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarItem16 = new DevExpress.XtraNavBar.NavBarItem();
-            this.navBarGroup3 = new DevExpress.XtraNavBar.NavBarGroup();
-            this.navBarItem1 = new DevExpress.XtraNavBar.NavBarItem();
-            this.navBarItem2 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarGroup4 = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarItem4 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarGroup5 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarItem7 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem8 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem9 = new DevExpress.XtraNavBar.NavBarItem();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -183,6 +183,7 @@
             this.btnQuit.StyleController = this.layoutControl1;
             this.btnQuit.TabIndex = 11;
             this.btnQuit.Text = "Quit";
+            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
             // btnSave
             // 
@@ -226,33 +227,27 @@
             this.navBarControl1.Text = "navBarControl1";
             this.navBarControl1.View = new DevExpress.XtraNavBar.ViewInfo.NavigationPaneViewInfoRegistrator();
             // 
-            // navBarGroup5
+            // navBarGroup3
             // 
-            this.navBarGroup5.Caption = "Add/Modify";
-            this.navBarGroup5.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem7),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem8),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem9)});
-            this.navBarGroup5.Name = "navBarGroup5";
-            this.navBarGroup5.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup5.SmallImage")));
+            this.navBarGroup3.Caption = "Images";
+            this.navBarGroup3.Expanded = true;
+            this.navBarGroup3.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem1),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem2)});
+            this.navBarGroup3.Name = "navBarGroup3";
+            this.navBarGroup3.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup3.SmallImage")));
             // 
-            // navBarItem7
+            // navBarItem1
             // 
-            this.navBarItem7.Caption = "List";
-            this.navBarItem7.Name = "navBarItem7";
-            this.navBarItem7.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem7.SmallImage")));
+            this.navBarItem1.Caption = "Voucher Image";
+            this.navBarItem1.Name = "navBarItem1";
+            this.navBarItem1.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem1.SmallImage")));
             // 
-            // navBarItem8
+            // navBarItem2
             // 
-            this.navBarItem8.Caption = "Modify";
-            this.navBarItem8.Name = "navBarItem8";
-            this.navBarItem8.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem8.SmallImage")));
-            // 
-            // navBarItem9
-            // 
-            this.navBarItem9.Caption = "New Entry";
-            this.navBarItem9.Name = "navBarItem9";
-            this.navBarItem9.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem9.SmallImage")));
+            this.navBarItem2.Caption = "ACC Image";
+            this.navBarItem2.Name = "navBarItem2";
+            this.navBarItem2.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem2.SmallImage")));
             // 
             // navBarGroup1
             // 
@@ -296,28 +291,6 @@
             this.navBarItem16.Name = "navBarItem16";
             this.navBarItem16.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem16.SmallImage")));
             // 
-            // navBarGroup3
-            // 
-            this.navBarGroup3.Caption = "Images";
-            this.navBarGroup3.Expanded = true;
-            this.navBarGroup3.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem1),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem2)});
-            this.navBarGroup3.Name = "navBarGroup3";
-            this.navBarGroup3.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup3.SmallImage")));
-            // 
-            // navBarItem1
-            // 
-            this.navBarItem1.Caption = "Voucher Image";
-            this.navBarItem1.Name = "navBarItem1";
-            this.navBarItem1.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem1.SmallImage")));
-            // 
-            // navBarItem2
-            // 
-            this.navBarItem2.Caption = "ACC Image";
-            this.navBarItem2.Name = "navBarItem2";
-            this.navBarItem2.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem2.SmallImage")));
-            // 
             // navBarGroup4
             // 
             this.navBarGroup4.Caption = "Misc";
@@ -331,6 +304,34 @@
             this.navBarItem4.Caption = "Party Dashboard";
             this.navBarItem4.Name = "navBarItem4";
             this.navBarItem4.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem4.SmallImage")));
+            // 
+            // navBarGroup5
+            // 
+            this.navBarGroup5.Caption = "Add/Modify";
+            this.navBarGroup5.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem7),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem8),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem9)});
+            this.navBarGroup5.Name = "navBarGroup5";
+            this.navBarGroup5.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup5.SmallImage")));
+            // 
+            // navBarItem7
+            // 
+            this.navBarItem7.Caption = "List";
+            this.navBarItem7.Name = "navBarItem7";
+            this.navBarItem7.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem7.SmallImage")));
+            // 
+            // navBarItem8
+            // 
+            this.navBarItem8.Caption = "Modify";
+            this.navBarItem8.Name = "navBarItem8";
+            this.navBarItem8.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem8.SmallImage")));
+            // 
+            // navBarItem9
+            // 
+            this.navBarItem9.Caption = "New Entry";
+            this.navBarItem9.Name = "navBarItem9";
+            this.navBarItem9.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem9.SmallImage")));
             // 
             // gridControl1
             // 
@@ -413,6 +414,7 @@
             // 
             // textEdit4
             // 
+            this.textEdit4.EnterMoveNextControl = true;
             this.textEdit4.Location = new System.Drawing.Point(725, 12);
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Size = new System.Drawing.Size(269, 20);
@@ -421,6 +423,7 @@
             // 
             // textEdit2
             // 
+            this.textEdit2.EnterMoveNextControl = true;
             this.textEdit2.Location = new System.Drawing.Point(242, 12);
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Size = new System.Drawing.Size(179, 20);
@@ -429,6 +432,7 @@
             // 
             // dateEdit1
             // 
+            this.dateEdit1.EnterMoveNextControl = true;
             this.dateEdit1.Location = new System.Drawing.Point(499, 12);
             this.dateEdit1.Name = "dateEdit1";
             this.dateEdit1.Properties.DisplayFormat.FormatString = "d";

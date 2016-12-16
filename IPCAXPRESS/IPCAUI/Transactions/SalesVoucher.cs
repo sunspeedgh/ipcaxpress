@@ -16,5 +16,28 @@ namespace IPCAUI.Transactions
         {
             InitializeComponent();
         }
+
+        private void navBarItem16_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Settings.AccountsDemo frm = new Settings.AccountsDemo();
+            frm.StartPosition = FormStartPosition.CenterScreen;
+            frm.ShowDialog(this);
+            //Settings.Accountsettings frm = new Settings.Accountsettings();
+            //frm.StartPosition = FormStartPosition.CenterParent;
+            //frm.ShowDialog(this);           
+        }
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Escape)
+            {
+                this.Close();
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

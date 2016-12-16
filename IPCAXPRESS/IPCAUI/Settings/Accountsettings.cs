@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace IPCAUI.Settings
 {
-    public partial class Accountsettings : Form
+    public partial class Accountsettings : DevExpress.XtraEditors.XtraForm
     {
         public Accountsettings()
         {
