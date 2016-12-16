@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace IPCAUI.Transactions
+namespace IPCAUI.Administration
 {
     public partial class Costcentergroup : Form
     {
         public Costcentergroup()
         {
             InitializeComponent();
+        }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

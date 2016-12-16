@@ -76,6 +76,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administration\Currencyconversion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Currencyconversion.Designer.cs">
+      <DependentUpon>Currencyconversion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Administration\Referencegroup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -2314,6 +2320,9 @@
     <Compile Include="XtraForm1.Designer.cs">
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Administration\Currencyconversion.resx">
+      <DependentUpon>Currencyconversion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Administration\Referencegroup.resx">
       <DependentUpon>Referencegroup.cs</DependentUpon>
     </EmbeddedResource>
