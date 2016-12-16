@@ -16,5 +16,10 @@ namespace IPCAUI.Transactions
         {
             InitializeComponent();
         }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

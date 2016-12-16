@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace IPCAUI.Administration
 {
-    public partial class Costcenter : Form
+    public partial class Schememaster : Form
     {
-        public Costcenter()
+        public Schememaster()
         {
             InitializeComponent();
-        }
-
-        private void btnQuit_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

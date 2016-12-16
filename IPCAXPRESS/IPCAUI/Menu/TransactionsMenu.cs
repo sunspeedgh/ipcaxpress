@@ -73,7 +73,16 @@ namespace IPCAUI.Menu
 
         private void barButtonItem16_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            //Transactions.SalesVoucher frm;
+            //if(this.ActiveMdiChild!=null)
+            //{
+            //    frm = new Transactions.SalesVoucher(); //generate new instance
 
+            //    frm.Owner = this;
+            //    frm.TopLevel = false;
+            //    splitContainerControl1.Panel2.Controls.Add(frm);
+            //    frm.Show();
+            //}
         }
 
         private void Payment_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -106,26 +115,27 @@ namespace IPCAUI.Menu
         }
         private void SalesEntry_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Transactions.SalesVoucher frm;
-            if(this.ActiveMdiChild!=null)
-            {
-                frm = new Transactions.SalesVoucher(); //generate new instance
-                
-                frm.Owner = this;
-                frm.TopLevel = false;
-                splitContainerControl1.Panel2.Controls.Add(frm);
-                frm.Show();
-            }
-            else
-            {
-                frm = new Transactions.SalesVoucher(); //generate new instance
+            MessageBox.Show("Under Progeress.........");
+            //Transactions.SalesVoucher frm;
+            //if(this.ActiveMdiChild!=null)
+            //{
+            //    frm = new Transactions.SalesVoucher(); //generate new instance
 
-                frm.Owner = this;
-                frm.TopLevel = false;
-                splitContainerControl1.Panel2.Controls.Add(frm);
-                frm.Show();
-            }
-            
+            //    frm.Owner = this;
+            //    frm.TopLevel = false;
+            //    splitContainerControl1.Panel2.Controls.Add(frm);
+            //    frm.Show();
+            //}
+            //else
+            //{
+            //    frm = new Transactions.SalesVoucher(); //generate new instance
+
+            //    frm.Owner = this;
+            //    frm.TopLevel = false;
+            //    splitContainerControl1.Panel2.Controls.Add(frm);
+            //    frm.Show();
+            //}
+
             //if (this.ActiveMdiChild != null)
             ////    this.ActiveMdiChild.Close();
             //{
@@ -148,8 +158,232 @@ namespace IPCAUI.Menu
 
         private void Receipt_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Administration.Account frm;
-            frm = new Administration.Account(); //generate new instance 
+            
+        }
+
+        private void SalesQuotation_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            MessageBox.Show("Under Progeress.........");
+        }
+
+        private void PurchaseQuotation_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            MessageBox.Show("Under Progeress.........");
+        }
+
+        private void SalesOrder_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            MessageBox.Show("Under Progeress.........");
+        }
+
+        private void PurchaseOrder_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            MessageBox.Show("Under Progeress.........");
+        }
+
+        private void Salesvoucher_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.SalesVoucher frm;
+            frm = new Transactions.SalesVoucher(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void PurchaseVoucher_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.Purhcasevoucher frm;
+            frm = new Transactions.Purhcasevoucher(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void SalesRetVoucher_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            MessageBox.Show("Under Progress........");
+            //Transactions.Purhcasevoucher frm;
+            //frm = new Transactions.Purhcasevoucher(); //generate new instance 
+            //frm.Owner = this;
+            //frm.TopLevel = false;
+
+            //splitContainerControl1.Panel2.Controls.Add(frm);
+            //frm.Show();
+        }
+
+        private void PurchaseretVoucher_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.PurhcaseReturnvoucher frm;
+            frm = new Transactions.PurhcaseReturnvoucher(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void pPaymentVoucher_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.PaymentVoucher frm;
+            frm = new Transactions.PaymentVoucher(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void ReceiptVoucher_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.ReceiptVoucher frm;
+            frm = new Transactions.ReceiptVoucher(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void JournalVoucher_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.JournalVoucher frm;
+            frm = new Transactions.JournalVoucher(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void ContraVoucher_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.ContraVoucher frm;
+            frm = new Transactions.ContraVoucher(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void DebitNoteVech_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.DebitNote frm;
+            frm = new Transactions.DebitNote(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void CreditNoteVch_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.CreditNote frm;
+            frm = new Transactions.CreditNote(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void StockTransferVch_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.StockTransferVoucher frm;
+            frm = new Transactions.StockTransferVoucher(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void ProductinVch_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.Productionvoucher frm;
+            frm = new Transactions.Productionvoucher(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void UnassembleVch_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.Unassemblevoucher frm;
+            frm = new Transactions.Unassemblevoucher(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void StockJournal_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.StockJournalvoucher frm;
+            frm = new Transactions.StockJournalvoucher(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void MatIssuedparty_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.Matissuedtopartyvoucher frm;
+            frm = new Transactions.Matissuedtopartyvoucher(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void MatRcvdpary_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.Matreceivedfromparty frm;
+            frm = new Transactions.Matreceivedfromparty(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void FormsRecevied_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.formsreceivedvoucher frm;
+            frm = new Transactions.formsreceivedvoucher(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void FormIssued_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.formsissuedvoucher frm;
+            frm = new Transactions.formsissuedvoucher(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void VatJournal_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Transactions.VATJournal frm;
+            frm = new Transactions.VATJournal(); //generate new instance 
             frm.Owner = this;
             frm.TopLevel = false;
 

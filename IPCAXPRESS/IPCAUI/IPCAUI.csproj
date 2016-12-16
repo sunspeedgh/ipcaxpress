@@ -78,6 +78,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administration\Currencyconversion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Currencyconversion.Designer.cs">
+      <DependentUpon>Currencyconversion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Administration\Referencegroup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +149,12 @@
     </Compile>
     <Compile Include="Administration\Unitconversion.Designer.cs">
       <DependentUpon>Unitconversion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Schememaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Schememaster.Designer.cs">
+      <DependentUpon>Schememaster.cs</DependentUpon>
     </Compile>
     <Compile Include="Administration\Unitmaster.cs">
       <SubType>Form</SubType>
@@ -2322,6 +2334,9 @@
     <Compile Include="XtraForm1.Designer.cs">
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Administration\Currencyconversion.resx">
+      <DependentUpon>Currencyconversion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Administration\Referencegroup.resx">
       <DependentUpon>Referencegroup.cs</DependentUpon>
     </EmbeddedResource>
@@ -2354,6 +2369,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Administration\Unitconversion.resx">
       <DependentUpon>Unitconversion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Schememaster.resx">
+      <DependentUpon>Schememaster.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Administration\Unitmaster.resx">
       <DependentUpon>Unitmaster.cs</DependentUpon>

@@ -1,4 +1,4 @@
-﻿namespace IPCAUI.Transactions
+﻿namespace IPCAUI.Administration
 {
     partial class Salesman
     {

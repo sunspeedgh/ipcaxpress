@@ -103,10 +103,10 @@
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.layoutControlItem19 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem20 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.emptySpaceItem2 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem3 = new DevExpress.XtraLayout.EmptySpaceItem();
+            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
+            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
@@ -224,6 +224,7 @@
             this.btnQuit.StyleController = this.layoutControl1;
             this.btnQuit.TabIndex = 11;
             this.btnQuit.Text = "Quit";
+            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
             // btnSave
             // 
@@ -827,19 +828,6 @@
             this.layoutControlItem20.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem20.TextVisible = false;
             // 
-            // labelControl7
-            // 
-            this.labelControl7.Location = new System.Drawing.Point(236, 5);
-            this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(63, 13);
-            this.labelControl7.TabIndex = 1;
-            this.labelControl7.Text = "labelControl7";
-            // 
-            // gridColumn12
-            // 
-            this.gridColumn12.Caption = "Amount";
-            this.gridColumn12.Name = "gridColumn12";
-            // 
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
@@ -856,6 +844,19 @@
             this.emptySpaceItem3.Size = new System.Drawing.Size(845, 21);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
+            // labelControl7
+            // 
+            this.labelControl7.Location = new System.Drawing.Point(236, 5);
+            this.labelControl7.Name = "labelControl7";
+            this.labelControl7.Size = new System.Drawing.Size(63, 13);
+            this.labelControl7.TabIndex = 1;
+            this.labelControl7.Text = "labelControl7";
+            // 
+            // gridColumn12
+            // 
+            this.gridColumn12.Caption = "Amount";
+            this.gridColumn12.Name = "gridColumn12";
+            // 
             // Productionvoucher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -868,7 +869,6 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
-            this.layoutControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
