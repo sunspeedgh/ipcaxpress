@@ -166,5 +166,225 @@ namespace IPCAUI.Menu
             sptCtrlMastermenu.Panel2.Controls.Add(frm);
             frm.Show();
         }
+
+        private void barbtnItem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Itemsmaster frm;
+            frm = new Administration.Itemsmaster(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnItemgroup_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Itemgroup frm;
+            frm = new Administration.Itemgroup(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtMaterialcenter_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.MaterialCenter frm;
+            frm = new Administration.MaterialCenter(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnMaterialgroup_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Materialcentergroup frm;
+            frm = new Administration.Materialcentergroup(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnUnit_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Unitmaster frm;
+            frm = new Administration.Unitmaster(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnUnitConver_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Unitconversion frm;
+            frm = new Administration.Unitconversion(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnBillsundary_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Billsundary frm;
+            frm = new Administration.Billsundary(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnScheme_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Schememaster frm;
+            frm = new Administration.Schememaster(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnStform_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Stformmaster frm;
+            frm = new Administration.Stformmaster(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnSaletype_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Salestype frm;
+            frm = new Administration.Salestype(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnPurchasetype_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Purchasetype frm;
+            frm = new Administration.Purchasetype(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnTaxcategory_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Taxcategory frm;
+            frm = new Administration.Taxcategory(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnTdsCategory_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.TDSCategory frm;
+            frm = new Administration.TDSCategory(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnContact_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Contactmaster frm;
+            frm = new Administration.Contactmaster(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnContactgroup_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Contactgroup frm;
+            frm = new Administration.Contactgroup(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnExecutive_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Executivemaster frm;
+            frm = new Administration.Executivemaster(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnMiscellaneousmaster_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Miscellaneousmaster frm;
+            frm = new Administration.Miscellaneousmaster(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnEmployee_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Employeemaster frm;
+            frm = new Administration.Employeemaster(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtEmployeegrp_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Employeegroup frm;
+            frm = new Administration.Employeegroup(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
+
+        private void barbtnSalaryCopm_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Salaraycomponent frm;
+            frm = new Administration.Salaraycomponent(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
     }
 }
