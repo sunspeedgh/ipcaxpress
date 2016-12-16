@@ -36,6 +36,7 @@
     <Reference Include="Accessibility" />
     <Reference Include="DevExpress.BonusSkins.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Sparkline.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.TreeMap.v16.1.Core, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -45,6 +46,7 @@
     <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraTreeList.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraTreeMap.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -316,6 +318,16 @@
     <Compile Include="Company\Updatesignature.Designer.cs">
       <DependentUpon>Updatesignature.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\ContraVoucher.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContraVoucher.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ItemsLookupEdit.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Demo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -338,11 +350,28 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>IPCADataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="IPCADataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IPCADataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Accountgroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\Accountgroup.Designer.cs">
+      <DependentUpon>Accountgroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Accounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\Accounts.Designer.cs">
+      <DependentUpon>Accounts.cs</DependentUpon>
     </Compile>
     <Compile Include="MDIParent1.cs">
       <SubType>Form</SubType>
@@ -2449,6 +2478,12 @@
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Masters\Accountgroup.resx">
+      <DependentUpon>Accountgroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\Accounts.resx">
+      <DependentUpon>Accounts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MDIParent1.resx">
       <DependentUpon>MDIParent1.cs</DependentUpon>
     </EmbeddedResource>
@@ -3444,6 +3479,28 @@
     <EmbeddedResource Include="XtraForm1.resx">
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DataSets\ContraVoucher.xsc">
+      <DependentUpon>ContraVoucher.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ContraVoucher.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ContraVoucher.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ContraVoucher.xss">
+      <DependentUpon>ContraVoucher.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ItemsLookupEdit.xsc">
+      <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ItemsLookupEdit.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItemsLookupEdit.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ItemsLookupEdit.xss">
+      <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
+    </None>
     <None Include="IPCADataSet.xsc">
       <DependentUpon>IPCADataSet.xsd</DependentUpon>
     </None>
@@ -3466,7 +3523,19 @@
     <None Include="IPCADataSet1.xss">
       <DependentUpon>IPCADataSet1.xsd</DependentUpon>
     </None>
+    <None Include="IPCADataSet2.xsc">
+      <DependentUpon>IPCADataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="IPCADataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IPCADataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IPCADataSet2.xss">
+      <DependentUpon>IPCADataSet2.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\IPCAUI.DataSets.ContraVoucher.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
