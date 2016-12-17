@@ -23,13 +23,14 @@ namespace eSunSpeed.BusinessLogic
             string Query = string.Empty;           
 
             DBParameterCollection paramCollection = new DBParameterCollection();
+            
             paramCollection.Add(new DBParameter("@GroupName", objAccountGrp.GroupName));
             paramCollection.Add(new DBParameter("@AliasName", objAccountGrp.AliasName));
             paramCollection.Add(new DBParameter("@Primary", objAccountGrp.Primary));
             paramCollection.Add(new DBParameter("@UnderGroup", objAccountGrp.UnderGroup));
             paramCollection.Add(new DBParameter("@CreatedBy", objAccountGrp.CreatedBy));
                        
-            Query = "INSERT INTO AccountGroups([GroupName],[AliasName],[Primary],[UnderGroup],[CreatedBy]) VALUES(@GroupName,@AliasName,@Primary,@UnderGroup,@CreatedBy)";
+            Query = "INSERT INTO AccountGroups(`AG_ID`,`GroupName`,`AliasName`,`Primary`,`UnderGroup`,`CreatedBy`) VALUES (2,@GroupName,@AliasName,@Primary,@UnderGroup,@CreatedBy)";
 
             return _dbHelper.ExecuteNonQuery(Query,paramCollection) > 0;                  
         }
