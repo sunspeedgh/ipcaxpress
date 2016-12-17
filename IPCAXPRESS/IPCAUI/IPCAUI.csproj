@@ -79,11 +79,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administration\Costcenterlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Costcenterlist.Designer.cs">
+      <DependentUpon>Costcenterlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\AccountGrouplist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\AccountGrouplist.Designer.cs">
+      <DependentUpon>AccountGrouplist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Accountlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Accountlist.Designer.cs">
+      <DependentUpon>Accountlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Billsundary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Billsundary.Designer.cs">
+      <DependentUpon>Billsundary.cs</DependentUpon>
+    </Compile>
     <Compile Include="Administration\Currencyconversion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Administration\Currencyconversion.Designer.cs">
       <DependentUpon>Currencyconversion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Miscellaneousmaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Miscellaneousmaster.Designer.cs">
+      <DependentUpon>Miscellaneousmaster.cs</DependentUpon>
     </Compile>
     <Compile Include="Administration\Referencegroup.cs">
       <SubType>Form</SubType>
@@ -126,6 +156,18 @@
     </Compile>
     <Compile Include="Administration\BillsofMaterial.Designer.cs">
       <DependentUpon>BillsofMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Purchasetype.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Purchasetype.Designer.cs">
+      <DependentUpon>Purchasetype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Salestype.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Salestype.Designer.cs">
+      <DependentUpon>Salestype.cs</DependentUpon>
     </Compile>
     <Compile Include="Administration\TDSCategory.cs">
       <SubType>Form</SubType>
@@ -240,6 +282,12 @@
     </Compile>
     <Compile Include="Administration\Accountgroup.Designer.cs">
       <DependentUpon>Accountgroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Salaraycomponent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\Salaraycomponent.Designer.cs">
+      <DependentUpon>Salaraycomponent.cs</DependentUpon>
     </Compile>
     <Compile Include="Company\Backupdata.cs">
       <SubType>Form</SubType>
@@ -2383,8 +2431,23 @@
     <Compile Include="XtraForm1.Designer.cs">
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Administration\Costcenterlist.resx">
+      <DependentUpon>Costcenterlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\AccountGrouplist.resx">
+      <DependentUpon>AccountGrouplist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Accountlist.resx">
+      <DependentUpon>Accountlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Billsundary.resx">
+      <DependentUpon>Billsundary.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Administration\Currencyconversion.resx">
       <DependentUpon>Currencyconversion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Miscellaneousmaster.resx">
+      <DependentUpon>Miscellaneousmaster.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Administration\Referencegroup.resx">
       <DependentUpon>Referencegroup.cs</DependentUpon>
@@ -2406,6 +2469,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Administration\BillsofMaterial.resx">
       <DependentUpon>BillsofMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Purchasetype.resx">
+      <DependentUpon>Purchasetype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Salestype.resx">
+      <DependentUpon>Salestype.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Administration\TDSCategory.resx">
       <DependentUpon>TDSCategory.cs</DependentUpon>
@@ -2463,6 +2532,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Administration\Accountgroup.resx">
       <DependentUpon>Accountgroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Salaraycomponent.resx">
+      <DependentUpon>Salaraycomponent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Company\Backupdata.resx">
       <DependentUpon>Backupdata.cs</DependentUpon>

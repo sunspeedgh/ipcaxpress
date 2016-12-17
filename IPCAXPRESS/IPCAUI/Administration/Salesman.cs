@@ -30,5 +30,10 @@ namespace IPCAUI.Administration
             }
             return base.ProcessCmdKey(ref msg, keyData);
         }
+
+        private void navBarControl1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

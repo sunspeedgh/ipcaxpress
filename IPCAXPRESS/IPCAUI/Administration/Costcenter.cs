@@ -21,5 +21,16 @@ namespace IPCAUI.Administration
         {
             this.Close();
         }
+
+        private void navBarList_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            // Administration.Accountgroup frm;
+            //frm = new Administration.Accountgroup(); //generate new instance 
+            //frm.Owner = this;
+            //frm.TopLevel = false;
+
+            //sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            //frm.Show();
+        }
     }
 }

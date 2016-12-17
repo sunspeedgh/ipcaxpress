@@ -71,11 +71,11 @@
             this.FormsRecevied = new DevExpress.XtraBars.BarButtonItem();
             this.FormIssued = new DevExpress.XtraBars.BarButtonItem();
             this.VatJournal = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem18 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem19 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem20 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem21 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem22 = new DevExpress.XtraBars.BarButtonItem();
+            this.Adjustexciseamount = new DevExpress.XtraBars.BarButtonItem();
+            this.Physicalstockvch = new DevExpress.XtraBars.BarButtonItem();
+            this.Callreceipt = new DevExpress.XtraBars.BarButtonItem();
+            this.Callallocation = new DevExpress.XtraBars.BarButtonItem();
+            this.Callreport = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonMiniToolbar1 = new DevExpress.XtraBars.Ribbon.RibbonMiniToolbar(this.components);
             this.Sales = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.NewSales = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -117,10 +117,6 @@
             this.ribbonPageGroup27 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
-            this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
-            this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
-            this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             this.navBarControl1 = new DevExpress.XtraNavBar.NavBarControl();
             this.ShortCuts = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarItem27 = new DevExpress.XtraNavBar.NavBarItem();
@@ -167,17 +163,21 @@
             this.navBarItem24 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem25 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem26 = new DevExpress.XtraNavBar.NavBarItem();
+            this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
+            this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.rbCtrlTransactions)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPopupContainerEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -224,11 +224,11 @@
             this.FormsRecevied,
             this.FormIssued,
             this.VatJournal,
-            this.barButtonItem18,
-            this.barButtonItem19,
-            this.barButtonItem20,
-            this.barButtonItem21,
-            this.barButtonItem22});
+            this.Adjustexciseamount,
+            this.Physicalstockvch,
+            this.Callreceipt,
+            this.Callallocation,
+            this.Callreport});
             this.rbCtrlTransactions.Location = new System.Drawing.Point(0, 0);
             this.rbCtrlTransactions.MaxItemId = 39;
             this.rbCtrlTransactions.MiniToolbars.Add(this.ribbonMiniToolbar1);
@@ -512,35 +512,39 @@
             this.VatJournal.Name = "VatJournal";
             this.VatJournal.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.VatJournal_ItemClick);
             // 
-            // barButtonItem18
+            // Adjustexciseamount
             // 
-            this.barButtonItem18.Caption = "Adjust Excise Amounts";
-            this.barButtonItem18.Id = 34;
-            this.barButtonItem18.Name = "barButtonItem18";
+            this.Adjustexciseamount.Caption = "Adjust Excise Amounts";
+            this.Adjustexciseamount.Id = 34;
+            this.Adjustexciseamount.Name = "Adjustexciseamount";
+            this.Adjustexciseamount.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem18_ItemClick);
             // 
-            // barButtonItem19
+            // Physicalstockvch
             // 
-            this.barButtonItem19.Caption = "Physical Stock";
-            this.barButtonItem19.Id = 35;
-            this.barButtonItem19.Name = "barButtonItem19";
+            this.Physicalstockvch.Caption = "Physical Stock";
+            this.Physicalstockvch.Id = 35;
+            this.Physicalstockvch.Name = "Physicalstockvch";
+            this.Physicalstockvch.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.Physicalstockvch_ItemClick);
             // 
-            // barButtonItem20
+            // Callreceipt
             // 
-            this.barButtonItem20.Caption = "Call Receipt";
-            this.barButtonItem20.Id = 36;
-            this.barButtonItem20.Name = "barButtonItem20";
+            this.Callreceipt.Caption = "Call Receipt";
+            this.Callreceipt.Id = 36;
+            this.Callreceipt.Name = "Callreceipt";
+            this.Callreceipt.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.Callreceipt_ItemClick);
             // 
-            // barButtonItem21
+            // Callallocation
             // 
-            this.barButtonItem21.Caption = "Call Allocation";
-            this.barButtonItem21.Id = 37;
-            this.barButtonItem21.Name = "barButtonItem21";
+            this.Callallocation.Caption = "Call Allocation";
+            this.Callallocation.Id = 37;
+            this.Callallocation.Name = "Callallocation";
+            this.Callallocation.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.Callallocation_ItemClick);
             // 
-            // barButtonItem22
+            // Callreport
             // 
-            this.barButtonItem22.Caption = "Call Report";
-            this.barButtonItem22.Id = 38;
-            this.barButtonItem22.Name = "barButtonItem22";
+            this.Callreport.Caption = "Call Report";
+            this.Callreport.Id = 38;
+            this.Callreport.Name = "Callreport";
             // 
             // ribbonMiniToolbar1
             // 
@@ -782,13 +786,13 @@
             // 
             // ribbonPageGroup23
             // 
-            this.ribbonPageGroup23.ItemLinks.Add(this.barButtonItem18);
+            this.ribbonPageGroup23.ItemLinks.Add(this.Adjustexciseamount);
             this.ribbonPageGroup23.Name = "ribbonPageGroup23";
             this.ribbonPageGroup23.Text = "ribbonPageGroup23";
             // 
             // ribbonPageGroup24
             // 
-            this.ribbonPageGroup24.ItemLinks.Add(this.barButtonItem19);
+            this.ribbonPageGroup24.ItemLinks.Add(this.Physicalstockvch);
             this.ribbonPageGroup24.Name = "ribbonPageGroup24";
             this.ribbonPageGroup24.Text = "ribbonPageGroup24";
             // 
@@ -810,19 +814,19 @@
             // 
             // ribbonPageGroup25
             // 
-            this.ribbonPageGroup25.ItemLinks.Add(this.barButtonItem20);
+            this.ribbonPageGroup25.ItemLinks.Add(this.Callreceipt);
             this.ribbonPageGroup25.Name = "ribbonPageGroup25";
             this.ribbonPageGroup25.Text = "Call Receipt";
             // 
             // ribbonPageGroup26
             // 
-            this.ribbonPageGroup26.ItemLinks.Add(this.barButtonItem21);
+            this.ribbonPageGroup26.ItemLinks.Add(this.Callallocation);
             this.ribbonPageGroup26.Name = "ribbonPageGroup26";
             this.ribbonPageGroup26.Text = "ribbonPageGroup26";
             // 
             // ribbonPageGroup27
             // 
-            this.ribbonPageGroup27.ItemLinks.Add(this.barButtonItem22);
+            this.ribbonPageGroup27.ItemLinks.Add(this.Callreport);
             this.ribbonPageGroup27.Name = "ribbonPageGroup27";
             this.ribbonPageGroup27.Text = "ribbonPageGroup27";
             // 
@@ -846,48 +850,6 @@
             this.layoutControl1.Size = new System.Drawing.Size(994, 401);
             this.layoutControl1.TabIndex = 9;
             this.layoutControl1.Text = "layoutControl1";
-            // 
-            // splitContainerControl1
-            // 
-            this.splitContainerControl1.Location = new System.Drawing.Point(12, 12);
-            this.splitContainerControl1.Name = "splitContainerControl1";
-            this.splitContainerControl1.Panel1.Text = "Panel1";
-            this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.PanelVisibility = DevExpress.XtraEditors.SplitPanelVisibility.Panel2;
-            this.splitContainerControl1.Size = new System.Drawing.Size(848, 324);
-            this.splitContainerControl1.TabIndex = 4;
-            this.splitContainerControl1.Text = "splitContainerControl1";
-            // 
-            // layoutControlGroup1
-            // 
-            this.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
-            this.layoutControlGroup1.GroupBordersVisible = false;
-            this.layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
-            this.layoutControlItem1,
-            this.layoutControlItem2,
-            this.layoutControlItem3});
-            this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlGroup1.Name = "layoutControlGroup1";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(994, 401);
-            this.layoutControlGroup1.TextVisible = false;
-            // 
-            // layoutControlItem1
-            // 
-            this.layoutControlItem1.Control = this.splitContainerControl1;
-            this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(852, 328);
-            this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem1.TextVisible = false;
-            // 
-            // layoutControlItem2
-            // 
-            this.layoutControlItem2.Control = this.ribbonStatusBar1;
-            this.layoutControlItem2.Location = new System.Drawing.Point(0, 328);
-            this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(974, 53);
-            this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem2.TextVisible = false;
             // 
             // navBarControl1
             // 
@@ -1302,6 +1264,48 @@
             this.navBarItem26.Caption = "navBarItem26";
             this.navBarItem26.Name = "navBarItem26";
             // 
+            // splitContainerControl1
+            // 
+            this.splitContainerControl1.Location = new System.Drawing.Point(12, 12);
+            this.splitContainerControl1.Name = "splitContainerControl1";
+            this.splitContainerControl1.Panel1.Text = "Panel1";
+            this.splitContainerControl1.Panel2.Text = "Panel2";
+            this.splitContainerControl1.PanelVisibility = DevExpress.XtraEditors.SplitPanelVisibility.Panel2;
+            this.splitContainerControl1.Size = new System.Drawing.Size(848, 324);
+            this.splitContainerControl1.TabIndex = 4;
+            this.splitContainerControl1.Text = "splitContainerControl1";
+            // 
+            // layoutControlGroup1
+            // 
+            this.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
+            this.layoutControlGroup1.GroupBordersVisible = false;
+            this.layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
+            this.layoutControlItem1,
+            this.layoutControlItem2,
+            this.layoutControlItem3});
+            this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlGroup1.Name = "layoutControlGroup1";
+            this.layoutControlGroup1.Size = new System.Drawing.Size(994, 401);
+            this.layoutControlGroup1.TextVisible = false;
+            // 
+            // layoutControlItem1
+            // 
+            this.layoutControlItem1.Control = this.splitContainerControl1;
+            this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlItem1.Name = "layoutControlItem1";
+            this.layoutControlItem1.Size = new System.Drawing.Size(852, 328);
+            this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem1.TextVisible = false;
+            // 
+            // layoutControlItem2
+            // 
+            this.layoutControlItem2.Control = this.ribbonStatusBar1;
+            this.layoutControlItem2.Location = new System.Drawing.Point(0, 328);
+            this.layoutControlItem2.Name = "layoutControlItem2";
+            this.layoutControlItem2.Size = new System.Drawing.Size(974, 53);
+            this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem2.TextVisible = false;
+            // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.navBarControl1;
@@ -1331,12 +1335,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPopupContainerEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1420,18 +1424,18 @@
         private DevExpress.XtraBars.BarButtonItem FormsRecevied;
         private DevExpress.XtraBars.BarButtonItem FormIssued;
         private DevExpress.XtraBars.BarButtonItem VatJournal;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem18;
+        private DevExpress.XtraBars.BarButtonItem Adjustexciseamount;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup9;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup21;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup22;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup23;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem19;
+        private DevExpress.XtraBars.BarButtonItem Physicalstockvch;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup24;
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage6;
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage8;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem20;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem21;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem22;
+        private DevExpress.XtraBars.BarButtonItem Callreceipt;
+        private DevExpress.XtraBars.BarButtonItem Callallocation;
+        private DevExpress.XtraBars.BarButtonItem Callreport;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup25;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup26;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup27;

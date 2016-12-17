@@ -88,21 +88,21 @@
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnMiscellaneousmaster = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
             this.barbtnAccount = new DevExpress.XtraBars.BarButtonItem();
             this.barbtnAccGroup = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnItem = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnItemgroup = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnScheme = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem15 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnStform = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnSaletype = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnContact = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnEmployee = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtEmployeegrp = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem18 = new DevExpress.XtraBars.BarButtonItem();
             this.barbtnCostgroup = new DevExpress.XtraBars.BarButtonItem();
             this.barbtnCurrency = new DevExpress.XtraBars.BarButtonItem();
@@ -111,21 +111,21 @@
             this.barbtnAuthotmain = new DevExpress.XtraBars.BarButtonItem();
             this.barbtnStdNarration = new DevExpress.XtraBars.BarButtonItem();
             this.barbtnMastNarration = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem26 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem27 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem28 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem29 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem30 = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtMaterialcenter = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnMaterialgroup = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnUnit = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnUnitConver = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnBillsundary = new DevExpress.XtraBars.BarButtonItem();
             this.barbtnBillmaterial = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem32 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem33 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem34 = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnPurchasetype = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnTaxcategory = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnTdsCategory = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem35 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem36 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem37 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem38 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem39 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem40 = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnSalaryCopm = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnContactgroup = new DevExpress.XtraBars.BarButtonItem();
+            this.barbtnExecutive = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.NewSales = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.SalesReturn = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -154,8 +154,6 @@
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup25 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup26 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup27 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup28 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup29 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage8 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -578,21 +576,21 @@
             this.barButtonItem2,
             this.barButtonItem3,
             this.barButtonItem4,
-            this.barButtonItem5,
+            this.barbtnMiscellaneousmaster,
             this.barButtonItem6,
             this.barbtnAccount,
             this.barbtnAccGroup,
             this.barButtonItem7,
             this.barButtonItem9,
-            this.barButtonItem10,
-            this.barButtonItem11,
-            this.barButtonItem12,
+            this.barbtnItem,
+            this.barbtnItemgroup,
+            this.barbtnScheme,
             this.barButtonItem13,
-            this.barButtonItem14,
-            this.barButtonItem15,
-            this.barButtonItem8,
-            this.barButtonItem16,
-            this.barButtonItem17,
+            this.barbtnStform,
+            this.barbtnSaletype,
+            this.barbtnContact,
+            this.barbtnEmployee,
+            this.barbtEmployeegrp,
             this.barButtonItem18,
             this.barbtnCostgroup,
             this.barbtnCurrency,
@@ -601,21 +599,21 @@
             this.barbtnAuthotmain,
             this.barbtnStdNarration,
             this.barbtnMastNarration,
-            this.barButtonItem26,
-            this.barButtonItem27,
-            this.barButtonItem28,
-            this.barButtonItem29,
-            this.barButtonItem30,
+            this.barbtMaterialcenter,
+            this.barbtnMaterialgroup,
+            this.barbtnUnit,
+            this.barbtnUnitConver,
+            this.barbtnBillsundary,
             this.barbtnBillmaterial,
-            this.barButtonItem32,
-            this.barButtonItem33,
-            this.barButtonItem34,
+            this.barbtnPurchasetype,
+            this.barbtnTaxcategory,
+            this.barbtnTdsCategory,
             this.barButtonItem35,
             this.barButtonItem36,
             this.barButtonItem37,
-            this.barButtonItem38,
-            this.barButtonItem39,
-            this.barButtonItem40});
+            this.barbtnSalaryCopm,
+            this.barbtnContactgroup,
+            this.barbtnExecutive});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.MaxItemId = 37;
             this.ribbonControl1.Name = "ribbonControl1";
@@ -654,11 +652,12 @@
             this.barButtonItem4.Id = 4;
             this.barButtonItem4.Name = "barButtonItem4";
             // 
-            // barButtonItem5
+            // barbtnMiscellaneousmaster
             // 
-            this.barButtonItem5.Caption = "Miscellaneous Masters";
-            this.barButtonItem5.Id = 5;
-            this.barButtonItem5.Name = "barButtonItem5";
+            this.barbtnMiscellaneousmaster.Caption = "Miscellaneous Masters";
+            this.barbtnMiscellaneousmaster.Id = 5;
+            this.barbtnMiscellaneousmaster.Name = "barbtnMiscellaneousmaster";
+            this.barbtnMiscellaneousmaster.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnMiscellaneousmaster_ItemClick);
             // 
             // barButtonItem6
             // 
@@ -693,23 +692,26 @@
             this.barButtonItem9.Id = 4;
             this.barButtonItem9.Name = "barButtonItem9";
             // 
-            // barButtonItem10
+            // barbtnItem
             // 
-            this.barButtonItem10.Caption = "Item";
-            this.barButtonItem10.Id = 5;
-            this.barButtonItem10.Name = "barButtonItem10";
+            this.barbtnItem.Caption = "Item";
+            this.barbtnItem.Id = 5;
+            this.barbtnItem.Name = "barbtnItem";
+            this.barbtnItem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnItem_ItemClick);
             // 
-            // barButtonItem11
+            // barbtnItemgroup
             // 
-            this.barButtonItem11.Caption = "Item Group";
-            this.barButtonItem11.Id = 6;
-            this.barButtonItem11.Name = "barButtonItem11";
+            this.barbtnItemgroup.Caption = "Item Group";
+            this.barbtnItemgroup.Id = 6;
+            this.barbtnItemgroup.Name = "barbtnItemgroup";
+            this.barbtnItemgroup.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnItemgroup_ItemClick);
             // 
-            // barButtonItem12
+            // barbtnScheme
             // 
-            this.barButtonItem12.Caption = "Scheme";
-            this.barButtonItem12.Id = 7;
-            this.barButtonItem12.Name = "barButtonItem12";
+            this.barbtnScheme.Caption = "Scheme";
+            this.barbtnScheme.Id = 7;
+            this.barbtnScheme.Name = "barbtnScheme";
+            this.barbtnScheme.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnScheme_ItemClick);
             // 
             // barButtonItem13
             // 
@@ -717,35 +719,40 @@
             this.barButtonItem13.Id = 8;
             this.barButtonItem13.Name = "barButtonItem13";
             // 
-            // barButtonItem14
+            // barbtnStform
             // 
-            this.barButtonItem14.Caption = "ST Form";
-            this.barButtonItem14.Id = 9;
-            this.barButtonItem14.Name = "barButtonItem14";
+            this.barbtnStform.Caption = "ST Form";
+            this.barbtnStform.Id = 9;
+            this.barbtnStform.Name = "barbtnStform";
+            this.barbtnStform.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnStform_ItemClick);
             // 
-            // barButtonItem15
+            // barbtnSaletype
             // 
-            this.barButtonItem15.Caption = "Sale Type";
-            this.barButtonItem15.Id = 10;
-            this.barButtonItem15.Name = "barButtonItem15";
+            this.barbtnSaletype.Caption = "Sale Type";
+            this.barbtnSaletype.Id = 10;
+            this.barbtnSaletype.Name = "barbtnSaletype";
+            this.barbtnSaletype.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnSaletype_ItemClick);
             // 
-            // barButtonItem8
+            // barbtnContact
             // 
-            this.barButtonItem8.Caption = "Contact";
-            this.barButtonItem8.Id = 11;
-            this.barButtonItem8.Name = "barButtonItem8";
+            this.barbtnContact.Caption = "Contact";
+            this.barbtnContact.Id = 11;
+            this.barbtnContact.Name = "barbtnContact";
+            this.barbtnContact.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnContact_ItemClick);
             // 
-            // barButtonItem16
+            // barbtnEmployee
             // 
-            this.barButtonItem16.Caption = "Employee";
-            this.barButtonItem16.Id = 12;
-            this.barButtonItem16.Name = "barButtonItem16";
+            this.barbtnEmployee.Caption = "Employee";
+            this.barbtnEmployee.Id = 12;
+            this.barbtnEmployee.Name = "barbtnEmployee";
+            this.barbtnEmployee.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnEmployee_ItemClick);
             // 
-            // barButtonItem17
+            // barbtEmployeegrp
             // 
-            this.barButtonItem17.Caption = "Employee Group";
-            this.barButtonItem17.Id = 13;
-            this.barButtonItem17.Name = "barButtonItem17";
+            this.barbtEmployeegrp.Caption = "Employee Group";
+            this.barbtEmployeegrp.Id = 13;
+            this.barbtEmployeegrp.Name = "barbtEmployeegrp";
+            this.barbtEmployeegrp.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtEmployeegrp_ItemClick);
             // 
             // barButtonItem18
             // 
@@ -803,35 +810,40 @@
             this.barbtnMastNarration.Name = "barbtnMastNarration";
             this.barbtnMastNarration.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnMastNarration_ItemClick);
             // 
-            // barButtonItem26
+            // barbtMaterialcenter
             // 
-            this.barButtonItem26.Caption = "Material Center";
-            this.barButtonItem26.Id = 22;
-            this.barButtonItem26.Name = "barButtonItem26";
+            this.barbtMaterialcenter.Caption = "Material Center";
+            this.barbtMaterialcenter.Id = 22;
+            this.barbtMaterialcenter.Name = "barbtMaterialcenter";
+            this.barbtMaterialcenter.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtMaterialcenter_ItemClick);
             // 
-            // barButtonItem27
+            // barbtnMaterialgroup
             // 
-            this.barButtonItem27.Caption = "Material Center Group";
-            this.barButtonItem27.Id = 23;
-            this.barButtonItem27.Name = "barButtonItem27";
+            this.barbtnMaterialgroup.Caption = "Material Center Group";
+            this.barbtnMaterialgroup.Id = 23;
+            this.barbtnMaterialgroup.Name = "barbtnMaterialgroup";
+            this.barbtnMaterialgroup.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnMaterialgroup_ItemClick);
             // 
-            // barButtonItem28
+            // barbtnUnit
             // 
-            this.barButtonItem28.Caption = "Unit";
-            this.barButtonItem28.Id = 24;
-            this.barButtonItem28.Name = "barButtonItem28";
+            this.barbtnUnit.Caption = "Unit";
+            this.barbtnUnit.Id = 24;
+            this.barbtnUnit.Name = "barbtnUnit";
+            this.barbtnUnit.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnUnit_ItemClick);
             // 
-            // barButtonItem29
+            // barbtnUnitConver
             // 
-            this.barButtonItem29.Caption = "Unit Conversion";
-            this.barButtonItem29.Id = 25;
-            this.barButtonItem29.Name = "barButtonItem29";
+            this.barbtnUnitConver.Caption = "Unit Conversion";
+            this.barbtnUnitConver.Id = 25;
+            this.barbtnUnitConver.Name = "barbtnUnitConver";
+            this.barbtnUnitConver.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnUnitConver_ItemClick);
             // 
-            // barButtonItem30
+            // barbtnBillsundary
             // 
-            this.barButtonItem30.Caption = "Bill Sundary";
-            this.barButtonItem30.Id = 26;
-            this.barButtonItem30.Name = "barButtonItem30";
+            this.barbtnBillsundary.Caption = "Bill Sundary";
+            this.barbtnBillsundary.Id = 26;
+            this.barbtnBillsundary.Name = "barbtnBillsundary";
+            this.barbtnBillsundary.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnBillsundary_ItemClick);
             // 
             // barbtnBillmaterial
             // 
@@ -840,23 +852,26 @@
             this.barbtnBillmaterial.Name = "barbtnBillmaterial";
             this.barbtnBillmaterial.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnBillmaterial_ItemClick);
             // 
-            // barButtonItem32
+            // barbtnPurchasetype
             // 
-            this.barButtonItem32.Caption = "Purchase Type";
-            this.barButtonItem32.Id = 28;
-            this.barButtonItem32.Name = "barButtonItem32";
+            this.barbtnPurchasetype.Caption = "Purchase Type";
+            this.barbtnPurchasetype.Id = 28;
+            this.barbtnPurchasetype.Name = "barbtnPurchasetype";
+            this.barbtnPurchasetype.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnPurchasetype_ItemClick);
             // 
-            // barButtonItem33
+            // barbtnTaxcategory
             // 
-            this.barButtonItem33.Caption = "Tax Category";
-            this.barButtonItem33.Id = 29;
-            this.barButtonItem33.Name = "barButtonItem33";
+            this.barbtnTaxcategory.Caption = "Tax Category";
+            this.barbtnTaxcategory.Id = 29;
+            this.barbtnTaxcategory.Name = "barbtnTaxcategory";
+            this.barbtnTaxcategory.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnTaxcategory_ItemClick);
             // 
-            // barButtonItem34
+            // barbtnTdsCategory
             // 
-            this.barButtonItem34.Caption = "TDS Category";
-            this.barButtonItem34.Id = 30;
-            this.barButtonItem34.Name = "barButtonItem34";
+            this.barbtnTdsCategory.Caption = "TDS Category";
+            this.barbtnTdsCategory.Id = 30;
+            this.barbtnTdsCategory.Name = "barbtnTdsCategory";
+            this.barbtnTdsCategory.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnTdsCategory_ItemClick);
             // 
             // barButtonItem35
             // 
@@ -876,23 +891,26 @@
             this.barButtonItem37.Id = 33;
             this.barButtonItem37.Name = "barButtonItem37";
             // 
-            // barButtonItem38
+            // barbtnSalaryCopm
             // 
-            this.barButtonItem38.Caption = "Salary Component";
-            this.barButtonItem38.Id = 34;
-            this.barButtonItem38.Name = "barButtonItem38";
+            this.barbtnSalaryCopm.Caption = "Salary Component";
+            this.barbtnSalaryCopm.Id = 34;
+            this.barbtnSalaryCopm.Name = "barbtnSalaryCopm";
+            this.barbtnSalaryCopm.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnSalaryCopm_ItemClick);
             // 
-            // barButtonItem39
+            // barbtnContactgroup
             // 
-            this.barButtonItem39.Caption = "Contact Group";
-            this.barButtonItem39.Id = 35;
-            this.barButtonItem39.Name = "barButtonItem39";
+            this.barbtnContactgroup.Caption = "Contact Group";
+            this.barbtnContactgroup.Id = 35;
+            this.barbtnContactgroup.Name = "barbtnContactgroup";
+            this.barbtnContactgroup.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnContactgroup_ItemClick);
             // 
-            // barButtonItem40
+            // barbtnExecutive
             // 
-            this.barButtonItem40.Caption = "Executive";
-            this.barButtonItem40.Id = 36;
-            this.barButtonItem40.Name = "barButtonItem40";
+            this.barbtnExecutive.Caption = "Executive";
+            this.barbtnExecutive.Id = 36;
+            this.barbtnExecutive.Name = "barbtnExecutive";
+            this.barbtnExecutive.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbtnExecutive_ItemClick);
             // 
             // ribbonPage1
             // 
@@ -1000,43 +1018,43 @@
             // 
             // ribbonPageGroup2
             // 
-            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem10);
+            this.ribbonPageGroup2.ItemLinks.Add(this.barbtnItem);
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
             this.ribbonPageGroup2.Text = "ribbonPageGroup2";
             // 
             // ribbonPageGroup3
             // 
-            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem11);
+            this.ribbonPageGroup3.ItemLinks.Add(this.barbtnItemgroup);
             this.ribbonPageGroup3.Name = "ribbonPageGroup3";
             this.ribbonPageGroup3.Text = "ribbonPageGroup3";
             // 
             // ribbonPageGroup19
             // 
-            this.ribbonPageGroup19.ItemLinks.Add(this.barButtonItem26);
+            this.ribbonPageGroup19.ItemLinks.Add(this.barbtMaterialcenter);
             this.ribbonPageGroup19.Name = "ribbonPageGroup19";
             this.ribbonPageGroup19.Text = "ribbonPageGroup19";
             // 
             // ribbonPageGroup20
             // 
-            this.ribbonPageGroup20.ItemLinks.Add(this.barButtonItem27);
+            this.ribbonPageGroup20.ItemLinks.Add(this.barbtnMaterialgroup);
             this.ribbonPageGroup20.Name = "ribbonPageGroup20";
             this.ribbonPageGroup20.Text = "Material Center Group";
             // 
             // ribbonPageGroup21
             // 
-            this.ribbonPageGroup21.ItemLinks.Add(this.barButtonItem28);
+            this.ribbonPageGroup21.ItemLinks.Add(this.barbtnUnit);
             this.ribbonPageGroup21.Name = "ribbonPageGroup21";
             this.ribbonPageGroup21.Text = "ribbonPageGroup21";
             // 
             // ribbonPageGroup22
             // 
-            this.ribbonPageGroup22.ItemLinks.Add(this.barButtonItem29);
+            this.ribbonPageGroup22.ItemLinks.Add(this.barbtnUnitConver);
             this.ribbonPageGroup22.Name = "ribbonPageGroup22";
             this.ribbonPageGroup22.Text = "ribbonPageGroup22";
             // 
             // ribbonPageGroup23
             // 
-            this.ribbonPageGroup23.ItemLinks.Add(this.barButtonItem30);
+            this.ribbonPageGroup23.ItemLinks.Add(this.barbtnBillsundary);
             this.ribbonPageGroup23.Name = "ribbonPageGroup23";
             this.ribbonPageGroup23.Text = "ribbonPageGroup23";
             // 
@@ -1057,7 +1075,7 @@
             // 
             // ribbonPageGroup4
             // 
-            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem12);
+            this.ribbonPageGroup4.ItemLinks.Add(this.barbtnScheme);
             this.ribbonPageGroup4.Name = "ribbonPageGroup4";
             this.ribbonPageGroup4.Text = "ribbonPageGroup4";
             // 
@@ -1069,8 +1087,6 @@
             this.ribbonPageGroup5,
             this.ribbonPageGroup25,
             this.ribbonPageGroup26,
-            this.ribbonPageGroup27,
-            this.ribbonPageGroup28,
             this.ribbonPageGroup29});
             this.ribbonPage7.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage7.Image")));
             this.ribbonPage7.KeyTip = "CO";
@@ -1079,45 +1095,33 @@
             // 
             // ribbonPageGroup6
             // 
-            this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem14);
+            this.ribbonPageGroup6.ItemLinks.Add(this.barbtnStform);
             this.ribbonPageGroup6.Name = "ribbonPageGroup6";
             this.ribbonPageGroup6.Text = "ribbonPageGroup6";
             // 
             // ribbonPageGroup7
             // 
-            this.ribbonPageGroup7.ItemLinks.Add(this.barButtonItem15);
+            this.ribbonPageGroup7.ItemLinks.Add(this.barbtnSaletype);
             this.ribbonPageGroup7.Name = "ribbonPageGroup7";
             this.ribbonPageGroup7.Text = "ribbonPageGroup7";
             // 
             // ribbonPageGroup5
             // 
-            this.ribbonPageGroup5.ItemLinks.Add(this.barButtonItem32);
+            this.ribbonPageGroup5.ItemLinks.Add(this.barbtnPurchasetype);
             this.ribbonPageGroup5.Name = "ribbonPageGroup5";
             this.ribbonPageGroup5.Text = "ribbonPageGroup5";
             // 
             // ribbonPageGroup25
             // 
-            this.ribbonPageGroup25.ItemLinks.Add(this.barButtonItem33);
+            this.ribbonPageGroup25.ItemLinks.Add(this.barbtnTaxcategory);
             this.ribbonPageGroup25.Name = "ribbonPageGroup25";
             this.ribbonPageGroup25.Text = "ribbonPageGroup25";
             // 
             // ribbonPageGroup26
             // 
-            this.ribbonPageGroup26.ItemLinks.Add(this.barButtonItem34);
+            this.ribbonPageGroup26.ItemLinks.Add(this.barbtnTdsCategory);
             this.ribbonPageGroup26.Name = "ribbonPageGroup26";
             this.ribbonPageGroup26.Text = "ribbonPageGroup26";
-            // 
-            // ribbonPageGroup27
-            // 
-            this.ribbonPageGroup27.ItemLinks.Add(this.barButtonItem35);
-            this.ribbonPageGroup27.Name = "ribbonPageGroup27";
-            this.ribbonPageGroup27.Text = "ribbonPageGroup27";
-            // 
-            // ribbonPageGroup28
-            // 
-            this.ribbonPageGroup28.ItemLinks.Add(this.barButtonItem36);
-            this.ribbonPageGroup28.Name = "ribbonPageGroup28";
-            this.ribbonPageGroup28.Text = "ribbonPageGroup28";
             // 
             // ribbonPageGroup29
             // 
@@ -1140,19 +1144,19 @@
             // 
             // ribbonPageGroup9
             // 
-            this.ribbonPageGroup9.ItemLinks.Add(this.barButtonItem16);
+            this.ribbonPageGroup9.ItemLinks.Add(this.barbtnEmployee);
             this.ribbonPageGroup9.Name = "ribbonPageGroup9";
             this.ribbonPageGroup9.Text = "ribbonPageGroup9";
             // 
             // ribbonPageGroup10
             // 
-            this.ribbonPageGroup10.ItemLinks.Add(this.barButtonItem17);
+            this.ribbonPageGroup10.ItemLinks.Add(this.barbtEmployeegrp);
             this.ribbonPageGroup10.Name = "ribbonPageGroup10";
             this.ribbonPageGroup10.Text = "ribbonPageGroup10";
             // 
             // ribbonPageGroup30
             // 
-            this.ribbonPageGroup30.ItemLinks.Add(this.barButtonItem38);
+            this.ribbonPageGroup30.ItemLinks.Add(this.barbtnSalaryCopm);
             this.ribbonPageGroup30.Name = "ribbonPageGroup30";
             this.ribbonPageGroup30.Text = "ribbonPageGroup30";
             // 
@@ -1179,19 +1183,19 @@
             // 
             // ribbonPageGroup8
             // 
-            this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem8);
+            this.ribbonPageGroup8.ItemLinks.Add(this.barbtnContact);
             this.ribbonPageGroup8.Name = "ribbonPageGroup8";
             this.ribbonPageGroup8.Text = "Contact";
             // 
             // ribbonPageGroup33
             // 
-            this.ribbonPageGroup33.ItemLinks.Add(this.barButtonItem39);
+            this.ribbonPageGroup33.ItemLinks.Add(this.barbtnContactgroup);
             this.ribbonPageGroup33.Name = "ribbonPageGroup33";
             this.ribbonPageGroup33.Text = "ribbonPageGroup33";
             // 
             // ribbonPageGroup34
             // 
-            this.ribbonPageGroup34.ItemLinks.Add(this.barButtonItem40);
+            this.ribbonPageGroup34.ItemLinks.Add(this.barbtnExecutive);
             this.ribbonPageGroup34.Name = "ribbonPageGroup34";
             this.ribbonPageGroup34.Text = "ribbonPageGroup34";
             // 
@@ -1207,7 +1211,7 @@
             // 
             // PhysicalStock
             // 
-            this.PhysicalStock.ItemLinks.Add(this.barButtonItem5, "BA");
+            this.PhysicalStock.ItemLinks.Add(this.barbtnMiscellaneousmaster, "BA");
             this.PhysicalStock.KeyTip = "P";
             this.PhysicalStock.Name = "PhysicalStock";
             this.PhysicalStock.Text = "Physical Stock";
@@ -1291,7 +1295,7 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem4;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup PhysicalStock;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem5;
+        private DevExpress.XtraBars.BarButtonItem barbtnMiscellaneousmaster;
         private DevExpress.XtraBars.BarButtonItem barButtonItem6;
         private DevExpress.XtraEditors.SplitContainerControl sptCtrlMastermenu;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
@@ -1299,21 +1303,21 @@
         private DevExpress.XtraBars.BarButtonItem barbtnAccGroup;
         private DevExpress.XtraBars.BarButtonItem barButtonItem7;
         private DevExpress.XtraBars.BarButtonItem barButtonItem9;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem10;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem11;
+        private DevExpress.XtraBars.BarButtonItem barbtnItem;
+        private DevExpress.XtraBars.BarButtonItem barbtnItemgroup;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem12;
+        private DevExpress.XtraBars.BarButtonItem barbtnScheme;
         private DevExpress.XtraBars.BarButtonItem barButtonItem13;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem14;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem15;
+        private DevExpress.XtraBars.BarButtonItem barbtnStform;
+        private DevExpress.XtraBars.BarButtonItem barbtnSaletype;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup6;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup7;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem8;
+        private DevExpress.XtraBars.BarButtonItem barbtnContact;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup8;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem16;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem17;
+        private DevExpress.XtraBars.BarButtonItem barbtnEmployee;
+        private DevExpress.XtraBars.BarButtonItem barbtEmployeegrp;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup9;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup10;
         private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar1;
@@ -1334,11 +1338,11 @@
         private DevExpress.XtraBars.BarButtonItem barbtnMastNarration;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup17;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup18;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem26;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem27;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem28;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem29;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem30;
+        private DevExpress.XtraBars.BarButtonItem barbtMaterialcenter;
+        private DevExpress.XtraBars.BarButtonItem barbtnMaterialgroup;
+        private DevExpress.XtraBars.BarButtonItem barbtnUnit;
+        private DevExpress.XtraBars.BarButtonItem barbtnUnitConver;
+        private DevExpress.XtraBars.BarButtonItem barbtnBillsundary;
         private DevExpress.XtraBars.BarButtonItem barbtnBillmaterial;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup19;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup20;
@@ -1346,20 +1350,18 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup22;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup23;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup24;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem32;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem33;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem34;
+        private DevExpress.XtraBars.BarButtonItem barbtnPurchasetype;
+        private DevExpress.XtraBars.BarButtonItem barbtnTaxcategory;
+        private DevExpress.XtraBars.BarButtonItem barbtnTdsCategory;
         private DevExpress.XtraBars.BarButtonItem barButtonItem35;
         private DevExpress.XtraBars.BarButtonItem barButtonItem36;
         private DevExpress.XtraBars.BarButtonItem barButtonItem37;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem38;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem39;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem40;
+        private DevExpress.XtraBars.BarButtonItem barbtnSalaryCopm;
+        private DevExpress.XtraBars.BarButtonItem barbtnContactgroup;
+        private DevExpress.XtraBars.BarButtonItem barbtnExecutive;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup5;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup25;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup26;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup27;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup28;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup29;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup30;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup31;
