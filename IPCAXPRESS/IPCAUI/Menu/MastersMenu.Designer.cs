@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MastersMenu));
-            DevExpress.XtraBars.Ribbon.ReduceOperation reduceOperation4 = new DevExpress.XtraBars.Ribbon.ReduceOperation();
+            DevExpress.XtraBars.Ribbon.ReduceOperation reduceOperation1 = new DevExpress.XtraBars.Ribbon.ReduceOperation();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.navBarControl1 = new DevExpress.XtraNavBar.NavBarControl();
             this.ShortCuts = new DevExpress.XtraNavBar.NavBarGroup();
@@ -928,12 +928,12 @@
             this.ribbonPage1.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage1.Image")));
             this.ribbonPage1.KeyTip = "SA";
             this.ribbonPage1.Name = "ribbonPage1";
-            reduceOperation4.Behavior = DevExpress.XtraBars.Ribbon.ReduceOperationBehavior.Single;
-            reduceOperation4.Group = null;
-            reduceOperation4.ItemLinkIndex = 0;
-            reduceOperation4.ItemLinksCount = 0;
-            reduceOperation4.Operation = DevExpress.XtraBars.Ribbon.ReduceOperationType.ButtonGroups;
-            this.ribbonPage1.ReduceOperations.Add(reduceOperation4);
+            reduceOperation1.Behavior = DevExpress.XtraBars.Ribbon.ReduceOperationBehavior.Single;
+            reduceOperation1.Group = null;
+            reduceOperation1.ItemLinkIndex = 0;
+            reduceOperation1.ItemLinksCount = 0;
+            reduceOperation1.Operation = DevExpress.XtraBars.Ribbon.ReduceOperationType.ButtonGroups;
+            this.ribbonPage1.ReduceOperations.Add(reduceOperation1);
             this.ribbonPage1.Text = "Accounts";
             // 
             // NewSales

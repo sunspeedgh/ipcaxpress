@@ -55,70 +55,69 @@
             this.ribbonPage7 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPage8 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPage9 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
-            this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
-            this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
-            this.simpleButton17 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton16 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton15 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton14 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton13 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton12 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton11 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton10 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton9 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
-            this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem13 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem14 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem15 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem16 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem17 = new DevExpress.XtraLayout.LayoutControlItem();
             this.dockManager1 = new DevExpress.XtraBars.Docking.DockManager(this.components);
+            this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
+            this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.navBarControl1 = new DevExpress.XtraNavBar.NavBarControl();
+            this.ShortCuts = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarItem27 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem28 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem29 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem30 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem31 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem32 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem33 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem34 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem35 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem36 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem37 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem38 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem39 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem40 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem41 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem42 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem43 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem44 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem1 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem2 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem3 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem4 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem5 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem6 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem7 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem8 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem9 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem10 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem11 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem12 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem13 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem14 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem15 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem16 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem17 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem18 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem19 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem20 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem21 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem22 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem23 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem24 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem25 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem26 = new DevExpress.XtraNavBar.NavBarItem();
+            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
-            this.splitContainerControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
+            this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -151,7 +150,6 @@
             this.repositoryItemButtonEdit1});
             this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.TabletOffice;
             this.ribbonControl1.Size = new System.Drawing.Size(993, 96);
-            this.ribbonControl1.StatusBar = this.ribbonStatusBar1;
             // 
             // rptDayBook
             // 
@@ -319,389 +317,6 @@
             this.ribbonPage9.Name = "ribbonPage9";
             this.ribbonPage9.Text = "ribbonPage9";
             // 
-            // ribbonStatusBar1
-            // 
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 398);
-            this.ribbonStatusBar1.Name = "ribbonStatusBar1";
-            this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(993, 27);
-            // 
-            // splitContainerControl1
-            // 
-            this.splitContainerControl1.ContentImage = ((System.Drawing.Image)(resources.GetObject("splitContainerControl1.ContentImage")));
-            this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerControl1.Location = new System.Drawing.Point(0, 96);
-            this.splitContainerControl1.Name = "splitContainerControl1";
-            this.splitContainerControl1.Panel1.Controls.Add(this.layoutControl1);
-            this.splitContainerControl1.Panel1.Text = "Panel1";
-            this.splitContainerControl1.Panel2.Controls.Add(this.ribbonStatusBar1);
-            this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.PanelVisibility = DevExpress.XtraEditors.SplitPanelVisibility.Panel2;
-            this.splitContainerControl1.Size = new System.Drawing.Size(993, 425);
-            this.splitContainerControl1.SplitterPosition = 121;
-            this.splitContainerControl1.TabIndex = 2;
-            this.splitContainerControl1.Text = "splitContainerControl1";
-            // 
-            // layoutControl1
-            // 
-            this.layoutControl1.Controls.Add(this.simpleButton17);
-            this.layoutControl1.Controls.Add(this.simpleButton16);
-            this.layoutControl1.Controls.Add(this.simpleButton15);
-            this.layoutControl1.Controls.Add(this.simpleButton14);
-            this.layoutControl1.Controls.Add(this.simpleButton13);
-            this.layoutControl1.Controls.Add(this.simpleButton12);
-            this.layoutControl1.Controls.Add(this.simpleButton11);
-            this.layoutControl1.Controls.Add(this.simpleButton10);
-            this.layoutControl1.Controls.Add(this.simpleButton9);
-            this.layoutControl1.Controls.Add(this.simpleButton8);
-            this.layoutControl1.Controls.Add(this.simpleButton7);
-            this.layoutControl1.Controls.Add(this.simpleButton6);
-            this.layoutControl1.Controls.Add(this.simpleButton5);
-            this.layoutControl1.Controls.Add(this.simpleButton4);
-            this.layoutControl1.Controls.Add(this.simpleButton3);
-            this.layoutControl1.Controls.Add(this.simpleButton2);
-            this.layoutControl1.Controls.Add(this.simpleButton1);
-            this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl1.Location = new System.Drawing.Point(0, 0);
-            this.layoutControl1.Name = "layoutControl1";
-            this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(0, 0);
-            this.layoutControl1.TabIndex = 0;
-            this.layoutControl1.Text = "layoutControl1";
-            // 
-            // simpleButton17
-            // 
-            this.simpleButton17.Location = new System.Drawing.Point(12, 428);
-            this.simpleButton17.Name = "simpleButton17";
-            this.simpleButton17.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton17.StyleController = this.layoutControl1;
-            this.simpleButton17.TabIndex = 19;
-            this.simpleButton17.Text = "simpleButton17";
-            // 
-            // simpleButton16
-            // 
-            this.simpleButton16.Location = new System.Drawing.Point(12, 402);
-            this.simpleButton16.Name = "simpleButton16";
-            this.simpleButton16.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton16.StyleController = this.layoutControl1;
-            this.simpleButton16.TabIndex = 18;
-            this.simpleButton16.Text = "simpleButton16";
-            // 
-            // simpleButton15
-            // 
-            this.simpleButton15.Location = new System.Drawing.Point(12, 376);
-            this.simpleButton15.Name = "simpleButton15";
-            this.simpleButton15.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton15.StyleController = this.layoutControl1;
-            this.simpleButton15.TabIndex = 17;
-            this.simpleButton15.Text = "simpleButton15";
-            // 
-            // simpleButton14
-            // 
-            this.simpleButton14.Location = new System.Drawing.Point(12, 350);
-            this.simpleButton14.Name = "simpleButton14";
-            this.simpleButton14.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton14.StyleController = this.layoutControl1;
-            this.simpleButton14.TabIndex = 16;
-            this.simpleButton14.Text = "simpleButton14";
-            // 
-            // simpleButton13
-            // 
-            this.simpleButton13.Location = new System.Drawing.Point(12, 324);
-            this.simpleButton13.Name = "simpleButton13";
-            this.simpleButton13.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton13.StyleController = this.layoutControl1;
-            this.simpleButton13.TabIndex = 15;
-            this.simpleButton13.Text = "simpleButton13";
-            // 
-            // simpleButton12
-            // 
-            this.simpleButton12.Location = new System.Drawing.Point(12, 298);
-            this.simpleButton12.Name = "simpleButton12";
-            this.simpleButton12.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton12.StyleController = this.layoutControl1;
-            this.simpleButton12.TabIndex = 14;
-            this.simpleButton12.Text = "simpleButton12";
-            // 
-            // simpleButton11
-            // 
-            this.simpleButton11.Location = new System.Drawing.Point(12, 272);
-            this.simpleButton11.Name = "simpleButton11";
-            this.simpleButton11.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton11.StyleController = this.layoutControl1;
-            this.simpleButton11.TabIndex = 13;
-            this.simpleButton11.Text = "simpleButton11";
-            // 
-            // simpleButton10
-            // 
-            this.simpleButton10.Location = new System.Drawing.Point(12, 246);
-            this.simpleButton10.Name = "simpleButton10";
-            this.simpleButton10.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton10.StyleController = this.layoutControl1;
-            this.simpleButton10.TabIndex = 12;
-            this.simpleButton10.Text = "simpleButton10";
-            // 
-            // simpleButton9
-            // 
-            this.simpleButton9.Location = new System.Drawing.Point(12, 220);
-            this.simpleButton9.Name = "simpleButton9";
-            this.simpleButton9.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton9.StyleController = this.layoutControl1;
-            this.simpleButton9.TabIndex = 11;
-            this.simpleButton9.Text = "simpleButton9";
-            // 
-            // simpleButton8
-            // 
-            this.simpleButton8.Location = new System.Drawing.Point(12, 194);
-            this.simpleButton8.Name = "simpleButton8";
-            this.simpleButton8.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton8.StyleController = this.layoutControl1;
-            this.simpleButton8.TabIndex = 10;
-            this.simpleButton8.Text = "simpleButton8";
-            // 
-            // simpleButton7
-            // 
-            this.simpleButton7.Location = new System.Drawing.Point(12, 168);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton7.StyleController = this.layoutControl1;
-            this.simpleButton7.TabIndex = 9;
-            this.simpleButton7.Text = "simpleButton7";
-            // 
-            // simpleButton6
-            // 
-            this.simpleButton6.Location = new System.Drawing.Point(12, 142);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton6.StyleController = this.layoutControl1;
-            this.simpleButton6.TabIndex = 8;
-            this.simpleButton6.Text = "simpleButton6";
-            // 
-            // simpleButton5
-            // 
-            this.simpleButton5.Location = new System.Drawing.Point(12, 116);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton5.StyleController = this.layoutControl1;
-            this.simpleButton5.TabIndex = 7;
-            this.simpleButton5.Text = "simpleButton5";
-            // 
-            // simpleButton4
-            // 
-            this.simpleButton4.Location = new System.Drawing.Point(12, 90);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton4.StyleController = this.layoutControl1;
-            this.simpleButton4.TabIndex = 6;
-            this.simpleButton4.Text = "simpleButton4";
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Location = new System.Drawing.Point(12, 64);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton3.StyleController = this.layoutControl1;
-            this.simpleButton3.TabIndex = 5;
-            this.simpleButton3.Text = "simpleButton3";
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Location = new System.Drawing.Point(12, 38);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton2.StyleController = this.layoutControl1;
-            this.simpleButton2.TabIndex = 4;
-            this.simpleButton2.Text = "simpleButton2";
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(12, 12);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(82, 22);
-            this.simpleButton1.StyleController = this.layoutControl1;
-            this.simpleButton1.TabIndex = 0;
-            this.simpleButton1.Text = "simpleButton1";
-            // 
-            // layoutControlGroup1
-            // 
-            this.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
-            this.layoutControlGroup1.GroupBordersVisible = false;
-            this.layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
-            this.layoutControlItem1,
-            this.layoutControlItem2,
-            this.layoutControlItem3,
-            this.layoutControlItem4,
-            this.layoutControlItem5,
-            this.layoutControlItem6,
-            this.layoutControlItem7,
-            this.layoutControlItem8,
-            this.layoutControlItem9,
-            this.layoutControlItem10,
-            this.layoutControlItem11,
-            this.layoutControlItem12,
-            this.layoutControlItem13,
-            this.layoutControlItem14,
-            this.layoutControlItem15,
-            this.layoutControlItem16,
-            this.layoutControlItem17});
-            this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlGroup1.Name = "layoutControlGroup1";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(106, 462);
-            this.layoutControlGroup1.TextVisible = false;
-            // 
-            // layoutControlItem1
-            // 
-            this.layoutControlItem1.Control = this.simpleButton1;
-            this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem1.TextVisible = false;
-            // 
-            // layoutControlItem2
-            // 
-            this.layoutControlItem2.Control = this.simpleButton2;
-            this.layoutControlItem2.Location = new System.Drawing.Point(0, 26);
-            this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem2.TextVisible = false;
-            // 
-            // layoutControlItem3
-            // 
-            this.layoutControlItem3.Control = this.simpleButton3;
-            this.layoutControlItem3.Location = new System.Drawing.Point(0, 52);
-            this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem3.TextVisible = false;
-            // 
-            // layoutControlItem4
-            // 
-            this.layoutControlItem4.Control = this.simpleButton4;
-            this.layoutControlItem4.Location = new System.Drawing.Point(0, 78);
-            this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem4.TextVisible = false;
-            // 
-            // layoutControlItem5
-            // 
-            this.layoutControlItem5.Control = this.simpleButton5;
-            this.layoutControlItem5.Location = new System.Drawing.Point(0, 104);
-            this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem5.TextVisible = false;
-            // 
-            // layoutControlItem6
-            // 
-            this.layoutControlItem6.Control = this.simpleButton6;
-            this.layoutControlItem6.Location = new System.Drawing.Point(0, 130);
-            this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem6.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem6.TextVisible = false;
-            // 
-            // layoutControlItem7
-            // 
-            this.layoutControlItem7.Control = this.simpleButton7;
-            this.layoutControlItem7.Location = new System.Drawing.Point(0, 156);
-            this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem7.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem7.TextVisible = false;
-            // 
-            // layoutControlItem8
-            // 
-            this.layoutControlItem8.Control = this.simpleButton8;
-            this.layoutControlItem8.Location = new System.Drawing.Point(0, 182);
-            this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem8.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem8.TextVisible = false;
-            // 
-            // layoutControlItem9
-            // 
-            this.layoutControlItem9.Control = this.simpleButton9;
-            this.layoutControlItem9.Location = new System.Drawing.Point(0, 208);
-            this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem9.TextVisible = false;
-            // 
-            // layoutControlItem10
-            // 
-            this.layoutControlItem10.Control = this.simpleButton10;
-            this.layoutControlItem10.Location = new System.Drawing.Point(0, 234);
-            this.layoutControlItem10.Name = "layoutControlItem10";
-            this.layoutControlItem10.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem10.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem10.TextVisible = false;
-            // 
-            // layoutControlItem11
-            // 
-            this.layoutControlItem11.Control = this.simpleButton11;
-            this.layoutControlItem11.Location = new System.Drawing.Point(0, 260);
-            this.layoutControlItem11.Name = "layoutControlItem11";
-            this.layoutControlItem11.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem11.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem11.TextVisible = false;
-            // 
-            // layoutControlItem12
-            // 
-            this.layoutControlItem12.Control = this.simpleButton12;
-            this.layoutControlItem12.Location = new System.Drawing.Point(0, 286);
-            this.layoutControlItem12.Name = "layoutControlItem12";
-            this.layoutControlItem12.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem12.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem12.TextVisible = false;
-            // 
-            // layoutControlItem13
-            // 
-            this.layoutControlItem13.Control = this.simpleButton13;
-            this.layoutControlItem13.Location = new System.Drawing.Point(0, 312);
-            this.layoutControlItem13.Name = "layoutControlItem13";
-            this.layoutControlItem13.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem13.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem13.TextVisible = false;
-            // 
-            // layoutControlItem14
-            // 
-            this.layoutControlItem14.Control = this.simpleButton14;
-            this.layoutControlItem14.Location = new System.Drawing.Point(0, 338);
-            this.layoutControlItem14.Name = "layoutControlItem14";
-            this.layoutControlItem14.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem14.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem14.TextVisible = false;
-            // 
-            // layoutControlItem15
-            // 
-            this.layoutControlItem15.Control = this.simpleButton15;
-            this.layoutControlItem15.Location = new System.Drawing.Point(0, 364);
-            this.layoutControlItem15.Name = "layoutControlItem15";
-            this.layoutControlItem15.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem15.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem15.TextVisible = false;
-            // 
-            // layoutControlItem16
-            // 
-            this.layoutControlItem16.Control = this.simpleButton16;
-            this.layoutControlItem16.Location = new System.Drawing.Point(0, 390);
-            this.layoutControlItem16.Name = "layoutControlItem16";
-            this.layoutControlItem16.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem16.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem16.TextVisible = false;
-            // 
-            // layoutControlItem17
-            // 
-            this.layoutControlItem17.Control = this.simpleButton17;
-            this.layoutControlItem17.Location = new System.Drawing.Point(0, 416);
-            this.layoutControlItem17.Name = "layoutControlItem17";
-            this.layoutControlItem17.Size = new System.Drawing.Size(86, 26);
-            this.layoutControlItem17.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem17.TextVisible = false;
-            // 
             // dockManager1
             // 
             this.dockManager1.Form = this;
@@ -717,12 +332,478 @@
             "DevExpress.XtraBars.Navigation.TileNavPane",
             "DevExpress.XtraBars.TabFormControl"});
             // 
+            // layoutControl1
+            // 
+            this.layoutControl1.Controls.Add(this.navBarControl1);
+            this.layoutControl1.Controls.Add(this.splitContainerControl1);
+            this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.layoutControl1.Location = new System.Drawing.Point(0, 96);
+            this.layoutControl1.Name = "layoutControl1";
+            this.layoutControl1.Root = this.layoutControlGroup1;
+            this.layoutControl1.Size = new System.Drawing.Size(993, 425);
+            this.layoutControl1.TabIndex = 5;
+            this.layoutControl1.Text = "layoutControl1";
+            // 
+            // layoutControlGroup1
+            // 
+            this.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
+            this.layoutControlGroup1.GroupBordersVisible = false;
+            this.layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
+            this.layoutControlItem1,
+            this.layoutControlItem2});
+            this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlGroup1.Name = "layoutControlGroup1";
+            this.layoutControlGroup1.Size = new System.Drawing.Size(993, 425);
+            this.layoutControlGroup1.TextVisible = false;
+            // 
+            // splitContainerControl1
+            // 
+            this.splitContainerControl1.Location = new System.Drawing.Point(12, 12);
+            this.splitContainerControl1.Name = "splitContainerControl1";
+            this.splitContainerControl1.Panel1.Text = "Panel1";
+            this.splitContainerControl1.Panel2.Text = "Panel2";
+            this.splitContainerControl1.PanelVisibility = DevExpress.XtraEditors.SplitPanelVisibility.Panel2;
+            this.splitContainerControl1.Size = new System.Drawing.Size(842, 401);
+            this.splitContainerControl1.TabIndex = 4;
+            this.splitContainerControl1.Text = "splitContainerControl1";
+            // 
+            // layoutControlItem1
+            // 
+            this.layoutControlItem1.Control = this.splitContainerControl1;
+            this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlItem1.Name = "layoutControlItem1";
+            this.layoutControlItem1.Size = new System.Drawing.Size(846, 405);
+            this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem1.TextVisible = false;
+            // 
+            // navBarControl1
+            // 
+            this.navBarControl1.ActiveGroup = this.ShortCuts;
+            this.navBarControl1.Groups.AddRange(new DevExpress.XtraNavBar.NavBarGroup[] {
+            this.ShortCuts});
+            this.navBarControl1.Items.AddRange(new DevExpress.XtraNavBar.NavBarItem[] {
+            this.navBarItem1,
+            this.navBarItem2,
+            this.navBarItem3,
+            this.navBarItem4,
+            this.navBarItem5,
+            this.navBarItem6,
+            this.navBarItem7,
+            this.navBarItem8,
+            this.navBarItem9,
+            this.navBarItem10,
+            this.navBarItem11,
+            this.navBarItem12,
+            this.navBarItem13,
+            this.navBarItem14,
+            this.navBarItem15,
+            this.navBarItem16,
+            this.navBarItem17,
+            this.navBarItem18,
+            this.navBarItem19,
+            this.navBarItem20,
+            this.navBarItem21,
+            this.navBarItem22,
+            this.navBarItem23,
+            this.navBarItem24,
+            this.navBarItem25,
+            this.navBarItem26,
+            this.navBarItem27,
+            this.navBarItem28,
+            this.navBarItem29,
+            this.navBarItem30,
+            this.navBarItem31,
+            this.navBarItem32,
+            this.navBarItem33,
+            this.navBarItem34,
+            this.navBarItem35,
+            this.navBarItem36,
+            this.navBarItem37,
+            this.navBarItem38,
+            this.navBarItem39,
+            this.navBarItem40,
+            this.navBarItem41,
+            this.navBarItem42,
+            this.navBarItem43,
+            this.navBarItem44});
+            this.navBarControl1.Location = new System.Drawing.Point(858, 12);
+            this.navBarControl1.Name = "navBarControl1";
+            this.navBarControl1.OptionsNavPane.ExpandedWidth = 123;
+            this.navBarControl1.Size = new System.Drawing.Size(123, 401);
+            this.navBarControl1.TabIndex = 10;
+            this.navBarControl1.Text = "navBarControl1";
+            this.navBarControl1.View = new DevExpress.XtraNavBar.ViewInfo.VSToolBoxViewInfoRegistrator();
+            // 
+            // ShortCuts
+            // 
+            this.ShortCuts.Appearance.BackColor = System.Drawing.Color.Red;
+            this.ShortCuts.Appearance.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShortCuts.Appearance.Options.UseBackColor = true;
+            this.ShortCuts.Appearance.Options.UseFont = true;
+            this.ShortCuts.Caption = "ShortCuts";
+            this.ShortCuts.Expanded = true;
+            this.ShortCuts.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.SmallIconsText;
+            this.ShortCuts.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem27),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem28),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem29),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem30),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem31),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem32),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem33),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem34),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem35),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem36),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem37),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem38),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem39),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem40),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem41),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem42),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem43),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem44)});
+            this.ShortCuts.Name = "ShortCuts";
+            this.ShortCuts.TopVisibleLinkIndex = 2;
+            // 
+            // navBarItem27
+            // 
+            this.navBarItem27.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem27.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem27.Appearance.Options.UseFont = true;
+            this.navBarItem27.Appearance.Options.UseForeColor = true;
+            this.navBarItem27.Caption = "F1 Online Help";
+            this.navBarItem27.Name = "navBarItem27";
+            // 
+            // navBarItem28
+            // 
+            this.navBarItem28.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem28.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem28.Appearance.Options.UseFont = true;
+            this.navBarItem28.Appearance.Options.UseForeColor = true;
+            this.navBarItem28.Caption = "F1 Add Account";
+            this.navBarItem28.Name = "navBarItem28";
+            // 
+            // navBarItem29
+            // 
+            this.navBarItem29.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem29.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem29.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem29.Appearance.Options.UseBackColor = true;
+            this.navBarItem29.Appearance.Options.UseFont = true;
+            this.navBarItem29.Appearance.Options.UseForeColor = true;
+            this.navBarItem29.Caption = "F2 Add Item";
+            this.navBarItem29.Name = "navBarItem29";
+            // 
+            // navBarItem30
+            // 
+            this.navBarItem30.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem30.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem30.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem30.Appearance.Options.UseBackColor = true;
+            this.navBarItem30.Appearance.Options.UseFont = true;
+            this.navBarItem30.Appearance.Options.UseForeColor = true;
+            this.navBarItem30.Caption = "F3 Master";
+            this.navBarItem30.Name = "navBarItem30";
+            // 
+            // navBarItem31
+            // 
+            this.navBarItem31.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem31.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem31.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem31.Appearance.Options.UseBackColor = true;
+            this.navBarItem31.Appearance.Options.UseFont = true;
+            this.navBarItem31.Appearance.Options.UseForeColor = true;
+            this.navBarItem31.Caption = "F3 Master";
+            this.navBarItem31.Name = "navBarItem31";
+            // 
+            // navBarItem32
+            // 
+            this.navBarItem32.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem32.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem32.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem32.Appearance.Options.UseBackColor = true;
+            this.navBarItem32.Appearance.Options.UseFont = true;
+            this.navBarItem32.Appearance.Options.UseForeColor = true;
+            this.navBarItem32.Caption = "F5 Payment";
+            this.navBarItem32.Name = "navBarItem32";
+            // 
+            // navBarItem33
+            // 
+            this.navBarItem33.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem33.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem33.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem33.Appearance.Options.UseBackColor = true;
+            this.navBarItem33.Appearance.Options.UseFont = true;
+            this.navBarItem33.Appearance.Options.UseForeColor = true;
+            this.navBarItem33.Caption = "F7 Receipt";
+            this.navBarItem33.Name = "navBarItem33";
+            // 
+            // navBarItem34
+            // 
+            this.navBarItem34.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem34.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem34.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem34.Appearance.Options.UseBackColor = true;
+            this.navBarItem34.Appearance.Options.UseFont = true;
+            this.navBarItem34.Appearance.Options.UseForeColor = true;
+            this.navBarItem34.Caption = "navBarItem34";
+            this.navBarItem34.Name = "navBarItem34";
+            // 
+            // navBarItem35
+            // 
+            this.navBarItem35.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem35.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem35.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem35.Appearance.Options.UseBackColor = true;
+            this.navBarItem35.Appearance.Options.UseFont = true;
+            this.navBarItem35.Appearance.Options.UseForeColor = true;
+            this.navBarItem35.Caption = "navBarItem35";
+            this.navBarItem35.Name = "navBarItem35";
+            // 
+            // navBarItem36
+            // 
+            this.navBarItem36.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem36.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem36.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem36.Appearance.Options.UseBackColor = true;
+            this.navBarItem36.Appearance.Options.UseFont = true;
+            this.navBarItem36.Appearance.Options.UseForeColor = true;
+            this.navBarItem36.Caption = "navBarItem36";
+            this.navBarItem36.Name = "navBarItem36";
+            // 
+            // navBarItem37
+            // 
+            this.navBarItem37.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem37.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem37.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem37.Appearance.Options.UseBackColor = true;
+            this.navBarItem37.Appearance.Options.UseFont = true;
+            this.navBarItem37.Appearance.Options.UseForeColor = true;
+            this.navBarItem37.Caption = "navBarItem37";
+            this.navBarItem37.Name = "navBarItem37";
+            // 
+            // navBarItem38
+            // 
+            this.navBarItem38.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem38.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem38.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem38.Appearance.Options.UseBackColor = true;
+            this.navBarItem38.Appearance.Options.UseFont = true;
+            this.navBarItem38.Appearance.Options.UseForeColor = true;
+            this.navBarItem38.Caption = "navBarItem38";
+            this.navBarItem38.Name = "navBarItem38";
+            // 
+            // navBarItem39
+            // 
+            this.navBarItem39.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem39.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem39.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem39.Appearance.Options.UseBackColor = true;
+            this.navBarItem39.Appearance.Options.UseFont = true;
+            this.navBarItem39.Appearance.Options.UseForeColor = true;
+            this.navBarItem39.Caption = "navBarItem39";
+            this.navBarItem39.Name = "navBarItem39";
+            // 
+            // navBarItem40
+            // 
+            this.navBarItem40.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem40.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem40.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem40.Appearance.Options.UseBackColor = true;
+            this.navBarItem40.Appearance.Options.UseFont = true;
+            this.navBarItem40.Appearance.Options.UseForeColor = true;
+            this.navBarItem40.Caption = "navBarItem40";
+            this.navBarItem40.Name = "navBarItem40";
+            // 
+            // navBarItem41
+            // 
+            this.navBarItem41.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem41.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem41.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem41.Appearance.Options.UseBackColor = true;
+            this.navBarItem41.Appearance.Options.UseFont = true;
+            this.navBarItem41.Appearance.Options.UseForeColor = true;
+            this.navBarItem41.Caption = "navBarItem41";
+            this.navBarItem41.Name = "navBarItem41";
+            // 
+            // navBarItem42
+            // 
+            this.navBarItem42.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem42.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem42.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem42.Appearance.Options.UseBackColor = true;
+            this.navBarItem42.Appearance.Options.UseFont = true;
+            this.navBarItem42.Appearance.Options.UseForeColor = true;
+            this.navBarItem42.Caption = "navBarItem42";
+            this.navBarItem42.Name = "navBarItem42";
+            // 
+            // navBarItem43
+            // 
+            this.navBarItem43.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem43.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem43.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem43.Appearance.Options.UseBackColor = true;
+            this.navBarItem43.Appearance.Options.UseFont = true;
+            this.navBarItem43.Appearance.Options.UseForeColor = true;
+            this.navBarItem43.Caption = "navBarItem43";
+            this.navBarItem43.Name = "navBarItem43";
+            // 
+            // navBarItem44
+            // 
+            this.navBarItem44.Appearance.BackColor = System.Drawing.Color.Red;
+            this.navBarItem44.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.navBarItem44.Appearance.ForeColor = System.Drawing.Color.Blue;
+            this.navBarItem44.Appearance.Options.UseBackColor = true;
+            this.navBarItem44.Appearance.Options.UseFont = true;
+            this.navBarItem44.Appearance.Options.UseForeColor = true;
+            this.navBarItem44.Caption = "navBarItem44";
+            this.navBarItem44.Name = "navBarItem44";
+            // 
+            // navBarItem1
+            // 
+            this.navBarItem1.Caption = "navBarItem1";
+            this.navBarItem1.Name = "navBarItem1";
+            // 
+            // navBarItem2
+            // 
+            this.navBarItem2.Caption = "navBarItem2";
+            this.navBarItem2.Name = "navBarItem2";
+            // 
+            // navBarItem3
+            // 
+            this.navBarItem3.Caption = "navBarItem3";
+            this.navBarItem3.Name = "navBarItem3";
+            // 
+            // navBarItem4
+            // 
+            this.navBarItem4.Caption = "navBarItem4";
+            this.navBarItem4.Name = "navBarItem4";
+            // 
+            // navBarItem5
+            // 
+            this.navBarItem5.Caption = "navBarItem5";
+            this.navBarItem5.Name = "navBarItem5";
+            // 
+            // navBarItem6
+            // 
+            this.navBarItem6.Caption = "navBarItem6";
+            this.navBarItem6.Name = "navBarItem6";
+            // 
+            // navBarItem7
+            // 
+            this.navBarItem7.Caption = "navBarItem7";
+            this.navBarItem7.Name = "navBarItem7";
+            // 
+            // navBarItem8
+            // 
+            this.navBarItem8.Caption = "navBarItem8";
+            this.navBarItem8.Name = "navBarItem8";
+            // 
+            // navBarItem9
+            // 
+            this.navBarItem9.Caption = "navBarItem9";
+            this.navBarItem9.Name = "navBarItem9";
+            // 
+            // navBarItem10
+            // 
+            this.navBarItem10.Caption = "navBarItem10";
+            this.navBarItem10.Name = "navBarItem10";
+            // 
+            // navBarItem11
+            // 
+            this.navBarItem11.Caption = "navBarItem11";
+            this.navBarItem11.Name = "navBarItem11";
+            // 
+            // navBarItem12
+            // 
+            this.navBarItem12.Caption = "navBarItem12";
+            this.navBarItem12.Name = "navBarItem12";
+            // 
+            // navBarItem13
+            // 
+            this.navBarItem13.Caption = "navBarItem13";
+            this.navBarItem13.Name = "navBarItem13";
+            // 
+            // navBarItem14
+            // 
+            this.navBarItem14.Caption = "navBarItem14";
+            this.navBarItem14.Name = "navBarItem14";
+            // 
+            // navBarItem15
+            // 
+            this.navBarItem15.Caption = "navBarItem15";
+            this.navBarItem15.Name = "navBarItem15";
+            // 
+            // navBarItem16
+            // 
+            this.navBarItem16.Caption = "navBarItem16";
+            this.navBarItem16.Name = "navBarItem16";
+            // 
+            // navBarItem17
+            // 
+            this.navBarItem17.Caption = "navBarItem17";
+            this.navBarItem17.Name = "navBarItem17";
+            // 
+            // navBarItem18
+            // 
+            this.navBarItem18.Caption = "navBarItem18";
+            this.navBarItem18.Name = "navBarItem18";
+            // 
+            // navBarItem19
+            // 
+            this.navBarItem19.Caption = "navBarItem19";
+            this.navBarItem19.Name = "navBarItem19";
+            // 
+            // navBarItem20
+            // 
+            this.navBarItem20.Caption = "navBarItem20";
+            this.navBarItem20.Name = "navBarItem20";
+            // 
+            // navBarItem21
+            // 
+            this.navBarItem21.Caption = "navBarItem21";
+            this.navBarItem21.Name = "navBarItem21";
+            // 
+            // navBarItem22
+            // 
+            this.navBarItem22.Caption = "navBarItem22";
+            this.navBarItem22.Name = "navBarItem22";
+            // 
+            // navBarItem23
+            // 
+            this.navBarItem23.Caption = "navBarItem23";
+            this.navBarItem23.Name = "navBarItem23";
+            // 
+            // navBarItem24
+            // 
+            this.navBarItem24.Caption = "navBarItem24";
+            this.navBarItem24.Name = "navBarItem24";
+            // 
+            // navBarItem25
+            // 
+            this.navBarItem25.Caption = "navBarItem25";
+            this.navBarItem25.Name = "navBarItem25";
+            // 
+            // navBarItem26
+            // 
+            this.navBarItem26.Caption = "navBarItem26";
+            this.navBarItem26.Name = "navBarItem26";
+            // 
+            // layoutControlItem2
+            // 
+            this.layoutControlItem2.Control = this.navBarControl1;
+            this.layoutControlItem2.Location = new System.Drawing.Point(846, 0);
+            this.layoutControlItem2.Name = "layoutControlItem2";
+            this.layoutControlItem2.Size = new System.Drawing.Size(127, 405);
+            this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem2.TextVisible = false;
+            // 
             // ReportMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(993, 521);
-            this.Controls.Add(this.splitContainerControl1);
+            this.Controls.Add(this.layoutControl1);
             this.Controls.Add(this.ribbonControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
@@ -730,34 +811,19 @@
             this.MinimizeBox = false;
             this.Name = "ReportMenu";
             this.Ribbon = this.ribbonControl1;
-            this.StatusBar = this.ribbonStatusBar1;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ReportMenu_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
-            this.splitContainerControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
+            this.splitContainerControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -787,47 +853,60 @@
         private DevExpress.XtraBars.BarButtonItem rptAccountRegister;
         private DevExpress.XtraBars.BarButtonItem rptAccountActivity;
         private DevExpress.XtraBars.BarButtonItem rptPartyDayBook;
-        private DevExpress.XtraEditors.SplitContainerControl splitContainerControl1;
-        private DevExpress.XtraLayout.LayoutControl layoutControl1;
-        private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton17;
-        private DevExpress.XtraEditors.SimpleButton simpleButton16;
-        private DevExpress.XtraEditors.SimpleButton simpleButton15;
-        private DevExpress.XtraEditors.SimpleButton simpleButton14;
-        private DevExpress.XtraEditors.SimpleButton simpleButton13;
-        private DevExpress.XtraEditors.SimpleButton simpleButton12;
-        private DevExpress.XtraEditors.SimpleButton simpleButton11;
-        private DevExpress.XtraEditors.SimpleButton simpleButton10;
-        private DevExpress.XtraEditors.SimpleButton simpleButton9;
-        private DevExpress.XtraEditors.SimpleButton simpleButton8;
-        private DevExpress.XtraEditors.SimpleButton simpleButton7;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem4;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem5;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem6;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem7;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem8;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem9;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem10;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem11;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem12;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem13;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem14;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem15;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem16;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem17;
         private DevExpress.XtraBars.Docking.DockManager dockManager1;
         private DevExpress.XtraBars.BarEditItem barEditItem1;
         private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit repositoryItemButtonEdit1;
         private DevExpress.XtraBars.BarSubItem barSubItem2;
-        private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar1;
+        private DevExpress.XtraLayout.LayoutControl layoutControl1;
+        private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup1;
+        private DevExpress.XtraNavBar.NavBarControl navBarControl1;
+        private DevExpress.XtraNavBar.NavBarGroup ShortCuts;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem27;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem28;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem29;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem30;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem31;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem32;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem33;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem34;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem35;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem36;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem37;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem38;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem39;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem40;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem41;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem42;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem43;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem44;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem1;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem2;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem3;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem4;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem5;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem6;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem7;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem8;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem9;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem10;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem11;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem12;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem13;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem14;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem15;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem16;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem17;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem18;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem19;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem20;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem21;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem22;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem23;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem24;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem25;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem26;
+        private DevExpress.XtraEditors.SplitContainerControl splitContainerControl1;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
     }
 }

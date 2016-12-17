@@ -3,24 +3,18 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Text;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DevExpress.XtraEditors;
 
 namespace IPCAUI.Administration
 {
-    public partial class Billsundary : DevExpress.XtraEditors.XtraForm
+    public partial class Costcenterlist : Form
     {
-        public Billsundary()
+        public Costcenterlist()
         {
             InitializeComponent();
-        }
-
-        private void Billsundary_GiveFeedback(object sender, GiveFeedbackEventArgs e)
-        {
-
         }
     }
 }
