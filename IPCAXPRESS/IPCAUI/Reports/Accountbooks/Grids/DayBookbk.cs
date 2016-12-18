@@ -12,9 +12,9 @@ using DevExpress.XtraTreeList;
 
 namespace IPCAUI.Reports.Accountbooks.Grids
 {
-    public partial class DayBook : DevExpress.XtraEditors.XtraForm
+    public partial class DayBookbk : DevExpress.XtraEditors.XtraForm
     {
-        public DayBook()
+        public DayBookbk()
         {
             InitializeComponent();
         }
@@ -150,66 +150,66 @@ namespace IPCAUI.Reports.Accountbooks.Grids
 
         private void tlistAccountbook_MouseDown(object sender, MouseEventArgs e)
         {
-            //DevExpress.XtraTreeList.TreeListHitInfo hi = tlistAccountbook.CalcHitInfo(e.Location);
-            //if(hi.HitInfoType == DevExpress.XtraTreeList.HitInfoType.Cell)
-            //{
-            //    string selectedNode = hi.Node[Accountbooks].ToString();
-            //    switch (selectedNode)
-            //    {
-            //        case "Account Group Ledger":
-            //            Reports.Accountbooks.AccountGroupLedger frmAccGrp = new Reports.Accountbooks.AccountGroupLedger();
-            //            frmAccGrp.StartPosition = FormStartPosition.CenterParent;
-            //            frmAccGrp.ShowDialog();
-            //            break;
-            //        case "Account Ledger":
-            //            Reports.Accountbooks.AccountLedger frmAccLed = new Reports.Accountbooks.AccountLedger();
-            //            frmAccLed.ShowDialog();
-            //            break;
-            //        case "Bank Book":
-            //           Bankbook frmBook = new Bankbook();
-            //            frmBook.ShowDialog();
-            //            break;
-            //        case "Cash Book Single":
-            //            CashbookSingle frmCashbook = new CashbookSingle();
-            //            frmCashbook.ShowDialog();
-            //            break;
-            //        case "Day Book":
-            //            Daybook frmday = new Daybook();
-            //            frmday.ShowDialog();
-            //            break;
-            //        case "Payment Register":
-            //            PaymentRegister frmpay = new PaymentRegister();
-            //            frmpay.ShowDialog();
-            //            break;
-            //        case "Purchase Register":
-            //            PurchaseRegister frmpurc = new PurchaseRegister();
-            //            frmpurc.ShowDialog();
-            //            break;
-            //        case "Purchase Return Register":
-            //            PurchaseReturnRegister frmPurcre = new PurchaseReturnRegister();
-            //            frmPurcre.ShowDialog();
-            //            break;
-            //        case "Receipt Register":
-            //            RecepitRegister frmRece = new RecepitRegister();
-            //            frmRece.ShowDialog();
-            //            break;
-            //        case "Sales Register":
-            //            Saleregister frmsale = new Saleregister();
-            //            frmsale.ShowDialog();
-            //            break;
-            //        case "Sales Return Register":
-            //            SalesReturnRegister frmsaleret = new SalesReturnRegister();
-            //            frmsaleret.ShowDialog();
-            //            break;
-            //        case "Sub Ledger":
-            //            SubLedger frmsub = new SubLedger();
-            //            frmsub.ShowDialog();
-            //            break;
-            //        default:
-            //            break;
-            // }
+            DevExpress.XtraTreeList.TreeListHitInfo hi = tlistAccountbook.CalcHitInfo(e.Location);
+            if(hi.HitInfoType == DevExpress.XtraTreeList.HitInfoType.Cell)
+            {
+                string selectedNode = hi.Node[Accountbooks].ToString();
+                switch (selectedNode)
+                {
+                    case "Account Group Ledger":
+                        Reports.Accountbooks.AccountGroupLedger frmAccGrp = new Reports.Accountbooks.AccountGroupLedger();
+                        frmAccGrp.StartPosition = FormStartPosition.CenterParent;
+                        frmAccGrp.ShowDialog();
+                        break;
+                    case "Account Ledger":
+                        Reports.Accountbooks.AccountLedger frmAccLed = new Reports.Accountbooks.AccountLedger();
+                        frmAccLed.ShowDialog();
+                        break;
+                    case "Bank Book":
+                       Bankbook frmBook = new Bankbook();
+                        frmBook.ShowDialog();
+                        break;
+                    case "Cash Book Single":
+                        CashbookSingle frmCashbook = new CashbookSingle();
+                        frmCashbook.ShowDialog();
+                        break;
+                    case "Day Book":
+                        Daybook frmday = new Daybook();
+                        frmday.ShowDialog();
+                        break;
+                    case "Payment Register":
+                        PaymentRegister frmpay = new PaymentRegister();
+                        frmpay.ShowDialog();
+                        break;
+                    case "Purchase Register":
+                        PurchaseRegister frmpurc = new PurchaseRegister();
+                        frmpurc.ShowDialog();
+                        break;
+                    case "Purchase Return Register":
+                        PurchaseReturnRegister frmPurcre = new PurchaseReturnRegister();
+                        frmPurcre.ShowDialog();
+                        break;
+                    case "Receipt Register":
+                        RecepitRegister frmRece = new RecepitRegister();
+                        frmRece.ShowDialog();
+                        break;
+                    case "Sales Register":
+                        Saleregister frmsale = new Saleregister();
+                        frmsale.ShowDialog();
+                        break;
+                    case "Sales Return Register":
+                        SalesReturnRegister frmsaleret = new SalesReturnRegister();
+                        frmsaleret.ShowDialog();
+                        break;
+                    case "Sub Ledger":
+                        SubLedger frmsub = new SubLedger();
+                        frmsub.ShowDialog();
+                        break;
+                    default:
+                        break;
+                }
 
-            //}
+            }
 
             //string selectedNode = (sender as TreeList).FocusedNode.GetValue(0).ToString();
         }

@@ -109,6 +109,12 @@
     <Compile Include="Administration\Currencyconversion.Designer.cs">
       <DependentUpon>Currencyconversion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Administration\List\AccountList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\AccountList.Designer.cs">
+      <DependentUpon>AccountList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Administration\Miscellaneousmaster.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -373,6 +379,19 @@
     <Compile Include="Company\Updatesignature.Designer.cs">
       <DependentUpon>Updatesignature.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\AccountList.cs">
+      <DependentUpon>AccountList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\AccountList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AccountList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\BalanceSheet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BalanceSheet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSets\ContraVoucher.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -474,6 +493,18 @@
     </Compile>
     <Compile Include="Reports\Accountbooks\Daybook.Designer.cs">
       <DependentUpon>Daybook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\BalanceSheetGrd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\BalanceSheetGrd.Designer.cs">
+      <DependentUpon>BalanceSheetGrd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\DayBookbk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\DayBookbk.Designer.cs">
+      <DependentUpon>DayBookbk.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\Accountbooks\Grids\DayBook.cs">
       <SubType>Form</SubType>
@@ -2446,6 +2477,9 @@
     <EmbeddedResource Include="Administration\Currencyconversion.resx">
       <DependentUpon>Currencyconversion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\AccountList.resx">
+      <DependentUpon>AccountList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Administration\Miscellaneousmaster.resx">
       <DependentUpon>Miscellaneousmaster.cs</DependentUpon>
     </EmbeddedResource>
@@ -2632,6 +2666,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\Daybook.resx">
       <DependentUpon>Daybook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\Grids\BalanceSheetGrd.resx">
+      <DependentUpon>BalanceSheetGrd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\Grids\DayBookbk.resx">
+      <DependentUpon>DayBookbk.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\Grids\DayBook.resx">
       <DependentUpon>DayBook.cs</DependentUpon>
@@ -3609,6 +3649,28 @@
     <EmbeddedResource Include="XtraForm1.resx">
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DataSets\AccountList.xsc">
+      <DependentUpon>AccountList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\AccountList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AccountList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\AccountList.xss">
+      <DependentUpon>AccountList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BalanceSheet.xsc">
+      <DependentUpon>BalanceSheet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BalanceSheet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BalanceSheet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\BalanceSheet.xss">
+      <DependentUpon>BalanceSheet.xsd</DependentUpon>
+    </None>
     <None Include="DataSets\ContraVoucher.xsc">
       <DependentUpon>ContraVoucher.xsd</DependentUpon>
     </None>

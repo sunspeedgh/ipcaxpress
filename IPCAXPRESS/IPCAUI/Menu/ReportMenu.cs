@@ -22,8 +22,8 @@ namespace IPCAUI.Menu
 
         private void rptDayBook_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Reports.Accountbooks.Grids.DayBook frm;
-            frm = new Reports.Accountbooks.Grids.DayBook(); //generate new instance
+            Reports.Accountbooks.Grids.BalanceSheetGrd frm;
+            frm = new Reports.Accountbooks.Grids.BalanceSheetGrd(); //generate new instance
             frm.Owner = this;
             frm.TopLevel = false;
             splitContainerControl1.Panel2.Controls.Add(frm);
@@ -76,6 +76,16 @@ namespace IPCAUI.Menu
         private void ReportMenu_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.frm.Visible = true;
+
+        }
+
+        private void rptPartyDayBook_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
 
         }
     }

@@ -54,6 +54,7 @@ namespace IPCAUI.Administration
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            /*
             //TODO: 1. Check whether the account name exists or not
             //2. if exist then do not allow to save with the same account name
             //3. Prompt user to change the account name as it already exists
@@ -144,7 +145,15 @@ namespace IPCAUI.Administration
             Dialogs.PopUPDialog d = new Dialogs.PopUPDialog("Saved Successfully!");
             d.ShowDialog();
 
+    */
+        }
 
+        private void ListAccount_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Administration.List.AccountList frmList = new Administration.List.AccountList();
+            frmList.StartPosition = FormStartPosition.CenterScreen;
+
+            frmList.ShowDialog();
         }
     }
 }
