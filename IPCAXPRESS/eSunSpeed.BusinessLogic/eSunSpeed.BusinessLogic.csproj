@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExecutivegroupBL.cs" />
+    <Compile Include="ContactgroupBL.cs" />
     <Compile Include="AccountMaster.cs" />
     <Compile Include="Analytics.cs" />
     <Compile Include="Arch.cs" />
@@ -131,7 +133,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -334,8 +334,8 @@ namespace IPCAUI.Menu
 
         private void barbtnExecutive_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Administration.Executivemaster frm;
-            frm = new Administration.Executivemaster(); //generate new instance 
+            Administration.Executivegroup frm;
+            frm = new Administration.Executivegroup(); //generate new instance 
             frm.Owner = this;
             frm.TopLevel = false;
 

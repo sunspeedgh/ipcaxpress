@@ -9,12 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using eSunSpeedDomain;
 using eSunSpeed.BusinessLogic;
+
 namespace IPCAUI.Administration
 {
-    public partial class Contactgroup : Form
+    public partial class Executivegroup : Form
     {
-        ContactgroupBL objcont = new ContactgroupBL();
-        public Contactgroup()
+        ExecutivegroupBL objexe = new ExecutivegroupBL();
+        public Executivegroup()
         {
             InitializeComponent();
         }
@@ -30,7 +31,7 @@ namespace IPCAUI.Administration
             //2. if exist then do not allow to save with the same group name
             //3. Prompt user to change the group name as it already exists
 
-            if (tbxGroupName.Text.Equals(string.Empty))
+            if (tbxName.Text.Equals(string.Empty))
             {
                 MessageBox.Show("Group Name can not be blank!");
                 return;
@@ -43,32 +44,38 @@ namespace IPCAUI.Administration
             //    return;
             //}
 
-            eSunSpeedDomain.ContactModel objContGroup = new eSunSpeedDomain.ContactModel();
+            
+           
 
-            objContGroup.GroupName = tbxGroupName.Text;
+            eSunSpeedDomain.ExecutiveModel objexe = new ExecutiveModel();
 
-            objContGroup.AliasName = tbxAliasname.Text;
+            //objexe.Name = tbxName.Text;
+            
+           
+
+            //objContGroup.AliasName = tbxAliasname.Text;
 
 
 
-            objContGroup.Primary = cbxPrimarygroup.SelectedItem.ToString();
+            //objContGroup.Primary = cbxPrimarygroup.SelectedItem.ToString();
 
-            objContGroup.UnderGroup = cbxUndergroup.SelectedItem.ToString();
+            //objContGroup.UnderGroup = cbxUndergroup.SelectedItem.ToString();
 
-            objContGroup.CreatedBy = "Admin";
+            //objContGroup.CreatedBy = "Admin";
 
-            string message = string.Empty;
+            //string message = string.Empty;
 
-            bool isSuccess = objcont.SaveContactGroup(objContGroup);
-            if(isSuccess)
-            {
-                MessageBox.Show("Saved Successfully!");
-            }
+            //bool isSuccess = objcont.SaveContactGroup(objContGroup);
+            //if (isSuccess)
+            //{
+            //    MessageBox.Show("Saved Successfully!");
+            //}
             //List<eSunSpeedDomain.AccountGroupModel> lstGroups = accObj.GetListofAccountsGroups();
             //dgvList.DataSource = lstGroups;
 
             //Dialogs.PopUPDialog d = new Dialogs.PopUPDialog("Saved Successfully!");
             //d.ShowDialog();
+
 
         }
     }

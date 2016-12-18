@@ -157,11 +157,11 @@
     <Compile Include="Administration\Referencegroup.Designer.cs">
       <DependentUpon>Referencegroup.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Executivemaster.cs">
+    <Compile Include="Administration\Executivegroup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administration\Executivemaster.Designer.cs">
-      <DependentUpon>Executivemaster.cs</DependentUpon>
+    <Compile Include="Administration\Executivegroup.Designer.cs">
+      <DependentUpon>Executivegroup.cs</DependentUpon>
     </Compile>
     <Compile Include="Administration\Contactgroup.cs">
       <SubType>Form</SubType>
@@ -2633,8 +2633,8 @@
     <EmbeddedResource Include="Administration\Referencegroup.resx">
       <DependentUpon>Referencegroup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administration\Executivemaster.resx">
-      <DependentUpon>Executivemaster.cs</DependentUpon>
+    <EmbeddedResource Include="Administration\Executivegroup.resx">
+      <DependentUpon>Executivegroup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Administration\Contactgroup.resx">
       <DependentUpon>Contactgroup.cs</DependentUpon>

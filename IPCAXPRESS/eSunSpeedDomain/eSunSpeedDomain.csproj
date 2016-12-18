@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExecutiveModel.cs" />
+    <Compile Include="ContactgroupModel.cs" />
     <Compile Include="AccountGroupModel.cs" />
     <Compile Include="AccountMasterModel.cs" />
     <Compile Include="AccountModel.cs" />
