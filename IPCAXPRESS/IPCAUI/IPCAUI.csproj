@@ -391,6 +391,14 @@
     <Compile Include="configurations\Hardwareconfiguration.Designer.cs">
       <DependentUpon>Hardwareconfiguration.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\AccountBook.cs">
+      <DependentUpon>AccountBook.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\AccountBook.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AccountBook.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSets\AccountList.cs">
       <DependentUpon>AccountList.xsd</DependentUpon>
     </Compile>
@@ -398,6 +406,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AccountList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\AccountSummaryDs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AccountSummaryDs.xsd</DependentUpon>
     </Compile>
     <Compile Include="DataSets\BalanceSheet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -409,15 +422,33 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ContraVoucher.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\InterestCalDs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InterestCalDs.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSets\ItemsLookupEdit.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\OutstandingAnalysisDs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OutstandingAnalysisDs.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSets\ProfitLossDs.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ProfitLossDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\TrialBalanceDs.cs">
+      <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\TrialBalanceDs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
     </Compile>
     <Compile Include="Demo.cs">
       <SubType>Form</SubType>
@@ -492,6 +523,30 @@
     </Compile>
     <Compile Include="Reports\Accountbooks\AccountLedger.Designer.cs">
       <DependentUpon>AccountLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\TrailBalanceGrd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\TrailBalanceGrd.Designer.cs">
+      <DependentUpon>TrailBalanceGrd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\TrailBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\TrailBalance.Designer.cs">
+      <DependentUpon>TrailBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\BalanceSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\BalanceSheet.Designer.cs">
+      <DependentUpon>BalanceSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\ProfitLossAc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\ProfitLossAc.Designer.cs">
+      <DependentUpon>ProfitLossAc.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\Accountbooks\Bankbook.cs">
       <SubType>Form</SubType>
@@ -2741,6 +2796,18 @@
     <EmbeddedResource Include="Reports\Accountbooks\AccountLedger.resx">
       <DependentUpon>AccountLedger.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\Grids\TrailBalanceGrd.resx">
+      <DependentUpon>TrailBalanceGrd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\TrailBalance.resx">
+      <DependentUpon>TrailBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\BalanceSheet.resx">
+      <DependentUpon>BalanceSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\ProfitLossAc.resx">
+      <DependentUpon>ProfitLossAc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\Bankbook.resx">
       <DependentUpon>Bankbook.cs</DependentUpon>
     </EmbeddedResource>
@@ -3762,6 +3829,17 @@
     <EmbeddedResource Include="XtraForm1.resx">
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DataSets\AccountBook.xsc">
+      <DependentUpon>AccountBook.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\AccountBook.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AccountBook.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\AccountBook.xss">
+      <DependentUpon>AccountBook.xsd</DependentUpon>
+    </None>
     <None Include="DataSets\AccountList.xsc">
       <DependentUpon>AccountList.xsd</DependentUpon>
     </None>
@@ -3772,6 +3850,17 @@
     </None>
     <None Include="DataSets\AccountList.xss">
       <DependentUpon>AccountList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\AccountSummaryDs.xsc">
+      <DependentUpon>AccountSummaryDs.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\AccountSummaryDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AccountSummaryDs.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\AccountSummaryDs.xss">
+      <DependentUpon>AccountSummaryDs.xsd</DependentUpon>
     </None>
     <None Include="DataSets\BalanceSheet.xsc">
       <DependentUpon>BalanceSheet.xsd</DependentUpon>
@@ -3795,6 +3884,17 @@
     <None Include="DataSets\ContraVoucher.xss">
       <DependentUpon>ContraVoucher.xsd</DependentUpon>
     </None>
+    <None Include="DataSets\InterestCalDs.xsc">
+      <DependentUpon>InterestCalDs.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\InterestCalDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InterestCalDs.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\InterestCalDs.xss">
+      <DependentUpon>InterestCalDs.xsd</DependentUpon>
+    </None>
     <None Include="DataSets\ItemsLookupEdit.xsc">
       <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
     </None>
@@ -3806,6 +3906,17 @@
     <None Include="DataSets\ItemsLookupEdit.xss">
       <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
     </None>
+    <None Include="DataSets\OutstandingAnalysisDs.xsc">
+      <DependentUpon>OutstandingAnalysisDs.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\OutstandingAnalysisDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OutstandingAnalysisDs.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\OutstandingAnalysisDs.xss">
+      <DependentUpon>OutstandingAnalysisDs.xsd</DependentUpon>
+    </None>
     <None Include="DataSets\ProfitLossDs.xsc">
       <DependentUpon>ProfitLossDs.xsd</DependentUpon>
     </None>
@@ -3816,6 +3927,17 @@
     </None>
     <None Include="DataSets\ProfitLossDs.xss">
       <DependentUpon>ProfitLossDs.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\TrialBalanceDs.xsc">
+      <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\TrialBalanceDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrialBalanceDs.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\TrialBalanceDs.xss">
+      <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\IPCAUI.DataSets.ContraVoucher.datasource" />

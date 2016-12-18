@@ -97,32 +97,42 @@ namespace IPCAUI.Reports.Accountbooks.Grids
         private void treeList1_FocusedNodeChanged(object sender, DevExpress.XtraTreeList.FocusedNodeChangedEventArgs e)
         {
 
-            string selectedNode = (sender as TreeList).FocusedNode.GetValue(0).ToString();
-            switch (selectedNode)
+            int selectedNodeId = (sender as TreeList).FocusedNode.Id;
+            Reports.Accountbooks.BalanceSheet frmPL;
+
+            switch (selectedNodeId)
             {
-                case "Daily Balances":
+                case 1:
+                    frmPL = new BalanceSheet("Month", "Horizontal");
+                    frmPL.ShowDialog();
                     break;
-                case "Daily Summary":
+                case 2:
+                    frmPL = new BalanceSheet("Date", "Horizontal");
+                    frmPL.ShowDialog();
                     break;
-                case "Monthly Summary":
-                    Reports.AccountSummary.DailySummary frmDaily = new AccountSummary.DailySummary();
-                    frmDaily.ShowDialog();
+                case 4:
+                    frmPL = new BalanceSheet("Month", "Vertical");
+                    frmPL.ShowDialog();
                     break;
-                case "Account-Wise":
+                case 5:
+                    frmPL = new BalanceSheet("Date", "Vertical");
+                    frmPL.ShowDialog();
                     break;
-                case "Merged Accounts":
+                case 7:
+                    //Reports.AccountSummary.DailySummary frmDaily = new AccountSummary.DailySummary();
+                    //frmDaily.ShowDialog();
                     break;
-                case "Single Column":
+                case 8:
+                    //Reports.AccountSummary.DailySummary frmDaily = new AccountSummary.DailySummary();
+                    //frmDaily.ShowDialog();
                     break;
-                case "Multiple Column":
-                    break;
-                case "Bank Book(As per Clr.Date)":
+                case 9:
+                    frmPL = new BalanceSheet("", "Summary");
+                    frmPL.ShowDialog();
                     break;
                 default:
                     break;
             }
-
-
         }
 
         private void treeList1_Click(object sender, EventArgs e)

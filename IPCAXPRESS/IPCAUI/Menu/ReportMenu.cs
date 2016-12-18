@@ -79,14 +79,35 @@ namespace IPCAUI.Menu
 
         }
 
-        private void rptPartyDayBook_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+      
+        private void rbtnProfitLoss_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
+            Reports.Accountbooks.Grids.ProfitLossGrd frm;
+            frm = new Reports.Accountbooks.Grids.ProfitLossGrd(); //generate new instance
+            frm.Owner = this;
+            frm.TopLevel = false;
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
         }
 
-        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        private void rptBalanceSheet_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            Reports.Accountbooks.Grids.BalanceSheetGrd frm;
+            frm = new Reports.Accountbooks.Grids.BalanceSheetGrd(); //generate new instance
+            frm.Owner = this;
+            frm.TopLevel = false;
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
 
+        private void rptTrailBalance_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Reports.Accountbooks.Grids.TrailBalanceGrd frm;
+            frm = new Reports.Accountbooks.Grids.TrailBalanceGrd(); //generate new instance
+            frm.Owner = this;
+            frm.TopLevel = false;
+            splitContainerControl1.Panel2.Controls.Add(frm);
+            frm.Show();
         }
     }
 }

@@ -291,7 +291,7 @@
             this.treeList1.OptionsView.ShowColumns = false;
             this.treeList1.Size = new System.Drawing.Size(158, 332);
             this.treeList1.TabIndex = 0;
-            this.treeList1.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged_1);
+            this.treeList1.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
             // 
             // treeListColumn3
             // 

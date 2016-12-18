@@ -35,14 +35,16 @@
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.dtDate = new DevExpress.XtraEditors.LabelControl();
             this.lblDate = new DevExpress.XtraEditors.LabelControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.grcProftLoss = new DevExpress.XtraGrid.GridControl();
+            this.profitLossDtBindingSource = new System.Windows.Forms.BindingSource();
+            this.profitLossDs = new IPCAUI.DataSets.ProfitLossDs();
+            this.gdvProfitLoss = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.debit = new DevExpress.XtraGrid.Columns.GridColumn();
             this.credit = new DevExpress.XtraGrid.Columns.GridColumn();
             this.navBarControl1 = new DevExpress.XtraNavBar.NavBarControl();
             this.navBarGroup13 = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarGroupControlContainer1 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
+            this.rptOptions = new DevExpress.XtraTreeList.TreeList();
             this.treeListColumn3 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.Navigations = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarItem6 = new DevExpress.XtraNavBar.NavBarItem();
@@ -73,17 +75,17 @@
             this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
             this.treeListColumn2 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.profitLossDs = new IPCAUI.DataSets.ProfitLossDs();
-            this.profitLossDtBindingSource = new System.Windows.Forms.BindingSource();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grcProftLoss)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.profitLossDtBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.profitLossDs)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gdvProfitLoss)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
             this.navBarControl1.SuspendLayout();
             this.navBarGroupControlContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rptOptions)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
@@ -101,8 +103,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.profitLossDs)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.profitLossDtBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // repositoryItemButtonEdit1
@@ -130,7 +130,7 @@
             // 
             this.layoutControl1.Controls.Add(this.dtDate);
             this.layoutControl1.Controls.Add(this.lblDate);
-            this.layoutControl1.Controls.Add(this.gridControl1);
+            this.layoutControl1.Controls.Add(this.grcProftLoss);
             this.layoutControl1.Controls.Add(this.navBarControl1);
             this.layoutControl1.Controls.Add(this.textEdit5);
             this.layoutControl1.Controls.Add(this.textEdit6);
@@ -150,7 +150,7 @@
             // 
             // dtDate
             // 
-            this.dtDate.Location = new System.Drawing.Point(656, 12);
+            this.dtDate.Location = new System.Drawing.Point(667, 12);
             this.dtDate.Name = "dtDate";
             this.dtDate.Size = new System.Drawing.Size(55, 13);
             this.dtDate.StyleController = this.layoutControl1;
@@ -158,32 +158,42 @@
             // 
             // lblDate
             // 
-            this.lblDate.Location = new System.Drawing.Point(545, 12);
+            this.lblDate.Location = new System.Drawing.Point(556, 12);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(107, 13);
             this.lblDate.StyleController = this.layoutControl1;
             this.lblDate.TabIndex = 15;
             this.lblDate.Text = "For the period ending:";
             // 
-            // gridControl1
+            // grcProftLoss
             // 
-            this.gridControl1.DataSource = this.profitLossDtBindingSource;
-            this.gridControl1.Location = new System.Drawing.Point(176, 70);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(753, 393);
-            this.gridControl1.TabIndex = 14;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
+            this.grcProftLoss.DataSource = this.profitLossDtBindingSource;
+            this.grcProftLoss.Location = new System.Drawing.Point(187, 70);
+            this.grcProftLoss.MainView = this.gdvProfitLoss;
+            this.grcProftLoss.Name = "grcProftLoss";
+            this.grcProftLoss.Size = new System.Drawing.Size(742, 393);
+            this.grcProftLoss.TabIndex = 14;
+            this.grcProftLoss.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gdvProfitLoss});
             // 
-            // gridView1
+            // profitLossDtBindingSource
             // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.profitLossDtBindingSource.DataMember = "ProfitLossDt";
+            this.profitLossDtBindingSource.DataSource = this.profitLossDs;
+            // 
+            // profitLossDs
+            // 
+            this.profitLossDs.DataSetName = "ProfitLossDs";
+            this.profitLossDs.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // gdvProfitLoss
+            // 
+            this.gdvProfitLoss.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.debit,
             this.credit});
-            this.gridView1.GridControl = this.gridControl1;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsView.ShowFooter = true;
+            this.gdvProfitLoss.GridControl = this.grcProftLoss;
+            this.gdvProfitLoss.Name = "gdvProfitLoss";
+            this.gdvProfitLoss.OptionsView.ShowFooter = true;
             // 
             // debit
             // 
@@ -224,9 +234,9 @@
             this.navBarItem9});
             this.navBarControl1.Location = new System.Drawing.Point(12, 12);
             this.navBarControl1.Name = "navBarControl1";
-            this.navBarControl1.OptionsNavPane.ExpandedWidth = 160;
+            this.navBarControl1.OptionsNavPane.ExpandedWidth = 171;
             this.navBarControl1.PaintStyleKind = DevExpress.XtraNavBar.NavBarViewKind.NavigationPane;
-            this.navBarControl1.Size = new System.Drawing.Size(160, 451);
+            this.navBarControl1.Size = new System.Drawing.Size(171, 451);
             this.navBarControl1.TabIndex = 13;
             this.navBarControl1.Text = "navBarControl1";
             this.navBarControl1.View = new DevExpress.XtraNavBar.ViewInfo.NavigationPaneViewInfoRegistrator();
@@ -245,43 +255,45 @@
             // 
             this.navBarGroupControlContainer1.Appearance.BackColor = System.Drawing.SystemColors.Control;
             this.navBarGroupControlContainer1.Appearance.Options.UseBackColor = true;
-            this.navBarGroupControlContainer1.Controls.Add(this.treeList1);
+            this.navBarGroupControlContainer1.Controls.Add(this.rptOptions);
             this.navBarGroupControlContainer1.Name = "navBarGroupControlContainer1";
-            this.navBarGroupControlContainer1.Size = new System.Drawing.Size(158, 332);
+            this.navBarGroupControlContainer1.Size = new System.Drawing.Size(169, 332);
             this.navBarGroupControlContainer1.TabIndex = 0;
             // 
-            // treeList1
+            // rptOptions
             // 
-            this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.rptOptions.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn3});
-            this.treeList1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeList1.Location = new System.Drawing.Point(0, 0);
-            this.treeList1.Name = "treeList1";
-            this.treeList1.BeginUnboundLoad();
-            this.treeList1.AppendNode(new object[] {
+            this.rptOptions.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rptOptions.Location = new System.Drawing.Point(0, 0);
+            this.rptOptions.Name = "rptOptions";
+            this.rptOptions.BeginUnboundLoad();
+            this.rptOptions.AppendNode(new object[] {
             "Horizontal"}, -1);
-            this.treeList1.AppendNode(new object[] {
+            this.rptOptions.AppendNode(new object[] {
             "Month-Wise"}, 0);
-            this.treeList1.AppendNode(new object[] {
+            this.rptOptions.AppendNode(new object[] {
             "Date-Wise"}, 0);
-            this.treeList1.AppendNode(new object[] {
+            this.rptOptions.AppendNode(new object[] {
             "Vertical"}, -1);
-            this.treeList1.AppendNode(new object[] {
+            this.rptOptions.AppendNode(new object[] {
             "Month-Wise"}, 3);
-            this.treeList1.AppendNode(new object[] {
+            this.rptOptions.AppendNode(new object[] {
             "Date-Wise"}, 3);
-            this.treeList1.AppendNode(new object[] {
+            this.rptOptions.AppendNode(new object[] {
             "Vertical(Configurable)"}, -1);
-            this.treeList1.AppendNode(new object[] {
+            this.rptOptions.AppendNode(new object[] {
             "Month-Wise"}, 6);
-            this.treeList1.AppendNode(new object[] {
+            this.rptOptions.AppendNode(new object[] {
             "Date-Wise"}, 6);
-            this.treeList1.EndUnboundLoad();
-            this.treeList1.OptionsBehavior.Editable = false;
-            this.treeList1.OptionsView.ShowColumns = false;
-            this.treeList1.Size = new System.Drawing.Size(158, 332);
-            this.treeList1.TabIndex = 0;
-            this.treeList1.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged_1);
+            this.rptOptions.AppendNode(new object[] {
+            "P &  L Summary Monthly"}, -1);
+            this.rptOptions.EndUnboundLoad();
+            this.rptOptions.OptionsBehavior.Editable = false;
+            this.rptOptions.OptionsView.ShowColumns = false;
+            this.rptOptions.Size = new System.Drawing.Size(169, 332);
+            this.rptOptions.TabIndex = 0;
+            this.rptOptions.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.rptOptions_FocusedNodeChanged);
             // 
             // treeListColumn3
             // 
@@ -289,6 +301,8 @@
             this.treeListColumn3.FieldName = "treeListColumn3";
             this.treeListColumn3.MinWidth = 52;
             this.treeListColumn3.Name = "treeListColumn3";
+            this.treeListColumn3.OptionsColumn.AllowEdit = false;
+            this.treeListColumn3.OptionsColumn.ReadOnly = true;
             this.treeListColumn3.Visible = true;
             this.treeListColumn3.VisibleIndex = 0;
             // 
@@ -369,17 +383,17 @@
             // 
             // textEdit2
             // 
-            this.textEdit2.Location = new System.Drawing.Point(258, 29);
+            this.textEdit2.Location = new System.Drawing.Point(279, 29);
             this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(283, 20);
+            this.textEdit2.Size = new System.Drawing.Size(273, 20);
             this.textEdit2.StyleController = this.layoutControl1;
             this.textEdit2.TabIndex = 8;
             // 
             // textEdit9
             // 
-            this.textEdit9.Location = new System.Drawing.Point(627, 29);
+            this.textEdit9.Location = new System.Drawing.Point(648, 29);
             this.textEdit9.Name = "textEdit9";
-            this.textEdit9.Size = new System.Drawing.Size(302, 20);
+            this.textEdit9.Size = new System.Drawing.Size(281, 20);
             this.textEdit9.StyleController = this.layoutControl1;
             this.textEdit9.TabIndex = 9;
             // 
@@ -427,47 +441,47 @@
             // 
             this.layoutControlItem5.Control = this.textEdit2;
             this.layoutControlItem5.CustomizationFormText = "layoutControlItem5";
-            this.layoutControlItem5.Location = new System.Drawing.Point(164, 17);
+            this.layoutControlItem5.Location = new System.Drawing.Point(175, 17);
             this.layoutControlItem5.Name = "layoutControlItem5";
             this.layoutControlItem5.Size = new System.Drawing.Size(369, 24);
             this.layoutControlItem5.Text = "From Date:";
             this.layoutControlItem5.TextLocation = DevExpress.Utils.Locations.Left;
-            this.layoutControlItem5.TextSize = new System.Drawing.Size(79, 13);
+            this.layoutControlItem5.TextSize = new System.Drawing.Size(89, 13);
             // 
             // layoutControlItem6
             // 
             this.layoutControlItem6.Control = this.textEdit9;
             this.layoutControlItem6.CustomizationFormText = "layoutControlItem6";
-            this.layoutControlItem6.Location = new System.Drawing.Point(533, 17);
+            this.layoutControlItem6.Location = new System.Drawing.Point(544, 17);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(388, 24);
+            this.layoutControlItem6.Size = new System.Drawing.Size(377, 24);
             this.layoutControlItem6.Text = "To Date:";
             this.layoutControlItem6.TextLocation = DevExpress.Utils.Locations.Left;
-            this.layoutControlItem6.TextSize = new System.Drawing.Size(79, 13);
+            this.layoutControlItem6.TextSize = new System.Drawing.Size(89, 13);
             // 
             // layoutControlItem10
             // 
             this.layoutControlItem10.Control = this.navBarControl1;
             this.layoutControlItem10.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem10.Name = "layoutControlItem10";
-            this.layoutControlItem10.Size = new System.Drawing.Size(164, 455);
+            this.layoutControlItem10.Size = new System.Drawing.Size(175, 455);
             this.layoutControlItem10.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem10.TextVisible = false;
             // 
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(164, 41);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(175, 41);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(757, 17);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(746, 17);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem1
             // 
-            this.layoutControlItem1.Control = this.gridControl1;
-            this.layoutControlItem1.Location = new System.Drawing.Point(164, 58);
+            this.layoutControlItem1.Control = this.grcProftLoss;
+            this.layoutControlItem1.Location = new System.Drawing.Point(175, 58);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(757, 397);
+            this.layoutControlItem1.Size = new System.Drawing.Size(746, 397);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
@@ -476,11 +490,11 @@
             this.simpleLabelItem1.AllowHotTrack = false;
             this.simpleLabelItem1.ControlAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.simpleLabelItem1.CustomizationFormText = "PROFIT & LOSS A/C";
-            this.simpleLabelItem1.Location = new System.Drawing.Point(164, 0);
+            this.simpleLabelItem1.Location = new System.Drawing.Point(175, 0);
             this.simpleLabelItem1.Name = "simpleLabelItem1";
             this.simpleLabelItem1.Size = new System.Drawing.Size(369, 17);
-            this.simpleLabelItem1.Text = "BALANCE SHEET";
-            this.simpleLabelItem1.TextSize = new System.Drawing.Size(79, 13);
+            this.simpleLabelItem1.Text = "PROFIT & LOSS A/C";
+            this.simpleLabelItem1.TextSize = new System.Drawing.Size(89, 13);
             // 
             // emptySpaceItem1
             // 
@@ -493,15 +507,15 @@
             // emptySpaceItem3
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
-            this.emptySpaceItem3.Location = new System.Drawing.Point(703, 0);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(714, 0);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(218, 17);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(207, 17);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.lblDate;
-            this.layoutControlItem4.Location = new System.Drawing.Point(533, 0);
+            this.layoutControlItem4.Location = new System.Drawing.Point(544, 0);
             this.layoutControlItem4.Name = "layoutControlItem4";
             this.layoutControlItem4.Size = new System.Drawing.Size(111, 17);
             this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
@@ -510,7 +524,7 @@
             // layoutControlItem7
             // 
             this.layoutControlItem7.Control = this.dtDate;
-            this.layoutControlItem7.Location = new System.Drawing.Point(644, 0);
+            this.layoutControlItem7.Location = new System.Drawing.Point(655, 0);
             this.layoutControlItem7.Name = "layoutControlItem7";
             this.layoutControlItem7.Size = new System.Drawing.Size(59, 17);
             this.layoutControlItem7.TextSize = new System.Drawing.Size(0, 0);
@@ -527,16 +541,6 @@
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 0;
             // 
-            // profitLossDs
-            // 
-            this.profitLossDs.DataSetName = "ProfitLossDs";
-            this.profitLossDs.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // profitLossDtBindingSource
-            // 
-            this.profitLossDtBindingSource.DataMember = "ProfitLossDt";
-            this.profitLossDtBindingSource.DataSource = this.profitLossDs;
-            // 
             // ProfitLossGrd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -548,16 +552,18 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "ProfitLossGrd";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.BalanceSheetGrd_Load);
+            this.Load += new System.EventHandler(this.ProfitLossGrd_Load);
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grcProftLoss)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.profitLossDtBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.profitLossDs)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gdvProfitLoss)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
             this.navBarControl1.ResumeLayout(false);
             this.navBarGroupControlContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rptOptions)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
@@ -575,8 +581,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.profitLossDs)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.profitLossDtBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -597,8 +601,8 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem6;
         private DevExpress.XtraNavBar.NavBarControl navBarControl1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem10;
-        private DevExpress.XtraGrid.GridControl gridControl1;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.GridControl grcProftLoss;
+        private DevExpress.XtraGrid.Views.Grid.GridView gdvProfitLoss;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem2;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
         private DevExpress.XtraNavBar.NavBarItem navBarItem1;
@@ -624,7 +628,7 @@
         private DevExpress.XtraNavBar.NavBarItem navBarItem8;
         private DevExpress.XtraNavBar.NavBarItem navBarItem9;
         private DevExpress.XtraNavBar.NavBarGroupControlContainer navBarGroupControlContainer1;
-        private DevExpress.XtraTreeList.TreeList treeList1;
+        private DevExpress.XtraTreeList.TreeList rptOptions;
         private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn3;
         private System.Windows.Forms.BindingSource profitLossDtBindingSource;
         private DataSets.ProfitLossDs profitLossDs;
