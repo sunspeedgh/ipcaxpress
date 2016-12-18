@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using eSunSpeedDomain;
+using eSunSpeed.BusinessLogic;
 
 namespace IPCAUI.Administration
 {
     public partial class StdNarration : Form
     {
+        StdNarrationMasterBL objstdNrr = new StdNarrationMasterBL();
         public StdNarration()
         {
             InitializeComponent();
@@ -29,6 +32,38 @@ namespace IPCAUI.Administration
                 return true;
             }
             return base.ProcessCmdKey(ref msg, keyData);
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            if (tbxNarration.Text.Equals(string.Empty))
+            {
+                MessageBox.Show("Narration can not be blank!");
+                return;
+            }
+
+            //if (accObj.IsGroupExists(tbxGroupName.Text.Trim()))
+            //{
+            //    MessageBox.Show("Group Name already Exists!", "SunSpeed", MessageBoxButtons.RetryCancel);
+            //    cbxUnderGrp.Focus();
+            //    return;
+            //}
+
+            StdNarrationMasterModel objModel = new StdNarrationMasterModel();
+
+            objModel.Narration = tbxNarration.Text.Trim();
+            objModel.Vouchertype = cbxVouchertype.SelectedItem.ToString();
+
+            bool isSuccess = objstdNrr.SaveStdNarration(objModel);
+            if(isSuccess)
+            {
+                MessageBox.Show("Saved Successfully!");
+            }
+            //List<StdNarrationMasterModel> lstNarr = accObj.GetAllStdNarration();
+            //dgvList.DataSource = lstNarr;
+
+            //Dialogs.PopUPDialog d = new Dialogs.PopUPDialog("Saved Successfully!");
+            //d.ShowDialog();
         }
     }
 }

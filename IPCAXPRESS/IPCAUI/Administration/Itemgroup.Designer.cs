@@ -79,9 +79,6 @@
             this.tbxParameters = new DevExpress.XtraEditors.TextEdit();
             this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.tbxPurchaseAccount = new DevExpress.XtraEditors.TextEdit();
-            this.tbxSalesaccount = new DevExpress.XtraEditors.TextEdit();
-            this.tbxSelectaccount = new DevExpress.XtraEditors.TextEdit();
             this.btnQuit = new DevExpress.XtraEditors.SimpleButton();
             this.btnSave = new DevExpress.XtraEditors.SimpleButton();
             this.cbxUndergroup = new DevExpress.XtraEditors.ComboBoxEdit();
@@ -91,6 +88,9 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.gridControl2 = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.cbxStockaccount = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.cbxSalesaccount = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.cbxPurchaseAccount = new DevExpress.XtraEditors.ComboBoxEdit();
             this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -120,15 +120,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.tbxParameters.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbxPurchaseAccount.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbxSalesaccount.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbxSelectaccount.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbxUndergroup.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbxPrimarygroup.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxAliasname.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxGroupName.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxStockaccount.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxSalesaccount.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxPurchaseAccount.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
@@ -161,9 +161,6 @@
             this.layoutControl1.Controls.Add(this.tbxParameters);
             this.layoutControl1.Controls.Add(this.checkEdit2);
             this.layoutControl1.Controls.Add(this.checkEdit1);
-            this.layoutControl1.Controls.Add(this.tbxPurchaseAccount);
-            this.layoutControl1.Controls.Add(this.tbxSalesaccount);
-            this.layoutControl1.Controls.Add(this.tbxSelectaccount);
             this.layoutControl1.Controls.Add(this.btnQuit);
             this.layoutControl1.Controls.Add(this.btnSave);
             this.layoutControl1.Controls.Add(this.cbxUndergroup);
@@ -172,6 +169,9 @@
             this.layoutControl1.Controls.Add(this.tbxGroupName);
             this.layoutControl1.Controls.Add(this.labelControl1);
             this.layoutControl1.Controls.Add(this.gridControl2);
+            this.layoutControl1.Controls.Add(this.cbxStockaccount);
+            this.layoutControl1.Controls.Add(this.cbxSalesaccount);
+            this.layoutControl1.Controls.Add(this.cbxPurchaseAccount);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutControl1.HiddenItems.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem8});
@@ -552,6 +552,7 @@
             // 
             // tbxParameters
             // 
+            this.tbxParameters.EnterMoveNextControl = true;
             this.tbxParameters.Location = new System.Drawing.Point(541, 198);
             this.tbxParameters.Name = "tbxParameters";
             this.tbxParameters.Size = new System.Drawing.Size(79, 20);
@@ -560,6 +561,7 @@
             // 
             // checkEdit2
             // 
+            this.checkEdit2.EnterMoveNextControl = true;
             this.checkEdit2.Location = new System.Drawing.Point(335, 198);
             this.checkEdit2.Name = "checkEdit2";
             this.checkEdit2.Properties.Caption = "checkEdit2";
@@ -569,36 +571,13 @@
             // 
             // checkEdit1
             // 
+            this.checkEdit1.EnterMoveNextControl = true;
             this.checkEdit1.Location = new System.Drawing.Point(169, 198);
             this.checkEdit1.Name = "checkEdit1";
             this.checkEdit1.Properties.Caption = "checkEdit1";
             this.checkEdit1.Size = new System.Drawing.Size(162, 19);
             this.checkEdit1.StyleController = this.layoutControl1;
             this.checkEdit1.TabIndex = 16;
-            // 
-            // tbxPurchaseAccount
-            // 
-            this.tbxPurchaseAccount.Location = new System.Drawing.Point(265, 174);
-            this.tbxPurchaseAccount.Name = "tbxPurchaseAccount";
-            this.tbxPurchaseAccount.Size = new System.Drawing.Size(433, 20);
-            this.tbxPurchaseAccount.StyleController = this.layoutControl1;
-            this.tbxPurchaseAccount.TabIndex = 15;
-            // 
-            // tbxSalesaccount
-            // 
-            this.tbxSalesaccount.Location = new System.Drawing.Point(265, 150);
-            this.tbxSalesaccount.Name = "tbxSalesaccount";
-            this.tbxSalesaccount.Size = new System.Drawing.Size(433, 20);
-            this.tbxSalesaccount.StyleController = this.layoutControl1;
-            this.tbxSalesaccount.TabIndex = 14;
-            // 
-            // tbxSelectaccount
-            // 
-            this.tbxSelectaccount.Location = new System.Drawing.Point(265, 126);
-            this.tbxSelectaccount.Name = "tbxSelectaccount";
-            this.tbxSelectaccount.Size = new System.Drawing.Size(433, 20);
-            this.tbxSelectaccount.StyleController = this.layoutControl1;
-            this.tbxSelectaccount.TabIndex = 13;
             // 
             // btnQuit
             // 
@@ -619,9 +598,11 @@
             this.btnSave.StyleController = this.layoutControl1;
             this.btnSave.TabIndex = 10;
             this.btnSave.Text = "Save";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // cbxUndergroup
             // 
+            this.cbxUndergroup.EnterMoveNextControl = true;
             this.cbxUndergroup.Location = new System.Drawing.Point(265, 102);
             this.cbxUndergroup.Name = "cbxUndergroup";
             this.cbxUndergroup.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -632,6 +613,7 @@
             // 
             // cbxPrimarygroup
             // 
+            this.cbxPrimarygroup.EnterMoveNextControl = true;
             this.cbxPrimarygroup.Location = new System.Drawing.Point(265, 78);
             this.cbxPrimarygroup.Name = "cbxPrimarygroup";
             this.cbxPrimarygroup.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -642,6 +624,7 @@
             // 
             // tbxAliasname
             // 
+            this.tbxAliasname.EnterMoveNextControl = true;
             this.tbxAliasname.Location = new System.Drawing.Point(265, 54);
             this.tbxAliasname.Name = "tbxAliasname";
             this.tbxAliasname.Size = new System.Drawing.Size(433, 20);
@@ -650,6 +633,7 @@
             // 
             // tbxGroupName
             // 
+            this.tbxGroupName.EnterMoveNextControl = true;
             this.tbxGroupName.Location = new System.Drawing.Point(265, 30);
             this.tbxGroupName.Name = "tbxGroupName";
             this.tbxGroupName.Size = new System.Drawing.Size(433, 20);
@@ -660,7 +644,7 @@
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Verdana", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(445, 12);
+            this.labelControl1.Location = new System.Drawing.Point(405, 12);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(75, 14);
             this.labelControl1.StyleController = this.layoutControl1;
@@ -681,6 +665,39 @@
             // 
             this.gridView2.GridControl = this.gridControl2;
             this.gridView2.Name = "gridView2";
+            // 
+            // cbxStockaccount
+            // 
+            this.cbxStockaccount.EnterMoveNextControl = true;
+            this.cbxStockaccount.Location = new System.Drawing.Point(265, 126);
+            this.cbxStockaccount.Name = "cbxStockaccount";
+            this.cbxStockaccount.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbxStockaccount.Size = new System.Drawing.Size(433, 20);
+            this.cbxStockaccount.StyleController = this.layoutControl1;
+            this.cbxStockaccount.TabIndex = 13;
+            // 
+            // cbxSalesaccount
+            // 
+            this.cbxSalesaccount.EnterMoveNextControl = true;
+            this.cbxSalesaccount.Location = new System.Drawing.Point(265, 150);
+            this.cbxSalesaccount.Name = "cbxSalesaccount";
+            this.cbxSalesaccount.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbxSalesaccount.Size = new System.Drawing.Size(433, 20);
+            this.cbxSalesaccount.StyleController = this.layoutControl1;
+            this.cbxSalesaccount.TabIndex = 14;
+            // 
+            // cbxPurchaseAccount
+            // 
+            this.cbxPurchaseAccount.EnterMoveNextControl = true;
+            this.cbxPurchaseAccount.Location = new System.Drawing.Point(265, 174);
+            this.cbxPurchaseAccount.Name = "cbxPurchaseAccount";
+            this.cbxPurchaseAccount.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbxPurchaseAccount.Size = new System.Drawing.Size(433, 20);
+            this.cbxPurchaseAccount.StyleController = this.layoutControl1;
+            this.cbxPurchaseAccount.TabIndex = 15;
             // 
             // layoutControlItem8
             // 
@@ -723,7 +740,7 @@
             // layoutControlItem1
             // 
             this.layoutControlItem1.Control = this.labelControl1;
-            this.layoutControlItem1.Location = new System.Drawing.Point(433, 0);
+            this.layoutControlItem1.Location = new System.Drawing.Point(393, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
             this.layoutControlItem1.Size = new System.Drawing.Size(79, 18);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
@@ -761,15 +778,15 @@
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.Location = new System.Drawing.Point(157, 0);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(276, 18);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(236, 18);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem3
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
-            this.emptySpaceItem3.Location = new System.Drawing.Point(512, 0);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(472, 0);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(178, 18);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(218, 18);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem7
@@ -825,16 +842,16 @@
             // 
             // layoutControlItem6
             // 
-            this.layoutControlItem6.Control = this.tbxSelectaccount;
+            this.layoutControlItem6.Control = this.cbxStockaccount;
             this.layoutControlItem6.Location = new System.Drawing.Point(157, 114);
             this.layoutControlItem6.Name = "layoutControlItem6";
             this.layoutControlItem6.Size = new System.Drawing.Size(533, 24);
-            this.layoutControlItem6.Text = "Select Account";
+            this.layoutControlItem6.Text = "Stock Account";
             this.layoutControlItem6.TextSize = new System.Drawing.Size(93, 13);
             // 
             // layoutControlItem11
             // 
-            this.layoutControlItem11.Control = this.tbxSalesaccount;
+            this.layoutControlItem11.Control = this.cbxSalesaccount;
             this.layoutControlItem11.Location = new System.Drawing.Point(157, 138);
             this.layoutControlItem11.Name = "layoutControlItem11";
             this.layoutControlItem11.Size = new System.Drawing.Size(533, 24);
@@ -843,7 +860,7 @@
             // 
             // layoutControlItem12
             // 
-            this.layoutControlItem12.Control = this.tbxPurchaseAccount;
+            this.layoutControlItem12.Control = this.cbxPurchaseAccount;
             this.layoutControlItem12.Location = new System.Drawing.Point(157, 162);
             this.layoutControlItem12.Name = "layoutControlItem12";
             this.layoutControlItem12.Size = new System.Drawing.Size(533, 24);
@@ -919,15 +936,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.tbxParameters.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbxPurchaseAccount.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbxSalesaccount.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbxSelectaccount.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbxUndergroup.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbxPrimarygroup.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxAliasname.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxGroupName.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxStockaccount.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxSalesaccount.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxPurchaseAccount.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
@@ -985,9 +1002,6 @@
         private DevExpress.XtraEditors.TextEdit tbxParameters;
         private DevExpress.XtraEditors.CheckEdit checkEdit2;
         private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.TextEdit tbxPurchaseAccount;
-        private DevExpress.XtraEditors.TextEdit tbxSalesaccount;
-        private DevExpress.XtraEditors.TextEdit tbxSelectaccount;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem6;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem11;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem12;
@@ -1042,5 +1056,8 @@
         private DevExpress.XtraNavBar.NavBarItem navBarItem5;
         private DevExpress.XtraNavBar.NavBarItem navBarItem6;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem16;
+        private DevExpress.XtraEditors.ComboBoxEdit cbxStockaccount;
+        private DevExpress.XtraEditors.ComboBoxEdit cbxSalesaccount;
+        private DevExpress.XtraEditors.ComboBoxEdit cbxPurchaseAccount;
     }
 }

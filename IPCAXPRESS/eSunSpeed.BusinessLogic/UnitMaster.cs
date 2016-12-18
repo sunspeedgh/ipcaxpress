@@ -26,7 +26,7 @@ namespace eSunSpeed.BusinessLogic
                 paramCollection.Add(new DBParameter("@CreatedBy", "Admin"));
 
 
-                Query = "INSERT INTO UnitMaster([UnitName],[PrintName],[ExciseReturn],[CreatedBy]) " +
+                Query = "INSERT INTO UnitMaster(`UnitName`,`PrintName`,`ExciseReturn`,`CreatedBy`) " +
                     "VALUES(@UnitName,@PrintName,@UnitNameforexciseEreturn,@CreatedBy)";
 
                 if (_dbHelper.ExecuteNonQuery(Query, paramCollection) > 0)

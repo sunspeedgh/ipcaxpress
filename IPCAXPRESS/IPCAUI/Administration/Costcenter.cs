@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using eSunSpeed.BusinessLogic;
+using eSunSpeedDomain;
 
 namespace IPCAUI.Administration
 {
     public partial class Costcenter : Form
     {
+        CostCentreMasterBL objccm = new CostCentreMasterBL();
         public Costcenter()
         {
             InitializeComponent();
@@ -31,6 +34,35 @@ namespace IPCAUI.Administration
 
             //sptCtrlMastermenu.Panel2.Controls.Add(frm);
             //frm.Show();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            if (tbxName.Text.Equals(string.Empty))
+            {
+                MessageBox.Show("Name can not be blank!");
+                return;
+            }
+
+            CostCentreMasterModel objModel = new CostCentreMasterModel();
+
+            objModel.Name = tbxName.Text.Trim();
+            objModel.Alias = tbxAliasname.Text.Trim();
+            objModel.Group = cbxPrimarygroup.SelectedItem.ToString();
+            objModel.opBal = Convert.ToDecimal(tbxOpbal.Text.Trim());
+            objModel.DrCr = cbxDrCr.SelectedItem.ToString();
+            objModel.CreatedBy = "Admin";
+
+            bool isSuccess = objccm.SaveCCM(objModel);
+            if(isSuccess)
+            {
+                MessageBox.Show("Saved Successfully!");
+            }
+            //List<CostCentreMasterModel> lstCenter = objccm.GetAllCostCentreMaster();
+            //dgvList.DataSource = lstCenter;
+
+            //Dialogs.PopUPDialog d = new Dialogs.PopUPDialog("Saved Successfully!");
+            //d.ShowDialog();
         }
     }
 }

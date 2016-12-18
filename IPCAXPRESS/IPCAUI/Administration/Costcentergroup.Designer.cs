@@ -81,7 +81,7 @@
             this.cbxNaturegroup = new DevExpress.XtraEditors.ComboBoxEdit();
             this.cbxUndergroup = new DevExpress.XtraEditors.ComboBoxEdit();
             this.cbxPrimarygroup = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.tbxAliasname = new DevExpress.XtraEditors.TextEdit();
+            this.tbxAlias = new DevExpress.XtraEditors.TextEdit();
             this.tbxGroupName = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.gridControl2 = new DevExpress.XtraGrid.GridControl();
@@ -111,7 +111,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.cbxNaturegroup.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbxUndergroup.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbxPrimarygroup.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbxAliasname.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxAlias.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxGroupName.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
@@ -144,7 +144,7 @@
             this.layoutControl1.Controls.Add(this.cbxNaturegroup);
             this.layoutControl1.Controls.Add(this.cbxUndergroup);
             this.layoutControl1.Controls.Add(this.cbxPrimarygroup);
-            this.layoutControl1.Controls.Add(this.tbxAliasname);
+            this.layoutControl1.Controls.Add(this.tbxAlias);
             this.layoutControl1.Controls.Add(this.tbxGroupName);
             this.layoutControl1.Controls.Add(this.labelControl1);
             this.layoutControl1.Controls.Add(this.gridControl2);
@@ -519,6 +519,7 @@
             // 
             // chkGrossProfit
             // 
+            this.chkGrossProfit.EnterMoveNextControl = true;
             this.chkGrossProfit.Location = new System.Drawing.Point(169, 150);
             this.chkGrossProfit.Name = "chkGrossProfit";
             this.chkGrossProfit.Properties.Caption = "Affect Gross Profit";
@@ -546,9 +547,11 @@
             this.btnSave.StyleController = this.layoutControl1;
             this.btnSave.TabIndex = 10;
             this.btnSave.Text = "Save";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // cbxNaturegroup
             // 
+            this.cbxNaturegroup.EnterMoveNextControl = true;
             this.cbxNaturegroup.Location = new System.Drawing.Point(265, 126);
             this.cbxNaturegroup.Name = "cbxNaturegroup";
             this.cbxNaturegroup.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -559,6 +562,7 @@
             // 
             // cbxUndergroup
             // 
+            this.cbxUndergroup.EnterMoveNextControl = true;
             this.cbxUndergroup.Location = new System.Drawing.Point(265, 102);
             this.cbxUndergroup.Name = "cbxUndergroup";
             this.cbxUndergroup.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -569,6 +573,7 @@
             // 
             // cbxPrimarygroup
             // 
+            this.cbxPrimarygroup.EnterMoveNextControl = true;
             this.cbxPrimarygroup.Location = new System.Drawing.Point(265, 78);
             this.cbxPrimarygroup.Name = "cbxPrimarygroup";
             this.cbxPrimarygroup.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -577,16 +582,18 @@
             this.cbxPrimarygroup.StyleController = this.layoutControl1;
             this.cbxPrimarygroup.TabIndex = 7;
             // 
-            // tbxAliasname
+            // tbxAlias
             // 
-            this.tbxAliasname.Location = new System.Drawing.Point(265, 54);
-            this.tbxAliasname.Name = "tbxAliasname";
-            this.tbxAliasname.Size = new System.Drawing.Size(406, 20);
-            this.tbxAliasname.StyleController = this.layoutControl1;
-            this.tbxAliasname.TabIndex = 6;
+            this.tbxAlias.EnterMoveNextControl = true;
+            this.tbxAlias.Location = new System.Drawing.Point(265, 54);
+            this.tbxAlias.Name = "tbxAlias";
+            this.tbxAlias.Size = new System.Drawing.Size(406, 20);
+            this.tbxAlias.StyleController = this.layoutControl1;
+            this.tbxAlias.TabIndex = 6;
             // 
             // tbxGroupName
             // 
+            this.tbxGroupName.EnterMoveNextControl = true;
             this.tbxGroupName.Location = new System.Drawing.Point(265, 30);
             this.tbxGroupName.Name = "tbxGroupName";
             this.tbxGroupName.Size = new System.Drawing.Size(406, 20);
@@ -672,7 +679,7 @@
             // 
             // layoutControlItem3
             // 
-            this.layoutControlItem3.Control = this.tbxAliasname;
+            this.layoutControlItem3.Control = this.tbxAlias;
             this.layoutControlItem3.Location = new System.Drawing.Point(157, 42);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(506, 24);
@@ -807,7 +814,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.cbxNaturegroup.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbxUndergroup.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbxPrimarygroup.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbxAliasname.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxAlias.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxGroupName.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
@@ -843,7 +850,7 @@
         private DevExpress.XtraEditors.ComboBoxEdit cbxNaturegroup;
         private DevExpress.XtraEditors.ComboBoxEdit cbxUndergroup;
         private DevExpress.XtraEditors.ComboBoxEdit cbxPrimarygroup;
-        private DevExpress.XtraEditors.TextEdit tbxAliasname;
+        private DevExpress.XtraEditors.TextEdit tbxAlias;
         private DevExpress.XtraEditors.TextEdit tbxGroupName;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;

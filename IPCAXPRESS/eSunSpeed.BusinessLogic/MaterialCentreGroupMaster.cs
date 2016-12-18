@@ -26,7 +26,7 @@ namespace eSunSpeed.BusinessLogic
                 paramCollection.Add(new DBParameter("@UnderGroup", objMCG.UnderGroup));
                 paramCollection.Add(new DBParameter("@CreatedBy", objMCG.CreatedBy));
                 
-                Query = "INSERT INTO MaterialCentreGroupMaster([Group],[Alias],[PrimaryGroup],[UnderGroup],[CreatedBy]) " +
+                Query = "INSERT INTO MaterialCentreGroupMaster(`Group`,`Alias`,`PrimaryGroup`,`UnderGroup`,`CreatedBy`) " +
                     "VALUES(@Group,@Alias,@PrimaryGroup,@UnderGroup,@CreatedBy)";
 
                 if (_dbHelper.ExecuteNonQuery(Query, paramCollection) > 0)

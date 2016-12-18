@@ -24,7 +24,7 @@ namespace eSunSpeed.BusinessLogic
                 paramCollection.Add(new DBParameter("@ConFactor", objUC.ConFactor));
                 //paramCollection.Add(new DBParameter("@CreatedBy", "Admin"));
 
-                Query = "INSERT INTO UnitConversion([MainUnit],[SubUnit],[ConFactor]) " +
+                Query = "INSERT INTO UnitConversion(`MainUnit`,`SubUnit`,`ConFactor`) " +
                     "VALUES(@MainUnit,@SubUnit,@ConFactor)";
 
                 if (_dbHelper.ExecuteNonQuery(Query, paramCollection) > 0)

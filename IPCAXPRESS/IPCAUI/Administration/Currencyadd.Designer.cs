@@ -603,6 +603,7 @@
             // 
             // tbxCurrencySubstring
             // 
+            this.tbxCurrencySubstring.EnterMoveNextControl = true;
             this.tbxCurrencySubstring.Location = new System.Drawing.Point(247, 78);
             this.tbxCurrencySubstring.Name = "tbxCurrencySubstring";
             this.tbxCurrencySubstring.Size = new System.Drawing.Size(270, 20);
@@ -629,9 +630,11 @@
             this.btnSave.StyleController = this.layoutControl1;
             this.btnSave.TabIndex = 10;
             this.btnSave.Text = "Save";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // cbxCurrencyconvMode
             // 
+            this.cbxCurrencyconvMode.EnterMoveNextControl = true;
             this.cbxCurrencyconvMode.Location = new System.Drawing.Point(247, 102);
             this.cbxCurrencyconvMode.Name = "cbxCurrencyconvMode";
             this.cbxCurrencyconvMode.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -642,6 +645,7 @@
             // 
             // tbxCurrencystring
             // 
+            this.tbxCurrencystring.EnterMoveNextControl = true;
             this.tbxCurrencystring.Location = new System.Drawing.Point(247, 54);
             this.tbxCurrencystring.Name = "tbxCurrencystring";
             this.tbxCurrencystring.Size = new System.Drawing.Size(270, 20);
@@ -650,6 +654,7 @@
             // 
             // tbxCurrencysymbol
             // 
+            this.tbxCurrencysymbol.EnterMoveNextControl = true;
             this.tbxCurrencysymbol.Location = new System.Drawing.Point(247, 30);
             this.tbxCurrencysymbol.Name = "tbxCurrencysymbol";
             this.tbxCurrencysymbol.Size = new System.Drawing.Size(270, 20);

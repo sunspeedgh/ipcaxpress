@@ -521,9 +521,11 @@
             this.btnSave.StyleController = this.layoutControl1;
             this.btnSave.TabIndex = 10;
             this.btnSave.Text = "Save";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // cbxUnitname
             // 
+            this.cbxUnitname.EnterMoveNextControl = true;
             this.cbxUnitname.Location = new System.Drawing.Point(318, 78);
             this.cbxUnitname.Name = "cbxUnitname";
             this.cbxUnitname.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -534,6 +536,7 @@
             // 
             // tbxPrintname
             // 
+            this.tbxPrintname.EnterMoveNextControl = true;
             this.tbxPrintname.Location = new System.Drawing.Point(318, 54);
             this.tbxPrintname.Name = "tbxPrintname";
             this.tbxPrintname.Size = new System.Drawing.Size(192, 20);
@@ -542,6 +545,7 @@
             // 
             // tbxUnitName
             // 
+            this.tbxUnitName.EnterMoveNextControl = true;
             this.tbxUnitName.Location = new System.Drawing.Point(318, 30);
             this.tbxUnitName.Name = "tbxUnitName";
             this.tbxUnitName.Size = new System.Drawing.Size(192, 20);

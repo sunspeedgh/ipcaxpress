@@ -29,7 +29,7 @@ namespace eSunSpeed.BusinessLogic
                 paramCollection.Add(new DBParameter("@underGroup", ObjCCG.underGroup));
                 paramCollection.Add(new DBParameter("@CreatedBy", ObjCCG.CreatedBy));
 
-                Query = "INSERT INTO CostCentreGroupMaster([GroupName],[Alias],[PrimaryGroup],[underGroup],[CreatedBy])" +
+                Query = "INSERT INTO CostCentreGroupMaster(`GroupName`,`Alias`,`PrimaryGroup`,`underGroup`,`CreatedBy`)" +
 
                     "VALUES(@GroupName,@Alias,@PrimaryGroup,@underGroup,@CreatedBy)";
 

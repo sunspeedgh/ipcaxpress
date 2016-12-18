@@ -69,5 +69,43 @@ namespace IPCAUI.Administration
             //Dialogs.PopUPDialog d = new Dialogs.PopUPDialog("Saved Successfully!");
             //d.ShowDialog();
         }
+
+        private void tbxGroupName_KeyDown(object sender, KeyEventArgs e)
+        {
+            
+        }
+
+        private void tbxGroupName_MouseLeave(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tbxGroupName_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == '\r')
+            {
+                if (tbxGroupName.Text.Trim()=="")
+                {
+                    MessageBox.Show("Group Name Can Not Be Blank!");
+                    tbxGroupName.Focus();
+                    return;
+                }
+                if (this.ActiveControl != null)
+                {
+                    this.SelectNextControl(this.ActiveControl, true, true, true, true);
+
+                }
+                e.Handled = true; // Mark the event as handled
+            }
+        }
+
+        private void cbxPrimarygroup_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbxPrimarygroup.SelectedItem.ToString().Equals("Y"))
+            {
+                
+            }
+
+        }
     }
 }

@@ -30,7 +30,7 @@ namespace eSunSpeed.BusinessLogic
                 paramCollection.Add(new DBParameter("@DrCr", objCCM.DrCr));
                 paramCollection.Add(new DBParameter("@CreatedBy", objCCM.CreatedBy));
 
-                Query = "INSERT INTO CostCentreMaster([Name],[Alias],[Group],[opBal],[DrCr],[CreatedBy])" +
+                Query = "INSERT INTO CostCentreMaster(`Name`,`Alias`,`Group`,`opBal`,`DrCr`,`CreatedBy`)" +
                         "VALUES(@Name,@Alias,@Group,@opBal,@DrCr,@CreatedBy)";
 
 

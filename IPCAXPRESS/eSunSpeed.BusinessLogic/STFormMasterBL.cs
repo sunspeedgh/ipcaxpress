@@ -24,7 +24,7 @@ namespace eSunSpeed.BusinessLogic
                 paramCollection.Add(new DBParameter("@STRegType", objSTF.STRegType));
                 paramCollection.Add(new DBParameter("@CreatedBy", objSTF.CreatedBy));
 
-                Query = "INSERT INTO STFormMaster([Name],[PrintName],[STRegType],[CreatedBy]) " +
+                Query = "INSERT INTO STFormMaster(`Name`,`PrintName`,`STRegType`,`CreatedBy`) " +
                          "VALUES(@Name,@PrintName,@STRegType,@CreatedBy)";
 
                 if (_dbHelper.ExecuteNonQuery(Query, paramCollection) > 0)

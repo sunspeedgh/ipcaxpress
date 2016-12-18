@@ -41,6 +41,10 @@
             this.gridControl2 = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.navBarControl1 = new DevExpress.XtraNavBar.NavBarControl();
+            this.navBarGroup5 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarList = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem8 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem9 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarGroup1 = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarItem10 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem11 = new DevExpress.XtraNavBar.NavBarItem();
@@ -78,10 +82,6 @@
             this.navBarItem1 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem2 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem3 = new DevExpress.XtraNavBar.NavBarItem();
-            this.navBarGroup5 = new DevExpress.XtraNavBar.NavBarGroup();
-            this.navBarList = new DevExpress.XtraNavBar.NavBarItem();
-            this.navBarItem8 = new DevExpress.XtraNavBar.NavBarItem();
-            this.navBarItem9 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem4 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem5 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem6 = new DevExpress.XtraNavBar.NavBarItem();
@@ -184,6 +184,9 @@
             this.cbxDrCr.Name = "cbxDrCr";
             this.cbxDrCr.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbxDrCr.Properties.Items.AddRange(new object[] {
+            "C",
+            "D"});
             this.cbxDrCr.Size = new System.Drawing.Size(72, 20);
             this.cbxDrCr.StyleController = this.layoutControl1;
             this.cbxDrCr.TabIndex = 13;
@@ -216,6 +219,7 @@
             this.btnSave.StyleController = this.layoutControl1;
             this.btnSave.TabIndex = 10;
             this.btnSave.Text = "Save";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // cbxPrimarygroup
             // 
@@ -247,7 +251,7 @@
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Verdana", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(400, 12);
+            this.labelControl1.Location = new System.Drawing.Point(424, 12);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(126, 14);
             this.labelControl1.StyleController = this.layoutControl1;
@@ -330,6 +334,36 @@
             this.navBarControl1.TabIndex = 64;
             this.navBarControl1.Text = "navBarControl1";
             this.navBarControl1.View = new DevExpress.XtraNavBar.ViewInfo.NavigationPaneViewInfoRegistrator();
+            // 
+            // navBarGroup5
+            // 
+            this.navBarGroup5.Caption = "Add/Modify";
+            this.navBarGroup5.Expanded = true;
+            this.navBarGroup5.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarList),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem8),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem9)});
+            this.navBarGroup5.Name = "navBarGroup5";
+            this.navBarGroup5.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup5.SmallImage")));
+            // 
+            // navBarList
+            // 
+            this.navBarList.Caption = "List";
+            this.navBarList.Name = "navBarList";
+            this.navBarList.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarList.SmallImage")));
+            this.navBarList.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarList_LinkClicked);
+            // 
+            // navBarItem8
+            // 
+            this.navBarItem8.Caption = "Modify";
+            this.navBarItem8.Name = "navBarItem8";
+            this.navBarItem8.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem8.SmallImage")));
+            // 
+            // navBarItem9
+            // 
+            this.navBarItem9.Caption = "New Entry";
+            this.navBarItem9.Name = "navBarItem9";
+            this.navBarItem9.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem9.SmallImage")));
             // 
             // navBarGroup1
             // 
@@ -580,36 +614,6 @@
             this.navBarItem3.Name = "navBarItem3";
             this.navBarItem3.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem3.SmallImage")));
             // 
-            // navBarGroup5
-            // 
-            this.navBarGroup5.Caption = "Add/Modify";
-            this.navBarGroup5.Expanded = true;
-            this.navBarGroup5.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarList),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem8),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem9)});
-            this.navBarGroup5.Name = "navBarGroup5";
-            this.navBarGroup5.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup5.SmallImage")));
-            // 
-            // navBarList
-            // 
-            this.navBarList.Caption = "List";
-            this.navBarList.Name = "navBarList";
-            this.navBarList.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarList.SmallImage")));
-            this.navBarList.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarList_LinkClicked);
-            // 
-            // navBarItem8
-            // 
-            this.navBarItem8.Caption = "Modify";
-            this.navBarItem8.Name = "navBarItem8";
-            this.navBarItem8.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem8.SmallImage")));
-            // 
-            // navBarItem9
-            // 
-            this.navBarItem9.Caption = "New Entry";
-            this.navBarItem9.Name = "navBarItem9";
-            this.navBarItem9.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem9.SmallImage")));
-            // 
             // navBarItem4
             // 
             this.navBarItem4.Caption = "Party Dashboard";
@@ -673,7 +677,7 @@
             // layoutControlItem1
             // 
             this.layoutControlItem1.Control = this.labelControl1;
-            this.layoutControlItem1.Location = new System.Drawing.Point(388, 0);
+            this.layoutControlItem1.Location = new System.Drawing.Point(412, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
             this.layoutControlItem1.Size = new System.Drawing.Size(130, 18);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
@@ -704,15 +708,15 @@
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.Location = new System.Drawing.Point(160, 0);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(228, 18);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(252, 18);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem3
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
-            this.emptySpaceItem3.Location = new System.Drawing.Point(518, 0);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(542, 0);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(365, 18);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(341, 18);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem4
@@ -811,7 +815,7 @@
             this.simpleLabelItem1.Name = "simpleLabelItem1";
             this.simpleLabelItem1.Size = new System.Drawing.Size(188, 24);
             this.simpleLabelItem1.Text = "Name";
-            this.simpleLabelItem1.TextSize = new System.Drawing.Size(64, 13);
+            this.simpleLabelItem1.TextSize = new System.Drawing.Size(61, 13);
             // 
             // simpleLabelItem2
             // 
@@ -820,7 +824,7 @@
             this.simpleLabelItem2.Name = "simpleLabelItem2";
             this.simpleLabelItem2.Size = new System.Drawing.Size(188, 24);
             this.simpleLabelItem2.Text = "Alias";
-            this.simpleLabelItem2.TextSize = new System.Drawing.Size(64, 13);
+            this.simpleLabelItem2.TextSize = new System.Drawing.Size(61, 13);
             // 
             // simpleLabelItem4
             // 
@@ -829,7 +833,7 @@
             this.simpleLabelItem4.Name = "simpleLabelItem4";
             this.simpleLabelItem4.Size = new System.Drawing.Size(188, 24);
             this.simpleLabelItem4.Text = "Op. Bal.";
-            this.simpleLabelItem4.TextSize = new System.Drawing.Size(64, 13);
+            this.simpleLabelItem4.TextSize = new System.Drawing.Size(61, 13);
             // 
             // simpleLabelItem3
             // 
@@ -837,8 +841,8 @@
             this.simpleLabelItem3.Location = new System.Drawing.Point(160, 66);
             this.simpleLabelItem3.Name = "simpleLabelItem3";
             this.simpleLabelItem3.Size = new System.Drawing.Size(188, 24);
-            this.simpleLabelItem3.Text = "Parent Group";
-            this.simpleLabelItem3.TextSize = new System.Drawing.Size(64, 13);
+            this.simpleLabelItem3.Text = "Under Group";
+            this.simpleLabelItem3.TextSize = new System.Drawing.Size(61, 13);
             // 
             // simpleLabelItem5
             // 
@@ -847,7 +851,7 @@
             this.simpleLabelItem5.Name = "simpleLabelItem5";
             this.simpleLabelItem5.Size = new System.Drawing.Size(68, 24);
             this.simpleLabelItem5.Text = "Dr/Cr";
-            this.simpleLabelItem5.TextSize = new System.Drawing.Size(64, 13);
+            this.simpleLabelItem5.TextSize = new System.Drawing.Size(61, 13);
             // 
             // emptySpaceItem10
             // 

@@ -24,7 +24,7 @@ namespace eSunSpeed.BusinessLogic
                 paramCollection.Add(new DBParameter("@Narration", objSNM.Narration));
                 paramCollection.Add(new DBParameter("@CreatedBy", "Admin"));
 
-                Query = "INSERT INTO StdNarrationMaster([Vouchertype],[Narration],[CreatedBy]) " +
+                Query = "INSERT INTO StdNarrationMaster(`Vouchertype`,`Narration`,`CreatedBy`) " +
                     "VALUES(@Vouchertype,@Narration,@CreatedBy)";
 
                 if (_dbHelper.ExecuteNonQuery(Query, paramCollection) > 0)

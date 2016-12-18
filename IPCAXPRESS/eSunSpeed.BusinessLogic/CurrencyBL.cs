@@ -28,7 +28,7 @@ namespace eSunSpeed.BusinessLogic
                 paramCollection.Add(new DBParameter("@ConversionMode", objCur.ConvertionMode));
                 paramCollection.Add(new DBParameter("@CreatedBy", objCur.CreatedBy));                                
 
-                Query = "INSERT INTO CurrencyMaster([Symbol],[CString],[SubString],[ConversionMode],[CreatedBy]) " +
+                Query = "INSERT INTO CurrencyMaster(`Symbol`,`CString`,`SubString`,`ConversionMode`,`CreatedBy`) " +
                          "VALUES(@Symbol,@String,@SubString,@ConversionMode,@CreatedBy)";
 
                 if (_dbHelper.ExecuteNonQuery(Query, paramCollection) > 0)

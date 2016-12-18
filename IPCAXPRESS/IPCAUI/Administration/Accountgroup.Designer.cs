@@ -110,8 +110,8 @@
             this.simpleLabelItem1 = new DevExpress.XtraLayout.SimpleLabelItem();
             this.simpleLabelItem2 = new DevExpress.XtraLayout.SimpleLabelItem();
             this.simpleLabelItem3 = new DevExpress.XtraLayout.SimpleLabelItem();
-            this.simpleLabelItem4 = new DevExpress.XtraLayout.SimpleLabelItem();
-            this.simpleLabelItem5 = new DevExpress.XtraLayout.SimpleLabelItem();
+            this.lblUndergroup = new DevExpress.XtraLayout.SimpleLabelItem();
+            this.lblNature = new DevExpress.XtraLayout.SimpleLabelItem();
             this.layoutControlItem16 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
@@ -148,8 +148,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.simpleLabelItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.simpleLabelItem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.simpleLabelItem3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.simpleLabelItem4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.simpleLabelItem5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lblUndergroup)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lblNature)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem16)).BeginInit();
             this.SuspendLayout();
             // 
@@ -179,6 +179,7 @@
             // 
             // chkGrossProfit
             // 
+            this.chkGrossProfit.EnterMoveNextControl = true;
             this.chkGrossProfit.Location = new System.Drawing.Point(129, 150);
             this.chkGrossProfit.Name = "chkGrossProfit";
             this.chkGrossProfit.Properties.Caption = "Affect Gross Profit";
@@ -210,6 +211,7 @@
             // 
             // cbxNaturegroup
             // 
+            this.cbxNaturegroup.EnterMoveNextControl = true;
             this.cbxNaturegroup.Location = new System.Drawing.Point(317, 126);
             this.cbxNaturegroup.Name = "cbxNaturegroup";
             this.cbxNaturegroup.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -220,6 +222,7 @@
             // 
             // cbxUndergroup
             // 
+            this.cbxUndergroup.EnterMoveNextControl = true;
             this.cbxUndergroup.Location = new System.Drawing.Point(317, 102);
             this.cbxUndergroup.Name = "cbxUndergroup";
             this.cbxUndergroup.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -230,16 +233,22 @@
             // 
             // cbxPrimarygroup
             // 
+            this.cbxPrimarygroup.EnterMoveNextControl = true;
             this.cbxPrimarygroup.Location = new System.Drawing.Point(317, 78);
             this.cbxPrimarygroup.Name = "cbxPrimarygroup";
             this.cbxPrimarygroup.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbxPrimarygroup.Properties.Items.AddRange(new object[] {
+            "Yes",
+            "No"});
             this.cbxPrimarygroup.Size = new System.Drawing.Size(317, 20);
             this.cbxPrimarygroup.StyleController = this.layoutControl1;
             this.cbxPrimarygroup.TabIndex = 7;
+            this.cbxPrimarygroup.SelectedIndexChanged += new System.EventHandler(this.cbxPrimarygroup_SelectedIndexChanged);
             // 
             // tbxAliasname
             // 
+            this.tbxAliasname.EnterMoveNextControl = true;
             this.tbxAliasname.Location = new System.Drawing.Point(317, 54);
             this.tbxAliasname.Name = "tbxAliasname";
             this.tbxAliasname.Size = new System.Drawing.Size(317, 20);
@@ -253,6 +262,9 @@
             this.tbxGroupName.Size = new System.Drawing.Size(317, 20);
             this.tbxGroupName.StyleController = this.layoutControl1;
             this.tbxGroupName.TabIndex = 5;
+            this.tbxGroupName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbxGroupName_KeyDown);
+            this.tbxGroupName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbxGroupName_KeyPress);
+            this.tbxGroupName.MouseLeave += new System.EventHandler(this.tbxGroupName_MouseLeave);
             // 
             // labelControl1
             // 
@@ -672,8 +684,8 @@
             this.simpleLabelItem1,
             this.simpleLabelItem2,
             this.simpleLabelItem3,
-            this.simpleLabelItem4,
-            this.simpleLabelItem5,
+            this.lblUndergroup,
+            this.lblNature,
             this.layoutControlItem16});
             this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup1.Name = "Root";
@@ -875,23 +887,23 @@
             this.simpleLabelItem3.Text = "Primary Group (Y/N)";
             this.simpleLabelItem3.TextSize = new System.Drawing.Size(96, 13);
             // 
-            // simpleLabelItem4
+            // lblUndergroup
             // 
-            this.simpleLabelItem4.AllowHotTrack = false;
-            this.simpleLabelItem4.Location = new System.Drawing.Point(117, 90);
-            this.simpleLabelItem4.Name = "simpleLabelItem4";
-            this.simpleLabelItem4.Size = new System.Drawing.Size(188, 24);
-            this.simpleLabelItem4.Text = "Under Group";
-            this.simpleLabelItem4.TextSize = new System.Drawing.Size(96, 13);
+            this.lblUndergroup.AllowHotTrack = false;
+            this.lblUndergroup.Location = new System.Drawing.Point(117, 90);
+            this.lblUndergroup.Name = "lblUndergroup";
+            this.lblUndergroup.Size = new System.Drawing.Size(188, 24);
+            this.lblUndergroup.Text = "Under Group";
+            this.lblUndergroup.TextSize = new System.Drawing.Size(96, 13);
             // 
-            // simpleLabelItem5
+            // lblNature
             // 
-            this.simpleLabelItem5.AllowHotTrack = false;
-            this.simpleLabelItem5.Location = new System.Drawing.Point(117, 114);
-            this.simpleLabelItem5.Name = "simpleLabelItem5";
-            this.simpleLabelItem5.Size = new System.Drawing.Size(188, 24);
-            this.simpleLabelItem5.Text = "Nature Of Group";
-            this.simpleLabelItem5.TextSize = new System.Drawing.Size(96, 13);
+            this.lblNature.AllowHotTrack = false;
+            this.lblNature.Location = new System.Drawing.Point(117, 114);
+            this.lblNature.Name = "lblNature";
+            this.lblNature.Size = new System.Drawing.Size(188, 24);
+            this.lblNature.Text = "Nature Of Group";
+            this.lblNature.TextSize = new System.Drawing.Size(96, 13);
             // 
             // layoutControlItem16
             // 
@@ -947,8 +959,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.simpleLabelItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.simpleLabelItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.simpleLabelItem3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.simpleLabelItem4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.simpleLabelItem5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lblUndergroup)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lblNature)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem16)).EndInit();
             this.ResumeLayout(false);
 
@@ -1038,7 +1050,7 @@
         private DevExpress.XtraLayout.SimpleLabelItem simpleLabelItem1;
         private DevExpress.XtraLayout.SimpleLabelItem simpleLabelItem2;
         private DevExpress.XtraLayout.SimpleLabelItem simpleLabelItem3;
-        private DevExpress.XtraLayout.SimpleLabelItem simpleLabelItem4;
-        private DevExpress.XtraLayout.SimpleLabelItem simpleLabelItem5;
+        private DevExpress.XtraLayout.SimpleLabelItem lblUndergroup;
+        private DevExpress.XtraLayout.SimpleLabelItem lblNature;
     }
 }
