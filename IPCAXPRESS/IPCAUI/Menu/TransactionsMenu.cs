@@ -198,8 +198,16 @@ namespace IPCAUI.Menu
         private void PurchaseOrder_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             //MessageBox.Show("Under Progeress.........");
-            Transactions.Purchaseorder frm;
-            frm = new Transactions.Purchaseorder(); //generate new instance
+            //Transactions.Purchaseorder frm;
+            //frm = new Transactions.Purchaseorder(); //generate new instance
+
+            //frm.Owner = this;
+            //frm.TopLevel = false;
+            //splitContainerControl1.Panel2.Controls.Add(frm);
+            //frm.Show();
+
+            Transactions.ContraVoucher frm;
+            frm = new Transactions.ContraVoucher(); //generate new instance
 
             frm.Owner = this;
             frm.TopLevel = false;
