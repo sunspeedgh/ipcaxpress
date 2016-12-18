@@ -46,10 +46,7 @@ namespace IPCAUI.Transactions
             BindingSource src = new BindingSource();
             src.DataSource = ds.Tables[0];
             repositoryItemLookUpEdit1.DataSource = src;
-
-
-
-
+            
         }
         private void ContraVoucher_Load(object sender, EventArgs e)
         {
@@ -70,6 +67,12 @@ namespace IPCAUI.Transactions
                 return true;
             }
             return base.ProcessCmdKey(ref msg, keyData);
+        }
+
+       
+        private void repositoryItemLookUpEdit1_EditValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
