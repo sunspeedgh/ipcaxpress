@@ -107,5 +107,13 @@ namespace IPCAUI.Administration
             }
 
         }
+
+        private void ListAccountgroup_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Administration.List.AccountgroupList frmList = new Administration.List.AccountgroupList();
+            frmList.StartPosition = FormStartPosition.CenterScreen;
+
+            frmList.ShowDialog();
+        }
     }
 }

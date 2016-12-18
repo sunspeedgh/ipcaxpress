@@ -21,5 +21,13 @@ namespace IPCAUI.Administration
         {
             this.Close();
         }
+
+        private void AuthorList_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Administration.List.AuthorList frmList = new Administration.List.AuthorList();
+            frmList.StartPosition = FormStartPosition.CenterScreen;
+
+            frmList.ShowDialog();
+        }
     }
 }

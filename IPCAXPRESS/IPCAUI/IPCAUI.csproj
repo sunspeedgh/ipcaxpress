@@ -109,6 +109,36 @@
     <Compile Include="Administration\Currencyconversion.Designer.cs">
       <DependentUpon>Currencyconversion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Administration\List\AccountgroupList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\AccountgroupList.Designer.cs">
+      <DependentUpon>AccountgroupList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\ContactmasterList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\ContactmasterList.Designer.cs">
+      <DependentUpon>ContactmasterList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\ContactgroupList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\ContactgroupList.Designer.cs">
+      <DependentUpon>ContactgroupList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\BillMaterialList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\BillMaterialList.Designer.cs">
+      <DependentUpon>BillMaterialList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\AuthorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\AuthorList.Designer.cs">
+      <DependentUpon>AuthorList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Administration\List\AccountList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -391,13 +421,10 @@
     <Compile Include="configurations\Hardwareconfiguration.Designer.cs">
       <DependentUpon>Hardwareconfiguration.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataSets\AccountBook.cs">
-      <DependentUpon>AccountBook.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DataSets\AccountBook.Designer.cs">
+    <Compile Include="DataSets\AccountgroupList.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>AccountBook.xsd</DependentUpon>
+      <DependentUpon>AccountgroupList.xsd</DependentUpon>
     </Compile>
     <Compile Include="DataSets\AccountList.cs">
       <DependentUpon>AccountList.xsd</DependentUpon>
@@ -407,48 +434,45 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AccountList.xsd</DependentUpon>
     </Compile>
-    <Compile Include="DataSets\AccountSummaryDs.Designer.cs">
+    <Compile Include="DataSets\AuthorList.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>AccountSummaryDs.xsd</DependentUpon>
+      <DependentUpon>AuthorList.xsd</DependentUpon>
     </Compile>
     <Compile Include="DataSets\BalanceSheet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BalanceSheet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\BillsmaterialList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillsmaterialList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ContactgroupList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContactgroupList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ContactmasterList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContactmasterList.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSets\ContraVoucher.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ContraVoucher.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DataSets\InterestCalDs.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>InterestCalDs.xsd</DependentUpon>
     </Compile>
     <Compile Include="DataSets\ItemsLookupEdit.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
     </Compile>
-    <Compile Include="DataSets\OutstandingAnalysisDs.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>OutstandingAnalysisDs.xsd</DependentUpon>
-    </Compile>
     <Compile Include="DataSets\ProfitLossDs.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ProfitLossDs.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DataSets\TrialBalanceDs.cs">
-      <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DataSets\TrialBalanceDs.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
     </Compile>
     <Compile Include="Demo.cs">
       <SubType>Form</SubType>
@@ -523,30 +547,6 @@
     </Compile>
     <Compile Include="Reports\Accountbooks\AccountLedger.Designer.cs">
       <DependentUpon>AccountLedger.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Reports\Accountbooks\Grids\TrailBalanceGrd.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Reports\Accountbooks\Grids\TrailBalanceGrd.Designer.cs">
-      <DependentUpon>TrailBalanceGrd.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Reports\Accountbooks\TrailBalance.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Reports\Accountbooks\TrailBalance.Designer.cs">
-      <DependentUpon>TrailBalance.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Reports\Accountbooks\BalanceSheet.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Reports\Accountbooks\BalanceSheet.Designer.cs">
-      <DependentUpon>BalanceSheet.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Reports\Accountbooks\ProfitLossAc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Reports\Accountbooks\ProfitLossAc.Designer.cs">
-      <DependentUpon>ProfitLossAc.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\Accountbooks\Bankbook.cs">
       <SubType>Form</SubType>
@@ -2609,6 +2609,21 @@
     <EmbeddedResource Include="Administration\Currencyconversion.resx">
       <DependentUpon>Currencyconversion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\AccountgroupList.resx">
+      <DependentUpon>AccountgroupList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\ContactmasterList.resx">
+      <DependentUpon>ContactmasterList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\ContactgroupList.resx">
+      <DependentUpon>ContactgroupList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\BillMaterialList.resx">
+      <DependentUpon>BillMaterialList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\AuthorList.resx">
+      <DependentUpon>AuthorList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Administration\List\AccountList.resx">
       <DependentUpon>AccountList.cs</DependentUpon>
     </EmbeddedResource>
@@ -2795,18 +2810,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\AccountLedger.resx">
       <DependentUpon>AccountLedger.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Reports\Accountbooks\Grids\TrailBalanceGrd.resx">
-      <DependentUpon>TrailBalanceGrd.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Reports\Accountbooks\TrailBalance.resx">
-      <DependentUpon>TrailBalance.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Reports\Accountbooks\BalanceSheet.resx">
-      <DependentUpon>BalanceSheet.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Reports\Accountbooks\ProfitLossAc.resx">
-      <DependentUpon>ProfitLossAc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\Bankbook.resx">
       <DependentUpon>Bankbook.cs</DependentUpon>
@@ -3829,16 +3832,16 @@
     <EmbeddedResource Include="XtraForm1.resx">
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="DataSets\AccountBook.xsc">
-      <DependentUpon>AccountBook.xsd</DependentUpon>
+    <None Include="DataSets\AccountgroupList.xsc">
+      <DependentUpon>AccountgroupList.xsd</DependentUpon>
     </None>
-    <None Include="DataSets\AccountBook.xsd">
+    <None Include="DataSets\AccountgroupList.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>AccountBook.Designer.cs</LastGenOutput>
+      <LastGenOutput>AccountgroupList.Designer.cs</LastGenOutput>
     </None>
-    <None Include="DataSets\AccountBook.xss">
-      <DependentUpon>AccountBook.xsd</DependentUpon>
+    <None Include="DataSets\AccountgroupList.xss">
+      <DependentUpon>AccountgroupList.xsd</DependentUpon>
     </None>
     <None Include="DataSets\AccountList.xsc">
       <DependentUpon>AccountList.xsd</DependentUpon>
@@ -3851,16 +3854,16 @@
     <None Include="DataSets\AccountList.xss">
       <DependentUpon>AccountList.xsd</DependentUpon>
     </None>
-    <None Include="DataSets\AccountSummaryDs.xsc">
-      <DependentUpon>AccountSummaryDs.xsd</DependentUpon>
+    <None Include="DataSets\AuthorList.xsc">
+      <DependentUpon>AuthorList.xsd</DependentUpon>
     </None>
-    <None Include="DataSets\AccountSummaryDs.xsd">
+    <None Include="DataSets\AuthorList.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>AccountSummaryDs.Designer.cs</LastGenOutput>
+      <LastGenOutput>AuthorList.Designer.cs</LastGenOutput>
     </None>
-    <None Include="DataSets\AccountSummaryDs.xss">
-      <DependentUpon>AccountSummaryDs.xsd</DependentUpon>
+    <None Include="DataSets\AuthorList.xss">
+      <DependentUpon>AuthorList.xsd</DependentUpon>
     </None>
     <None Include="DataSets\BalanceSheet.xsc">
       <DependentUpon>BalanceSheet.xsd</DependentUpon>
@@ -3873,6 +3876,39 @@
     <None Include="DataSets\BalanceSheet.xss">
       <DependentUpon>BalanceSheet.xsd</DependentUpon>
     </None>
+    <None Include="DataSets\BillsmaterialList.xsc">
+      <DependentUpon>BillsmaterialList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BillsmaterialList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillsmaterialList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\BillsmaterialList.xss">
+      <DependentUpon>BillsmaterialList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ContactgroupList.xsc">
+      <DependentUpon>ContactgroupList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ContactgroupList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ContactgroupList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ContactgroupList.xss">
+      <DependentUpon>ContactgroupList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ContactmasterList.xsc">
+      <DependentUpon>ContactmasterList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ContactmasterList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ContactmasterList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ContactmasterList.xss">
+      <DependentUpon>ContactmasterList.xsd</DependentUpon>
+    </None>
     <None Include="DataSets\ContraVoucher.xsc">
       <DependentUpon>ContraVoucher.xsd</DependentUpon>
     </None>
@@ -3883,17 +3919,6 @@
     </None>
     <None Include="DataSets\ContraVoucher.xss">
       <DependentUpon>ContraVoucher.xsd</DependentUpon>
-    </None>
-    <None Include="DataSets\InterestCalDs.xsc">
-      <DependentUpon>InterestCalDs.xsd</DependentUpon>
-    </None>
-    <None Include="DataSets\InterestCalDs.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>InterestCalDs.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DataSets\InterestCalDs.xss">
-      <DependentUpon>InterestCalDs.xsd</DependentUpon>
     </None>
     <None Include="DataSets\ItemsLookupEdit.xsc">
       <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
@@ -3906,17 +3931,6 @@
     <None Include="DataSets\ItemsLookupEdit.xss">
       <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
     </None>
-    <None Include="DataSets\OutstandingAnalysisDs.xsc">
-      <DependentUpon>OutstandingAnalysisDs.xsd</DependentUpon>
-    </None>
-    <None Include="DataSets\OutstandingAnalysisDs.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>OutstandingAnalysisDs.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DataSets\OutstandingAnalysisDs.xss">
-      <DependentUpon>OutstandingAnalysisDs.xsd</DependentUpon>
-    </None>
     <None Include="DataSets\ProfitLossDs.xsc">
       <DependentUpon>ProfitLossDs.xsd</DependentUpon>
     </None>
@@ -3927,17 +3941,6 @@
     </None>
     <None Include="DataSets\ProfitLossDs.xss">
       <DependentUpon>ProfitLossDs.xsd</DependentUpon>
-    </None>
-    <None Include="DataSets\TrialBalanceDs.xsc">
-      <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
-    </None>
-    <None Include="DataSets\TrialBalanceDs.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>TrialBalanceDs.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DataSets\TrialBalanceDs.xss">
-      <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\IPCAUI.DataSets.ContraVoucher.datasource" />

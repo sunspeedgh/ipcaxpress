@@ -21,5 +21,13 @@ namespace IPCAUI.Administration
         {
             this.Close();
         }
+
+        private void ListContactgroup_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Administration.List.ContactgroupList frmList = new Administration.List.ContactgroupList();
+            frmList.StartPosition = FormStartPosition.CenterScreen;
+
+            frmList.ShowDialog();
+        }
     }
 }
