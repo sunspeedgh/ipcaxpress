@@ -51,6 +51,7 @@
     <Compile Include="Arch.cs" />
     <Compile Include="AuthorMaster.cs" />
     <Compile Include="CompanyBL.cs" />
+    <Compile Include="MasterseriesBL.cs" />
     <Compile Include="MatRcvdBL.cs" />
     <Compile Include="IssuedVoucherBL.cs" />
     <Compile Include="PhysicalStockVoucherBL.cs" />
@@ -130,6 +131,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

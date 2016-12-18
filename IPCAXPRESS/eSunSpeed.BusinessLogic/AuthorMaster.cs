@@ -38,8 +38,8 @@ namespace eSunSpeed.BusinessLogic
                 paramCollection.Add(new DBParameter("@CreatedBy", "Admin"));
 
 
-                Query = "INSERT INTO AuthorMaster([Author_Name],[Author_Alias],[Author_PName],[Author_Connect],[Author_Address],[Author_Street],[Author_PinCode]," +
-                        "[Author_City],[Author_State],[Author_Country],[Author_Mobile],[CreatedBy]) VALUES " +
+                Query = "INSERT INTO AuthorMaster (`Author_Name`,`Author_Alias`,`Author_PName`,`Author_Connect`,`Author_Address`,`Author_Street`,`Author_PinCode`," +
+                        "`Author_City`,`Author_State`,`Author_Country`,`Author_Mobile`,`CreatedBy`) VALUES " +
                         "(@Author_Name,@Author_Alias,@Author_PrintName,@Author_ConnectAcc,@Author_Address,@Author_Street,@Author_PinCode,@Author_City," +
                         "@Author_State,@Author_Country,@Author_MobileNo,@CreatedBy)";
                 

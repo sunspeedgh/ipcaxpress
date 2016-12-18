@@ -139,7 +139,7 @@ namespace eSunSpeed.BusinessLogic
 
             DBParameterCollection paramCollection = new DBParameterCollection();
 
-            paramCollection.Add(new DBParameter("@Acc_DbName", "zAKIR"));
+            paramCollection.Add(new DBParameter("@Acc_DbName", "SunSpped"));
             paramCollection.Add(new DBParameter("@ACC_NAME", objAcctMaster.AccountName));
             paramCollection.Add(new DBParameter("@ACC_SHORTNAME", objAcctMaster.ShortName));
             paramCollection.Add(new DBParameter("@ACC_PRINTNAME", objAcctMaster.PrintName));
@@ -201,12 +201,12 @@ namespace eSunSpeed.BusinessLogic
 
 
             Query =
-            "INSERT INTO AccountMaster([Acc_DbName],[ACC_NAME],[ACC_SHORTNAME],[ACC_PRINTNAME],[ACC_LedgerType],[ACC_MultiCurr],[ACC_Group],[ACC_OpBal]," +
-                            "[ACC_PrevYearBal],[ACC_DrCrOpenBal],[ACC_DrCrPrevBal],[ACC_MaintainBitwise],[ACC_ActivateInterestCal],[ACC_CreditDays],[ACC_CreditLimit],[ACC_TypeofBuissness]," +
-                            "[ACC_Transport],[ACC_Station],[ACC_SpecifyDefaultSaleType],[ACC_DefaultSaleType],[ACC_FreezeSaleType],[ACC_SpecifyDefaultPurType],[ACC_DefaultPurcType]," +
-                            "[ACC_LockSalesType],[ACC_LockPurcType],[ACC_address1],[ACC_address2],[ACC_Address3],[ACC_Address4],[ACC_State],[ACC_TelephoneNumber],[ACC_Fax],[ACC_MobileNumber]," +
-                            "[ACC_email],[ACC_Website],[ACC_enablemailquery],[ACC_enableSMSquery],[ACC_contactperson],[ACC_ITPanNumber],[ACC_LSTNumber],[ACC_CSTNumber],[ACC_TIN]," +
-                            "[ACC_ServiceTax],[ACC_BankAccountNumber],[ACC_IECode],[ACC_CreatedBy],[ACC_DEFAULT_CHEQUE_FORMAT],[ENABLE_CHEQUE_PRINTING],[ACC_Cheque_PrintName])" +
+            "INSERT INTO accountmaster (`Acc_DbName`,`ACC_NAME`,`ACC_SHORTNAME`,`ACC_PRINTNAME`,`ACC_LedgerType`,`ACC_MultiCurr`,`ACC_Group`,`ACC_OpBal`," +
+                            "`ACC_PrevYearBal`,`ACC_DrCrOpenBal`,`ACC_DrCrPrevBal`,`ACC_MaintainBitwise`,`ACC_ActivateInterestCal`,`ACC_CreditDays`,`ACC_CreditLimit`,`ACC_TypeofBuissness`," +
+                            "`ACC_Transport`,`ACC_Station`,`ACC_SpecifyDefaultSaleType`,`ACC_DefaultSaleType`,`ACC_FreezeSaleType`,`ACC_SpecifyDefaultPurType`,`ACC_DefaultPurcType`," +
+                            "`ACC_LockSalesType`,`ACC_LockPurcType`,`ACC_address1`,`ACC_address2`,`ACC_Address3`,`ACC_Address4`,`ACC_State`,`ACC_TelephoneNumber,`ACC_Fax`,`ACC_MobileNumber`," +
+                            "`ACC_email`,`ACC_Website`,`ACC_enablemailquery`,`ACC_enableSMSquery`,`ACC_contactperson`,`ACC_ITPanNumber`,`ACC_LSTNumber`,`ACC_CSTNumber`,`ACC_TIN`," +
+                            "`ACC_ServiceTax`,`ACC_BankAccountNumber`,`ACC_IECode`,`ACC_CreatedBy`,`ACC_DEFAULT_CHEQUE_FORMAT`,`ENABLE_CHEQUE_PRINTING`,`ACC_Cheque_PrintName`)" +
                             "VALUES(@Acc_DbName,@ACC_NAME,@ACC_SHORTNAME,@ACC_PRINTNAME,@ACC_LedgerType,@ACC_MultiCurr,@ACC_Group,@ACC_OpBal,@ACC_PrevYearBal,@ACC_DrCrOpenBal," +
                             "@ACC_DrCrPrevBal,@ACC_MaintainBitwise,@ACC_ActivateInterestCal,@ACC_CreditDays,@ACC_CreditLimit,@ACC_TypeofBuissness," +
                             "@ACC_Transport,@ACC_Station,@ACC_SpecifyDefaultSaleType,@ACC_DefaultSaleType,@ACC_FreezeSaleType,@ACC_SpecifyDefaultPurType,@ACC_DefaultPurcType," +
