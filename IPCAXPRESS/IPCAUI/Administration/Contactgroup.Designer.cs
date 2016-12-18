@@ -506,7 +506,7 @@
             this.ListContactgroup.Caption = "List";
             this.ListContactgroup.Name = "ListContactgroup";
             this.ListContactgroup.SmallImage = ((System.Drawing.Image)(resources.GetObject("ListContactgroup.SmallImage")));
-            this.ListContactgroup.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ListContactgroup_LinkClicked);
+            
             // 
             // navBarItem8
             // 

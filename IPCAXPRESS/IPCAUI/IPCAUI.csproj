@@ -421,6 +421,12 @@
     <Compile Include="configurations\Hardwareconfiguration.Designer.cs">
       <DependentUpon>Hardwareconfiguration.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\AccountBook.cs">
+      <DependentUpon>AccountBook.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\AccountBook.Designer.cs">
+      <DependentUpon>AccountBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataSets\AccountgroupList.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -473,6 +479,14 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ProfitLossDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\TrialBalanceDs.cs">
+      <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\TrialBalanceDs.Designer.cs">
+      <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="Demo.cs">
       <SubType>Form</SubType>
@@ -547,6 +561,12 @@
     </Compile>
     <Compile Include="Reports\Accountbooks\AccountLedger.Designer.cs">
       <DependentUpon>AccountLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\BalanceSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\BalanceSheet.Designer.cs">
+      <DependentUpon>BalanceSheet.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\Accountbooks\Bankbook.cs">
       <SubType>Form</SubType>
@@ -644,11 +664,23 @@
     <Compile Include="Reports\Accountbooks\Grids\SubLedger.Designer.cs">
       <DependentUpon>SubLedger.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\TrailBalanceGrd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\TrailBalanceGrd.Designer.cs">
+      <DependentUpon>TrailBalanceGrd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports\Accountbooks\PaymentRegister.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Reports\Accountbooks\PaymentRegister.Designer.cs">
       <DependentUpon>PaymentRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\ProfitLossAc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\ProfitLossAc.Designer.cs">
+      <DependentUpon>ProfitLossAc.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\Accountbooks\PurchaseRegister.cs">
       <SubType>Form</SubType>
@@ -685,6 +717,12 @@
     </Compile>
     <Compile Include="Reports\Accountbooks\SubLedger.Designer.cs">
       <DependentUpon>SubLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\TrailBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\TrailBalance.Designer.cs">
+      <DependentUpon>TrailBalance.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\AccountSummary\CostcenterLedger.cs">
       <SubType>Form</SubType>
@@ -2811,6 +2849,9 @@
     <EmbeddedResource Include="Reports\Accountbooks\AccountLedger.resx">
       <DependentUpon>AccountLedger.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\BalanceSheet.resx">
+      <DependentUpon>BalanceSheet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\Bankbook.resx">
       <DependentUpon>Bankbook.cs</DependentUpon>
     </EmbeddedResource>
@@ -2859,8 +2900,14 @@
     <EmbeddedResource Include="Reports\Accountbooks\Grids\SubLedger.resx">
       <DependentUpon>SubLedger.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\Grids\TrailBalanceGrd.resx">
+      <DependentUpon>TrailBalanceGrd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\PaymentRegister.resx">
       <DependentUpon>PaymentRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\ProfitLossAc.resx">
+      <DependentUpon>ProfitLossAc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\PurchaseRegister.resx">
       <DependentUpon>PurchaseRegister.cs</DependentUpon>
@@ -2879,6 +2926,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\SubLedger.resx">
       <DependentUpon>SubLedger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\TrailBalance.resx">
+      <DependentUpon>TrailBalance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\AccountSummary\CostcenterLedger.resx">
       <DependentUpon>CostcenterLedger.cs</DependentUpon>
@@ -3832,6 +3882,17 @@
     <EmbeddedResource Include="XtraForm1.resx">
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DataSets\AccountBook.xsc">
+      <DependentUpon>AccountBook.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\AccountBook.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AccountBook1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\AccountBook.xss">
+      <DependentUpon>AccountBook.xsd</DependentUpon>
+    </None>
     <None Include="DataSets\AccountgroupList.xsc">
       <DependentUpon>AccountgroupList.xsd</DependentUpon>
     </None>
@@ -3941,6 +4002,17 @@
     </None>
     <None Include="DataSets\ProfitLossDs.xss">
       <DependentUpon>ProfitLossDs.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\TrialBalanceDs.xsc">
+      <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\TrialBalanceDs.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrialBalanceDs.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\TrialBalanceDs.xss">
+      <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\IPCAUI.DataSets.ContraVoucher.datasource" />
