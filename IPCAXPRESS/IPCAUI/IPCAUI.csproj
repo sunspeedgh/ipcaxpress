@@ -379,6 +379,18 @@
     <Compile Include="Company\Updatesignature.Designer.cs">
       <DependentUpon>Updatesignature.cs</DependentUpon>
     </Compile>
+    <Compile Include="configurations\Emailconfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="configurations\Emailconfiguration.Designer.cs">
+      <DependentUpon>Emailconfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="configurations\Hardwareconfiguration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="configurations\Hardwareconfiguration.Designer.cs">
+      <DependentUpon>Hardwareconfiguration.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataSets\AccountList.cs">
       <DependentUpon>AccountList.xsd</DependentUpon>
     </Compile>
@@ -500,6 +512,18 @@
     <Compile Include="Reports\Accountbooks\Grids\BalanceSheetGrd.Designer.cs">
       <DependentUpon>BalanceSheetGrd.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\BankBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\BankBook.Designer.cs">
+      <DependentUpon>BankBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\CashBookSingle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\CashBookSingle.Designer.cs">
+      <DependentUpon>CashBookSingle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports\Accountbooks\Grids\DayBookbk.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -511,6 +535,48 @@
     </Compile>
     <Compile Include="Reports\Accountbooks\Grids\DayBook.Designer.cs">
       <DependentUpon>DayBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\Paymentregister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\Paymentregister.Designer.cs">
+      <DependentUpon>Paymentregister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\PurchaseRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\PurchaseRegister.Designer.cs">
+      <DependentUpon>PurchaseRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\PurchaseReturnRegister .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\PurchaseReturnRegister .Designer.cs">
+      <DependentUpon>PurchaseReturnRegister .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\ReceiptRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\ReceiptRegister.Designer.cs">
+      <DependentUpon>ReceiptRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\SaleRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\SaleRegister.Designer.cs">
+      <DependentUpon>SaleRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\SaleReturnRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\SaleReturnRegister.Designer.cs">
+      <DependentUpon>SaleReturnRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\SubLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Accountbooks\Grids\SubLedger.Designer.cs">
+      <DependentUpon>SubLedger.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\Accountbooks\PaymentRegister.cs">
       <SubType>Form</SubType>
@@ -2612,6 +2678,12 @@
     <EmbeddedResource Include="Company\Updatesignature.resx">
       <DependentUpon>Updatesignature.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="configurations\Emailconfiguration.resx">
+      <DependentUpon>Emailconfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="configurations\Hardwareconfiguration.resx">
+      <DependentUpon>Hardwareconfiguration.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Demo.resx">
       <DependentUpon>Demo.cs</DependentUpon>
     </EmbeddedResource>
@@ -2670,11 +2742,38 @@
     <EmbeddedResource Include="Reports\Accountbooks\Grids\BalanceSheetGrd.resx">
       <DependentUpon>BalanceSheetGrd.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\Grids\BankBook.resx">
+      <DependentUpon>BankBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\Grids\CashBookSingle.resx">
+      <DependentUpon>CashBookSingle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\Grids\DayBookbk.resx">
       <DependentUpon>DayBookbk.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\Grids\DayBook.resx">
       <DependentUpon>DayBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\Grids\Paymentregister.resx">
+      <DependentUpon>Paymentregister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\Grids\PurchaseRegister.resx">
+      <DependentUpon>PurchaseRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\Grids\PurchaseReturnRegister .resx">
+      <DependentUpon>PurchaseReturnRegister .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\Grids\ReceiptRegister.resx">
+      <DependentUpon>ReceiptRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\Grids\SaleRegister.resx">
+      <DependentUpon>SaleRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\Grids\SaleReturnRegister.resx">
+      <DependentUpon>SaleReturnRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Accountbooks\Grids\SubLedger.resx">
+      <DependentUpon>SubLedger.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\PaymentRegister.resx">
       <DependentUpon>PaymentRegister.cs</DependentUpon>
