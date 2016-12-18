@@ -132,10 +132,10 @@
             this.labelControl2.Appearance.Options.UseFont = true;
             this.labelControl2.Location = new System.Drawing.Point(196, 12);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(116, 16);
+            this.labelControl2.Size = new System.Drawing.Size(108, 16);
             this.labelControl2.StyleController = this.layoutControl1;
             this.labelControl2.TabIndex = 13;
-            this.labelControl2.Text = "Payment Register";
+            this.labelControl2.Text = "Receipt Register";
             // 
             // simpleButton1
             // 
@@ -276,9 +276,9 @@
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.CustomizationFormText = "emptySpaceItem1";
-            this.emptySpaceItem1.Location = new System.Drawing.Point(304, 0);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(296, 0);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(164, 20);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(172, 20);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem3
@@ -313,7 +313,7 @@
             this.layoutControlItem10.Control = this.labelControl2;
             this.layoutControlItem10.Location = new System.Drawing.Point(184, 0);
             this.layoutControlItem10.Name = "layoutControlItem10";
-            this.layoutControlItem10.Size = new System.Drawing.Size(120, 20);
+            this.layoutControlItem10.Size = new System.Drawing.Size(112, 20);
             this.layoutControlItem10.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem10.TextVisible = false;
             // 

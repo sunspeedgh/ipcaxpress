@@ -36,14 +36,17 @@
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.navBarControl1 = new DevExpress.XtraNavBar.NavBarControl();
-            this.navBarGroup2 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarGroup1 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarGroupControlContainer2 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
+            this.tlistAccountbook = new DevExpress.XtraTreeList.TreeList();
+            this.Accountbooks = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.navBarItem3 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem2 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem1 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarGroupControlContainer1 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
             this.treeList1 = new DevExpress.XtraTreeList.TreeList();
             this.treeListColumn3 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.repositoryItemTextEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
-            this.navBarItem1 = new DevExpress.XtraNavBar.NavBarItem();
-            this.navBarGroupControlContainer2 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
-            this.treeList2 = new DevExpress.XtraTreeList.TreeList();
             this.navBarGroupControlContainer3 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
             this.treeList3 = new DevExpress.XtraTreeList.TreeList();
             this.navBarGroupControlContainer4 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
@@ -57,9 +60,7 @@
             this.navBarGroupControlContainer8 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
             this.treeList8 = new DevExpress.XtraTreeList.TreeList();
             this.treeListColumn4 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.navBarGroup1 = new DevExpress.XtraNavBar.NavBarGroup();
-            this.navBarItem3 = new DevExpress.XtraNavBar.NavBarItem();
-            this.navBarItem2 = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarGroup2 = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarGroup3 = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarGroup4 = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarGroup5 = new DevExpress.XtraNavBar.NavBarGroup();
@@ -69,24 +70,25 @@
             this.navBarGroup7 = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarGroup10 = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarGroup11 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarGroup12 = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarItem4 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem5 = new DevExpress.XtraNavBar.NavBarItem();
             this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit9 = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
-            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem3 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem2 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.treeListColumn2 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.simpleLabelItem1 = new DevExpress.XtraLayout.SimpleLabelItem();
+            this.treeListColumn2 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
@@ -94,11 +96,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
             this.navBarControl1.SuspendLayout();
+            this.navBarGroupControlContainer2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tlistAccountbook)).BeginInit();
             this.navBarGroupControlContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTextEdit1)).BeginInit();
-            this.navBarGroupControlContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList2)).BeginInit();
             this.navBarGroupControlContainer3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.treeList3)).BeginInit();
             this.navBarGroupControlContainer4.SuspendLayout();
@@ -115,9 +117,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
@@ -187,7 +189,7 @@
             // 
             // navBarControl1
             // 
-            this.navBarControl1.ActiveGroup = this.navBarGroup2;
+            this.navBarControl1.ActiveGroup = this.navBarGroup1;
             this.navBarControl1.Appearance.Background.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.navBarControl1.Appearance.Background.Options.UseBackColor = true;
             this.navBarControl1.Appearance.NavigationPaneHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
@@ -211,7 +213,8 @@
             this.navBarGroup9,
             this.navBarGroup7,
             this.navBarGroup10,
-            this.navBarGroup11});
+            this.navBarGroup11,
+            this.navBarGroup12});
             this.navBarControl1.Items.AddRange(new DevExpress.XtraNavBar.NavBarItem[] {
             this.navBarItem1,
             this.navBarItem2,
@@ -227,20 +230,92 @@
             this.navBarControl1.Text = "navBarControl1";
             this.navBarControl1.View = new DevExpress.XtraNavBar.ViewInfo.SkinNavigationPaneViewInfoRegistrator();
             // 
-            // navBarGroup2
+            // navBarGroup1
             // 
-            this.navBarGroup2.AppearanceBackground.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.navBarGroup2.AppearanceBackground.Options.UseBackColor = true;
-            this.navBarGroup2.Caption = "Account Summary";
-            this.navBarGroup2.ControlContainer = this.navBarGroupControlContainer1;
-            this.navBarGroup2.Expanded = true;
-            this.navBarGroup2.GroupClientHeight = 108;
-            this.navBarGroup2.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
-            this.navBarGroup2.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem1),
+            this.navBarGroup1.Caption = "Account Books";
+            this.navBarGroup1.ControlContainer = this.navBarGroupControlContainer2;
+            this.navBarGroup1.Expanded = true;
+            this.navBarGroup1.GroupClientHeight = 123;
+            this.navBarGroup1.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
+            this.navBarGroup1.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem3),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem2),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem1)});
-            this.navBarGroup2.Name = "navBarGroup2";
-            this.navBarGroup2.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup2.SmallImage")));
+            this.navBarGroup1.Name = "navBarGroup1";
+            this.navBarGroup1.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup1.SmallImage")));
+            // 
+            // navBarGroupControlContainer2
+            // 
+            this.navBarGroupControlContainer2.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.navBarGroupControlContainer2.Appearance.Options.UseBackColor = true;
+            this.navBarGroupControlContainer2.Controls.Add(this.tlistAccountbook);
+            this.navBarGroupControlContainer2.Name = "navBarGroupControlContainer2";
+            this.navBarGroupControlContainer2.Size = new System.Drawing.Size(160, 130);
+            this.navBarGroupControlContainer2.TabIndex = 1;
+            // 
+            // tlistAccountbook
+            // 
+            this.tlistAccountbook.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.Accountbooks});
+            this.tlistAccountbook.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tlistAccountbook.Location = new System.Drawing.Point(0, 0);
+            this.tlistAccountbook.Name = "tlistAccountbook";
+            this.tlistAccountbook.BeginUnboundLoad();
+            this.tlistAccountbook.AppendNode(new object[] {
+            "Account Group Ledger"}, -1);
+            this.tlistAccountbook.AppendNode(new object[] {
+            "Account Ledger"}, -1);
+            this.tlistAccountbook.AppendNode(new object[] {
+            "Bank Book"}, -1);
+            this.tlistAccountbook.AppendNode(new object[] {
+            "Cash Book Single"}, -1);
+            this.tlistAccountbook.AppendNode(new object[] {
+            "Day Book"}, -1);
+            this.tlistAccountbook.AppendNode(new object[] {
+            "Payment Register"}, -1);
+            this.tlistAccountbook.AppendNode(new object[] {
+            "Purchase Register"}, -1);
+            this.tlistAccountbook.AppendNode(new object[] {
+            "Receipt Register"}, -1);
+            this.tlistAccountbook.AppendNode(new object[] {
+            "Purchase Return Register"}, -1);
+            this.tlistAccountbook.AppendNode(new object[] {
+            "Sales Register"}, -1);
+            this.tlistAccountbook.AppendNode(new object[] {
+            "Sales Return Register"}, -1);
+            this.tlistAccountbook.AppendNode(new object[] {
+            "Sub Ledger"}, -1);
+            this.tlistAccountbook.EndUnboundLoad();
+            this.tlistAccountbook.OptionsBehavior.Editable = false;
+            this.tlistAccountbook.Size = new System.Drawing.Size(160, 130);
+            this.tlistAccountbook.TabIndex = 0;
+            this.tlistAccountbook.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.tlistAccountbook_FocusedNodeChanged);
+            this.tlistAccountbook.MouseDown += new System.Windows.Forms.MouseEventHandler(this.tlistAccountbook_MouseDown);
+            this.tlistAccountbook.MouseEnter += new System.EventHandler(this.tlistAccountbook_MouseEnter);
+            // 
+            // Accountbooks
+            // 
+            this.Accountbooks.Caption = "Account Books";
+            this.Accountbooks.FieldName = "Account Books";
+            this.Accountbooks.MinWidth = 34;
+            this.Accountbooks.Name = "Accountbooks";
+            this.Accountbooks.Visible = true;
+            this.Accountbooks.VisibleIndex = 0;
+            // 
+            // navBarItem3
+            // 
+            this.navBarItem3.Caption = "navBarItem3";
+            this.navBarItem3.Name = "navBarItem3";
+            // 
+            // navBarItem2
+            // 
+            this.navBarItem2.Caption = "navBarItem2";
+            this.navBarItem2.Name = "navBarItem2";
+            // 
+            // navBarItem1
+            // 
+            this.navBarItem1.Caption = "navBarItem1";
+            this.navBarItem1.Name = "navBarItem1";
             // 
             // navBarGroupControlContainer1
             // 
@@ -306,35 +381,13 @@
             this.repositoryItemTextEdit1.Name = "repositoryItemTextEdit1";
             this.repositoryItemTextEdit1.Click += new System.EventHandler(this.repositoryItemTextEdit1_Click);
             // 
-            // navBarItem1
-            // 
-            this.navBarItem1.Caption = "navBarItem1";
-            this.navBarItem1.Name = "navBarItem1";
-            // 
-            // navBarGroupControlContainer2
-            // 
-            this.navBarGroupControlContainer2.Appearance.BackColor = System.Drawing.SystemColors.Control;
-            this.navBarGroupControlContainer2.Appearance.Options.UseBackColor = true;
-            this.navBarGroupControlContainer2.Controls.Add(this.treeList2);
-            this.navBarGroupControlContainer2.Name = "navBarGroupControlContainer2";
-            this.navBarGroupControlContainer2.Size = new System.Drawing.Size(160, 123);
-            this.navBarGroupControlContainer2.TabIndex = 1;
-            // 
-            // treeList2
-            // 
-            this.treeList2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeList2.Location = new System.Drawing.Point(0, 0);
-            this.treeList2.Name = "treeList2";
-            this.treeList2.Size = new System.Drawing.Size(160, 123);
-            this.treeList2.TabIndex = 0;
-            // 
             // navBarGroupControlContainer3
             // 
             this.navBarGroupControlContainer3.Appearance.BackColor = System.Drawing.SystemColors.Control;
             this.navBarGroupControlContainer3.Appearance.Options.UseBackColor = true;
             this.navBarGroupControlContainer3.Controls.Add(this.treeList3);
             this.navBarGroupControlContainer3.Name = "navBarGroupControlContainer3";
-            this.navBarGroupControlContainer3.Size = new System.Drawing.Size(160, 123);
+            this.navBarGroupControlContainer3.Size = new System.Drawing.Size(160, 130);
             this.navBarGroupControlContainer3.TabIndex = 2;
             // 
             // treeList3
@@ -342,7 +395,7 @@
             this.treeList3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeList3.Location = new System.Drawing.Point(0, 0);
             this.treeList3.Name = "treeList3";
-            this.treeList3.Size = new System.Drawing.Size(160, 123);
+            this.treeList3.Size = new System.Drawing.Size(160, 130);
             this.treeList3.TabIndex = 0;
             // 
             // navBarGroupControlContainer4
@@ -440,28 +493,19 @@
             this.treeListColumn4.Visible = true;
             this.treeListColumn4.VisibleIndex = 0;
             // 
-            // navBarGroup1
+            // navBarGroup2
             // 
-            this.navBarGroup1.Caption = "Account Books";
-            this.navBarGroup1.ControlContainer = this.navBarGroupControlContainer2;
-            this.navBarGroup1.GroupClientHeight = 123;
-            this.navBarGroup1.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
-            this.navBarGroup1.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem3),
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem2),
+            this.navBarGroup2.AppearanceBackground.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.navBarGroup2.AppearanceBackground.Options.UseBackColor = true;
+            this.navBarGroup2.Caption = "Account Summary";
+            this.navBarGroup2.ControlContainer = this.navBarGroupControlContainer1;
+            this.navBarGroup2.GroupClientHeight = 108;
+            this.navBarGroup2.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
+            this.navBarGroup2.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem1),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem1)});
-            this.navBarGroup1.Name = "navBarGroup1";
-            this.navBarGroup1.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup1.SmallImage")));
-            // 
-            // navBarItem3
-            // 
-            this.navBarItem3.Caption = "navBarItem3";
-            this.navBarItem3.Name = "navBarItem3";
-            // 
-            // navBarItem2
-            // 
-            this.navBarItem2.Caption = "navBarItem2";
-            this.navBarItem2.Name = "navBarItem2";
+            this.navBarGroup2.Name = "navBarGroup2";
+            this.navBarGroup2.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup2.SmallImage")));
             // 
             // navBarGroup3
             // 
@@ -535,6 +579,11 @@
             this.navBarGroup11.Name = "navBarGroup11";
             this.navBarGroup11.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup11.SmallImage")));
             // 
+            // navBarGroup12
+            // 
+            this.navBarGroup12.Caption = "navBarGroup12";
+            this.navBarGroup12.Name = "navBarGroup12";
+            // 
             // navBarItem4
             // 
             this.navBarItem4.Caption = "navBarItem4";
@@ -577,6 +626,26 @@
             this.textEdit9.StyleController = this.layoutControl1;
             this.textEdit9.TabIndex = 9;
             // 
+            // layoutControlItem3
+            // 
+            this.layoutControlItem3.Control = this.textEdit6;
+            this.layoutControlItem3.CustomizationFormText = "layoutControlItem3";
+            this.layoutControlItem3.Location = new System.Drawing.Point(630, 0);
+            this.layoutControlItem3.Name = "layoutControlItem3";
+            this.layoutControlItem3.Size = new System.Drawing.Size(291, 24);
+            this.layoutControlItem3.TextLocation = DevExpress.Utils.Locations.Left;
+            this.layoutControlItem3.TextSize = new System.Drawing.Size(93, 13);
+            // 
+            // layoutControlItem2
+            // 
+            this.layoutControlItem2.Control = this.textEdit5;
+            this.layoutControlItem2.CustomizationFormText = "layoutControlItem2";
+            this.layoutControlItem2.Location = new System.Drawing.Point(164, 0);
+            this.layoutControlItem2.Name = "layoutControlItem2";
+            this.layoutControlItem2.Size = new System.Drawing.Size(757, 24);
+            this.layoutControlItem2.TextLocation = DevExpress.Utils.Locations.Left;
+            this.layoutControlItem2.TextSize = new System.Drawing.Size(93, 13);
+            // 
             // layoutControlGroup1
             // 
             this.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
@@ -594,26 +663,6 @@
             this.layoutControlGroup1.Name = "Root";
             this.layoutControlGroup1.Size = new System.Drawing.Size(941, 509);
             this.layoutControlGroup1.TextVisible = false;
-            // 
-            // layoutControlItem2
-            // 
-            this.layoutControlItem2.Control = this.textEdit5;
-            this.layoutControlItem2.CustomizationFormText = "layoutControlItem2";
-            this.layoutControlItem2.Location = new System.Drawing.Point(164, 0);
-            this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(757, 24);
-            this.layoutControlItem2.TextLocation = DevExpress.Utils.Locations.Left;
-            this.layoutControlItem2.TextSize = new System.Drawing.Size(93, 13);
-            // 
-            // layoutControlItem3
-            // 
-            this.layoutControlItem3.Control = this.textEdit6;
-            this.layoutControlItem3.CustomizationFormText = "layoutControlItem3";
-            this.layoutControlItem3.Location = new System.Drawing.Point(630, 0);
-            this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(291, 24);
-            this.layoutControlItem3.TextLocation = DevExpress.Utils.Locations.Left;
-            this.layoutControlItem3.TextSize = new System.Drawing.Size(93, 13);
             // 
             // layoutControlItem5
             // 
@@ -671,10 +720,6 @@
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
-            // treeListColumn2
-            // 
-            this.treeListColumn2.Name = "treeListColumn2";
-            // 
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
@@ -691,6 +736,10 @@
             this.simpleLabelItem1.Size = new System.Drawing.Size(379, 17);
             this.simpleLabelItem1.Text = "Day Book";
             this.simpleLabelItem1.TextSize = new System.Drawing.Size(54, 13);
+            // 
+            // treeListColumn2
+            // 
+            this.treeListColumn2.Name = "treeListColumn2";
             // 
             // DayBook
             // 
@@ -711,11 +760,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
             this.navBarControl1.ResumeLayout(false);
+            this.navBarGroupControlContainer2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tlistAccountbook)).EndInit();
             this.navBarGroupControlContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTextEdit1)).EndInit();
-            this.navBarGroupControlContainer2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.treeList2)).EndInit();
             this.navBarGroupControlContainer3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.treeList3)).EndInit();
             this.navBarGroupControlContainer4.ResumeLayout(false);
@@ -732,9 +781,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
@@ -790,7 +839,7 @@
         private DevExpress.XtraNavBar.NavBarGroup navBarGroup11;
         private DevExpress.XtraNavBar.NavBarItem navBarItem5;
         private DevExpress.XtraNavBar.NavBarGroupControlContainer navBarGroupControlContainer2;
-        private DevExpress.XtraTreeList.TreeList treeList2;
+        private DevExpress.XtraTreeList.TreeList tlistAccountbook;
         private DevExpress.XtraNavBar.NavBarGroupControlContainer navBarGroupControlContainer6;
         private DevExpress.XtraTreeList.TreeList treeList6;
         private DevExpress.XtraNavBar.NavBarGroupControlContainer navBarGroupControlContainer3;
@@ -806,5 +855,7 @@
         private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn4;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem1;
         private DevExpress.XtraLayout.SimpleLabelItem simpleLabelItem1;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn Accountbooks;
+        private DevExpress.XtraNavBar.NavBarGroup navBarGroup12;
     }
 }
