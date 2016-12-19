@@ -22,5 +22,13 @@ namespace IPCAUI.Administration
         {
 
         }
+
+        private void ListBillsundary_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Administration.List.BillsundaryList frmList = new Administration.List.BillsundaryList();
+            frmList.StartPosition = FormStartPosition.CenterScreen;
+
+            frmList.ShowDialog();
+        }
     }
 }

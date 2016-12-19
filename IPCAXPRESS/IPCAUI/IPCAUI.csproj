@@ -115,6 +115,156 @@
     <Compile Include="Administration\List\AccountgroupList.Designer.cs">
       <DependentUpon>AccountgroupList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Administration\List\SalaraycomponentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\SalaraycomponentList.Designer.cs">
+      <DependentUpon>SalaraycomponentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\CurrencyconversionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\CurrencyconversionList.Designer.cs">
+      <DependentUpon>CurrencyconversionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\ReferencegroupList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\ReferencegroupList.Designer.cs">
+      <DependentUpon>ReferencegroupList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\ExecutivemasterList .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\ExecutivemasterList .Designer.cs">
+      <DependentUpon>ExecutivemasterList .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\UnitconversionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\UnitconversionList.Designer.cs">
+      <DependentUpon>UnitconversionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\UnitmasterList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\UnitmasterList.Designer.cs">
+      <DependentUpon>UnitmasterList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\TdscategoryList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\TdscategoryList.Designer.cs">
+      <DependentUpon>TdscategoryList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\TaxcategoryList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\TaxcategoryList.Designer.cs">
+      <DependentUpon>TaxcategoryList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\StformList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\StformList.Designer.cs">
+      <DependentUpon>StformList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\StdnarrationList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\StdnarrationList.Designer.cs">
+      <DependentUpon>StdnarrationList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\SchememasterList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\SchememasterList.Designer.cs">
+      <DependentUpon>SchememasterList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\SalestypeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\SalestypeList.Designer.cs">
+      <DependentUpon>SalestypeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\SalesmanList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\SalesmanList.Designer.cs">
+      <DependentUpon>SalesmanList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\PurchaseList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\PurchaseList.Designer.cs">
+      <DependentUpon>PurchaseList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\MaterialcentergrpList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\MaterialcentergrpList.Designer.cs">
+      <DependentUpon>MaterialcentergrpList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\MaterialcenterList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\MaterialcenterList.Designer.cs">
+      <DependentUpon>MaterialcenterList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\MasterseriesList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\MasterseriesList.Designer.cs">
+      <DependentUpon>MasterseriesList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\ItemmasterList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\ItemmasterList.Designer.cs">
+      <DependentUpon>ItemmasterList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\ItemgroupList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\ItemgroupList.Designer.cs">
+      <DependentUpon>ItemgroupList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\EmployeemasterList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\EmployeemasterList.Designer.cs">
+      <DependentUpon>EmployeemasterList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\EmployeegrpList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\EmployeegrpList.Designer.cs">
+      <DependentUpon>EmployeegrpList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\CurrencyList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\CurrencyList.Designer.cs">
+      <DependentUpon>CurrencyList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\CostcentergrpList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\CostcentergrpList.Designer.cs">
+      <DependentUpon>CostcentergrpList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\CostcenterList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\CostcenterList.Designer.cs">
+      <DependentUpon>CostcenterList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\List\BillsundaryList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\List\BillsundaryList.Designer.cs">
+      <DependentUpon>BillsundaryList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Administration\List\ContactmasterList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -455,6 +605,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BillsmaterialList.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\BillsundaryList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillsundaryList.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSets\ContactgroupList.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -470,15 +625,128 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ContraVoucher.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\CostcentergrpList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CostcentergrpList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\CostcenterList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CostcenterList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\CurrencyconversionList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CurrencyconversionList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\CurrencyList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CurrencyList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\EmployeeList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeeList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\EmployeemstList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeemstList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ExecutivemasterList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExecutivemasterList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ItemgroupList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemgroupList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ItemmasterList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ItemmasterList.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSets\ItemsLookupEdit.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\MasterseriesList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterseriesList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\MaterialcentergrpList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MaterialcentergrpList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\MaterialcenterList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MaterialcenterList.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSets\ProfitLossDs.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ProfitLossDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\PurchaseList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurchaseList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ReferencegroupList.cs">
+      <DependentUpon>ReferencegroupList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ReferencegroupList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReferencegroupList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\SalaraycomponentList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalaraycomponentList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\SalesmanList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesmanList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\SalestypeList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalestypeList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\SchememasterList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SchememasterList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\StdnarrationList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StdnarrationList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\StformList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StformList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\TaxcategoryList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TaxcategoryList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\TdscategoryList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TdscategoryList.xsd</DependentUpon>
     </Compile>
     <Compile Include="DataSets\TrialBalanceDs.cs">
       <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
@@ -487,6 +755,16 @@
       <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSets\UnitconversionList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UnitconversionList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\UnitmasterList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UnitmasterList.xsd</DependentUpon>
     </Compile>
     <Compile Include="Demo.cs">
       <SubType>Form</SubType>
@@ -663,12 +941,6 @@
     </Compile>
     <Compile Include="Reports\Accountbooks\Grids\SubLedger.Designer.cs">
       <DependentUpon>SubLedger.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Reports\Accountbooks\Grids\TrailBalanceGrd.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Reports\Accountbooks\Grids\TrailBalanceGrd.Designer.cs">
-      <DependentUpon>TrailBalanceGrd.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\Accountbooks\PaymentRegister.cs">
       <SubType>Form</SubType>
@@ -2650,6 +2922,81 @@
     <EmbeddedResource Include="Administration\List\AccountgroupList.resx">
       <DependentUpon>AccountgroupList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\SalaraycomponentList.resx">
+      <DependentUpon>SalaraycomponentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\CurrencyconversionList.resx">
+      <DependentUpon>CurrencyconversionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\ReferencegroupList.resx">
+      <DependentUpon>ReferencegroupList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\ExecutivemasterList .resx">
+      <DependentUpon>ExecutivemasterList .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\UnitconversionList.resx">
+      <DependentUpon>UnitconversionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\UnitmasterList.resx">
+      <DependentUpon>UnitmasterList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\TdscategoryList.resx">
+      <DependentUpon>TdscategoryList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\TaxcategoryList.resx">
+      <DependentUpon>TaxcategoryList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\StformList.resx">
+      <DependentUpon>StformList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\StdnarrationList.resx">
+      <DependentUpon>StdnarrationList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\SchememasterList.resx">
+      <DependentUpon>SchememasterList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\SalestypeList.resx">
+      <DependentUpon>SalestypeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\SalesmanList.resx">
+      <DependentUpon>SalesmanList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\PurchaseList.resx">
+      <DependentUpon>PurchaseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\MaterialcentergrpList.resx">
+      <DependentUpon>MaterialcentergrpList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\MaterialcenterList.resx">
+      <DependentUpon>MaterialcenterList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\MasterseriesList.resx">
+      <DependentUpon>MasterseriesList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\ItemmasterList.resx">
+      <DependentUpon>ItemmasterList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\ItemgroupList.resx">
+      <DependentUpon>ItemgroupList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\EmployeemasterList.resx">
+      <DependentUpon>EmployeemasterList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\EmployeegrpList.resx">
+      <DependentUpon>EmployeegrpList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\CurrencyList.resx">
+      <DependentUpon>CurrencyList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\CostcentergrpList.resx">
+      <DependentUpon>CostcentergrpList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\CostcenterList.resx">
+      <DependentUpon>CostcenterList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\List\BillsundaryList.resx">
+      <DependentUpon>BillsundaryList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Administration\List\ContactmasterList.resx">
       <DependentUpon>ContactmasterList.cs</DependentUpon>
     </EmbeddedResource>
@@ -2899,9 +3246,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\Grids\SubLedger.resx">
       <DependentUpon>SubLedger.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Reports\Accountbooks\Grids\TrailBalanceGrd.resx">
-      <DependentUpon>TrailBalanceGrd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Accountbooks\PaymentRegister.resx">
       <DependentUpon>PaymentRegister.cs</DependentUpon>
@@ -3948,6 +4292,17 @@
     <None Include="DataSets\BillsmaterialList.xss">
       <DependentUpon>BillsmaterialList.xsd</DependentUpon>
     </None>
+    <None Include="DataSets\BillsundaryList.xsc">
+      <DependentUpon>BillsundaryList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\BillsundaryList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillsundaryList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\BillsundaryList.xss">
+      <DependentUpon>BillsundaryList.xsd</DependentUpon>
+    </None>
     <None Include="DataSets\ContactgroupList.xsc">
       <DependentUpon>ContactgroupList.xsd</DependentUpon>
     </None>
@@ -3981,6 +4336,105 @@
     <None Include="DataSets\ContraVoucher.xss">
       <DependentUpon>ContraVoucher.xsd</DependentUpon>
     </None>
+    <None Include="DataSets\CostcentergrpList.xsc">
+      <DependentUpon>CostcentergrpList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CostcentergrpList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CostcentergrpList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\CostcentergrpList.xss">
+      <DependentUpon>CostcentergrpList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CostcenterList.xsc">
+      <DependentUpon>CostcenterList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CostcenterList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CostcenterList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\CostcenterList.xss">
+      <DependentUpon>CostcenterList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CurrencyconversionList.xsc">
+      <DependentUpon>CurrencyconversionList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CurrencyconversionList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CurrencyconversionList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\CurrencyconversionList.xss">
+      <DependentUpon>CurrencyconversionList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CurrencyList.xsc">
+      <DependentUpon>CurrencyList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CurrencyList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CurrencyList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\CurrencyList.xss">
+      <DependentUpon>CurrencyList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\EmployeeList.xsc">
+      <DependentUpon>EmployeeList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\EmployeeList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EmployeeList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\EmployeeList.xss">
+      <DependentUpon>EmployeeList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\EmployeemstList.xsc">
+      <DependentUpon>EmployeemstList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\EmployeemstList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EmployeemstList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\EmployeemstList.xss">
+      <DependentUpon>EmployeemstList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ExecutivemasterList.xsc">
+      <DependentUpon>ExecutivemasterList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ExecutivemasterList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ExecutivemasterList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ExecutivemasterList.xss">
+      <DependentUpon>ExecutivemasterList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ItemgroupList.xsc">
+      <DependentUpon>ItemgroupList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ItemgroupList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItemgroupList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ItemgroupList.xss">
+      <DependentUpon>ItemgroupList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ItemmasterList.xsc">
+      <DependentUpon>ItemmasterList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ItemmasterList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ItemmasterList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ItemmasterList.xss">
+      <DependentUpon>ItemmasterList.xsd</DependentUpon>
+    </None>
     <None Include="DataSets\ItemsLookupEdit.xsc">
       <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
     </None>
@@ -3991,6 +4445,39 @@
     </None>
     <None Include="DataSets\ItemsLookupEdit.xss">
       <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\MasterseriesList.xsc">
+      <DependentUpon>MasterseriesList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\MasterseriesList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterseriesList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\MasterseriesList.xss">
+      <DependentUpon>MasterseriesList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\MaterialcentergrpList.xsc">
+      <DependentUpon>MaterialcentergrpList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\MaterialcentergrpList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MaterialcentergrpList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\MaterialcentergrpList.xss">
+      <DependentUpon>MaterialcentergrpList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\MaterialcenterList.xsc">
+      <DependentUpon>MaterialcenterList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\MaterialcenterList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MaterialcenterList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\MaterialcenterList.xss">
+      <DependentUpon>MaterialcenterList.xsd</DependentUpon>
     </None>
     <None Include="DataSets\ProfitLossDs.xsc">
       <DependentUpon>ProfitLossDs.xsd</DependentUpon>
@@ -4003,6 +4490,116 @@
     <None Include="DataSets\ProfitLossDs.xss">
       <DependentUpon>ProfitLossDs.xsd</DependentUpon>
     </None>
+    <None Include="DataSets\PurchaseList.xsc">
+      <DependentUpon>PurchaseList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\PurchaseList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurchaseList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\PurchaseList.xss">
+      <DependentUpon>PurchaseList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ReferencegroupList.xsc">
+      <DependentUpon>ReferencegroupList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ReferencegroupList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReferencegroupList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ReferencegroupList.xss">
+      <DependentUpon>ReferencegroupList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SalaraycomponentList.xsc">
+      <DependentUpon>SalaraycomponentList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SalaraycomponentList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalaraycomponentList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\SalaraycomponentList.xss">
+      <DependentUpon>SalaraycomponentList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SalesmanList.xsc">
+      <DependentUpon>SalesmanList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SalesmanList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesmanList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\SalesmanList.xss">
+      <DependentUpon>SalesmanList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SalestypeList.xsc">
+      <DependentUpon>SalestypeList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SalestypeList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalestypeList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\SalestypeList.xss">
+      <DependentUpon>SalestypeList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SchememasterList.xsc">
+      <DependentUpon>SchememasterList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SchememasterList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SchememasterList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\SchememasterList.xss">
+      <DependentUpon>SchememasterList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\StdnarrationList.xsc">
+      <DependentUpon>StdnarrationList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\StdnarrationList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StdnarrationList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\StdnarrationList.xss">
+      <DependentUpon>StdnarrationList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\StformList.xsc">
+      <DependentUpon>StformList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\StformList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StformList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\StformList.xss">
+      <DependentUpon>StformList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\TaxcategoryList.xsc">
+      <DependentUpon>TaxcategoryList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\TaxcategoryList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TaxcategoryList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\TaxcategoryList.xss">
+      <DependentUpon>TaxcategoryList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\TdscategoryList.xsc">
+      <DependentUpon>TdscategoryList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\TdscategoryList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TdscategoryList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\TdscategoryList.xss">
+      <DependentUpon>TdscategoryList.xsd</DependentUpon>
+    </None>
     <None Include="DataSets\TrialBalanceDs.xsc">
       <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
     </None>
@@ -4013,6 +4610,28 @@
     </None>
     <None Include="DataSets\TrialBalanceDs.xss">
       <DependentUpon>TrialBalanceDs.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\UnitconversionList.xsc">
+      <DependentUpon>UnitconversionList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\UnitconversionList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UnitconversionList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\UnitconversionList.xss">
+      <DependentUpon>UnitconversionList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\UnitmasterList.xsc">
+      <DependentUpon>UnitmasterList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\UnitmasterList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UnitmasterList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\UnitmasterList.xss">
+      <DependentUpon>UnitmasterList.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\IPCAUI.DataSets.ContraVoucher.datasource" />

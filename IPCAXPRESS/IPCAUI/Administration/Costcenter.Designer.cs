@@ -42,7 +42,7 @@
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.navBarControl1 = new DevExpress.XtraNavBar.NavBarControl();
             this.navBarGroup5 = new DevExpress.XtraNavBar.NavBarGroup();
-            this.navBarList = new DevExpress.XtraNavBar.NavBarItem();
+            this.ListCostcenter = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem8 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem9 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarGroup1 = new DevExpress.XtraNavBar.NavBarGroup();
@@ -292,7 +292,7 @@
             this.navBarItem4,
             this.navBarItem5,
             this.navBarItem6,
-            this.navBarList,
+            this.ListCostcenter,
             this.navBarItem8,
             this.navBarItem9,
             this.navBarItem10,
@@ -340,18 +340,18 @@
             this.navBarGroup5.Caption = "Add/Modify";
             this.navBarGroup5.Expanded = true;
             this.navBarGroup5.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarList),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.ListCostcenter),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem8),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem9)});
             this.navBarGroup5.Name = "navBarGroup5";
             this.navBarGroup5.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup5.SmallImage")));
             // 
-            // navBarList
+            // ListCostcenter
             // 
-            this.navBarList.Caption = "List";
-            this.navBarList.Name = "navBarList";
-            this.navBarList.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarList.SmallImage")));
-            this.navBarList.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarList_LinkClicked);
+            this.ListCostcenter.Caption = "List";
+            this.ListCostcenter.Name = "ListCostcenter";
+            this.ListCostcenter.SmallImage = ((System.Drawing.Image)(resources.GetObject("ListCostcenter.SmallImage")));
+            this.ListCostcenter.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ListCostcenter_LinkClicked);
             // 
             // navBarItem8
             // 
@@ -1031,7 +1031,7 @@
         private DevExpress.XtraNavBar.NavBarItem navBarItem2;
         private DevExpress.XtraNavBar.NavBarItem navBarItem3;
         private DevExpress.XtraNavBar.NavBarGroup navBarGroup5;
-        private DevExpress.XtraNavBar.NavBarItem navBarList;
+        private DevExpress.XtraNavBar.NavBarItem ListCostcenter;
         private DevExpress.XtraNavBar.NavBarItem navBarItem8;
         private DevExpress.XtraNavBar.NavBarItem navBarItem9;
         private DevExpress.XtraNavBar.NavBarItem navBarItem4;

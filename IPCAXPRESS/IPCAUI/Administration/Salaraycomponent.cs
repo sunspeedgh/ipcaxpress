@@ -17,5 +17,15 @@ namespace IPCAUI.Administration
         {
             InitializeComponent();
         }
+
+        private void tbxQuit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Listsalarycomp_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+
+        }
     }
 }

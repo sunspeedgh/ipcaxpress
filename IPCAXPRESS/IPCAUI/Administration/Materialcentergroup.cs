@@ -41,5 +41,13 @@ namespace IPCAUI.Administration
             //d.ShowDialog();
             //btnSave.Visible = true;
         }
+
+        private void ListMaterialCengrp_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Administration.List.MaterialcentergrpList frmList = new Administration.List.MaterialcentergrpList();
+            frmList.StartPosition = FormStartPosition.CenterScreen;
+
+            frmList.ShowDialog();
+        }
     }
 }

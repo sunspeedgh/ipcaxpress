@@ -78,5 +78,13 @@ namespace IPCAUI.Administration
 
 
         }
+
+        private void ListExecutivemaster_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Administration.List.ExecutivemasterList frmList = new Administration.List.ExecutivemasterList();
+            frmList.StartPosition = FormStartPosition.CenterScreen;
+
+            frmList.ShowDialog();
+        }
     }
 }

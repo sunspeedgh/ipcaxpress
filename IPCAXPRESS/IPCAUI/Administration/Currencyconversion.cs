@@ -25,5 +25,13 @@ namespace IPCAUI.Administration
             }
             return base.ProcessCmdKey(ref msg, keyData);
         }
+
+        private void ListCurrencyCon_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Administration.List.AccountList frmList = new Administration.List.AccountList();
+            frmList.StartPosition = FormStartPosition.CenterScreen;
+
+            frmList.ShowDialog();
+        }
     }
 }
