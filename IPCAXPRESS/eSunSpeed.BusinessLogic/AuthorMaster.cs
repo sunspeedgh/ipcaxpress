@@ -28,20 +28,22 @@ namespace eSunSpeed.BusinessLogic
                 paramCollection.Add(new DBParameter("@Author_PrintName", objAuthor.PrintName));
                 paramCollection.Add(new DBParameter("@Author_ConnectAcc", objAuthor.ConnectAcc, System.Data.DbType.Boolean));
                 paramCollection.Add(new DBParameter("@Author_Address", objAuthor.Address));
-                paramCollection.Add(new DBParameter("@Author_Street", objAuthor.Street));
-                paramCollection.Add(new DBParameter("@Author_PinCode", objAuthor.PinCode));
-                paramCollection.Add(new DBParameter("@Author_City",objAuthor.City));
+                //paramCollection.Add(new DBParameter("@Author_Street", objAuthor.Street));
+                //paramCollection.Add(new DBParameter("@Author_PinCode", objAuthor.PinCode));
+                //paramCollection.Add(new DBParameter("@Author_City",objAuthor.City));
                 paramCollection.Add(new DBParameter("@Author_State", objAuthor.State));
-                paramCollection.Add(new DBParameter("@Author_Country", objAuthor.Country));
+                //paramCollection.Add(new DBParameter("@Author_Country", objAuthor.Country));
+                paramCollection.Add(new DBParameter("@Author_Telnumber", objAuthor.Telephone));
                 paramCollection.Add(new DBParameter("@Author_MobileNo", objAuthor.MobileNo));
-                              
+                paramCollection.Add(new DBParameter("@Author_email", objAuthor.Email));
+
                 paramCollection.Add(new DBParameter("@CreatedBy", "Admin"));
 
 
-                Query = "INSERT INTO AuthorMaster (`Author_Name`,`Author_Alias`,`Author_PName`,`Author_Connect`,`Author_Address`,`Author_Street`,`Author_PinCode`," +
-                        "`Author_City`,`Author_State`,`Author_Country`,`Author_Mobile`,`CreatedBy`) VALUES " +
-                        "(@Author_Name,@Author_Alias,@Author_PrintName,@Author_ConnectAcc,@Author_Address,@Author_Street,@Author_PinCode,@Author_City," +
-                        "@Author_State,@Author_Country,@Author_MobileNo,@CreatedBy)";
+                Query = "INSERT INTO AuthorMaster (`Author_Name`,`Author_Alias`,`Author_PName`,`Author_Connect`,`Author_Address`," +
+                        "`Author_State`,`Author_Telenumber`,`Author_Mobile`,`Author_Email`,`CreatedBy`) VALUES " +
+                        "(@Author_Name,@Author_Alias,@Author_PrintName,@Author_ConnectAcc,@Author_Address," +
+                        "@Author_State,@Author_Telnumber,@Author_MobileNo,@Author_email,@CreatedBy)";
                 
                 if (_dbHelper.ExecuteNonQuery(Query, paramCollection) > 0)
                     isSaved = true;

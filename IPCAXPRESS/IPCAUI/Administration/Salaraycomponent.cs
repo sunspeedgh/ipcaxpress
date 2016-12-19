@@ -25,7 +25,10 @@ namespace IPCAUI.Administration
 
         private void Listsalarycomp_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {
+            Administration.List.SalaraycomponentList frmList = new Administration.List.SalaraycomponentList();
+            frmList.StartPosition = FormStartPosition.CenterScreen;
 
+            frmList.ShowDialog();
         }
     }
 }

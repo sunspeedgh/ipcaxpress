@@ -15,6 +15,8 @@ namespace eSunSpeedDomain
         public string Address { get; set; }
         public string Street { get; set; }
         public string MobileNo { get; set; }
+        public string Telephone { get; set; }
+        public string Email { get; set; }
         public string City { get; set; }
         public string PinCode { get; set; }
         public string State { get; set; }
