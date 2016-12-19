@@ -23,15 +23,15 @@ namespace IPCAUI.Reports.Accountbooks.Grids
         {
 
             DataSets.ProfitLossDs.ProfitLossDtDataTable dt = new DataSets.ProfitLossDs.ProfitLossDtDataTable();
-            dt.Columns.Add("Test1");
-            dt.Columns.Add("Test2");
+            dt.Columns.Add("CrAmount");
+            dt.Columns.Add("DrAmount");
 
             DataSets.ProfitLossDs.ProfitLossDtRow dr = dt.NewProfitLossDtRow();
 
-            dr[0] = "Opening Stock         0.00";
-            dr[1] = "Closing Stock         0.00";
-            dr[2] = "Opening Stock         0.00";
-            dr[3] = "Closing Stock         0.00";
+            dr["Debit"] = "Opening Stock         0.00";
+            dr["CrAmount"] = "0.00";
+            dr["Credit"] = "Closing Stock";
+            dr["DrAmount"] = "0.00";
 
             dt.AddProfitLossDtRow(dr);
 
@@ -46,11 +46,13 @@ namespace IPCAUI.Reports.Accountbooks.Grids
             //Following code is used to dynamically add columns to grid and fill values
             gdvProfitLoss.Columns.Add(new DevExpress.XtraGrid.Columns.GridColumn());
             gdvProfitLoss.Columns[2].Visible = true;
-            gdvProfitLoss.Columns[2].FieldName = "Test1";
+            gdvProfitLoss.Columns[2].FieldName = "CrAmount";
+            gdvProfitLoss.Columns[2].Caption = "Amount(Rs.)";
 
             gdvProfitLoss.Columns.Add(new DevExpress.XtraGrid.Columns.GridColumn());
             gdvProfitLoss.Columns[3].Visible = true;
-            gdvProfitLoss.Columns[3].FieldName = "Test2";
+            gdvProfitLoss.Columns[3].FieldName = "DrAmount";
+            gdvProfitLoss.Columns[3].Caption = "Amount(Rs.)";
 
             profitLossDtBindingSource.DataSource = src;
 
