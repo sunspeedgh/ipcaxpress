@@ -55,6 +55,12 @@ namespace IPCAUI.Administration
             //d.ShowDialog();
         }
 
-        
+        private void dvgUnitmaster_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Administration.List.UnitmasterList frmList = new Administration.List.UnitmasterList();
+            frmList.StartPosition = FormStartPosition.CenterScreen;
+
+            frmList.ShowDialog();
+        }
     }
 }

@@ -16,5 +16,13 @@ namespace IPCAUI.Administration
         {
             InitializeComponent();
         }
+
+        private void ListEmployeegrp_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Administration.List.EmployeegrpList frmList = new Administration.List.EmployeegrpList();
+            frmList.StartPosition = FormStartPosition.CenterScreen;
+
+            frmList.ShowDialog();
+        }
     }
 }

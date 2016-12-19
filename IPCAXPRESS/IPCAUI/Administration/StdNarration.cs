@@ -65,5 +65,13 @@ namespace IPCAUI.Administration
             //Dialogs.PopUPDialog d = new Dialogs.PopUPDialog("Saved Successfully!");
             //d.ShowDialog();
         }
+
+        private void ListStdnarration_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Administration.List.StdnarrationList frmList = new Administration.List.StdnarrationList();
+            frmList.StartPosition = FormStartPosition.CenterScreen;
+
+            frmList.ShowDialog();
+        }
     }
 }

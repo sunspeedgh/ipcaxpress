@@ -64,5 +64,13 @@ namespace IPCAUI.Administration
             //Dialogs.PopUPDialog d = new Dialogs.PopUPDialog("Saved Successfully!");
             //d.ShowDialog();
         }
+
+        private void ListCostcenter_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Administration.List.CostcenterList frmList = new Administration.List.CostcenterList();
+            frmList.StartPosition = FormStartPosition.CenterScreen;
+
+            frmList.ShowDialog();
+        }
     }
 }

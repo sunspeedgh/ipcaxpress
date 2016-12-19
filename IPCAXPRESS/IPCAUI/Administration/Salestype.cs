@@ -16,5 +16,13 @@ namespace IPCAUI.Administration
         {
             InitializeComponent();
         }
+
+        private void ListSaletype_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        {
+            Administration.List.SalestypeList frmList = new Administration.List.SalestypeList();
+            frmList.StartPosition = FormStartPosition.CenterScreen;
+
+            frmList.ShowDialog();
+        }
     }
 }

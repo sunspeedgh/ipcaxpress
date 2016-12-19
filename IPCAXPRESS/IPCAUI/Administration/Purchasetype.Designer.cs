@@ -32,7 +32,7 @@
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.navBarControl1 = new DevExpress.XtraNavBar.NavBarControl();
             this.navBarGroup5 = new DevExpress.XtraNavBar.NavBarGroup();
-            this.navBarList = new DevExpress.XtraNavBar.NavBarItem();
+            this.ListPurchase = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem8 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem9 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarGroup1 = new DevExpress.XtraNavBar.NavBarGroup();
@@ -293,7 +293,7 @@
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(400, 391, 250, 350);
             this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(1040, 629);
+            this.layoutControl1.Size = new System.Drawing.Size(1138, 623);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -316,7 +316,7 @@
             this.navBarItem4,
             this.navBarItem5,
             this.navBarItem6,
-            this.navBarList,
+            this.ListPurchase,
             this.navBarItem8,
             this.navBarItem9,
             this.navBarItem10,
@@ -352,9 +352,9 @@
             this.navBarItem40});
             this.navBarControl1.Location = new System.Drawing.Point(12, 12);
             this.navBarControl1.Name = "navBarControl1";
-            this.navBarControl1.OptionsNavPane.ExpandedWidth = 30;
+            this.navBarControl1.OptionsNavPane.ExpandedWidth = 128;
             this.navBarControl1.PaintStyleKind = DevExpress.XtraNavBar.NavBarViewKind.NavigationPane;
-            this.navBarControl1.Size = new System.Drawing.Size(30, 605);
+            this.navBarControl1.Size = new System.Drawing.Size(128, 599);
             this.navBarControl1.TabIndex = 65;
             this.navBarControl1.Text = "navBarControl1";
             this.navBarControl1.View = new DevExpress.XtraNavBar.ViewInfo.NavigationPaneViewInfoRegistrator();
@@ -364,17 +364,18 @@
             this.navBarGroup5.Caption = "Add/Modify";
             this.navBarGroup5.Expanded = true;
             this.navBarGroup5.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarList),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.ListPurchase),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem8),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem9)});
             this.navBarGroup5.Name = "navBarGroup5";
             this.navBarGroup5.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup5.SmallImage")));
             // 
-            // navBarList
+            // ListPurchase
             // 
-            this.navBarList.Caption = "List";
-            this.navBarList.Name = "navBarList";
-            this.navBarList.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarList.SmallImage")));
+            this.ListPurchase.Caption = "List";
+            this.ListPurchase.Name = "ListPurchase";
+            this.ListPurchase.SmallImage = ((System.Drawing.Image)(resources.GetObject("ListPurchase.SmallImage")));
+            this.ListPurchase.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ListPurchase_LinkClicked);
             // 
             // navBarItem8
             // 
@@ -657,7 +658,7 @@
             // 
             // simpleButton3
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(539, 585);
+            this.simpleButton3.Location = new System.Drawing.Point(637, 585);
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(489, 22);
             this.simpleButton3.StyleController = this.layoutControl1;
@@ -666,7 +667,7 @@
             // 
             // textEdit5
             // 
-            this.textEdit5.Location = new System.Drawing.Point(473, 536);
+            this.textEdit5.Location = new System.Drawing.Point(571, 536);
             this.textEdit5.Name = "textEdit5";
             this.textEdit5.Size = new System.Drawing.Size(50, 20);
             this.textEdit5.StyleController = this.layoutControl1;
@@ -674,7 +675,7 @@
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(421, 141);
+            this.simpleButton2.Location = new System.Drawing.Point(519, 141);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(102, 22);
             this.simpleButton2.StyleController = this.layoutControl1;
@@ -683,7 +684,7 @@
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(46, 585);
+            this.simpleButton1.Location = new System.Drawing.Point(144, 585);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(489, 22);
             this.simpleButton1.StyleController = this.layoutControl1;
@@ -692,7 +693,7 @@
             // 
             // textEdit11
             // 
-            this.textEdit11.Location = new System.Drawing.Point(966, 549);
+            this.textEdit11.Location = new System.Drawing.Point(1064, 549);
             this.textEdit11.Name = "textEdit11";
             this.textEdit11.Size = new System.Drawing.Size(50, 20);
             this.textEdit11.StyleController = this.layoutControl1;
@@ -700,7 +701,7 @@
             // 
             // textEdit10
             // 
-            this.textEdit10.Location = new System.Drawing.Point(966, 525);
+            this.textEdit10.Location = new System.Drawing.Point(1064, 525);
             this.textEdit10.Name = "textEdit10";
             this.textEdit10.Size = new System.Drawing.Size(50, 20);
             this.textEdit10.StyleController = this.layoutControl1;
@@ -708,7 +709,7 @@
             // 
             // textEdit9
             // 
-            this.textEdit9.Location = new System.Drawing.Point(966, 501);
+            this.textEdit9.Location = new System.Drawing.Point(1064, 501);
             this.textEdit9.Name = "textEdit9";
             this.textEdit9.Size = new System.Drawing.Size(50, 20);
             this.textEdit9.StyleController = this.layoutControl1;
@@ -716,7 +717,7 @@
             // 
             // textEdit8
             // 
-            this.textEdit8.Location = new System.Drawing.Point(966, 435);
+            this.textEdit8.Location = new System.Drawing.Point(1064, 435);
             this.textEdit8.Name = "textEdit8";
             this.textEdit8.Size = new System.Drawing.Size(50, 20);
             this.textEdit8.StyleController = this.layoutControl1;
@@ -724,7 +725,7 @@
             // 
             // radioButton19
             // 
-            this.radioButton19.Location = new System.Drawing.Point(785, 334);
+            this.radioButton19.Location = new System.Drawing.Point(883, 334);
             this.radioButton19.Name = "radioButton19";
             this.radioButton19.Size = new System.Drawing.Size(231, 25);
             this.radioButton19.TabIndex = 38;
@@ -734,7 +735,7 @@
             // 
             // textEdit6
             // 
-            this.textEdit6.Location = new System.Drawing.Point(966, 411);
+            this.textEdit6.Location = new System.Drawing.Point(1064, 411);
             this.textEdit6.Name = "textEdit6";
             this.textEdit6.Size = new System.Drawing.Size(50, 20);
             this.textEdit6.StyleController = this.layoutControl1;
@@ -742,7 +743,7 @@
             // 
             // textEdit4
             // 
-            this.textEdit4.Location = new System.Drawing.Point(966, 387);
+            this.textEdit4.Location = new System.Drawing.Point(1064, 387);
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Size = new System.Drawing.Size(50, 20);
             this.textEdit4.StyleController = this.layoutControl1;
@@ -750,7 +751,7 @@
             // 
             // textEdit3
             // 
-            this.textEdit3.Location = new System.Drawing.Point(966, 363);
+            this.textEdit3.Location = new System.Drawing.Point(1064, 363);
             this.textEdit3.Name = "textEdit3";
             this.textEdit3.Size = new System.Drawing.Size(50, 20);
             this.textEdit3.StyleController = this.layoutControl1;
@@ -758,7 +759,7 @@
             // 
             // radioButton18
             // 
-            this.radioButton18.Location = new System.Drawing.Point(551, 334);
+            this.radioButton18.Location = new System.Drawing.Point(649, 334);
             this.radioButton18.Name = "radioButton18";
             this.radioButton18.Size = new System.Drawing.Size(230, 25);
             this.radioButton18.TabIndex = 33;
@@ -768,7 +769,7 @@
             // 
             // comboBoxEdit9
             // 
-            this.comboBoxEdit9.Location = new System.Drawing.Point(966, 268);
+            this.comboBoxEdit9.Location = new System.Drawing.Point(1064, 268);
             this.comboBoxEdit9.Name = "comboBoxEdit9";
             this.comboBoxEdit9.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -778,7 +779,7 @@
             // 
             // comboBoxEdit8
             // 
-            this.comboBoxEdit8.Location = new System.Drawing.Point(966, 244);
+            this.comboBoxEdit8.Location = new System.Drawing.Point(1064, 244);
             this.comboBoxEdit8.Name = "comboBoxEdit8";
             this.comboBoxEdit8.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -788,7 +789,7 @@
             // 
             // comboBoxEdit7
             // 
-            this.comboBoxEdit7.Location = new System.Drawing.Point(966, 196);
+            this.comboBoxEdit7.Location = new System.Drawing.Point(1064, 196);
             this.comboBoxEdit7.Name = "comboBoxEdit7";
             this.comboBoxEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -798,7 +799,7 @@
             // 
             // radioButton17
             // 
-            this.radioButton17.Location = new System.Drawing.Point(900, 113);
+            this.radioButton17.Location = new System.Drawing.Point(998, 113);
             this.radioButton17.Name = "radioButton17";
             this.radioButton17.Size = new System.Drawing.Size(104, 25);
             this.radioButton17.TabIndex = 29;
@@ -808,7 +809,7 @@
             // 
             // radioButton16
             // 
-            this.radioButton16.Location = new System.Drawing.Point(787, 113);
+            this.radioButton16.Location = new System.Drawing.Point(885, 113);
             this.radioButton16.Name = "radioButton16";
             this.radioButton16.Size = new System.Drawing.Size(109, 25);
             this.radioButton16.TabIndex = 28;
@@ -818,7 +819,7 @@
             // 
             // radioButton15
             // 
-            this.radioButton15.Location = new System.Drawing.Point(551, 112);
+            this.radioButton15.Location = new System.Drawing.Point(649, 112);
             this.radioButton15.Name = "radioButton15";
             this.radioButton15.Size = new System.Drawing.Size(220, 25);
             this.radioButton15.TabIndex = 27;
@@ -828,7 +829,7 @@
             // 
             // radioButton14
             // 
-            this.radioButton14.Location = new System.Drawing.Point(551, 83);
+            this.radioButton14.Location = new System.Drawing.Point(649, 83);
             this.radioButton14.Name = "radioButton14";
             this.radioButton14.Size = new System.Drawing.Size(220, 25);
             this.radioButton14.TabIndex = 26;
@@ -838,7 +839,7 @@
             // 
             // comboBoxEdit6
             // 
-            this.comboBoxEdit6.Location = new System.Drawing.Point(473, 512);
+            this.comboBoxEdit6.Location = new System.Drawing.Point(571, 512);
             this.comboBoxEdit6.Name = "comboBoxEdit6";
             this.comboBoxEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -848,7 +849,7 @@
             // 
             // comboBoxEdit5
             // 
-            this.comboBoxEdit5.Location = new System.Drawing.Point(473, 488);
+            this.comboBoxEdit5.Location = new System.Drawing.Point(571, 488);
             this.comboBoxEdit5.Name = "comboBoxEdit5";
             this.comboBoxEdit5.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -858,7 +859,7 @@
             // 
             // comboBoxEdit4
             // 
-            this.comboBoxEdit4.Location = new System.Drawing.Point(473, 464);
+            this.comboBoxEdit4.Location = new System.Drawing.Point(571, 464);
             this.comboBoxEdit4.Name = "comboBoxEdit4";
             this.comboBoxEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -868,7 +869,7 @@
             // 
             // comboBoxEdit3
             // 
-            this.comboBoxEdit3.Location = new System.Drawing.Point(473, 440);
+            this.comboBoxEdit3.Location = new System.Drawing.Point(571, 440);
             this.comboBoxEdit3.Name = "comboBoxEdit3";
             this.comboBoxEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -878,7 +879,7 @@
             // 
             // radioButton13
             // 
-            this.radioButton13.Location = new System.Drawing.Point(293, 328);
+            this.radioButton13.Location = new System.Drawing.Point(391, 328);
             this.radioButton13.Name = "radioButton13";
             this.radioButton13.Size = new System.Drawing.Size(230, 25);
             this.radioButton13.TabIndex = 21;
@@ -888,7 +889,7 @@
             // 
             // comboBoxEdit2
             // 
-            this.comboBoxEdit2.Location = new System.Drawing.Point(473, 416);
+            this.comboBoxEdit2.Location = new System.Drawing.Point(571, 416);
             this.comboBoxEdit2.Name = "comboBoxEdit2";
             this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -898,7 +899,7 @@
             // 
             // radioButton12
             // 
-            this.radioButton12.Location = new System.Drawing.Point(293, 299);
+            this.radioButton12.Location = new System.Drawing.Point(391, 299);
             this.radioButton12.Name = "radioButton12";
             this.radioButton12.Size = new System.Drawing.Size(230, 25);
             this.radioButton12.TabIndex = 19;
@@ -908,7 +909,7 @@
             // 
             // radioButton11
             // 
-            this.radioButton11.Location = new System.Drawing.Point(293, 270);
+            this.radioButton11.Location = new System.Drawing.Point(391, 270);
             this.radioButton11.Name = "radioButton11";
             this.radioButton11.Size = new System.Drawing.Size(230, 25);
             this.radioButton11.TabIndex = 18;
@@ -918,7 +919,7 @@
             // 
             // radioButton9
             // 
-            this.radioButton9.Location = new System.Drawing.Point(293, 241);
+            this.radioButton9.Location = new System.Drawing.Point(391, 241);
             this.radioButton9.Name = "radioButton9";
             this.radioButton9.Size = new System.Drawing.Size(230, 25);
             this.radioButton9.TabIndex = 17;
@@ -928,7 +929,7 @@
             // 
             // radioButton10
             // 
-            this.radioButton10.Location = new System.Drawing.Point(58, 270);
+            this.radioButton10.Location = new System.Drawing.Point(156, 270);
             this.radioButton10.Name = "radioButton10";
             this.radioButton10.Size = new System.Drawing.Size(231, 25);
             this.radioButton10.TabIndex = 16;
@@ -938,7 +939,7 @@
             // 
             // radioButton8
             // 
-            this.radioButton8.Location = new System.Drawing.Point(58, 328);
+            this.radioButton8.Location = new System.Drawing.Point(156, 328);
             this.radioButton8.Name = "radioButton8";
             this.radioButton8.Size = new System.Drawing.Size(231, 25);
             this.radioButton8.TabIndex = 14;
@@ -948,7 +949,7 @@
             // 
             // radioButton7
             // 
-            this.radioButton7.Location = new System.Drawing.Point(58, 299);
+            this.radioButton7.Location = new System.Drawing.Point(156, 299);
             this.radioButton7.Name = "radioButton7";
             this.radioButton7.Size = new System.Drawing.Size(231, 25);
             this.radioButton7.TabIndex = 13;
@@ -958,7 +959,7 @@
             // 
             // radioButton6
             // 
-            this.radioButton6.Location = new System.Drawing.Point(58, 241);
+            this.radioButton6.Location = new System.Drawing.Point(156, 241);
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(231, 25);
             this.radioButton6.TabIndex = 12;
@@ -968,7 +969,7 @@
             // 
             // comboBoxEdit1
             // 
-            this.comboBoxEdit1.Location = new System.Drawing.Point(250, 83);
+            this.comboBoxEdit1.Location = new System.Drawing.Point(348, 83);
             this.comboBoxEdit1.Name = "comboBoxEdit1";
             this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -978,7 +979,7 @@
             // 
             // radioButton4
             // 
-            this.radioButton4.Location = new System.Drawing.Point(58, 141);
+            this.radioButton4.Location = new System.Drawing.Point(156, 141);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(359, 25);
             this.radioButton4.TabIndex = 9;
@@ -988,7 +989,7 @@
             // 
             // radioButton3
             // 
-            this.radioButton3.Location = new System.Drawing.Point(58, 170);
+            this.radioButton3.Location = new System.Drawing.Point(156, 170);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(465, 25);
             this.radioButton3.TabIndex = 8;
@@ -998,7 +999,7 @@
             // 
             // radioButton2
             // 
-            this.radioButton2.Location = new System.Drawing.Point(58, 112);
+            this.radioButton2.Location = new System.Drawing.Point(156, 112);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(465, 25);
             this.radioButton2.TabIndex = 7;
@@ -1008,7 +1009,7 @@
             // 
             // radioButton1
             // 
-            this.radioButton1.Location = new System.Drawing.Point(58, 83);
+            this.radioButton1.Location = new System.Drawing.Point(156, 83);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(188, 25);
             this.radioButton1.TabIndex = 6;
@@ -1018,7 +1019,7 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(46, 12);
+            this.labelControl1.Location = new System.Drawing.Point(144, 12);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(63, 13);
             this.labelControl1.StyleController = this.layoutControl1;
@@ -1027,7 +1028,7 @@
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(461, 29);
+            this.textEdit1.Location = new System.Drawing.Point(559, 29);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Size = new System.Drawing.Size(567, 20);
             this.textEdit1.StyleController = this.layoutControl1;
@@ -1035,7 +1036,7 @@
             // 
             // textEdit2
             // 
-            this.textEdit2.Location = new System.Drawing.Point(966, 220);
+            this.textEdit2.Location = new System.Drawing.Point(1064, 220);
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Size = new System.Drawing.Size(50, 20);
             this.textEdit2.StyleController = this.layoutControl1;
@@ -1061,13 +1062,13 @@
             this.layoutControlItem42});
             this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup1.Name = "Root";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(1040, 629);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(1138, 623);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem1
             // 
             this.layoutControlItem1.Control = this.textEdit1;
-            this.layoutControlItem1.Location = new System.Drawing.Point(34, 17);
+            this.layoutControlItem1.Location = new System.Drawing.Point(132, 17);
             this.layoutControlItem1.Name = "layoutControlItem1";
             this.layoutControlItem1.Size = new System.Drawing.Size(986, 24);
             this.layoutControlItem1.Text = "Purchase Type";
@@ -1076,7 +1077,7 @@
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.labelControl1;
-            this.layoutControlItem2.Location = new System.Drawing.Point(34, 0);
+            this.layoutControlItem2.Location = new System.Drawing.Point(132, 0);
             this.layoutControlItem2.Name = "layoutControlItem2";
             this.layoutControlItem2.Size = new System.Drawing.Size(986, 17);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
@@ -1091,7 +1092,7 @@
             this.layoutControlItem5,
             this.layoutControlItem9,
             this.layoutControlItem3});
-            this.layoutControlGroup2.Location = new System.Drawing.Point(34, 41);
+            this.layoutControlGroup2.Location = new System.Drawing.Point(132, 41);
             this.layoutControlGroup2.Name = "layoutControlGroup2";
             this.layoutControlGroup2.Size = new System.Drawing.Size(493, 158);
             this.layoutControlGroup2.Text = "Sales Account Information";
@@ -1161,7 +1162,7 @@
             this.layoutControlItem16,
             this.layoutControlItem17,
             this.layoutControlItem19});
-            this.layoutControlGroup3.Location = new System.Drawing.Point(34, 199);
+            this.layoutControlGroup3.Location = new System.Drawing.Point(132, 199);
             this.layoutControlGroup3.Name = "layoutControlGroup3";
             this.layoutControlGroup3.Size = new System.Drawing.Size(493, 158);
             this.layoutControlGroup3.Text = "Taxation Type";
@@ -1244,7 +1245,7 @@
             this.layoutControlItem28,
             this.layoutControlItem4,
             this.layoutControlGroup4});
-            this.layoutControlGroup5.Location = new System.Drawing.Point(527, 41);
+            this.layoutControlGroup5.Location = new System.Drawing.Point(625, 41);
             this.layoutControlGroup5.Name = "layoutControlGroup5";
             this.layoutControlGroup5.Size = new System.Drawing.Size(493, 113);
             this.layoutControlGroup5.Text = "Region";
@@ -1304,7 +1305,7 @@
             this.layoutControlItem33,
             this.layoutControlItem34,
             this.layoutControlItem37});
-            this.layoutControlGroup6.Location = new System.Drawing.Point(527, 292);
+            this.layoutControlGroup6.Location = new System.Drawing.Point(625, 292);
             this.layoutControlGroup6.Name = "layoutControlGroup6";
             this.layoutControlGroup6.Size = new System.Drawing.Size(493, 167);
             this.layoutControlGroup6.Text = "Tax Calculation";
@@ -1366,9 +1367,9 @@
             // layoutControlItem41
             // 
             this.layoutControlItem41.Control = this.simpleButton1;
-            this.layoutControlItem41.Location = new System.Drawing.Point(34, 573);
+            this.layoutControlItem41.Location = new System.Drawing.Point(132, 573);
             this.layoutControlItem41.Name = "layoutControlItem41";
-            this.layoutControlItem41.Size = new System.Drawing.Size(493, 36);
+            this.layoutControlItem41.Size = new System.Drawing.Size(493, 30);
             this.layoutControlItem41.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem41.TextVisible = false;
             // 
@@ -1378,7 +1379,7 @@
             this.layoutControlItem38,
             this.layoutControlItem39,
             this.layoutControlItem40});
-            this.layoutControlGroup7.Location = new System.Drawing.Point(527, 459);
+            this.layoutControlGroup7.Location = new System.Drawing.Point(625, 459);
             this.layoutControlGroup7.Name = "layoutControlGroup7";
             this.layoutControlGroup7.Size = new System.Drawing.Size(493, 114);
             this.layoutControlGroup7.Text = "For Printing in Documents";
@@ -1418,7 +1419,7 @@
             this.layoutControlItem20,
             this.layoutControlItem18,
             this.layoutControlItem10});
-            this.layoutControlGroup8.Location = new System.Drawing.Point(34, 374);
+            this.layoutControlGroup8.Location = new System.Drawing.Point(132, 374);
             this.layoutControlGroup8.Name = "layoutControlGroup8";
             this.layoutControlGroup8.Size = new System.Drawing.Size(493, 199);
             this.layoutControlGroup8.Text = "Other Information";
@@ -1477,7 +1478,7 @@
             // simpleLabelItem1
             // 
             this.simpleLabelItem1.AllowHotTrack = false;
-            this.simpleLabelItem1.Location = new System.Drawing.Point(34, 357);
+            this.simpleLabelItem1.Location = new System.Drawing.Point(132, 357);
             this.simpleLabelItem1.Name = "simpleLabelItem1";
             this.simpleLabelItem1.Size = new System.Drawing.Size(493, 17);
             this.simpleLabelItem1.Text = "(Above Information Can Not Be Changed If any Transaction Exist For This Sale Type" +
@@ -1491,7 +1492,7 @@
             this.layoutControlItem27,
             this.layoutControlItem25,
             this.layoutControlItem26});
-            this.layoutControlGroup9.Location = new System.Drawing.Point(527, 154);
+            this.layoutControlGroup9.Location = new System.Drawing.Point(625, 154);
             this.layoutControlGroup9.Name = "layoutControlGroup9";
             this.layoutControlGroup9.Size = new System.Drawing.Size(493, 138);
             this.layoutControlGroup9.Text = "Form Information";
@@ -1537,9 +1538,9 @@
             // layoutControlItem35
             // 
             this.layoutControlItem35.Control = this.simpleButton3;
-            this.layoutControlItem35.Location = new System.Drawing.Point(527, 573);
+            this.layoutControlItem35.Location = new System.Drawing.Point(625, 573);
             this.layoutControlItem35.Name = "layoutControlItem35";
-            this.layoutControlItem35.Size = new System.Drawing.Size(493, 36);
+            this.layoutControlItem35.Size = new System.Drawing.Size(493, 30);
             this.layoutControlItem35.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem35.TextVisible = false;
             // 
@@ -1548,7 +1549,7 @@
             this.layoutControlItem42.Control = this.navBarControl1;
             this.layoutControlItem42.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem42.Name = "layoutControlItem42";
-            this.layoutControlItem42.Size = new System.Drawing.Size(34, 609);
+            this.layoutControlItem42.Size = new System.Drawing.Size(132, 603);
             this.layoutControlItem42.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem42.TextVisible = false;
             // 
@@ -1556,7 +1557,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1040, 629);
+            this.ClientSize = new System.Drawing.Size(1138, 623);
             this.Controls.Add(this.layoutControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Purchasetype";
@@ -1736,7 +1737,7 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem35;
         private DevExpress.XtraNavBar.NavBarControl navBarControl1;
         private DevExpress.XtraNavBar.NavBarGroup navBarGroup5;
-        private DevExpress.XtraNavBar.NavBarItem navBarList;
+        private DevExpress.XtraNavBar.NavBarItem ListPurchase;
         private DevExpress.XtraNavBar.NavBarItem navBarItem8;
         private DevExpress.XtraNavBar.NavBarItem navBarItem9;
         private DevExpress.XtraNavBar.NavBarGroup navBarGroup1;
