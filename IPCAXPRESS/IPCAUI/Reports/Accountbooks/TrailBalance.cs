@@ -29,16 +29,16 @@ namespace IPCAUI.Reports.Accountbooks
         
         private void ShowHideFields()
         {
-            if (Category.Equals("AllAccounts"))
+            if (FilterOption.Equals("AllAccounts") && Category.Equals("Level1"))
             {
                 ReportDate.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
                 ShowAccount.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
                 ShowZeroBalanceAccount.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
 
                 ShowParentGroup.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
-                                       
+                                           
             }
-            else if (Category.Equals("GroupofAccounts"))
+            else if (FilterOption.Equals("GroupofAccounts") && Category.Equals("Level1"))
             {
                 ShowGroupName.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
                 ReportDate.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
@@ -47,8 +47,41 @@ namespace IPCAUI.Reports.Accountbooks
 
                 ShowParentGroup.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
             }
-           
-            
+           else if (FilterOption.Equals("AllAccounts") && Category.Equals("Level2"))
+            {
+                StartingDt.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+                EndingDt.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+                ShowAccount.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+                MastertobePicked.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+                SplitCrDrOpeningclosingBal.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+
+                ShowParentGroup.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+
+            }
+            else if (FilterOption.Equals("GroupofAccounts") && Category.Equals("Level2"))
+            {
+                ShowGroupName.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+                StartingDt.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+                EndingDt.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+                ShowAccount.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+                MastertobePicked.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+                SplitCrDrOpeningclosingBal.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+
+                ShowParentGroup.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+            }
+            else if (FilterOption.Equals("MonthEnd") && Category.Equals("Level4"))
+            {
+                EndingDt.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+                Showzerobalancegroups.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+                ShowSubGroupBalances.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+            }
+            else if (FilterOption.Equals("AsonDate") && Category.Equals("Level4"))
+            {
+                EndingDt.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+                Showzerobalancegroups.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+                ShowSubGroupBalances.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
+            }           
+
         }
         
         private void TrailBalance_Load(object sender, EventArgs e)
