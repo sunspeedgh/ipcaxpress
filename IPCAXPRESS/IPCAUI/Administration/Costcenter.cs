@@ -48,6 +48,7 @@ namespace IPCAUI.Administration
 
             objModel.Name = tbxName.Text.Trim();
             objModel.Alias = tbxAliasname.Text.Trim();
+
             objModel.Group = cbxPrimarygroup.SelectedItem.ToString();
             objModel.opBal = Convert.ToDecimal(tbxOpbal.Text.Trim());
             objModel.DrCr = cbxDrCr.SelectedItem.ToString();
