@@ -102,12 +102,12 @@ namespace IPCAUI.Menu
 
         private void rptTrailBalance_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Reports.Accountbooks.Grids.TrailBalanceGrd frm;
-            frm = new Reports.Accountbooks.Grids.TrailBalanceGrd(); //generate new instance
-            frm.Owner = this;
-            frm.TopLevel = false;
-            splitContainerControl1.Panel2.Controls.Add(frm);
-            frm.Show();
+            //Reports.Accountbooks.Grids.TrailBalanceGrd frm;
+            //frm = new Reports.Accountbooks.Grids.TrailBalanceGrd(); //generate new instance
+            //frm.Owner = this;
+            //frm.TopLevel = false;
+            //splitContainerControl1.Panel2.Controls.Add(frm);
+            //frm.Show();
         }
 
         private void rptAccountRegister_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
