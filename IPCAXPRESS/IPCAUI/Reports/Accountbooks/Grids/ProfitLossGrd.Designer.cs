@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProfitLossGrd));
             this.repositoryItemButtonEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.treeListBand1 = new DevExpress.XtraTreeList.Columns.TreeListBand();
@@ -37,7 +36,7 @@
             this.dtDate = new DevExpress.XtraEditors.LabelControl();
             this.lblDate = new DevExpress.XtraEditors.LabelControl();
             this.grcProftLoss = new DevExpress.XtraGrid.GridControl();
-            this.profitLossDtBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.profitLossDtBindingSource = new System.Windows.Forms.BindingSource();
             this.profitLossDs = new IPCAUI.DataSets.ProfitLossDs();
             this.gdvProfitLoss = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.debit = new DevExpress.XtraGrid.Columns.GridColumn();

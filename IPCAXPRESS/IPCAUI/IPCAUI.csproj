@@ -635,6 +635,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CostcenterList.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\CreditDs.cs">
+      <DependentUpon>CreditDs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\CreditDs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreditDs.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSets\CurrencyconversionList.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -644,6 +652,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CurrencyList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DebitDs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DebitDs.xsd</DependentUpon>
     </Compile>
     <Compile Include="DataSets\EmployeeList.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -675,6 +688,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\JournalDs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JournalDs.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSets\MasterseriesList.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -689,6 +707,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>MaterialcenterList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\PaymentVoucherDs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaymentVoucherDs.xsd</DependentUpon>
     </Compile>
     <Compile Include="DataSets\ProfitLossDs.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -826,6 +849,7 @@
     <Compile Include="Menu\TransactionsMenu.Designer.cs">
       <DependentUpon>TransactionsMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\AccountLookup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reports\Accountbooks\AccountGroupLedger.cs">
@@ -4358,6 +4382,17 @@
     <None Include="DataSets\CostcenterList.xss">
       <DependentUpon>CostcenterList.xsd</DependentUpon>
     </None>
+    <None Include="DataSets\CreditDs.xsc">
+      <DependentUpon>CreditDs.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CreditDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CreditDs.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\CreditDs.xss">
+      <DependentUpon>CreditDs.xsd</DependentUpon>
+    </None>
     <None Include="DataSets\CurrencyconversionList.xsc">
       <DependentUpon>CurrencyconversionList.xsd</DependentUpon>
     </None>
@@ -4379,6 +4414,17 @@
     </None>
     <None Include="DataSets\CurrencyList.xss">
       <DependentUpon>CurrencyList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DebitDs.xsc">
+      <DependentUpon>DebitDs.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DebitDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DebitDs.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DebitDs.xss">
+      <DependentUpon>DebitDs.xsd</DependentUpon>
     </None>
     <None Include="DataSets\EmployeeList.xsc">
       <DependentUpon>EmployeeList.xsd</DependentUpon>
@@ -4446,6 +4492,17 @@
     <None Include="DataSets\ItemsLookupEdit.xss">
       <DependentUpon>ItemsLookupEdit.xsd</DependentUpon>
     </None>
+    <None Include="DataSets\JournalDs.xsc">
+      <DependentUpon>JournalDs.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\JournalDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>JournalDs.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\JournalDs.xss">
+      <DependentUpon>JournalDs.xsd</DependentUpon>
+    </None>
     <None Include="DataSets\MasterseriesList.xsc">
       <DependentUpon>MasterseriesList.xsd</DependentUpon>
     </None>
@@ -4478,6 +4535,17 @@
     </None>
     <None Include="DataSets\MaterialcenterList.xss">
       <DependentUpon>MaterialcenterList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\PaymentVoucherDs.xsc">
+      <DependentUpon>PaymentVoucherDs.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\PaymentVoucherDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PaymentVoucherDs.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\PaymentVoucherDs.xss">
+      <DependentUpon>PaymentVoucherDs.xsd</DependentUpon>
     </None>
     <None Include="DataSets\ProfitLossDs.xsc">
       <DependentUpon>ProfitLossDs.xsd</DependentUpon>

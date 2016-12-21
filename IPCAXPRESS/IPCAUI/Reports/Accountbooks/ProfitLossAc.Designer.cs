@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProfitLossAc));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            this.textEdit13 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit12 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit11 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit10 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit9 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit8 = new DevExpress.XtraEditors.TextEdit();
@@ -59,15 +62,15 @@
             this.PLCurString = new DevExpress.XtraLayout.LayoutControlItem();
             this.PLStartMonth = new DevExpress.XtraLayout.LayoutControlItem();
             this.PLEndMonth = new DevExpress.XtraLayout.LayoutControlItem();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit11 = new DevExpress.XtraEditors.TextEdit();
             this.PLShowAccountDetails = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textEdit12 = new DevExpress.XtraEditors.TextEdit();
             this.PLShowPrevYear = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textEdit13 = new DevExpress.XtraEditors.TextEdit();
             this.PLShowSummary = new DevExpress.XtraLayout.LayoutControlItem();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit10.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).BeginInit();
@@ -95,11 +98,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.PLCurString)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PLStartMonth)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PLEndMonth)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PLShowAccountDetails)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PLShowPrevYear)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PLShowSummary)).BeginInit();
             this.SuspendLayout();
             // 
@@ -130,6 +130,30 @@
             this.layoutControl1.Size = new System.Drawing.Size(470, 361);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
+            // 
+            // textEdit13
+            // 
+            this.textEdit13.Location = new System.Drawing.Point(249, 296);
+            this.textEdit13.Name = "textEdit13";
+            this.textEdit13.Size = new System.Drawing.Size(209, 20);
+            this.textEdit13.StyleController = this.layoutControl1;
+            this.textEdit13.TabIndex = 23;
+            // 
+            // textEdit12
+            // 
+            this.textEdit12.Location = new System.Drawing.Point(249, 152);
+            this.textEdit12.Name = "textEdit12";
+            this.textEdit12.Size = new System.Drawing.Size(209, 20);
+            this.textEdit12.StyleController = this.layoutControl1;
+            this.textEdit12.TabIndex = 22;
+            // 
+            // textEdit11
+            // 
+            this.textEdit11.Location = new System.Drawing.Point(249, 128);
+            this.textEdit11.Name = "textEdit11";
+            this.textEdit11.Size = new System.Drawing.Size(209, 20);
+            this.textEdit11.StyleController = this.layoutControl1;
+            this.textEdit11.TabIndex = 21;
             // 
             // textEdit10
             // 
@@ -415,25 +439,6 @@
             this.PLEndMonth.TextSize = new System.Drawing.Size(234, 13);
             this.PLEndMonth.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             // 
-            // labelControl1
-            // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.LineVisible = true;
-            this.labelControl1.Location = new System.Drawing.Point(12, 12);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(92, 16);
-            this.labelControl1.TabIndex = 12;
-            this.labelControl1.Text = "Balance Sheet";
-            // 
-            // textEdit11
-            // 
-            this.textEdit11.Location = new System.Drawing.Point(249, 128);
-            this.textEdit11.Name = "textEdit11";
-            this.textEdit11.Size = new System.Drawing.Size(209, 20);
-            this.textEdit11.StyleController = this.layoutControl1;
-            this.textEdit11.TabIndex = 21;
-            // 
             // PLShowAccountDetails
             // 
             this.PLShowAccountDetails.Control = this.textEdit11;
@@ -443,14 +448,6 @@
             this.PLShowAccountDetails.Text = "Show Account Level Details";
             this.PLShowAccountDetails.TextSize = new System.Drawing.Size(234, 13);
             this.PLShowAccountDetails.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
-            // 
-            // textEdit12
-            // 
-            this.textEdit12.Location = new System.Drawing.Point(249, 152);
-            this.textEdit12.Name = "textEdit12";
-            this.textEdit12.Size = new System.Drawing.Size(209, 20);
-            this.textEdit12.StyleController = this.layoutControl1;
-            this.textEdit12.TabIndex = 22;
             // 
             // PLShowPrevYear
             // 
@@ -462,14 +459,6 @@
             this.PLShowPrevYear.TextSize = new System.Drawing.Size(234, 13);
             this.PLShowPrevYear.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             // 
-            // textEdit13
-            // 
-            this.textEdit13.Location = new System.Drawing.Point(249, 296);
-            this.textEdit13.Name = "textEdit13";
-            this.textEdit13.Size = new System.Drawing.Size(209, 20);
-            this.textEdit13.StyleController = this.layoutControl1;
-            this.textEdit13.TabIndex = 23;
-            // 
             // PLShowSummary
             // 
             this.PLShowSummary.Control = this.textEdit13;
@@ -479,6 +468,17 @@
             this.PLShowSummary.Text = "Show detailed Profit & Loss Summary";
             this.PLShowSummary.TextSize = new System.Drawing.Size(234, 13);
             this.PLShowSummary.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.labelControl1.Appearance.Options.UseFont = true;
+            this.labelControl1.LineVisible = true;
+            this.labelControl1.Location = new System.Drawing.Point(12, 12);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(92, 16);
+            this.labelControl1.TabIndex = 12;
+            this.labelControl1.Text = "Balance Sheet";
             // 
             // ProfitLossAc
             // 
@@ -492,6 +492,9 @@
             this.Load += new System.EventHandler(this.ProfitLossAc_Load);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit10.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).EndInit();
@@ -519,11 +522,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.PLCurString)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PLStartMonth)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PLEndMonth)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PLShowAccountDetails)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PLShowPrevYear)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PLShowSummary)).EndInit();
             this.ResumeLayout(false);
 

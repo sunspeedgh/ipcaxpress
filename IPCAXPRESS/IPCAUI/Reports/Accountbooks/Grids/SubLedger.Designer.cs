@@ -610,17 +610,17 @@
             // 
             // textEdit2
             // 
-            this.textEdit2.Location = new System.Drawing.Point(239, 29);
+            this.textEdit2.Location = new System.Drawing.Point(233, 29);
             this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(399, 20);
+            this.textEdit2.Size = new System.Drawing.Size(405, 20);
             this.textEdit2.StyleController = this.layoutControl1;
             this.textEdit2.TabIndex = 8;
             // 
             // textEdit9
             // 
-            this.textEdit9.Location = new System.Drawing.Point(705, 29);
+            this.textEdit9.Location = new System.Drawing.Point(699, 29);
             this.textEdit9.Name = "textEdit9";
-            this.textEdit9.Size = new System.Drawing.Size(224, 20);
+            this.textEdit9.Size = new System.Drawing.Size(230, 20);
             this.textEdit9.StyleController = this.layoutControl1;
             this.textEdit9.TabIndex = 9;
             // 
@@ -677,7 +677,7 @@
             this.layoutControlItem5.Size = new System.Drawing.Size(466, 24);
             this.layoutControlItem5.Text = "From Date:";
             this.layoutControlItem5.TextLocation = DevExpress.Utils.Locations.Left;
-            this.layoutControlItem5.TextSize = new System.Drawing.Size(60, 13);
+            this.layoutControlItem5.TextSize = new System.Drawing.Size(54, 13);
             // 
             // layoutControlItem6
             // 
@@ -688,7 +688,7 @@
             this.layoutControlItem6.Size = new System.Drawing.Size(291, 24);
             this.layoutControlItem6.Text = "To Date:";
             this.layoutControlItem6.TextLocation = DevExpress.Utils.Locations.Left;
-            this.layoutControlItem6.TextSize = new System.Drawing.Size(60, 13);
+            this.layoutControlItem6.TextSize = new System.Drawing.Size(54, 13);
             // 
             // layoutControlItem10
             // 
@@ -731,7 +731,7 @@
             this.simpleLabelItem1.Name = "simpleLabelItem1";
             this.simpleLabelItem1.Size = new System.Drawing.Size(379, 17);
             this.simpleLabelItem1.Text = "Subledger";
-            this.simpleLabelItem1.TextSize = new System.Drawing.Size(60, 13);
+            this.simpleLabelItem1.TextSize = new System.Drawing.Size(54, 13);
             // 
             // layoutControlItem4
             // 

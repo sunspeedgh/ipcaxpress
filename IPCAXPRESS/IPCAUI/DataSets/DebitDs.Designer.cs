@@ -20,17 +20,17 @@ namespace IPCAUI.DataSets {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("ContraVoucher")]
+    [global::System.Xml.Serialization.XmlRootAttribute("DebitDs")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class ContraVoucher : global::System.Data.DataSet {
+    public partial class DebitDs : global::System.Data.DataSet {
         
-        private ContraVoucherDataTable tableContraVoucher;
+        private DebitDtDataTable tableDebitDt;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public ContraVoucher() {
+        public DebitDs() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -41,7 +41,7 @@ namespace IPCAUI.DataSets {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        protected ContraVoucher(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected DebitDs(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -54,8 +54,8 @@ namespace IPCAUI.DataSets {
             if ((this.DetermineSchemaSerializationMode(info, context) == global::System.Data.SchemaSerializationMode.IncludeSchema)) {
                 global::System.Data.DataSet ds = new global::System.Data.DataSet();
                 ds.ReadXmlSchema(new global::System.Xml.XmlTextReader(new global::System.IO.StringReader(strSchema)));
-                if ((ds.Tables["ContraVoucher"] != null)) {
-                    base.Tables.Add(new ContraVoucherDataTable(ds.Tables["ContraVoucher"]));
+                if ((ds.Tables["DebitDt"] != null)) {
+                    base.Tables.Add(new DebitDtDataTable(ds.Tables["DebitDt"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -79,9 +79,9 @@ namespace IPCAUI.DataSets {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
         [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
-        public ContraVoucherDataTable _ContraVoucher {
+        public DebitDtDataTable DebitDt {
             get {
-                return this.tableContraVoucher;
+                return this.tableDebitDt;
             }
         }
         
@@ -127,7 +127,7 @@ namespace IPCAUI.DataSets {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            ContraVoucher cln = ((ContraVoucher)(base.Clone()));
+            DebitDs cln = ((DebitDs)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -152,8 +152,8 @@ namespace IPCAUI.DataSets {
                 this.Reset();
                 global::System.Data.DataSet ds = new global::System.Data.DataSet();
                 ds.ReadXml(reader);
-                if ((ds.Tables["ContraVoucher"] != null)) {
-                    base.Tables.Add(new ContraVoucherDataTable(ds.Tables["ContraVoucher"]));
+                if ((ds.Tables["DebitDt"] != null)) {
+                    base.Tables.Add(new DebitDtDataTable(ds.Tables["DebitDt"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -188,10 +188,10 @@ namespace IPCAUI.DataSets {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         internal void InitVars(bool initTable) {
-            this.tableContraVoucher = ((ContraVoucherDataTable)(base.Tables["ContraVoucher"]));
+            this.tableDebitDt = ((DebitDtDataTable)(base.Tables["DebitDt"]));
             if ((initTable == true)) {
-                if ((this.tableContraVoucher != null)) {
-                    this.tableContraVoucher.InitVars();
+                if ((this.tableDebitDt != null)) {
+                    this.tableDebitDt.InitVars();
                 }
             }
         }
@@ -199,18 +199,18 @@ namespace IPCAUI.DataSets {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "ContraVoucher";
+            this.DataSetName = "DebitDs";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/ContraVoucher.xsd";
+            this.Namespace = "http://tempuri.org/DebitDs.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
-            this.tableContraVoucher = new ContraVoucherDataTable();
-            base.Tables.Add(this.tableContraVoucher);
+            this.tableDebitDt = new DebitDtDataTable();
+            base.Tables.Add(this.tableDebitDt);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        private bool ShouldSerialize_ContraVoucher() {
+        private bool ShouldSerializeDebitDt() {
             return false;
         }
         
@@ -225,7 +225,7 @@ namespace IPCAUI.DataSets {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            ContraVoucher ds = new ContraVoucher();
+            DebitDs ds = new DebitDs();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -270,16 +270,14 @@ namespace IPCAUI.DataSets {
         }
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public delegate void ContraVoucherRowChangeEventHandler(object sender, ContraVoucherRowChangeEvent e);
+        public delegate void DebitDtRowChangeEventHandler(object sender, DebitDtRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
-        public partial class ContraVoucherDataTable : global::System.Data.TypedTableBase<ContraVoucherRow> {
-            
-            private global::System.Data.DataColumn columnSNo;
+        public partial class DebitDtDataTable : global::System.Data.TypedTableBase<DebitDtRow> {
             
             private global::System.Data.DataColumn columnDC;
             
@@ -289,12 +287,12 @@ namespace IPCAUI.DataSets {
             
             private global::System.Data.DataColumn columnCredit;
             
-            private global::System.Data.DataColumn columnShortNarration;
+            private global::System.Data.DataColumn columnNarration;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public ContraVoucherDataTable() {
-                this.TableName = "ContraVoucher";
+            public DebitDtDataTable() {
+                this.TableName = "DebitDt";
                 this.BeginInit();
                 this.InitClass();
                 this.EndInit();
@@ -302,7 +300,7 @@ namespace IPCAUI.DataSets {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            internal ContraVoucherDataTable(global::System.Data.DataTable table) {
+            internal DebitDtDataTable(global::System.Data.DataTable table) {
                 this.TableName = table.TableName;
                 if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
                     this.CaseSensitive = table.CaseSensitive;
@@ -319,17 +317,9 @@ namespace IPCAUI.DataSets {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            protected ContraVoucherDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected DebitDtDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                     base(info, context) {
                 this.InitVars();
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn SNoColumn {
-                get {
-                    return this.columnSNo;
-                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -366,9 +356,9 @@ namespace IPCAUI.DataSets {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn ShortNarrationColumn {
+            public global::System.Data.DataColumn NarrationColumn {
                 get {
-                    return this.columnShortNarration;
+                    return this.columnNarration;
                 }
             }
             
@@ -383,50 +373,49 @@ namespace IPCAUI.DataSets {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public ContraVoucherRow this[int index] {
+            public DebitDtRow this[int index] {
                 get {
-                    return ((ContraVoucherRow)(this.Rows[index]));
+                    return ((DebitDtRow)(this.Rows[index]));
                 }
             }
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event ContraVoucherRowChangeEventHandler ContraVoucherRowChanging;
+            public event DebitDtRowChangeEventHandler DebitDtRowChanging;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event ContraVoucherRowChangeEventHandler ContraVoucherRowChanged;
+            public event DebitDtRowChangeEventHandler DebitDtRowChanged;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event ContraVoucherRowChangeEventHandler ContraVoucherRowDeleting;
+            public event DebitDtRowChangeEventHandler DebitDtRowDeleting;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event ContraVoucherRowChangeEventHandler ContraVoucherRowDeleted;
+            public event DebitDtRowChangeEventHandler DebitDtRowDeleted;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void AddContraVoucherRow(ContraVoucherRow row) {
+            public void AddDebitDtRow(DebitDtRow row) {
                 this.Rows.Add(row);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public ContraVoucherRow AddContraVoucherRow(string SNo, string DC, string Account, string Debit, string Credit, string ShortNarration) {
-                ContraVoucherRow rowContraVoucherRow = ((ContraVoucherRow)(this.NewRow()));
+            public DebitDtRow AddDebitDtRow(string DC, string Account, string Debit, string Credit, string Narration) {
+                DebitDtRow rowDebitDtRow = ((DebitDtRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        SNo,
                         DC,
                         Account,
                         Debit,
                         Credit,
-                        ShortNarration};
-                rowContraVoucherRow.ItemArray = columnValuesArray;
-                this.Rows.Add(rowContraVoucherRow);
-                return rowContraVoucherRow;
+                        Narration};
+                rowDebitDtRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowDebitDtRow);
+                return rowDebitDtRow;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public override global::System.Data.DataTable Clone() {
-                ContraVoucherDataTable cln = ((ContraVoucherDataTable)(base.Clone()));
+                DebitDtDataTable cln = ((DebitDtDataTable)(base.Clone()));
                 cln.InitVars();
                 return cln;
             }
@@ -434,25 +423,22 @@ namespace IPCAUI.DataSets {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
-                return new ContraVoucherDataTable();
+                return new DebitDtDataTable();
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
-                this.columnSNo = base.Columns["SNo"];
                 this.columnDC = base.Columns["DC"];
                 this.columnAccount = base.Columns["Account"];
                 this.columnDebit = base.Columns["Debit"];
                 this.columnCredit = base.Columns["Credit"];
-                this.columnShortNarration = base.Columns["ShortNarration"];
+                this.columnNarration = base.Columns["Narration"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             private void InitClass() {
-                this.columnSNo = new global::System.Data.DataColumn("SNo", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnSNo);
                 this.columnDC = new global::System.Data.DataColumn("DC", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnDC);
                 this.columnAccount = new global::System.Data.DataColumn("Account", typeof(string), null, global::System.Data.MappingType.Element);
@@ -461,36 +447,34 @@ namespace IPCAUI.DataSets {
                 base.Columns.Add(this.columnDebit);
                 this.columnCredit = new global::System.Data.DataColumn("Credit", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCredit);
-                this.columnShortNarration = new global::System.Data.DataColumn("ShortNarration", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnShortNarration);
-                this.ExtendedProperties.Add("Generator_TablePropName", "_ContraVoucher");
-                this.ExtendedProperties.Add("Generator_UserTableName", "ContraVoucher");
+                this.columnNarration = new global::System.Data.DataColumn("Narration", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnNarration);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public ContraVoucherRow NewContraVoucherRow() {
-                return ((ContraVoucherRow)(this.NewRow()));
+            public DebitDtRow NewDebitDtRow() {
+                return ((DebitDtRow)(this.NewRow()));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
-                return new ContraVoucherRow(builder);
+                return new DebitDtRow(builder);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Type GetRowType() {
-                return typeof(ContraVoucherRow);
+                return typeof(DebitDtRow);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanged(e);
-                if ((this.ContraVoucherRowChanged != null)) {
-                    this.ContraVoucherRowChanged(this, new ContraVoucherRowChangeEvent(((ContraVoucherRow)(e.Row)), e.Action));
+                if ((this.DebitDtRowChanged != null)) {
+                    this.DebitDtRowChanged(this, new DebitDtRowChangeEvent(((DebitDtRow)(e.Row)), e.Action));
                 }
             }
             
@@ -498,8 +482,8 @@ namespace IPCAUI.DataSets {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanging(e);
-                if ((this.ContraVoucherRowChanging != null)) {
-                    this.ContraVoucherRowChanging(this, new ContraVoucherRowChangeEvent(((ContraVoucherRow)(e.Row)), e.Action));
+                if ((this.DebitDtRowChanging != null)) {
+                    this.DebitDtRowChanging(this, new DebitDtRowChangeEvent(((DebitDtRow)(e.Row)), e.Action));
                 }
             }
             
@@ -507,8 +491,8 @@ namespace IPCAUI.DataSets {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleted(e);
-                if ((this.ContraVoucherRowDeleted != null)) {
-                    this.ContraVoucherRowDeleted(this, new ContraVoucherRowChangeEvent(((ContraVoucherRow)(e.Row)), e.Action));
+                if ((this.DebitDtRowDeleted != null)) {
+                    this.DebitDtRowDeleted(this, new DebitDtRowChangeEvent(((DebitDtRow)(e.Row)), e.Action));
                 }
             }
             
@@ -516,14 +500,14 @@ namespace IPCAUI.DataSets {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleting(e);
-                if ((this.ContraVoucherRowDeleting != null)) {
-                    this.ContraVoucherRowDeleting(this, new ContraVoucherRowChangeEvent(((ContraVoucherRow)(e.Row)), e.Action));
+                if ((this.DebitDtRowDeleting != null)) {
+                    this.DebitDtRowDeleting(this, new DebitDtRowChangeEvent(((DebitDtRow)(e.Row)), e.Action));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void RemoveContraVoucherRow(ContraVoucherRow row) {
+            public void RemoveDebitDtRow(DebitDtRow row) {
                 this.Rows.Remove(row);
             }
             
@@ -532,7 +516,7 @@ namespace IPCAUI.DataSets {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                ContraVoucher ds = new ContraVoucher();
+                DebitDs ds = new DebitDs();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -550,7 +534,7 @@ namespace IPCAUI.DataSets {
                 type.Attributes.Add(attribute1);
                 global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
                 attribute2.Name = "tableTypeName";
-                attribute2.FixedValue = "ContraVoucherDataTable";
+                attribute2.FixedValue = "DebitDtDataTable";
                 type.Attributes.Add(attribute2);
                 type.Particle = sequence;
                 global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
@@ -594,31 +578,15 @@ namespace IPCAUI.DataSets {
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
-        public partial class ContraVoucherRow : global::System.Data.DataRow {
+        public partial class DebitDtRow : global::System.Data.DataRow {
             
-            private ContraVoucherDataTable tableContraVoucher;
+            private DebitDtDataTable tableDebitDt;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            internal ContraVoucherRow(global::System.Data.DataRowBuilder rb) : 
+            internal DebitDtRow(global::System.Data.DataRowBuilder rb) : 
                     base(rb) {
-                this.tableContraVoucher = ((ContraVoucherDataTable)(this.Table));
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string SNo {
-                get {
-                    try {
-                        return ((string)(this[this.tableContraVoucher.SNoColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'SNo\' in table \'ContraVoucher\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableContraVoucher.SNoColumn] = value;
-                }
+                this.tableDebitDt = ((DebitDtDataTable)(this.Table));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -626,14 +594,14 @@ namespace IPCAUI.DataSets {
             public string DC {
                 get {
                     try {
-                        return ((string)(this[this.tableContraVoucher.DCColumn]));
+                        return ((string)(this[this.tableDebitDt.DCColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'DC\' in table \'ContraVoucher\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'DC\' in table \'DebitDt\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableContraVoucher.DCColumn] = value;
+                    this[this.tableDebitDt.DCColumn] = value;
                 }
             }
             
@@ -642,14 +610,14 @@ namespace IPCAUI.DataSets {
             public string Account {
                 get {
                     try {
-                        return ((string)(this[this.tableContraVoucher.AccountColumn]));
+                        return ((string)(this[this.tableDebitDt.AccountColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Account\' in table \'ContraVoucher\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Account\' in table \'DebitDt\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableContraVoucher.AccountColumn] = value;
+                    this[this.tableDebitDt.AccountColumn] = value;
                 }
             }
             
@@ -658,14 +626,14 @@ namespace IPCAUI.DataSets {
             public string Debit {
                 get {
                     try {
-                        return ((string)(this[this.tableContraVoucher.DebitColumn]));
+                        return ((string)(this[this.tableDebitDt.DebitColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Debit\' in table \'ContraVoucher\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Debit\' in table \'DebitDt\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableContraVoucher.DebitColumn] = value;
+                    this[this.tableDebitDt.DebitColumn] = value;
                 }
             }
             
@@ -674,103 +642,91 @@ namespace IPCAUI.DataSets {
             public string Credit {
                 get {
                     try {
-                        return ((string)(this[this.tableContraVoucher.CreditColumn]));
+                        return ((string)(this[this.tableDebitDt.CreditColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Credit\' in table \'ContraVoucher\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Credit\' in table \'DebitDt\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableContraVoucher.CreditColumn] = value;
+                    this[this.tableDebitDt.CreditColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string ShortNarration {
+            public string Narration {
                 get {
                     try {
-                        return ((string)(this[this.tableContraVoucher.ShortNarrationColumn]));
+                        return ((string)(this[this.tableDebitDt.NarrationColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'ShortNarration\' in table \'ContraVoucher\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Narration\' in table \'DebitDt\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableContraVoucher.ShortNarrationColumn] = value;
+                    this[this.tableDebitDt.NarrationColumn] = value;
                 }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsSNoNull() {
-                return this.IsNull(this.tableContraVoucher.SNoColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetSNoNull() {
-                this[this.tableContraVoucher.SNoColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsDCNull() {
-                return this.IsNull(this.tableContraVoucher.DCColumn);
+                return this.IsNull(this.tableDebitDt.DCColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetDCNull() {
-                this[this.tableContraVoucher.DCColumn] = global::System.Convert.DBNull;
+                this[this.tableDebitDt.DCColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsAccountNull() {
-                return this.IsNull(this.tableContraVoucher.AccountColumn);
+                return this.IsNull(this.tableDebitDt.AccountColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetAccountNull() {
-                this[this.tableContraVoucher.AccountColumn] = global::System.Convert.DBNull;
+                this[this.tableDebitDt.AccountColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsDebitNull() {
-                return this.IsNull(this.tableContraVoucher.DebitColumn);
+                return this.IsNull(this.tableDebitDt.DebitColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetDebitNull() {
-                this[this.tableContraVoucher.DebitColumn] = global::System.Convert.DBNull;
+                this[this.tableDebitDt.DebitColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsCreditNull() {
-                return this.IsNull(this.tableContraVoucher.CreditColumn);
+                return this.IsNull(this.tableDebitDt.CreditColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetCreditNull() {
-                this[this.tableContraVoucher.CreditColumn] = global::System.Convert.DBNull;
+                this[this.tableDebitDt.CreditColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsShortNarrationNull() {
-                return this.IsNull(this.tableContraVoucher.ShortNarrationColumn);
+            public bool IsNarrationNull() {
+                return this.IsNull(this.tableDebitDt.NarrationColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetShortNarrationNull() {
-                this[this.tableContraVoucher.ShortNarrationColumn] = global::System.Convert.DBNull;
+            public void SetNarrationNull() {
+                this[this.tableDebitDt.NarrationColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -778,22 +734,22 @@ namespace IPCAUI.DataSets {
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public class ContraVoucherRowChangeEvent : global::System.EventArgs {
+        public class DebitDtRowChangeEvent : global::System.EventArgs {
             
-            private ContraVoucherRow eventRow;
+            private DebitDtRow eventRow;
             
             private global::System.Data.DataRowAction eventAction;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public ContraVoucherRowChangeEvent(ContraVoucherRow row, global::System.Data.DataRowAction action) {
+            public DebitDtRowChangeEvent(DebitDtRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public ContraVoucherRow Row {
+            public DebitDtRow Row {
                 get {
                     return this.eventRow;
                 }

@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BalanceSheet));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            this.textEdit15 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit14 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit13 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit12 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit11 = new DevExpress.XtraEditors.TextEdit();
@@ -65,13 +67,13 @@
             this.PLShowAccountDetails = new DevExpress.XtraLayout.LayoutControlItem();
             this.PLShowPrevYear = new DevExpress.XtraLayout.LayoutControlItem();
             this.PLShowSummary = new DevExpress.XtraLayout.LayoutControlItem();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit14 = new DevExpress.XtraEditors.TextEdit();
             this.ShowZeroBalanceMaster = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textEdit15 = new DevExpress.XtraEditors.TextEdit();
             this.FormatforPrinting = new DevExpress.XtraLayout.LayoutControlItem();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit15.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit14.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).BeginInit();
@@ -105,9 +107,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PLShowAccountDetails)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PLShowPrevYear)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PLShowSummary)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit14.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowZeroBalanceMaster)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit15.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FormatforPrinting)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,6 +140,22 @@
             this.layoutControl1.Size = new System.Drawing.Size(470, 361);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
+            // 
+            // textEdit15
+            // 
+            this.textEdit15.Location = new System.Drawing.Point(249, 32);
+            this.textEdit15.Name = "textEdit15";
+            this.textEdit15.Size = new System.Drawing.Size(192, 20);
+            this.textEdit15.StyleController = this.layoutControl1;
+            this.textEdit15.TabIndex = 25;
+            // 
+            // textEdit14
+            // 
+            this.textEdit14.Location = new System.Drawing.Point(249, 176);
+            this.textEdit14.Name = "textEdit14";
+            this.textEdit14.Size = new System.Drawing.Size(192, 20);
+            this.textEdit14.StyleController = this.layoutControl1;
+            this.textEdit14.TabIndex = 24;
             // 
             // textEdit13
             // 
@@ -481,25 +497,6 @@
             this.PLShowSummary.TextSize = new System.Drawing.Size(234, 13);
             this.PLShowSummary.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             // 
-            // labelControl1
-            // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.LineVisible = true;
-            this.labelControl1.Location = new System.Drawing.Point(12, 12);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(92, 16);
-            this.labelControl1.TabIndex = 12;
-            this.labelControl1.Text = "Balance Sheet";
-            // 
-            // textEdit14
-            // 
-            this.textEdit14.Location = new System.Drawing.Point(249, 176);
-            this.textEdit14.Name = "textEdit14";
-            this.textEdit14.Size = new System.Drawing.Size(192, 20);
-            this.textEdit14.StyleController = this.layoutControl1;
-            this.textEdit14.TabIndex = 24;
-            // 
             // ShowZeroBalanceMaster
             // 
             this.ShowZeroBalanceMaster.Control = this.textEdit14;
@@ -510,14 +507,6 @@
             this.ShowZeroBalanceMaster.TextSize = new System.Drawing.Size(234, 13);
             this.ShowZeroBalanceMaster.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             // 
-            // textEdit15
-            // 
-            this.textEdit15.Location = new System.Drawing.Point(249, 32);
-            this.textEdit15.Name = "textEdit15";
-            this.textEdit15.Size = new System.Drawing.Size(192, 20);
-            this.textEdit15.StyleController = this.layoutControl1;
-            this.textEdit15.TabIndex = 25;
-            // 
             // FormatforPrinting
             // 
             this.FormatforPrinting.Control = this.textEdit15;
@@ -527,6 +516,17 @@
             this.FormatforPrinting.Text = "Format for Printing";
             this.FormatforPrinting.TextSize = new System.Drawing.Size(234, 13);
             this.FormatforPrinting.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.labelControl1.Appearance.Options.UseFont = true;
+            this.labelControl1.LineVisible = true;
+            this.labelControl1.Location = new System.Drawing.Point(12, 12);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(92, 16);
+            this.labelControl1.TabIndex = 12;
+            this.labelControl1.Text = "Balance Sheet";
             // 
             // BalanceSheet
             // 
@@ -540,6 +540,8 @@
             this.Load += new System.EventHandler(this.BalanceSheet_Load);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit15.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit14.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).EndInit();
@@ -573,9 +575,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PLShowAccountDetails)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PLShowPrevYear)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PLShowSummary)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit14.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowZeroBalanceMaster)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit15.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.FormatforPrinting)).EndInit();
             this.ResumeLayout(false);
 

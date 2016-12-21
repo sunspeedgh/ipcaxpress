@@ -30,6 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrailBalance));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            this.textEdit22 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit21 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit20 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit19 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit18 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit17 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit16 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit15 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit14 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit11 = new DevExpress.XtraEditors.TextEdit();
@@ -37,6 +44,7 @@
             this.textEdit9 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -44,6 +52,7 @@
             this.EndingDt = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem3 = new DevExpress.XtraLayout.EmptySpaceItem();
+            this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem5 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem6 = new DevExpress.XtraLayout.EmptySpaceItem();
@@ -53,25 +62,23 @@
             this.MastertobePicked = new DevExpress.XtraLayout.LayoutControlItem();
             this.SplitCrDrOpeningclosingBal = new DevExpress.XtraLayout.LayoutControlItem();
             this.FormatforPrinting = new DevExpress.XtraLayout.LayoutControlItem();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit16 = new DevExpress.XtraEditors.TextEdit();
             this.ReportDate = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textEdit17 = new DevExpress.XtraEditors.TextEdit();
             this.ShowAccount = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textEdit18 = new DevExpress.XtraEditors.TextEdit();
             this.ShowGroupName = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textEdit19 = new DevExpress.XtraEditors.TextEdit();
             this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textEdit20 = new DevExpress.XtraEditors.TextEdit();
             this.ShowSubGroupBalances = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textEdit21 = new DevExpress.XtraEditors.TextEdit();
             this.Showzerobalancegroups = new DevExpress.XtraLayout.LayoutControlItem();
-            this.textEdit22 = new DevExpress.XtraEditors.TextEdit();
             this.ShowBalancesatAccountLevel = new DevExpress.XtraLayout.LayoutControlItem();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit22.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit21.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit20.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit19.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit18.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit17.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit16.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit15.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit14.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).BeginInit();
@@ -85,6 +92,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.EndingDt)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem6)).BeginInit();
@@ -94,21 +102,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.MastertobePicked)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SplitCrDrOpeningclosingBal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FormatforPrinting)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit16.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ReportDate)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit17.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowAccount)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit18.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowGroupName)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit19.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit20.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowSubGroupBalances)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit21.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Showzerobalancegroups)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit22.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowBalancesatAccountLevel)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
@@ -140,6 +140,62 @@
             this.layoutControl1.Size = new System.Drawing.Size(469, 416);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
+            // 
+            // textEdit22
+            // 
+            this.textEdit22.Location = new System.Drawing.Point(203, 200);
+            this.textEdit22.Name = "textEdit22";
+            this.textEdit22.Size = new System.Drawing.Size(254, 20);
+            this.textEdit22.StyleController = this.layoutControl1;
+            this.textEdit22.TabIndex = 32;
+            // 
+            // textEdit21
+            // 
+            this.textEdit21.Location = new System.Drawing.Point(203, 152);
+            this.textEdit21.Name = "textEdit21";
+            this.textEdit21.Size = new System.Drawing.Size(254, 20);
+            this.textEdit21.StyleController = this.layoutControl1;
+            this.textEdit21.TabIndex = 31;
+            // 
+            // textEdit20
+            // 
+            this.textEdit20.Location = new System.Drawing.Point(203, 224);
+            this.textEdit20.Name = "textEdit20";
+            this.textEdit20.Size = new System.Drawing.Size(254, 20);
+            this.textEdit20.StyleController = this.layoutControl1;
+            this.textEdit20.TabIndex = 30;
+            // 
+            // textEdit19
+            // 
+            this.textEdit19.Location = new System.Drawing.Point(203, 80);
+            this.textEdit19.Name = "textEdit19";
+            this.textEdit19.Size = new System.Drawing.Size(254, 20);
+            this.textEdit19.StyleController = this.layoutControl1;
+            this.textEdit19.TabIndex = 29;
+            // 
+            // textEdit18
+            // 
+            this.textEdit18.Location = new System.Drawing.Point(203, 56);
+            this.textEdit18.Name = "textEdit18";
+            this.textEdit18.Size = new System.Drawing.Size(254, 20);
+            this.textEdit18.StyleController = this.layoutControl1;
+            this.textEdit18.TabIndex = 28;
+            // 
+            // textEdit17
+            // 
+            this.textEdit17.Location = new System.Drawing.Point(203, 128);
+            this.textEdit17.Name = "textEdit17";
+            this.textEdit17.Size = new System.Drawing.Size(254, 20);
+            this.textEdit17.StyleController = this.layoutControl1;
+            this.textEdit17.TabIndex = 27;
+            // 
+            // textEdit16
+            // 
+            this.textEdit16.Location = new System.Drawing.Point(203, 104);
+            this.textEdit16.Name = "textEdit16";
+            this.textEdit16.Size = new System.Drawing.Size(254, 20);
+            this.textEdit16.StyleController = this.layoutControl1;
+            this.textEdit16.TabIndex = 26;
             // 
             // textEdit15
             // 
@@ -199,6 +255,17 @@
             this.labelControl2.StyleController = this.layoutControl1;
             this.labelControl2.TabIndex = 13;
             this.labelControl2.Text = "Trail Balance";
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.Image")));
+            this.simpleButton1.Location = new System.Drawing.Point(204, 368);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(67, 22);
+            this.simpleButton1.StyleController = this.layoutControl1;
+            this.simpleButton1.TabIndex = 12;
+            this.simpleButton1.Text = "OK";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // textEdit2
             // 
@@ -285,6 +352,15 @@
             this.emptySpaceItem3.Size = new System.Drawing.Size(192, 40);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
+            // layoutControlItem9
+            // 
+            this.layoutControlItem9.Control = this.simpleButton1;
+            this.layoutControlItem9.Location = new System.Drawing.Point(192, 356);
+            this.layoutControlItem9.Name = "layoutControlItem9";
+            this.layoutControlItem9.Size = new System.Drawing.Size(71, 40);
+            this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem9.TextVisible = false;
+            // 
             // layoutControlItem10
             // 
             this.layoutControlItem10.Control = this.labelControl2;
@@ -370,25 +446,6 @@
             this.FormatforPrinting.TextSize = new System.Drawing.Size(188, 13);
             this.FormatforPrinting.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             // 
-            // labelControl1
-            // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.LineVisible = true;
-            this.labelControl1.Location = new System.Drawing.Point(12, 12);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(92, 16);
-            this.labelControl1.TabIndex = 12;
-            this.labelControl1.Text = "Balance Sheet";
-            // 
-            // textEdit16
-            // 
-            this.textEdit16.Location = new System.Drawing.Point(203, 104);
-            this.textEdit16.Name = "textEdit16";
-            this.textEdit16.Size = new System.Drawing.Size(254, 20);
-            this.textEdit16.StyleController = this.layoutControl1;
-            this.textEdit16.TabIndex = 26;
-            // 
             // ReportDate
             // 
             this.ReportDate.Control = this.textEdit16;
@@ -398,14 +455,6 @@
             this.ReportDate.Text = "Report Date";
             this.ReportDate.TextSize = new System.Drawing.Size(188, 13);
             this.ReportDate.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
-            // 
-            // textEdit17
-            // 
-            this.textEdit17.Location = new System.Drawing.Point(203, 128);
-            this.textEdit17.Name = "textEdit17";
-            this.textEdit17.Size = new System.Drawing.Size(254, 20);
-            this.textEdit17.StyleController = this.layoutControl1;
-            this.textEdit17.TabIndex = 27;
             // 
             // ShowAccount
             // 
@@ -417,14 +466,6 @@
             this.ShowAccount.TextSize = new System.Drawing.Size(188, 13);
             this.ShowAccount.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             // 
-            // textEdit18
-            // 
-            this.textEdit18.Location = new System.Drawing.Point(203, 56);
-            this.textEdit18.Name = "textEdit18";
-            this.textEdit18.Size = new System.Drawing.Size(254, 20);
-            this.textEdit18.StyleController = this.layoutControl1;
-            this.textEdit18.TabIndex = 28;
-            // 
             // ShowGroupName
             // 
             this.ShowGroupName.Control = this.textEdit18;
@@ -434,14 +475,6 @@
             this.ShowGroupName.Text = "Group Name";
             this.ShowGroupName.TextSize = new System.Drawing.Size(188, 13);
             this.ShowGroupName.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
-            // 
-            // textEdit19
-            // 
-            this.textEdit19.Location = new System.Drawing.Point(203, 80);
-            this.textEdit19.Name = "textEdit19";
-            this.textEdit19.Size = new System.Drawing.Size(254, 20);
-            this.textEdit19.StyleController = this.layoutControl1;
-            this.textEdit19.TabIndex = 29;
             // 
             // layoutControlItem5
             // 
@@ -453,14 +486,6 @@
             this.layoutControlItem5.TextSize = new System.Drawing.Size(188, 13);
             this.layoutControlItem5.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             // 
-            // textEdit20
-            // 
-            this.textEdit20.Location = new System.Drawing.Point(203, 224);
-            this.textEdit20.Name = "textEdit20";
-            this.textEdit20.Size = new System.Drawing.Size(254, 20);
-            this.textEdit20.StyleController = this.layoutControl1;
-            this.textEdit20.TabIndex = 30;
-            // 
             // ShowSubGroupBalances
             // 
             this.ShowSubGroupBalances.Control = this.textEdit20;
@@ -470,14 +495,6 @@
             this.ShowSubGroupBalances.Text = "Show Sub Group Balances?";
             this.ShowSubGroupBalances.TextSize = new System.Drawing.Size(188, 13);
             this.ShowSubGroupBalances.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
-            // 
-            // textEdit21
-            // 
-            this.textEdit21.Location = new System.Drawing.Point(203, 152);
-            this.textEdit21.Name = "textEdit21";
-            this.textEdit21.Size = new System.Drawing.Size(254, 20);
-            this.textEdit21.StyleController = this.layoutControl1;
-            this.textEdit21.TabIndex = 31;
             // 
             // Showzerobalancegroups
             // 
@@ -489,14 +506,6 @@
             this.Showzerobalancegroups.TextSize = new System.Drawing.Size(188, 13);
             this.Showzerobalancegroups.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             // 
-            // textEdit22
-            // 
-            this.textEdit22.Location = new System.Drawing.Point(203, 200);
-            this.textEdit22.Name = "textEdit22";
-            this.textEdit22.Size = new System.Drawing.Size(254, 20);
-            this.textEdit22.StyleController = this.layoutControl1;
-            this.textEdit22.TabIndex = 32;
-            // 
             // ShowBalancesatAccountLevel
             // 
             this.ShowBalancesatAccountLevel.Control = this.textEdit22;
@@ -507,25 +516,16 @@
             this.ShowBalancesatAccountLevel.TextSize = new System.Drawing.Size(188, 13);
             this.ShowBalancesatAccountLevel.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             // 
-            // simpleButton1
+            // labelControl1
             // 
-            this.simpleButton1.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(204, 368);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(67, 22);
-            this.simpleButton1.StyleController = this.layoutControl1;
-            this.simpleButton1.TabIndex = 12;
-            this.simpleButton1.Text = "OK";
-            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
-            // 
-            // layoutControlItem9
-            // 
-            this.layoutControlItem9.Control = this.simpleButton1;
-            this.layoutControlItem9.Location = new System.Drawing.Point(192, 356);
-            this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(71, 40);
-            this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem9.TextVisible = false;
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.labelControl1.Appearance.Options.UseFont = true;
+            this.labelControl1.LineVisible = true;
+            this.labelControl1.Location = new System.Drawing.Point(12, 12);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(92, 16);
+            this.labelControl1.TabIndex = 12;
+            this.labelControl1.Text = "Balance Sheet";
             // 
             // TrailBalance
             // 
@@ -539,7 +539,13 @@
             this.Load += new System.EventHandler(this.TrailBalance_Load);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
-            this.layoutControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit22.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit21.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit20.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit19.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit18.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit17.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit16.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit15.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit14.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).EndInit();
@@ -553,6 +559,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.EndingDt)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem6)).EndInit();
@@ -562,21 +569,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.MastertobePicked)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SplitCrDrOpeningclosingBal)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.FormatforPrinting)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit16.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ReportDate)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit17.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowAccount)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit18.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowGroupName)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit19.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit20.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowSubGroupBalances)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit21.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Showzerobalancegroups)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit22.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShowBalancesatAccountLevel)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
             this.ResumeLayout(false);
 
         }
