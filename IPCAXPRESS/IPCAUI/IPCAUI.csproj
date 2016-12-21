@@ -723,6 +723,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>PurchaseList.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\ReceiptDs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReceiptDs.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSets\ReferencegroupList.cs">
       <DependentUpon>ReferencegroupList.xsd</DependentUpon>
     </Compile>
@@ -4568,6 +4573,17 @@
     </None>
     <None Include="DataSets\PurchaseList.xss">
       <DependentUpon>PurchaseList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ReceiptDs.xsc">
+      <DependentUpon>ReceiptDs.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ReceiptDs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReceiptDs.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ReceiptDs.xss">
+      <DependentUpon>ReceiptDs.xsd</DependentUpon>
     </None>
     <None Include="DataSets\ReferencegroupList.xsc">
       <DependentUpon>ReferencegroupList.xsd</DependentUpon>
