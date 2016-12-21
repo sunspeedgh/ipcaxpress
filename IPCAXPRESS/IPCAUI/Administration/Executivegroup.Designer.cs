@@ -82,7 +82,7 @@
             this.tbxAddress2 = new DevExpress.XtraEditors.TextEdit();
             this.tbxAddress1 = new DevExpress.XtraEditors.TextEdit();
             this.tbxAddress = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.tbxhandlecalltype = new DevExpress.XtraEditors.TextEdit();
             this.tbxPrintname = new DevExpress.XtraEditors.TextEdit();
             this.btnQuit = new DevExpress.XtraEditors.SimpleButton();
             this.btnSave = new DevExpress.XtraEditors.SimpleButton();
@@ -126,7 +126,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.tbxAddress2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxAddress1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxAddress.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxhandlecalltype.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxPrintname.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxAliasname.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxName.Properties)).BeginInit();
@@ -169,7 +169,7 @@
             this.layoutControl1.Controls.Add(this.tbxAddress2);
             this.layoutControl1.Controls.Add(this.tbxAddress1);
             this.layoutControl1.Controls.Add(this.tbxAddress);
-            this.layoutControl1.Controls.Add(this.textEdit1);
+            this.layoutControl1.Controls.Add(this.tbxhandlecalltype);
             this.layoutControl1.Controls.Add(this.tbxPrintname);
             this.layoutControl1.Controls.Add(this.btnQuit);
             this.layoutControl1.Controls.Add(this.btnSave);
@@ -550,6 +550,7 @@
             // 
             // tbxEmail
             // 
+            this.tbxEmail.EnterMoveNextControl = true;
             this.tbxEmail.Location = new System.Drawing.Point(235, 294);
             this.tbxEmail.Name = "tbxEmail";
             this.tbxEmail.Size = new System.Drawing.Size(334, 20);
@@ -558,6 +559,7 @@
             // 
             // tbxMobileno
             // 
+            this.tbxMobileno.EnterMoveNextControl = true;
             this.tbxMobileno.Location = new System.Drawing.Point(235, 270);
             this.tbxMobileno.Name = "tbxMobileno";
             this.tbxMobileno.Size = new System.Drawing.Size(334, 20);
@@ -566,6 +568,7 @@
             // 
             // tbxTelnumber
             // 
+            this.tbxTelnumber.EnterMoveNextControl = true;
             this.tbxTelnumber.Location = new System.Drawing.Point(235, 246);
             this.tbxTelnumber.Name = "tbxTelnumber";
             this.tbxTelnumber.Size = new System.Drawing.Size(334, 20);
@@ -574,6 +577,7 @@
             // 
             // tbxAddress3
             // 
+            this.tbxAddress3.EnterMoveNextControl = true;
             this.tbxAddress3.Location = new System.Drawing.Point(235, 222);
             this.tbxAddress3.Name = "tbxAddress3";
             this.tbxAddress3.Size = new System.Drawing.Size(334, 20);
@@ -582,6 +586,7 @@
             // 
             // tbxAddress2
             // 
+            this.tbxAddress2.EnterMoveNextControl = true;
             this.tbxAddress2.Location = new System.Drawing.Point(235, 198);
             this.tbxAddress2.Name = "tbxAddress2";
             this.tbxAddress2.Size = new System.Drawing.Size(334, 20);
@@ -590,6 +595,7 @@
             // 
             // tbxAddress1
             // 
+            this.tbxAddress1.EnterMoveNextControl = true;
             this.tbxAddress1.Location = new System.Drawing.Point(235, 174);
             this.tbxAddress1.Name = "tbxAddress1";
             this.tbxAddress1.Size = new System.Drawing.Size(334, 20);
@@ -598,22 +604,25 @@
             // 
             // tbxAddress
             // 
+            this.tbxAddress.EnterMoveNextControl = true;
             this.tbxAddress.Location = new System.Drawing.Point(235, 150);
             this.tbxAddress.Name = "tbxAddress";
             this.tbxAddress.Size = new System.Drawing.Size(334, 20);
             this.tbxAddress.StyleController = this.layoutControl1;
             this.tbxAddress.TabIndex = 15;
             // 
-            // textEdit1
+            // tbxhandlecalltype
             // 
-            this.textEdit1.Location = new System.Drawing.Point(235, 102);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(334, 20);
-            this.textEdit1.StyleController = this.layoutControl1;
-            this.textEdit1.TabIndex = 13;
+            this.tbxhandlecalltype.EnterMoveNextControl = true;
+            this.tbxhandlecalltype.Location = new System.Drawing.Point(235, 102);
+            this.tbxhandlecalltype.Name = "tbxhandlecalltype";
+            this.tbxhandlecalltype.Size = new System.Drawing.Size(334, 20);
+            this.tbxhandlecalltype.StyleController = this.layoutControl1;
+            this.tbxhandlecalltype.TabIndex = 13;
             // 
             // tbxPrintname
             // 
+            this.tbxPrintname.EnterMoveNextControl = true;
             this.tbxPrintname.Location = new System.Drawing.Point(235, 78);
             this.tbxPrintname.Name = "tbxPrintname";
             this.tbxPrintname.Size = new System.Drawing.Size(334, 20);
@@ -640,9 +649,11 @@
             this.btnSave.TabIndex = 10;
             this.btnSave.Text = "Save";
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            this.btnSave.Enter += new System.EventHandler(this.btnSave_Click);
             // 
             // tbxAliasname
             // 
+            this.tbxAliasname.EnterMoveNextControl = true;
             this.tbxAliasname.Location = new System.Drawing.Point(235, 54);
             this.tbxAliasname.Name = "tbxAliasname";
             this.tbxAliasname.Size = new System.Drawing.Size(334, 20);
@@ -651,11 +662,14 @@
             // 
             // tbxName
             // 
+            this.tbxName.EnterMoveNextControl = true;
             this.tbxName.Location = new System.Drawing.Point(235, 30);
             this.tbxName.Name = "tbxName";
             this.tbxName.Size = new System.Drawing.Size(334, 20);
             this.tbxName.StyleController = this.layoutControl1;
             this.tbxName.TabIndex = 5;
+            this.tbxName.EditValueChanged += new System.EventHandler(this.AD);
+            this.tbxName.Enter += new System.EventHandler(this.SJKS);
             // 
             // labelControl1
             // 
@@ -685,6 +699,7 @@
             // 
             // cbxArea
             // 
+            this.cbxArea.EnterMoveNextControl = true;
             this.cbxArea.Location = new System.Drawing.Point(235, 126);
             this.cbxArea.Name = "cbxArea";
             this.cbxArea.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -836,7 +851,7 @@
             // 
             // layoutControlItem5
             // 
-            this.layoutControlItem5.Control = this.textEdit1;
+            this.layoutControlItem5.Control = this.tbxhandlecalltype;
             this.layoutControlItem5.Location = new System.Drawing.Point(135, 90);
             this.layoutControlItem5.Name = "layoutControlItem5";
             this.layoutControlItem5.Size = new System.Drawing.Size(426, 24);
@@ -944,7 +959,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.tbxAddress2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxAddress1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxAddress.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxhandlecalltype.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxPrintname.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxAliasname.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbxName.Properties)).EndInit();
@@ -1002,7 +1017,7 @@
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem5;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem6;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem7;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.TextEdit tbxhandlecalltype;
         private DevExpress.XtraEditors.TextEdit tbxPrintname;
         private DevExpress.XtraEditors.ComboBoxEdit cbxArea;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem4;

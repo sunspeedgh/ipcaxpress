@@ -20,6 +20,8 @@ namespace IPCAUI.Administration
             InitializeComponent();
         }
 
+        public bool isSuccess { get; private set; }
+
         private void btnQuit_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -47,35 +49,40 @@ namespace IPCAUI.Administration
             
            
 
-            eSunSpeedDomain.ExecutiveModel objexe = new ExecutiveModel();
+            eSunSpeedDomain.ExecutiveModel objexemod = new ExecutiveModel();
+            objexemod.Name = tbxName.Text;
 
-            //objexe.Name = tbxName.Text;
-            
+            //   objexe.Primary = cbxPrimarygroup.SelectedItem.ToString();
+
+            objexemod.Alias = tbxAliasname.Text;
+            objexemod.PrintName = tbxPrintname.Text;
+            objexemod.Address = tbxAddress.Text;
+            objexemod.Address1 = tbxAddress1.Text;
+            objexemod.Address2 = tbxAddress2.Text;
+            objexemod.Address3 = tbxAddress3.Text;
+            objexemod.TelephoneNumber = tbxTelnumber.Text;
+            objexemod.MobileNumber = Convert.ToInt32(tbxMobileno.Text.Trim());
+            objexemod.HandlescallType = tbxhandlecalltype.Text;
+            objexemod.CreatedBy = "Admin";
+
+            string message = string.Empty;
+                       
+            bool issuccess = objexe.SaveExeGroup(objexemod);
+            if (isSuccess)
+            {
+                MessageBox.Show("Saved Successfully!");
+            }
            
 
-            //objContGroup.AliasName = tbxAliasname.Text;
+        }
 
+        private void SJKS(object sender, EventArgs e)
+        {
 
+        }
 
-            //objContGroup.Primary = cbxPrimarygroup.SelectedItem.ToString();
-
-            //objContGroup.UnderGroup = cbxUndergroup.SelectedItem.ToString();
-
-            //objContGroup.CreatedBy = "Admin";
-
-            //string message = string.Empty;
-
-            //bool isSuccess = objcont.SaveContactGroup(objContGroup);
-            //if (isSuccess)
-            //{
-            //    MessageBox.Show("Saved Successfully!");
-            //}
-            //List<eSunSpeedDomain.AccountGroupModel> lstGroups = accObj.GetListofAccountsGroups();
-            //dgvList.DataSource = lstGroups;
-
-            //Dialogs.PopUPDialog d = new Dialogs.PopUPDialog("Saved Successfully!");
-            //d.ShowDialog();
-
+        private void AD(object sender, EventArgs e)
+        {
 
         }
 

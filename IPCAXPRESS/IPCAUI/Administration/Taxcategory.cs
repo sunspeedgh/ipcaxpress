@@ -17,12 +17,9 @@ namespace IPCAUI.Administration
             InitializeComponent();
         }
 
-        private void ListTaxcategory_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        private void btnSave_Click(object sender, EventArgs e)
         {
-            Administration.List.TaxcategoryList frmList = new Administration.List.TaxcategoryList();
-            frmList.StartPosition = FormStartPosition.CenterScreen;
 
-            frmList.ShowDialog();
         }
     }
 }

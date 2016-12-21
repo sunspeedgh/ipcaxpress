@@ -69,7 +69,7 @@
             this.navBarItem2 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem3 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarGroup5 = new DevExpress.XtraNavBar.NavBarGroup();
-            this.ListTdscategory = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem7 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem8 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem9 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem4 = new DevExpress.XtraNavBar.NavBarItem();
@@ -156,7 +156,7 @@
             // 
             // navBarControl1
             // 
-            this.navBarControl1.ActiveGroup = this.navBarGroup5;
+            this.navBarControl1.ActiveGroup = this.navBarGroup1;
             this.navBarControl1.Appearance.GroupHeader.BackColor = System.Drawing.Color.Lavender;
             this.navBarControl1.Appearance.GroupHeader.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             this.navBarControl1.Appearance.GroupHeader.Options.UseBackColor = true;
@@ -173,7 +173,7 @@
             this.navBarItem4,
             this.navBarItem5,
             this.navBarItem6,
-            this.ListTdscategory,
+            this.navBarItem7,
             this.navBarItem8,
             this.navBarItem9,
             this.navBarItem10,
@@ -219,6 +219,7 @@
             // navBarGroup1
             // 
             this.navBarGroup1.Caption = "Configurations";
+            this.navBarGroup1.Expanded = true;
             this.navBarGroup1.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem10),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem11),
@@ -468,20 +469,18 @@
             // navBarGroup5
             // 
             this.navBarGroup5.Caption = "Add/Modify";
-            this.navBarGroup5.Expanded = true;
             this.navBarGroup5.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.ListTdscategory),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem7),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem8),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem9)});
             this.navBarGroup5.Name = "navBarGroup5";
             this.navBarGroup5.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup5.SmallImage")));
             // 
-            // ListTdscategory
+            // navBarItem7
             // 
-            this.ListTdscategory.Caption = "List";
-            this.ListTdscategory.Name = "ListTdscategory";
-            this.ListTdscategory.SmallImage = ((System.Drawing.Image)(resources.GetObject("ListTdscategory.SmallImage")));
-            this.ListTdscategory.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ListTdscategory_LinkClicked);
+            this.navBarItem7.Caption = "List";
+            this.navBarItem7.Name = "navBarItem7";
+            this.navBarItem7.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem7.SmallImage")));
             // 
             // navBarItem8
             // 
@@ -532,7 +531,7 @@
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(404, 78);
+            this.labelControl3.Location = new System.Drawing.Point(436, 78);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(68, 14);
             this.labelControl3.StyleController = this.layoutControl1;
@@ -558,6 +557,7 @@
             this.btnSave.StyleController = this.layoutControl1;
             this.btnSave.TabIndex = 10;
             this.btnSave.Text = "Save";
+          //  this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // tbxSelectcode
             // 
@@ -730,7 +730,7 @@
             // layoutControlItem22
             // 
             this.layoutControlItem22.Control = this.labelControl3;
-            this.layoutControlItem22.Location = new System.Drawing.Point(392, 66);
+            this.layoutControlItem22.Location = new System.Drawing.Point(424, 66);
             this.layoutControlItem22.Name = "layoutControlItem22";
             this.layoutControlItem22.Size = new System.Drawing.Size(72, 18);
             this.layoutControlItem22.TextSize = new System.Drawing.Size(0, 0);
@@ -741,15 +741,15 @@
             this.emptySpaceItem9.AllowHotTrack = false;
             this.emptySpaceItem9.Location = new System.Drawing.Point(129, 66);
             this.emptySpaceItem9.Name = "emptySpaceItem9";
-            this.emptySpaceItem9.Size = new System.Drawing.Size(263, 18);
+            this.emptySpaceItem9.Size = new System.Drawing.Size(295, 18);
             this.emptySpaceItem9.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem10
             // 
             this.emptySpaceItem10.AllowHotTrack = false;
-            this.emptySpaceItem10.Location = new System.Drawing.Point(464, 66);
+            this.emptySpaceItem10.Location = new System.Drawing.Point(496, 66);
             this.emptySpaceItem10.Name = "emptySpaceItem10";
-            this.emptySpaceItem10.Size = new System.Drawing.Size(308, 18);
+            this.emptySpaceItem10.Size = new System.Drawing.Size(276, 18);
             this.emptySpaceItem10.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem23
@@ -880,7 +880,7 @@
         private DevExpress.XtraNavBar.NavBarItem navBarItem2;
         private DevExpress.XtraNavBar.NavBarItem navBarItem3;
         private DevExpress.XtraNavBar.NavBarGroup navBarGroup5;
-        private DevExpress.XtraNavBar.NavBarItem ListTdscategory;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem7;
         private DevExpress.XtraNavBar.NavBarItem navBarItem8;
         private DevExpress.XtraNavBar.NavBarItem navBarItem9;
         private DevExpress.XtraNavBar.NavBarItem navBarItem4;

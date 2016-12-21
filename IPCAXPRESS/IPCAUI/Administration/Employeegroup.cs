@@ -20,12 +20,9 @@ namespace IPCAUI.Administration
             InitializeComponent();
         }
 
-        private void ListEmployeegrp_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        private void btnSave_Click(object sender, EventArgs e)
         {
-            Administration.List.EmployeegrpList frmList = new Administration.List.EmployeegrpList();
-            frmList.StartPosition = FormStartPosition.CenterScreen;
 
-            frmList.ShowDialog();
         }
 
         private void btnSave_Click(object sender, EventArgs e)

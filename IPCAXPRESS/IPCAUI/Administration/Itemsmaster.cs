@@ -17,12 +17,9 @@ namespace IPCAUI.Administration
             InitializeComponent();
         }
 
-        private void ListItemmaster_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        private void btnSave_Click(object sender, EventArgs e)
         {
-            Administration.List.ItemmasterList frmList = new Administration.List.ItemmasterList();
-            frmList.StartPosition = FormStartPosition.CenterScreen;
 
-            frmList.ShowDialog();
         }
     }
 }

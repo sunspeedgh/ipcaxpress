@@ -79,6 +79,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administration\Account.cs" />
     <Compile Include="Administration\Costcenterlist.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,12 +97,6 @@
     </Compile>
     <Compile Include="Administration\Accountlist.Designer.cs">
       <DependentUpon>Accountlist.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Administration\Billsundary.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Administration\Billsundary.Designer.cs">
-      <DependentUpon>Billsundary.cs</DependentUpon>
     </Compile>
     <Compile Include="Administration\Currencyconversion.cs">
       <SubType>Form</SubType>
@@ -432,12 +427,6 @@
     </Compile>
     <Compile Include="Administration\Author.Designer.cs">
       <DependentUpon>Author.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Administration\Account.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Administration\Account.Designer.cs">
-      <DependentUpon>Account.cs</DependentUpon>
     </Compile>
     <Compile Include="Administration\Salesman.cs">
       <SubType>Form</SubType>
@@ -2942,9 +2931,6 @@
     <EmbeddedResource Include="Administration\Accountlist.resx">
       <DependentUpon>Accountlist.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administration\Billsundary.resx">
-      <DependentUpon>Billsundary.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Administration\Currencyconversion.resx">
       <DependentUpon>Currencyconversion.cs</DependentUpon>
     </EmbeddedResource>
@@ -3109,9 +3095,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Administration\Author.resx">
       <DependentUpon>Author.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Administration\Account.resx">
-      <DependentUpon>Account.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Administration\Salesman.resx">
       <DependentUpon>Salesman.cs</DependentUpon>

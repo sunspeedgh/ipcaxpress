@@ -9,37 +9,62 @@ using System.Data;
 
 namespace eSunSpeed.BusinessLogic
 {
-    public class ExecutivegroupBL
+    public class ContactmasterBL
     {
         private DBHelper _dbHelper = new DBHelper();
 
-        #region Save Executive Group
+        #region Save Account Group
         /// <summary>
         /// Save Account Group
         /// </summary>
         /// <param name="objAccountGrp"></param>
         /// <returns>True/False</returns>
-        public bool SaveExeGroup(eSunSpeedDomain.ExecutiveModel objexe)
+        public bool Savecontactmaster(eSunSpeedDomain.ContactmasterModel objconmaster)
         {   
-            string Query = string.Empty;           
+            string Query = string.Empty;
+            int connectwithledger = 0;
+            int specifydob = 0;
+            int specifydateofanniversary = 0;
+
+            if (objconmaster.Connectwithledger)
+                connectwithledger = 1;
+
+            if (objconmaster.SpecifyDateofAnniversary)
+                specifydateofanniversary = 1;
+
+            if (objconmaster.SpecifyDateofBirth)
+                specifydob = 1;
+
 
             DBParameterCollection paramCollection = new DBParameterCollection();
-           paramCollection.Add(new DBParameter("@Name", objexe.Name));
-            paramCollection.Add(new DBParameter("@Alias", objexe.Alias));
-            paramCollection.Add(new DBParameter("@PrintName", objexe.PrintName));
-            paramCollection.Add(new DBParameter("@Handlescalltype", objexe.HandlescallType));
-            paramCollection.Add(new DBParameter("@Area",objexe.Area));
-            paramCollection.Add(new DBParameter("@Address", objexe.Address));
-            paramCollection.Add(new DBParameter("@Address1", objexe.Address1));
-            paramCollection.Add(new DBParameter("@Address2", objexe.Address2));
-            paramCollection.Add(new DBParameter("@Address3", objexe.Address3));
-            paramCollection.Add(new DBParameter("@TelephoneNo", objexe.TelephoneNumber));
-            paramCollection.Add(new DBParameter("@MobileNo", objexe.MobileNumber));
-           
+           paramCollection.Add(new DBParameter("@Name", objconmaster.Name));
+            paramCollection.Add(new DBParameter("@Alias", objconmaster.AliasName));
+            paramCollection.Add(new DBParameter("@PrintName", objconmaster.PrintName));
+            // paramCollection.Add(new DBParameter("@Primary", objconmaster.Primary));
+            paramCollection.Add(new DBParameter("@Connectwithledger", connectwithledger));
+            paramCollection.Add(new DBParameter("@Organisation", objconmaster.Organisation));
+            paramCollection.Add(new DBParameter("@MobileNo", objconmaster.MobileNo));
+            paramCollection.Add(new DBParameter("@Email", objconmaster.Email));
+            paramCollection.Add(new DBParameter("@TypeofTrade", objconmaster.TypeofTrade));
+            paramCollection.Add(new DBParameter("@Group", objconmaster.Group));
+            paramCollection.Add(new DBParameter("@Area", objconmaster.Area));
+            paramCollection.Add(new DBParameter("@Department", objconmaster.Department));
+            paramCollection.Add(new DBParameter("@SpecifyDateofBirth", specifydob));
+            paramCollection.Add(new DBParameter("@SpecifyDateofAnniversary", specifydateofanniversary));
+            paramCollection.Add(new DBParameter("@CreatedBy", objconmaster.CreatedBy));
+            paramCollection.Add(new DBParameter("@Address", objconmaster.Address));
+            paramCollection.Add(new DBParameter("@Address1", objconmaster.Address1));
+            paramCollection.Add(new DBParameter("@Address2", objconmaster.Address2));
+            paramCollection.Add(new DBParameter("@Address3", objconmaster.Address3));
+            paramCollection.Add(new DBParameter("@PhoneNo", objconmaster.PhoneNo));
+            paramCollection.Add(new DBParameter("@AFaxNo", objconmaster.FaxNo));
 
-                
-            Query = "INSERT INTO Executivegroup (`Name`,`Alias`,`PrintName`,`Handlescalltype`,`Area`,`Address`,`Address1`,`Address2`,`Address3`,`Telephone`,`MobileNo`)VALUES (@Name,@Alias,@PrintName,@Handlescalltype,@Area,@Address,@Address1,@Address2,@Address3,@TelephoneNo,@MobileNo)";
 
+            Query = "INSERT INTO CONTACTMASTER (`Name`,`Alias`,`PrintName`,`Connectwithledger`,`Organisation`,`MobileNo`,`Email`,`TypeofTrade`,`Group`,"+
+                "`Area`,`Department`,`SpecifyDateofBirth`,`SpecifyDateofAnniversary`,`Address`,`Address1`,`Address2`,`Address3`,`PhoneNo`,`FaxNo`) "+
+                "VALUES (@Name,@Alias,@PrintName,@Connectwithledger,@Organisation,@MobileNo,@Email,@TypeofTrade,@Group,@Area,@Department,@SpecifyDateofBirth,"+
+                "@SpecifyDateofAnniversary,@Address,@Address1,@Address2,@Address3,@PhoneNo,@FaxNo)";
+          
             return _dbHelper.ExecuteNonQuery(Query,paramCollection) > 0;                  
         }
         #endregion
@@ -135,92 +160,45 @@ namespace eSunSpeed.BusinessLogic
          }
         #endregion
 
-        #region Save Account Master
+        #region Save Contact Master
         /// <summary>
-        /// Save Account
+        /// Save Contact
         /// </summary>
         /// <param name="objAcctMaster"></param>
         /// <returns>True/False</returns>
-        public bool SaveAccount(AccountMasterModel objAcctMaster)
+        public bool SaveContactMaster(ContactmasterModel objContactMaster)
         {
             string Query = string.Empty;
 
             DBParameterCollection paramCollection = new DBParameterCollection();
 
-            paramCollection.Add(new DBParameter("@Acc_DbName", "SunSpped"));
-            paramCollection.Add(new DBParameter("@ACC_NAME", objAcctMaster.AccountName));
-            paramCollection.Add(new DBParameter("@ACC_SHORTNAME", objAcctMaster.ShortName));
-            paramCollection.Add(new DBParameter("@ACC_PRINTNAME", objAcctMaster.PrintName));
-            paramCollection.Add(new DBParameter("@ACC_LedgerType", objAcctMaster.LedgerType));
-
-            paramCollection.Add(new DBParameter("@ACC_MultiCurr", objAcctMaster.MultiCurrency, System.Data.DbType.Boolean));
-            paramCollection.Add(new DBParameter("@ACC_Group", objAcctMaster.Group));
-            paramCollection.Add(new DBParameter("@ACC_OpBal", objAcctMaster.OPBal, System.Data.DbType.Int32));
-            paramCollection.Add(new DBParameter("@ACC_PrevYearBal", objAcctMaster.PrevYearBal));
-            paramCollection.Add(new DBParameter("@ACC_DrCrOpenBal", objAcctMaster.DrCrOpeningBal));
-
-
-            paramCollection.Add(new DBParameter("@ACC_DrCrPrevBal", objAcctMaster.DrCrOpeningBal));
-            paramCollection.Add(new DBParameter("@ACC_MaintainBitwise", objAcctMaster.MaintainBillwiseAccounts, System.Data.DbType.Boolean));
-            paramCollection.Add(new DBParameter("@ACC_ActivateInterestCal", objAcctMaster.ActivateInterestCal, System.Data.DbType.Boolean));
-            paramCollection.Add(new DBParameter("@ACC_CreditDays", objAcctMaster.CreditDays));
-            paramCollection.Add(new DBParameter("@ACC_CreditLimit", objAcctMaster.CreditLimit));
-
-            paramCollection.Add(new DBParameter("@ACC_TypeofBuissness", objAcctMaster.TypeofBuissness));
-            paramCollection.Add(new DBParameter("@ACC_Transport", objAcctMaster.Transport));
-            paramCollection.Add(new DBParameter("@ACC_Station", objAcctMaster.Station));
-            paramCollection.Add(new DBParameter("@ACC_SpecifyDefaultSaleType", objAcctMaster.specifyDefaultSaleType, System.Data.DbType.Boolean));
-            paramCollection.Add(new DBParameter("@ACC_DefaultSaleType", objAcctMaster.DefaultSaleType));
-
-            paramCollection.Add(new DBParameter("@ACC_FreezeSaleType", objAcctMaster.FreezeSaleType));
-            paramCollection.Add(new DBParameter("@ACC_SpecifyDefaultPurType", objAcctMaster.SpecifyDefaultPurType, System.Data.DbType.Boolean));
-            paramCollection.Add(new DBParameter("@ACC_DefaultPurcType", objAcctMaster.DefaultPurcType));
-            paramCollection.Add(new DBParameter("@ACC_LockSalesType", objAcctMaster.LockSalesType, System.Data.DbType.Boolean));
-            paramCollection.Add(new DBParameter("@ACC_LockPurcType", objAcctMaster.LockPurchaseType, System.Data.DbType.Boolean));
-
-            paramCollection.Add(new DBParameter("@ACC_address1", objAcctMaster.address1));
-            paramCollection.Add(new DBParameter("@ACC_address2", objAcctMaster.address2));
-            paramCollection.Add(new DBParameter("@ACC_Address3", objAcctMaster.address3));
-            paramCollection.Add(new DBParameter("@ACC_Address4", objAcctMaster.address4));
-            paramCollection.Add(new DBParameter("@ACC_State", objAcctMaster.State));
-
-            paramCollection.Add(new DBParameter("@ACC_TelephoneNumber", objAcctMaster.TelephoneNumber));
-            paramCollection.Add(new DBParameter("@ACC_Fax", objAcctMaster.Fax));
-            paramCollection.Add(new DBParameter("@ACC_MobileNumber", objAcctMaster.MobileNumber));
-            paramCollection.Add(new DBParameter("@ACC_email", objAcctMaster.email));
-            paramCollection.Add(new DBParameter("@ACC_Website", objAcctMaster.WebSite));
-
-            paramCollection.Add(new DBParameter("@ACC_enablemailquery", objAcctMaster.enablemailquery, System.Data.DbType.Boolean));
-            paramCollection.Add(new DBParameter("@ACC_enableSMSquery", objAcctMaster.enableSMSquery, System.Data.DbType.Boolean));
-            paramCollection.Add(new DBParameter("@ACC_contactperson", objAcctMaster.contactperson));
-            paramCollection.Add(new DBParameter("@ACC_ITPanNumber", objAcctMaster.ITPanNumber));
-            paramCollection.Add(new DBParameter("@ACC_LSTNumber", objAcctMaster.LstNumber));
-
-            paramCollection.Add(new DBParameter("@ACC_CSTNumber", objAcctMaster.CSTNumber));
-            paramCollection.Add(new DBParameter("@ACC_TIN", objAcctMaster.TIN));
-            paramCollection.Add(new DBParameter("@ACC_ServiceTax", objAcctMaster.ServiceTaxNumber));
-            paramCollection.Add(new DBParameter("@ACC_BankAccountNumber", objAcctMaster.BankAccountNumber));
-            paramCollection.Add(new DBParameter("@ACC_IECode", objAcctMaster.IECode));
-
-            paramCollection.Add(new DBParameter("@ACC_CreatedBy", "admin"));
-            paramCollection.Add(new DBParameter("@ACC_DEFAULT_CHEQUE_FORMAT", ""));
-            paramCollection.Add(new DBParameter("@ENABLE_CHEQUE_PRINTING", true, System.Data.DbType.Boolean));
-            paramCollection.Add(new DBParameter("@ACC_Cheque_PrintName", objAcctMaster.ChequePrintName));
+            paramCollection.Add(new DBParameter("@objcontactmaster", "SunSpped"));
+            paramCollection.Add(new DBParameter("@Name", objContactMaster.Name));
+            paramCollection.Add(new DBParameter("@Alias", objContactMaster.AliasName));
+            paramCollection.Add(new DBParameter("@PrintName", objContactMaster.PrintName));
+            paramCollection.Add(new DBParameter("@Connectwithledger", objContactMaster.Connectwithledger));
+            paramCollection.Add(new DBParameter("@Organization", objContactMaster.Organisation));
+            paramCollection.Add(new DBParameter("@MobileNo", objContactMaster.MobileNo));
+            paramCollection.Add(new DBParameter("@Email", objContactMaster.Email));
+            paramCollection.Add(new DBParameter("@typeoftrade", objContactMaster.TypeofTrade));
+            paramCollection.Add(new DBParameter("@Group", objContactMaster.Group));
+            paramCollection.Add(new DBParameter("@Area", objContactMaster.Area));
+            paramCollection.Add(new DBParameter("@department", objContactMaster.Department));
+            paramCollection.Add(new DBParameter("@specifyDateofBirth", objContactMaster.SpecifyDateofBirth));
+            paramCollection.Add(new DBParameter("@SpecifyDateofAnniversary", objContactMaster.SpecifyDateofAnniversary));
+            paramCollection.Add(new DBParameter("@Address", objContactMaster.Address));
+            paramCollection.Add(new DBParameter("@Address1", objContactMaster.Address1));
+            paramCollection.Add(new DBParameter("@Address2", objContactMaster.Address2));
+            paramCollection.Add(new DBParameter("@Address3", objContactMaster.Address3));
+            paramCollection.Add(new DBParameter("@PhoneNo", objContactMaster.PhoneNo));
+            paramCollection.Add(new DBParameter("@FaxNo", objContactMaster.FaxNo));
+            
+            paramCollection.Add(new DBParameter("@CreatedBy", "admin"));
+            
+            
+            Query = "INSERT INTO contactmaster (`Name`,`Alias`,`Printname`,`connectwithledger`,`Organization`,`MobileNo`,`Email`,`typeoftrade`,`Group`,`Area`,`department`,`SpecifyDateofBirth`,`SpecifyDateofAnniversary`,`Address`,`Address1`,`Address2`,`Address3`,`PhoneNo`,`FaxNo`)VALUES(@Name,@Alais,@PrintName,@Connectwithledger,@Organization,@MobileNo,@Email,@TypeofTrade,@Group,@Area,@Department,@SpecifydateofBirth,@specifydateofAnniversary,@Address,@Address1,@Address3,@PhoneNo,@FaxNo)";
 
 
-            Query =
-            "INSERT INTO accountmaster (`Acc_DbName`,`ACC_NAME`,`ACC_SHORTNAME`,`ACC_PRINTNAME`,`ACC_LedgerType`,`ACC_MultiCurr`,`ACC_Group`,`ACC_OpBal`," +
-                            "`ACC_PrevYearBal`,`ACC_DrCrOpenBal`,`ACC_DrCrPrevBal`,`ACC_MaintainBitwise`,`ACC_ActivateInterestCal`,`ACC_CreditDays`,`ACC_CreditLimit`,`ACC_TypeofBuissness`," +
-                            "`ACC_Transport`,`ACC_Station`,`ACC_SpecifyDefaultSaleType`,`ACC_DefaultSaleType`,`ACC_FreezeSaleType`,`ACC_SpecifyDefaultPurType`,`ACC_DefaultPurcType`," +
-                            "`ACC_LockSalesType`,`ACC_LockPurcType`,`ACC_address1`,`ACC_address2`,`ACC_Address3`,`ACC_Address4`,`ACC_State`,`ACC_TelephoneNumber,`ACC_Fax`,`ACC_MobileNumber`," +
-                            "`ACC_email`,`ACC_Website`,`ACC_enablemailquery`,`ACC_enableSMSquery`,`ACC_contactperson`,`ACC_ITPanNumber`,`ACC_LSTNumber`,`ACC_CSTNumber`,`ACC_TIN`," +
-                            "`ACC_ServiceTax`,`ACC_BankAccountNumber`,`ACC_IECode`,`ACC_CreatedBy`,`ACC_DEFAULT_CHEQUE_FORMAT`,`ENABLE_CHEQUE_PRINTING`,`ACC_Cheque_PrintName`)" +
-                            "VALUES(@Acc_DbName,@ACC_NAME,@ACC_SHORTNAME,@ACC_PRINTNAME,@ACC_LedgerType,@ACC_MultiCurr,@ACC_Group,@ACC_OpBal,@ACC_PrevYearBal,@ACC_DrCrOpenBal," +
-                            "@ACC_DrCrPrevBal,@ACC_MaintainBitwise,@ACC_ActivateInterestCal,@ACC_CreditDays,@ACC_CreditLimit,@ACC_TypeofBuissness," +
-                            "@ACC_Transport,@ACC_Station,@ACC_SpecifyDefaultSaleType,@ACC_DefaultSaleType,@ACC_FreezeSaleType,@ACC_SpecifyDefaultPurType,@ACC_DefaultPurcType," +
-                            "@ACC_LockSalesType,@ACC_LockPurcType,@ACC_address1,@ACC_address2,@ACC_Address3,@ACC_Address4,@ACC_State,@ACC_TelephoneNumber,@ACC_Fax,@ACC_MobileNumber," +
-                            "@ACC_email,@ACC_Website,@ACC_enablemailquery,@ACC_enableSMSquery,@ACC_contactperson,@ACC_ITPanNumber,@ACC_LSTNumber,@ACC_CSTNumber,@ACC_TIN," +
-                            "@ACC_ServiceTax,@ACC_BankAccountNumber,@ACC_IECode,@ACC_CreatedBy,@ACC_DEFAULT_CHEQUE_FORMAT,@ENABLE_CHEQUE_PRINTING,@ACC_Cheque_PrintName)";
 
 
             return _dbHelper.ExecuteNonQuery(Query, paramCollection) > 0;

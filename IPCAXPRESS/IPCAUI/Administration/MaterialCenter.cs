@@ -20,12 +20,9 @@ namespace IPCAUI.Administration
             InitializeComponent();
         }
 
-        private void ListMaterialcenter_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        private void btnSave_Click(object sender, EventArgs e)
         {
-            Administration.List.MaterialcenterList frmList = new Administration.List.MaterialcenterList();
-            frmList.StartPosition = FormStartPosition.CenterScreen;
 
-            frmList.ShowDialog();
         }
 
         private void btnSave_Click(object sender, EventArgs e)
