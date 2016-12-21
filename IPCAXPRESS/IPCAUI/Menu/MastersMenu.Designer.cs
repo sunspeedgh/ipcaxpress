@@ -170,6 +170,8 @@
             this.backstageViewControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewControl();
             this.backstageViewClientControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewClientControl();
             this.backstageViewTabItem1 = new DevExpress.XtraBars.Ribbon.BackstageViewTabItem();
+            this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.Referencegroup = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
@@ -613,9 +615,10 @@
             this.barButtonItem37,
             this.barbtnSalaryCopm,
             this.barbtnContactgroup,
-            this.barbtnExecutive});
+            this.barbtnExecutive,
+            this.Referencegroup});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 37;
+            this.ribbonControl1.MaxItemId = 38;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -1202,7 +1205,8 @@
             // ribbonPage10
             // 
             this.ribbonPage10.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.PhysicalStock});
+            this.PhysicalStock,
+            this.ribbonPageGroup1});
             this.ribbonPage10.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage10.Image")));
             this.ribbonPage10.ImageAlign = DevExpress.Utils.HorzAlignment.Near;
             this.ribbonPage10.KeyTip = "ST";
@@ -1240,6 +1244,19 @@
             this.backstageViewTabItem1.KeyTip = "B";
             this.backstageViewTabItem1.Name = "backstageViewTabItem1";
             this.backstageViewTabItem1.Selected = false;
+            // 
+            // ribbonPageGroup1
+            // 
+            this.ribbonPageGroup1.ItemLinks.Add(this.Referencegroup);
+            this.ribbonPageGroup1.Name = "ribbonPageGroup1";
+            this.ribbonPageGroup1.Text = "ribbonPageGroup1";
+            // 
+            // Referencegroup
+            // 
+            this.Referencegroup.Caption = "Reference Group";
+            this.Referencegroup.Id = 37;
+            this.Referencegroup.Name = "Referencegroup";
+            this.Referencegroup.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.Referencegroup_ItemClick);
             // 
             // MastersMenu
             // 
@@ -1415,5 +1432,7 @@
         private DevExpress.XtraNavBar.NavBarItem navBarItem42;
         private DevExpress.XtraNavBar.NavBarItem navBarItem43;
         private DevExpress.XtraNavBar.NavBarItem navBarItem44;
+        private DevExpress.XtraBars.BarButtonItem Referencegroup;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
     }
 }
