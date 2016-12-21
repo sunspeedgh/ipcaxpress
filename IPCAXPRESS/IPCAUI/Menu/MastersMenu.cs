@@ -386,5 +386,16 @@ namespace IPCAUI.Menu
             sptCtrlMastermenu.Panel2.Controls.Add(frm);
             frm.Show();
         }
+
+        private void Referencegroup_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Administration.Referencegroup frm;
+            frm = new Administration.Referencegroup(); //generate new instance 
+            frm.Owner = this;
+            frm.TopLevel = false;
+
+            sptCtrlMastermenu.Panel2.Controls.Add(frm);
+            frm.Show();
+        }
     }
 }
