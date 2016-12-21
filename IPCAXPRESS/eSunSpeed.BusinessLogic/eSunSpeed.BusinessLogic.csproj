@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContactmasterBL.cs" />
     <Compile Include="ExecutivegroupBL.cs" />
     <Compile Include="ContactgroupBL.cs" />
     <Compile Include="AccountMaster.cs" />

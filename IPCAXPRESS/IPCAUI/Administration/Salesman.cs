@@ -36,12 +36,9 @@ namespace IPCAUI.Administration
 
         }
 
-        private void ListSalesman_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        private void btnSave_Click(object sender, EventArgs e)
         {
-            Administration.List.SalesmanList frmList = new Administration.List.SalesmanList();
-            frmList.StartPosition = FormStartPosition.CenterScreen;
 
-            frmList.ShowDialog();
         }
     }
 }

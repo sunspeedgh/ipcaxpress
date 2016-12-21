@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContactmasterModel.cs" />
     <Compile Include="ExecutiveModel.cs" />
     <Compile Include="ContactgroupModel.cs" />
     <Compile Include="AccountGroupModel.cs" />

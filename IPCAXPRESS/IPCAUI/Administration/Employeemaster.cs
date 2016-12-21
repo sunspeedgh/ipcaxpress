@@ -22,12 +22,9 @@ namespace IPCAUI.Administration
             this.Close();
         }
 
-        private void ListEmployeemst_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
+        private void tbxSave_Click(object sender, EventArgs e)
         {
-            Administration.List.EmployeegrpList frmList = new Administration.List.EmployeegrpList();
-            frmList.StartPosition = FormStartPosition.CenterScreen;
 
-            frmList.ShowDialog();
         }
     }
 }

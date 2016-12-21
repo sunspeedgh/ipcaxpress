@@ -13,24 +13,32 @@ namespace eSunSpeed.BusinessLogic
     {
         private DBHelper _dbHelper = new DBHelper();
 
-        #region Save Account Group
+        #region Save Executive Group
         /// <summary>
         /// Save Account Group
         /// </summary>
         /// <param name="objAccountGrp"></param>
         /// <returns>True/False</returns>
-        public bool SaveContactGroup(eSunSpeedDomain.ContactModel objContactGrp)
+        public bool SaveExeGroup(eSunSpeedDomain.ExecutiveModel objexe)
         {   
             string Query = string.Empty;           
 
             DBParameterCollection paramCollection = new DBParameterCollection();
-           paramCollection.Add(new DBParameter("@ContactName", objContactGrp.ContactName));
-            paramCollection.Add(new DBParameter("@Alias", objContactGrp.AliasName));
-            paramCollection.Add(new DBParameter("@Primary", objContactGrp.Primary));
-            paramCollection.Add(new DBParameter("@UnderGroup", objContactGrp.UnderGroup));
-            paramCollection.Add(new DBParameter("@CreatedBy", objContactGrp.CreatedBy));
-                       
-            Query = "INSERT INTO contactgroup (`ContactName`,`Alias`,`Primarygroup`,`UnderGroup`,`CreatedBy`) VALUES (@contactName,@Alias,@Primarygroup,@UnderGroup,@CreatedBy)";
+           paramCollection.Add(new DBParameter("@Name", objexe.Name));
+            paramCollection.Add(new DBParameter("@Alias", objexe.Alias));
+            paramCollection.Add(new DBParameter("@PrintName", objexe.PrintName));
+            paramCollection.Add(new DBParameter("@Handlescalltype", objexe.HandlescallType));
+            paramCollection.Add(new DBParameter("@Area",objexe.Area));
+            paramCollection.Add(new DBParameter("@Address", objexe.Address));
+            paramCollection.Add(new DBParameter("@Address1", objexe.Address1));
+            paramCollection.Add(new DBParameter("@Address2", objexe.Address2));
+            paramCollection.Add(new DBParameter("@Address3", objexe.Address3));
+            paramCollection.Add(new DBParameter("@TelephoneNo", objexe.TelephoneNumber));
+            paramCollection.Add(new DBParameter("@MobileNo", objexe.MobileNumber));
+           
+
+                
+            Query = "INSERT INTO Executivegroup (`Name`,`Alias`,`PrintName`,`Handlescalltype`,`Area`,`Address`,`Address1`,`Address2`,`Address3`,`Telephone`,`MobileNo`)VALUES (@Name,@Alias,@PrintName,@Handlescalltype,@Area,@Address,@Address1,@Address2,@Address3,@TelephoneNo,@MobileNo)";
 
             return _dbHelper.ExecuteNonQuery(Query,paramCollection) > 0;                  
         }

@@ -69,67 +69,66 @@
             this.navBarItem2 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem3 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarGroup5 = new DevExpress.XtraNavBar.NavBarGroup();
-            this.ListBillsundary = new DevExpress.XtraNavBar.NavBarItem();
+            this.navBarItem7 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem8 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem9 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem4 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem5 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem6 = new DevExpress.XtraNavBar.NavBarItem();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.comboBoxEdit3 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.btnsave = new DevExpress.XtraEditors.SimpleButton();
+            this.chbroundofbillsundryamt = new DevExpress.XtraEditors.ComboBoxEdit();
             this.radioButton12 = new System.Windows.Forms.RadioButton();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.textEdit31 = new DevExpress.XtraEditors.TextEdit();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rbsundryamt = new System.Windows.Forms.RadioButton();
+            this.cbxbillsundryamt = new System.Windows.Forms.ComboBox();
+            this.cbxnoofbillsundry = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.chbincludefreeqty = new DevExpress.XtraEditors.CheckEdit();
+            this.cbxselectivecalculation = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.rbotherbillsundry = new System.Windows.Forms.RadioButton();
+            this.rbprevbillsundry = new System.Windows.Forms.RadioButton();
+            this.rbtaxableamt = new System.Windows.Forms.RadioButton();
+            this.rbtotalmrpofitems = new System.Windows.Forms.RadioButton();
+            this.rbitombasicamt = new System.Windows.Forms.RadioButton();
+            this.rbnetbillamt = new System.Windows.Forms.RadioButton();
+            this.rbperaltqty = new System.Windows.Forms.RadioButton();
+            this.rbpermainqty = new System.Windows.Forms.RadioButton();
+            this.rbpercentrage = new System.Windows.Forms.RadioButton();
+            this.rbabsoluteamt = new System.Windows.Forms.RadioButton();
             this.textEdit30 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit29 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit28 = new DevExpress.XtraEditors.TextEdit();
+            this.tbxotherside = new DevExpress.XtraEditors.TextEdit();
             this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit27 = new DevExpress.XtraEditors.TextEdit();
-            this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
+            this.tbxadjustinmc = new DevExpress.XtraEditors.TextEdit();
+            this.rbmatissuematreceiptmatstocktransfer = new DevExpress.XtraEditors.RadioGroup();
             this.textEdit26 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit25 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit24 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit23 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit22 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit21 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit20 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit19 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit18 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit17 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit16 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit15 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit14 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit13 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit12 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit11 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit10 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit9 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit8 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
+            this.tbxadjustinpurchaseamount = new DevExpress.XtraEditors.TextEdit();
+            this.tbxaffectsaccounting = new DevExpress.XtraEditors.TextEdit();
+            this.tbxpostoverandabove = new DevExpress.XtraEditors.TextEdit();
+            this.tbxaccounttoheadpost = new DevExpress.XtraEditors.TextEdit();
+            this.tbxadjustinpartyamount = new DevExpress.XtraEditors.TextEdit();
+            this.tbxaccountheadpost = new DevExpress.XtraEditors.TextEdit();
+            this.tbxadjustsaleamount = new DevExpress.XtraEditors.TextEdit();
+            this.tbsaffectsaccounting = new DevExpress.XtraEditors.TextEdit();
+            this.tbxaffectsthecostofggodsinstoclktransfer = new DevExpress.XtraEditors.TextEdit();
+            this.tbxaffectsthecostofgoodsinmaterialreceipt = new DevExpress.XtraEditors.TextEdit();
+            this.tbxaffectsthecostoofgoodsinmaterialissue = new DevExpress.XtraEditors.TextEdit();
+            this.tbxafectsthecostoofgoodsinpurchase = new DevExpress.XtraEditors.TextEdit();
+            this.tbxaffectsthecostofgoodsinsle = new DevExpress.XtraEditors.TextEdit();
+            this.tbxsubtotalheading = new DevExpress.XtraEditors.TextEdit();
+            this.tbxdefaultvalue = new DevExpress.XtraEditors.TextEdit();
+            this.tbxbillsundrynarration = new DevExpress.XtraEditors.TextEdit();
+            this.tbxbillsundrytype = new DevExpress.XtraEditors.TextEdit();
+            this.tbxprintname = new DevExpress.XtraEditors.TextEdit();
+            this.tbxName = new DevExpress.XtraEditors.TextEdit();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit5 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.cbxalias = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -159,11 +158,9 @@
             this.layoutControlItem28 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem31 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem32 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem33 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem35 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem36 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem34 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem37 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem38 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem39 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -182,49 +179,49 @@
             this.emptySpaceItem3 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem4 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.layoutControlItem52 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem32 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit31.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chbroundofbillsundryamt.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxnoofbillsundry.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chbincludefreeqty.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxselectivecalculation.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit30.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit29.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit28.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxotherside.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit27.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxadjustinmc.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rbmatissuematreceiptmatstocktransfer.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit26.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit25.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit24.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit23.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit22.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit21.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit20.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit19.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit18.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit17.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit16.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit15.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit14.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit10.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxadjustinpurchaseamount.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxaffectsaccounting.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxpostoverandabove.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxaccounttoheadpost.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxadjustinpartyamount.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxaccountheadpost.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxadjustsaleamount.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbsaffectsaccounting.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxaffectsthecostofggodsinstoclktransfer.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxaffectsthecostofgoodsinmaterialreceipt.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxaffectsthecostoofgoodsinmaterialissue.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxafectsthecostoofgoodsinpurchase.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxaffectsthecostofgoodsinsle.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxsubtotalheading.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxdefaultvalue.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxbillsundrynarration.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxbillsundrytype.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxprintname.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxName.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxalias)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
@@ -254,11 +251,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem32)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem33)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem35)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem36)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem34)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem37)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem38)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem39)).BeginInit();
@@ -277,59 +272,59 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem52)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem32)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
             // 
             this.layoutControl1.Controls.Add(this.navBarControl1);
             this.layoutControl1.Controls.Add(this.simpleButton2);
-            this.layoutControl1.Controls.Add(this.simpleButton1);
-            this.layoutControl1.Controls.Add(this.comboBoxEdit3);
+            this.layoutControl1.Controls.Add(this.btnsave);
+            this.layoutControl1.Controls.Add(this.chbroundofbillsundryamt);
             this.layoutControl1.Controls.Add(this.radioButton12);
-            this.layoutControl1.Controls.Add(this.radioButton11);
-            this.layoutControl1.Controls.Add(this.comboBox1);
-            this.layoutControl1.Controls.Add(this.comboBoxEdit2);
-            this.layoutControl1.Controls.Add(this.checkEdit1);
-            this.layoutControl1.Controls.Add(this.comboBoxEdit1);
-            this.layoutControl1.Controls.Add(this.radioButton10);
-            this.layoutControl1.Controls.Add(this.radioButton9);
-            this.layoutControl1.Controls.Add(this.radioButton8);
-            this.layoutControl1.Controls.Add(this.radioButton7);
-            this.layoutControl1.Controls.Add(this.radioButton6);
-            this.layoutControl1.Controls.Add(this.radioButton3);
-            this.layoutControl1.Controls.Add(this.textEdit31);
-            this.layoutControl1.Controls.Add(this.radioButton5);
-            this.layoutControl1.Controls.Add(this.radioButton4);
-            this.layoutControl1.Controls.Add(this.radioButton2);
-            this.layoutControl1.Controls.Add(this.radioButton1);
+            this.layoutControl1.Controls.Add(this.rbsundryamt);
+            this.layoutControl1.Controls.Add(this.cbxbillsundryamt);
+            this.layoutControl1.Controls.Add(this.cbxnoofbillsundry);
+            this.layoutControl1.Controls.Add(this.chbincludefreeqty);
+            this.layoutControl1.Controls.Add(this.cbxselectivecalculation);
+            this.layoutControl1.Controls.Add(this.rbotherbillsundry);
+            this.layoutControl1.Controls.Add(this.rbprevbillsundry);
+            this.layoutControl1.Controls.Add(this.rbtaxableamt);
+            this.layoutControl1.Controls.Add(this.rbtotalmrpofitems);
+            this.layoutControl1.Controls.Add(this.rbitombasicamt);
+            this.layoutControl1.Controls.Add(this.rbnetbillamt);
+            this.layoutControl1.Controls.Add(this.rbperaltqty);
+            this.layoutControl1.Controls.Add(this.rbpermainqty);
+            this.layoutControl1.Controls.Add(this.rbpercentrage);
+            this.layoutControl1.Controls.Add(this.rbabsoluteamt);
             this.layoutControl1.Controls.Add(this.textEdit30);
             this.layoutControl1.Controls.Add(this.textEdit29);
-            this.layoutControl1.Controls.Add(this.textEdit28);
+            this.layoutControl1.Controls.Add(this.tbxotherside);
             this.layoutControl1.Controls.Add(this.textEdit3);
-            this.layoutControl1.Controls.Add(this.textEdit27);
-            this.layoutControl1.Controls.Add(this.radioGroup1);
+            this.layoutControl1.Controls.Add(this.tbxadjustinmc);
+            this.layoutControl1.Controls.Add(this.rbmatissuematreceiptmatstocktransfer);
             this.layoutControl1.Controls.Add(this.textEdit26);
             this.layoutControl1.Controls.Add(this.textEdit25);
             this.layoutControl1.Controls.Add(this.textEdit24);
-            this.layoutControl1.Controls.Add(this.textEdit23);
-            this.layoutControl1.Controls.Add(this.textEdit22);
-            this.layoutControl1.Controls.Add(this.textEdit21);
-            this.layoutControl1.Controls.Add(this.textEdit20);
-            this.layoutControl1.Controls.Add(this.textEdit19);
-            this.layoutControl1.Controls.Add(this.textEdit18);
-            this.layoutControl1.Controls.Add(this.textEdit17);
-            this.layoutControl1.Controls.Add(this.textEdit16);
-            this.layoutControl1.Controls.Add(this.textEdit15);
-            this.layoutControl1.Controls.Add(this.textEdit14);
-            this.layoutControl1.Controls.Add(this.textEdit13);
-            this.layoutControl1.Controls.Add(this.textEdit12);
-            this.layoutControl1.Controls.Add(this.textEdit11);
-            this.layoutControl1.Controls.Add(this.textEdit10);
-            this.layoutControl1.Controls.Add(this.textEdit9);
-            this.layoutControl1.Controls.Add(this.textEdit8);
-            this.layoutControl1.Controls.Add(this.textEdit7);
-            this.layoutControl1.Controls.Add(this.textEdit6);
-            this.layoutControl1.Controls.Add(this.textEdit4);
+            this.layoutControl1.Controls.Add(this.tbxadjustinpurchaseamount);
+            this.layoutControl1.Controls.Add(this.tbxaffectsaccounting);
+            this.layoutControl1.Controls.Add(this.tbxpostoverandabove);
+            this.layoutControl1.Controls.Add(this.tbxaccounttoheadpost);
+            this.layoutControl1.Controls.Add(this.tbxadjustinpartyamount);
+            this.layoutControl1.Controls.Add(this.tbxaccountheadpost);
+            this.layoutControl1.Controls.Add(this.tbxadjustsaleamount);
+            this.layoutControl1.Controls.Add(this.tbsaffectsaccounting);
+            this.layoutControl1.Controls.Add(this.tbxaffectsthecostofggodsinstoclktransfer);
+            this.layoutControl1.Controls.Add(this.tbxaffectsthecostofgoodsinmaterialreceipt);
+            this.layoutControl1.Controls.Add(this.tbxaffectsthecostoofgoodsinmaterialissue);
+            this.layoutControl1.Controls.Add(this.tbxafectsthecostoofgoodsinpurchase);
+            this.layoutControl1.Controls.Add(this.tbxaffectsthecostofgoodsinsle);
+            this.layoutControl1.Controls.Add(this.tbxsubtotalheading);
+            this.layoutControl1.Controls.Add(this.tbxdefaultvalue);
+            this.layoutControl1.Controls.Add(this.tbxbillsundrynarration);
+            this.layoutControl1.Controls.Add(this.tbxbillsundrytype);
+            this.layoutControl1.Controls.Add(this.tbxprintname);
+            this.layoutControl1.Controls.Add(this.tbxName);
             this.layoutControl1.Controls.Add(this.textEdit1);
             this.layoutControl1.Controls.Add(this.textEdit2);
             this.layoutControl1.Controls.Add(this.textEdit5);
@@ -344,7 +339,7 @@
             // 
             // navBarControl1
             // 
-            this.navBarControl1.ActiveGroup = this.navBarGroup5;
+            this.navBarControl1.ActiveGroup = this.navBarGroup1;
             this.navBarControl1.Appearance.GroupHeader.BackColor = System.Drawing.Color.Lavender;
             this.navBarControl1.Appearance.GroupHeader.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             this.navBarControl1.Appearance.GroupHeader.Options.UseBackColor = true;
@@ -361,7 +356,7 @@
             this.navBarItem4,
             this.navBarItem5,
             this.navBarItem6,
-            this.ListBillsundary,
+            this.navBarItem7,
             this.navBarItem8,
             this.navBarItem9,
             this.navBarItem10,
@@ -407,6 +402,7 @@
             // navBarGroup1
             // 
             this.navBarGroup1.Caption = "Configurations";
+            this.navBarGroup1.Expanded = true;
             this.navBarGroup1.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem10),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem11),
@@ -428,6 +424,7 @@
             this.navBarItem10.Caption = "Accounts";
             this.navBarItem10.Name = "navBarItem10";
             this.navBarItem10.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem10.SmallImage")));
+            this.navBarItem10.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.navBarItem10_LinkClicked);
             // 
             // navBarItem11
             // 
@@ -656,20 +653,18 @@
             // navBarGroup5
             // 
             this.navBarGroup5.Caption = "Add/Modify";
-            this.navBarGroup5.Expanded = true;
             this.navBarGroup5.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.ListBillsundary),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem7),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem8),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem9)});
             this.navBarGroup5.Name = "navBarGroup5";
             this.navBarGroup5.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarGroup5.SmallImage")));
             // 
-            // ListBillsundary
+            // navBarItem7
             // 
-            this.ListBillsundary.Caption = "List";
-            this.ListBillsundary.Name = "ListBillsundary";
-            this.ListBillsundary.SmallImage = ((System.Drawing.Image)(resources.GetObject("ListBillsundary.SmallImage")));
-            this.ListBillsundary.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.ListBillsundary_LinkClicked);
+            this.navBarItem7.Caption = "List";
+            this.navBarItem7.Name = "navBarItem7";
+            this.navBarItem7.SmallImage = ((System.Drawing.Image)(resources.GetObject("navBarItem7.SmallImage")));
             // 
             // navBarItem8
             // 
@@ -710,27 +705,28 @@
             this.simpleButton2.TabIndex = 56;
             this.simpleButton2.Text = "Quit";
             // 
-            // simpleButton1
+            // btnsave
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(747, 588);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(91, 22);
-            this.simpleButton1.StyleController = this.layoutControl1;
-            this.simpleButton1.TabIndex = 55;
-            this.simpleButton1.Text = "Save";
+            this.btnsave.Location = new System.Drawing.Point(747, 588);
+            this.btnsave.Name = "btnsave";
+            this.btnsave.Size = new System.Drawing.Size(91, 22);
+            this.btnsave.StyleController = this.layoutControl1;
+            this.btnsave.TabIndex = 55;
+            this.btnsave.Text = "Save";
+            this.btnsave.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
-            // comboBoxEdit3
+            // chbroundofbillsundryamt
             // 
-            this.comboBoxEdit3.EditValue = "comboBoxEdit3";
-            this.comboBoxEdit3.Location = new System.Drawing.Point(755, 458);
-            this.comboBoxEdit3.Name = "comboBoxEdit3";
-            this.comboBoxEdit3.Size = new System.Drawing.Size(247, 20);
-            this.comboBoxEdit3.StyleController = this.layoutControl1;
-            this.comboBoxEdit3.TabIndex = 54;
+            this.chbroundofbillsundryamt.EditValue = "comboBoxEdit3";
+            this.chbroundofbillsundryamt.Location = new System.Drawing.Point(755, 463);
+            this.chbroundofbillsundryamt.Name = "chbroundofbillsundryamt";
+            this.chbroundofbillsundryamt.Size = new System.Drawing.Size(247, 20);
+            this.chbroundofbillsundryamt.StyleController = this.layoutControl1;
+            this.chbroundofbillsundryamt.TabIndex = 54;
             // 
             // radioButton12
             // 
-            this.radioButton12.Location = new System.Drawing.Point(982, 429);
+            this.radioButton12.Location = new System.Drawing.Point(982, 434);
             this.radioButton12.Name = "radioButton12";
             this.radioButton12.Size = new System.Drawing.Size(20, 25);
             this.radioButton12.TabIndex = 53;
@@ -738,163 +734,156 @@
             this.radioButton12.Text = "Bill Sundary Applied On";
             this.radioButton12.UseVisualStyleBackColor = true;
             // 
-            // radioButton11
+            // rbsundryamt
             // 
-            this.radioButton11.Location = new System.Drawing.Point(711, 429);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(267, 25);
-            this.radioButton11.TabIndex = 52;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "Bill Sundry Amount";
-            this.radioButton11.UseVisualStyleBackColor = true;
+            this.rbsundryamt.Location = new System.Drawing.Point(711, 434);
+            this.rbsundryamt.Name = "rbsundryamt";
+            this.rbsundryamt.Size = new System.Drawing.Size(267, 25);
+            this.rbsundryamt.TabIndex = 52;
+            this.rbsundryamt.TabStop = true;
+            this.rbsundryamt.Text = "Bill Sundry Amount";
+            this.rbsundryamt.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // cbxbillsundryamt
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(930, 400);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(72, 21);
-            this.comboBox1.TabIndex = 51;
+            this.cbxbillsundryamt.FormattingEnabled = true;
+            this.cbxbillsundryamt.Location = new System.Drawing.Point(930, 405);
+            this.cbxbillsundryamt.Name = "cbxbillsundryamt";
+            this.cbxbillsundryamt.Size = new System.Drawing.Size(72, 21);
+            this.cbxbillsundryamt.TabIndex = 51;
             // 
-            // comboBoxEdit2
+            // cbxnoofbillsundry
             // 
-            this.comboBoxEdit2.Location = new System.Drawing.Point(930, 371);
-            this.comboBoxEdit2.Name = "comboBoxEdit2";
-            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.cbxnoofbillsundry.Location = new System.Drawing.Point(930, 376);
+            this.cbxnoofbillsundry.Name = "cbxnoofbillsundry";
+            this.cbxnoofbillsundry.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(72, 20);
-            this.comboBoxEdit2.StyleController = this.layoutControl1;
-            this.comboBoxEdit2.TabIndex = 50;
+            this.cbxnoofbillsundry.Size = new System.Drawing.Size(72, 20);
+            this.cbxnoofbillsundry.StyleController = this.layoutControl1;
+            this.cbxnoofbillsundry.TabIndex = 50;
             // 
-            // checkEdit1
+            // chbincludefreeqty
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(711, 342);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "Include Free Qty.";
-            this.checkEdit1.Size = new System.Drawing.Size(291, 19);
-            this.checkEdit1.StyleController = this.layoutControl1;
-            this.checkEdit1.TabIndex = 49;
+            this.chbincludefreeqty.Location = new System.Drawing.Point(711, 347);
+            this.chbincludefreeqty.Name = "chbincludefreeqty";
+            this.chbincludefreeqty.Properties.Caption = "Include Free Qty.";
+            this.chbincludefreeqty.Size = new System.Drawing.Size(291, 19);
+            this.chbincludefreeqty.StyleController = this.layoutControl1;
+            this.chbincludefreeqty.TabIndex = 49;
             // 
-            // comboBoxEdit1
+            // cbxselectivecalculation
             // 
-            this.comboBoxEdit1.Location = new System.Drawing.Point(911, 284);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.cbxselectivecalculation.Location = new System.Drawing.Point(911, 289);
+            this.cbxselectivecalculation.Name = "cbxselectivecalculation";
+            this.cbxselectivecalculation.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(91, 20);
-            this.comboBoxEdit1.StyleController = this.layoutControl1;
-            this.comboBoxEdit1.TabIndex = 48;
+            this.cbxselectivecalculation.Size = new System.Drawing.Size(91, 20);
+            this.cbxselectivecalculation.StyleController = this.layoutControl1;
+            this.cbxselectivecalculation.TabIndex = 48;
             // 
-            // radioButton10
+            // rbotherbillsundry
             // 
-            this.radioButton10.Location = new System.Drawing.Point(536, 429);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(171, 25);
-            this.radioButton10.TabIndex = 47;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "Other Bill Sundry";
-            this.radioButton10.UseVisualStyleBackColor = true;
+            this.rbotherbillsundry.Location = new System.Drawing.Point(536, 434);
+            this.rbotherbillsundry.Name = "rbotherbillsundry";
+            this.rbotherbillsundry.Size = new System.Drawing.Size(171, 25);
+            this.rbotherbillsundry.TabIndex = 47;
+            this.rbotherbillsundry.TabStop = true;
+            this.rbotherbillsundry.Text = "Other Bill Sundry";
+            this.rbotherbillsundry.UseVisualStyleBackColor = true;
             // 
-            // radioButton9
+            // rbprevbillsundry
             // 
-            this.radioButton9.Location = new System.Drawing.Point(536, 400);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(171, 25);
-            this.radioButton9.TabIndex = 46;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "Previoue Bill Sundry(s) Amount ";
-            this.radioButton9.UseVisualStyleBackColor = true;
+            this.rbprevbillsundry.Location = new System.Drawing.Point(536, 405);
+            this.rbprevbillsundry.Name = "rbprevbillsundry";
+            this.rbprevbillsundry.Size = new System.Drawing.Size(171, 25);
+            this.rbprevbillsundry.TabIndex = 46;
+            this.rbprevbillsundry.TabStop = true;
+            this.rbprevbillsundry.Text = "Previoue Bill Sundry(s) Amount ";
+            this.rbprevbillsundry.UseVisualStyleBackColor = true;
             // 
-            // radioButton8
+            // rbtaxableamt
             // 
-            this.radioButton8.Location = new System.Drawing.Point(536, 371);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(171, 25);
-            this.radioButton8.TabIndex = 45;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "Taxable Amount";
-            this.radioButton8.UseVisualStyleBackColor = true;
+            this.rbtaxableamt.Location = new System.Drawing.Point(536, 376);
+            this.rbtaxableamt.Name = "rbtaxableamt";
+            this.rbtaxableamt.Size = new System.Drawing.Size(171, 25);
+            this.rbtaxableamt.TabIndex = 45;
+            this.rbtaxableamt.TabStop = true;
+            this.rbtaxableamt.Text = "Taxable Amount";
+            this.rbtaxableamt.UseVisualStyleBackColor = true;
             // 
-            // radioButton7
+            // rbtotalmrpofitems
             // 
-            this.radioButton7.Location = new System.Drawing.Point(536, 342);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(171, 25);
-            this.radioButton7.TabIndex = 44;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "Total MRP of Items";
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.rbtotalmrpofitems.Location = new System.Drawing.Point(536, 347);
+            this.rbtotalmrpofitems.Name = "rbtotalmrpofitems";
+            this.rbtotalmrpofitems.Size = new System.Drawing.Size(171, 25);
+            this.rbtotalmrpofitems.TabIndex = 44;
+            this.rbtotalmrpofitems.TabStop = true;
+            this.rbtotalmrpofitems.Text = "Total MRP of Items";
+            this.rbtotalmrpofitems.UseVisualStyleBackColor = true;
             // 
-            // radioButton6
+            // rbitombasicamt
             // 
-            this.radioButton6.Location = new System.Drawing.Point(536, 313);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(466, 25);
-            this.radioButton6.TabIndex = 43;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Item Basic Amount";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.rbitombasicamt.Location = new System.Drawing.Point(536, 318);
+            this.rbitombasicamt.Name = "rbitombasicamt";
+            this.rbitombasicamt.Size = new System.Drawing.Size(466, 25);
+            this.rbitombasicamt.TabIndex = 43;
+            this.rbitombasicamt.TabStop = true;
+            this.rbitombasicamt.Text = "Item Basic Amount";
+            this.rbitombasicamt.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rbnetbillamt
             // 
-            this.radioButton3.Location = new System.Drawing.Point(536, 284);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(152, 25);
-            this.radioButton3.TabIndex = 42;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Nett Bill Amount";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rbnetbillamt.Location = new System.Drawing.Point(536, 289);
+            this.rbnetbillamt.Name = "rbnetbillamt";
+            this.rbnetbillamt.Size = new System.Drawing.Size(152, 25);
+            this.rbnetbillamt.TabIndex = 42;
+            this.rbnetbillamt.TabStop = true;
+            this.rbnetbillamt.Text = "Nett Bill Amount";
+            this.rbnetbillamt.UseVisualStyleBackColor = true;
             // 
-            // textEdit31
+            // rbperaltqty
             // 
-            this.textEdit31.Location = new System.Drawing.Point(536, 260);
-            this.textEdit31.Name = "textEdit31";
-            this.textEdit31.Size = new System.Drawing.Size(247, 20);
-            this.textEdit31.StyleController = this.layoutControl1;
-            this.textEdit31.TabIndex = 41;
+            this.rbperaltqty.Location = new System.Drawing.Point(800, 260);
+            this.rbperaltqty.Name = "rbperaltqty";
+            this.rbperaltqty.Size = new System.Drawing.Size(202, 25);
+            this.rbperaltqty.TabIndex = 40;
+            this.rbperaltqty.TabStop = true;
+            this.rbperaltqty.Text = "Per Alt. Qty.";
+            this.rbperaltqty.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // rbpermainqty
             // 
-            this.radioButton5.Location = new System.Drawing.Point(800, 231);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(202, 25);
-            this.radioButton5.TabIndex = 40;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Per Alt. Qty.";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.rbpermainqty.Location = new System.Drawing.Point(536, 260);
+            this.rbpermainqty.Name = "rbpermainqty";
+            this.rbpermainqty.Size = new System.Drawing.Size(260, 25);
+            this.rbpermainqty.TabIndex = 39;
+            this.rbpermainqty.TabStop = true;
+            this.rbpermainqty.Text = "Per Main Qty.";
+            this.rbpermainqty.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rbpercentrage
             // 
-            this.radioButton4.Location = new System.Drawing.Point(536, 231);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(260, 25);
-            this.radioButton4.TabIndex = 39;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Per Main Qty.";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rbpercentrage.Location = new System.Drawing.Point(536, 231);
+            this.rbpercentrage.Name = "rbpercentrage";
+            this.rbpercentrage.Size = new System.Drawing.Size(466, 25);
+            this.rbpercentrage.TabIndex = 37;
+            this.rbpercentrage.TabStop = true;
+            this.rbpercentrage.Text = "Percentage";
+            this.rbpercentrage.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rbabsoluteamt
             // 
-            this.radioButton2.Location = new System.Drawing.Point(800, 202);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(202, 25);
-            this.radioButton2.TabIndex = 37;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Percentage";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.Location = new System.Drawing.Point(536, 202);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(260, 25);
-            this.radioButton1.TabIndex = 36;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Absolute Amount";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbabsoluteamt.Location = new System.Drawing.Point(536, 202);
+            this.rbabsoluteamt.Name = "rbabsoluteamt";
+            this.rbabsoluteamt.Size = new System.Drawing.Size(466, 25);
+            this.rbabsoluteamt.TabIndex = 36;
+            this.rbabsoluteamt.TabStop = true;
+            this.rbabsoluteamt.Text = "Absolute Amount";
+            this.rbabsoluteamt.UseVisualStyleBackColor = true;
             // 
             // textEdit30
             // 
+            this.textEdit30.EnterMoveNextControl = true;
             this.textEdit30.Location = new System.Drawing.Point(755, 178);
             this.textEdit30.Name = "textEdit30";
             this.textEdit30.Size = new System.Drawing.Size(247, 20);
@@ -903,51 +892,57 @@
             // 
             // textEdit29
             // 
+            this.textEdit29.EnterMoveNextControl = true;
             this.textEdit29.Location = new System.Drawing.Point(755, 106);
             this.textEdit29.Name = "textEdit29";
             this.textEdit29.Size = new System.Drawing.Size(247, 20);
             this.textEdit29.StyleController = this.layoutControl1;
             this.textEdit29.TabIndex = 34;
             // 
-            // textEdit28
+            // tbxotherside
             // 
-            this.textEdit28.Location = new System.Drawing.Point(755, 82);
-            this.textEdit28.Name = "textEdit28";
-            this.textEdit28.Size = new System.Drawing.Size(247, 20);
-            this.textEdit28.StyleController = this.layoutControl1;
-            this.textEdit28.TabIndex = 33;
+            this.tbxotherside.EnterMoveNextControl = true;
+            this.tbxotherside.Location = new System.Drawing.Point(755, 82);
+            this.tbxotherside.Name = "tbxotherside";
+            this.tbxotherside.Size = new System.Drawing.Size(247, 20);
+            this.tbxotherside.StyleController = this.layoutControl1;
+            this.tbxotherside.TabIndex = 33;
             // 
             // textEdit3
             // 
+            this.textEdit3.EnterMoveNextControl = true;
             this.textEdit3.Location = new System.Drawing.Point(755, 58);
             this.textEdit3.Name = "textEdit3";
             this.textEdit3.Size = new System.Drawing.Size(247, 20);
             this.textEdit3.StyleController = this.layoutControl1;
             this.textEdit3.TabIndex = 32;
             // 
-            // textEdit27
+            // tbxadjustinmc
             // 
-            this.textEdit27.Location = new System.Drawing.Point(755, 130);
-            this.textEdit27.Name = "textEdit27";
-            this.textEdit27.Size = new System.Drawing.Size(247, 20);
-            this.textEdit27.StyleController = this.layoutControl1;
-            this.textEdit27.TabIndex = 31;
+            this.tbxadjustinmc.EnterMoveNextControl = true;
+            this.tbxadjustinmc.Location = new System.Drawing.Point(755, 130);
+            this.tbxadjustinmc.Name = "tbxadjustinmc";
+            this.tbxadjustinmc.Size = new System.Drawing.Size(247, 20);
+            this.tbxadjustinmc.StyleController = this.layoutControl1;
+            this.tbxadjustinmc.TabIndex = 31;
             // 
-            // radioGroup1
+            // rbmatissuematreceiptmatstocktransfer
             // 
-            this.radioGroup1.Location = new System.Drawing.Point(536, 12);
-            this.radioGroup1.Name = "radioGroup1";
-            this.radioGroup1.Properties.Columns = 3;
-            this.radioGroup1.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
+            this.rbmatissuematreceiptmatstocktransfer.EnterMoveNextControl = true;
+            this.rbmatissuematreceiptmatstocktransfer.Location = new System.Drawing.Point(536, 12);
+            this.rbmatissuematreceiptmatstocktransfer.Name = "rbmatissuematreceiptmatstocktransfer";
+            this.rbmatissuematreceiptmatstocktransfer.Properties.Columns = 3;
+            this.rbmatissuematreceiptmatstocktransfer.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
             new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "Material Issue"),
             new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "Material Reciept"),
             new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "Stock Transfor")});
-            this.radioGroup1.Size = new System.Drawing.Size(466, 42);
-            this.radioGroup1.StyleController = this.layoutControl1;
-            this.radioGroup1.TabIndex = 30;
+            this.rbmatissuematreceiptmatstocktransfer.Size = new System.Drawing.Size(466, 42);
+            this.rbmatissuematreceiptmatstocktransfer.StyleController = this.layoutControl1;
+            this.rbmatissuematreceiptmatstocktransfer.TabIndex = 30;
             // 
             // textEdit26
             // 
+            this.textEdit26.EnterMoveNextControl = true;
             this.textEdit26.Location = new System.Drawing.Point(345, 540);
             this.textEdit26.Name = "textEdit26";
             this.textEdit26.Size = new System.Drawing.Size(187, 20);
@@ -956,6 +951,7 @@
             // 
             // textEdit25
             // 
+            this.textEdit25.EnterMoveNextControl = true;
             this.textEdit25.Location = new System.Drawing.Point(345, 516);
             this.textEdit25.Name = "textEdit25";
             this.textEdit25.Size = new System.Drawing.Size(187, 20);
@@ -964,166 +960,187 @@
             // 
             // textEdit24
             // 
+            this.textEdit24.EnterMoveNextControl = true;
             this.textEdit24.Location = new System.Drawing.Point(345, 492);
             this.textEdit24.Name = "textEdit24";
             this.textEdit24.Size = new System.Drawing.Size(187, 20);
             this.textEdit24.StyleController = this.layoutControl1;
             this.textEdit24.TabIndex = 27;
             // 
-            // textEdit23
+            // tbxadjustinpurchaseamount
             // 
-            this.textEdit23.Location = new System.Drawing.Point(345, 468);
-            this.textEdit23.Name = "textEdit23";
-            this.textEdit23.Size = new System.Drawing.Size(187, 20);
-            this.textEdit23.StyleController = this.layoutControl1;
-            this.textEdit23.TabIndex = 26;
+            this.tbxadjustinpurchaseamount.EnterMoveNextControl = true;
+            this.tbxadjustinpurchaseamount.Location = new System.Drawing.Point(345, 468);
+            this.tbxadjustinpurchaseamount.Name = "tbxadjustinpurchaseamount";
+            this.tbxadjustinpurchaseamount.Size = new System.Drawing.Size(187, 20);
+            this.tbxadjustinpurchaseamount.StyleController = this.layoutControl1;
+            this.tbxadjustinpurchaseamount.TabIndex = 26;
             // 
-            // textEdit22
+            // tbxaffectsaccounting
             // 
-            this.textEdit22.Location = new System.Drawing.Point(345, 444);
-            this.textEdit22.Name = "textEdit22";
-            this.textEdit22.Size = new System.Drawing.Size(187, 20);
-            this.textEdit22.StyleController = this.layoutControl1;
-            this.textEdit22.TabIndex = 25;
+            this.tbxaffectsaccounting.EnterMoveNextControl = true;
+            this.tbxaffectsaccounting.Location = new System.Drawing.Point(345, 444);
+            this.tbxaffectsaccounting.Name = "tbxaffectsaccounting";
+            this.tbxaffectsaccounting.Size = new System.Drawing.Size(187, 20);
+            this.tbxaffectsaccounting.StyleController = this.layoutControl1;
+            this.tbxaffectsaccounting.TabIndex = 25;
             // 
-            // textEdit21
+            // tbxpostoverandabove
             // 
-            this.textEdit21.Location = new System.Drawing.Point(345, 420);
-            this.textEdit21.Name = "textEdit21";
-            this.textEdit21.Size = new System.Drawing.Size(187, 20);
-            this.textEdit21.StyleController = this.layoutControl1;
-            this.textEdit21.TabIndex = 24;
+            this.tbxpostoverandabove.EnterMoveNextControl = true;
+            this.tbxpostoverandabove.Location = new System.Drawing.Point(345, 420);
+            this.tbxpostoverandabove.Name = "tbxpostoverandabove";
+            this.tbxpostoverandabove.Size = new System.Drawing.Size(187, 20);
+            this.tbxpostoverandabove.StyleController = this.layoutControl1;
+            this.tbxpostoverandabove.TabIndex = 24;
             // 
-            // textEdit20
+            // tbxaccounttoheadpost
             // 
-            this.textEdit20.Location = new System.Drawing.Point(345, 396);
-            this.textEdit20.Name = "textEdit20";
-            this.textEdit20.Size = new System.Drawing.Size(187, 20);
-            this.textEdit20.StyleController = this.layoutControl1;
-            this.textEdit20.TabIndex = 23;
+            this.tbxaccounttoheadpost.EnterMoveNextControl = true;
+            this.tbxaccounttoheadpost.Location = new System.Drawing.Point(345, 396);
+            this.tbxaccounttoheadpost.Name = "tbxaccounttoheadpost";
+            this.tbxaccounttoheadpost.Size = new System.Drawing.Size(187, 20);
+            this.tbxaccounttoheadpost.StyleController = this.layoutControl1;
+            this.tbxaccounttoheadpost.TabIndex = 23;
             // 
-            // textEdit19
+            // tbxadjustinpartyamount
             // 
-            this.textEdit19.Location = new System.Drawing.Point(345, 372);
-            this.textEdit19.Name = "textEdit19";
-            this.textEdit19.Size = new System.Drawing.Size(187, 20);
-            this.textEdit19.StyleController = this.layoutControl1;
-            this.textEdit19.TabIndex = 22;
+            this.tbxadjustinpartyamount.EnterMoveNextControl = true;
+            this.tbxadjustinpartyamount.Location = new System.Drawing.Point(345, 372);
+            this.tbxadjustinpartyamount.Name = "tbxadjustinpartyamount";
+            this.tbxadjustinpartyamount.Size = new System.Drawing.Size(187, 20);
+            this.tbxadjustinpartyamount.StyleController = this.layoutControl1;
+            this.tbxadjustinpartyamount.TabIndex = 22;
             // 
-            // textEdit18
+            // tbxaccountheadpost
             // 
-            this.textEdit18.Location = new System.Drawing.Point(345, 348);
-            this.textEdit18.Name = "textEdit18";
-            this.textEdit18.Size = new System.Drawing.Size(187, 20);
-            this.textEdit18.StyleController = this.layoutControl1;
-            this.textEdit18.TabIndex = 21;
+            this.tbxaccountheadpost.EnterMoveNextControl = true;
+            this.tbxaccountheadpost.Location = new System.Drawing.Point(345, 348);
+            this.tbxaccountheadpost.Name = "tbxaccountheadpost";
+            this.tbxaccountheadpost.Size = new System.Drawing.Size(187, 20);
+            this.tbxaccountheadpost.StyleController = this.layoutControl1;
+            this.tbxaccountheadpost.TabIndex = 21;
             // 
-            // textEdit17
+            // tbxadjustsaleamount
             // 
-            this.textEdit17.Location = new System.Drawing.Point(345, 324);
-            this.textEdit17.Name = "textEdit17";
-            this.textEdit17.Size = new System.Drawing.Size(187, 20);
-            this.textEdit17.StyleController = this.layoutControl1;
-            this.textEdit17.TabIndex = 20;
+            this.tbxadjustsaleamount.EnterMoveNextControl = true;
+            this.tbxadjustsaleamount.Location = new System.Drawing.Point(345, 324);
+            this.tbxadjustsaleamount.Name = "tbxadjustsaleamount";
+            this.tbxadjustsaleamount.Size = new System.Drawing.Size(187, 20);
+            this.tbxadjustsaleamount.StyleController = this.layoutControl1;
+            this.tbxadjustsaleamount.TabIndex = 20;
             // 
-            // textEdit16
+            // tbsaffectsaccounting
             // 
-            this.textEdit16.Location = new System.Drawing.Point(345, 300);
-            this.textEdit16.Name = "textEdit16";
-            this.textEdit16.Size = new System.Drawing.Size(187, 20);
-            this.textEdit16.StyleController = this.layoutControl1;
-            this.textEdit16.TabIndex = 19;
+            this.tbsaffectsaccounting.EnterMoveNextControl = true;
+            this.tbsaffectsaccounting.Location = new System.Drawing.Point(345, 300);
+            this.tbsaffectsaccounting.Name = "tbsaffectsaccounting";
+            this.tbsaffectsaccounting.Size = new System.Drawing.Size(187, 20);
+            this.tbsaffectsaccounting.StyleController = this.layoutControl1;
+            this.tbsaffectsaccounting.TabIndex = 19;
             // 
-            // textEdit15
+            // tbxaffectsthecostofggodsinstoclktransfer
             // 
-            this.textEdit15.Location = new System.Drawing.Point(345, 276);
-            this.textEdit15.Name = "textEdit15";
-            this.textEdit15.Size = new System.Drawing.Size(187, 20);
-            this.textEdit15.StyleController = this.layoutControl1;
-            this.textEdit15.TabIndex = 18;
+            this.tbxaffectsthecostofggodsinstoclktransfer.EnterMoveNextControl = true;
+            this.tbxaffectsthecostofggodsinstoclktransfer.Location = new System.Drawing.Point(345, 276);
+            this.tbxaffectsthecostofggodsinstoclktransfer.Name = "tbxaffectsthecostofggodsinstoclktransfer";
+            this.tbxaffectsthecostofggodsinstoclktransfer.Size = new System.Drawing.Size(187, 20);
+            this.tbxaffectsthecostofggodsinstoclktransfer.StyleController = this.layoutControl1;
+            this.tbxaffectsthecostofggodsinstoclktransfer.TabIndex = 18;
             // 
-            // textEdit14
+            // tbxaffectsthecostofgoodsinmaterialreceipt
             // 
-            this.textEdit14.Location = new System.Drawing.Point(345, 252);
-            this.textEdit14.Name = "textEdit14";
-            this.textEdit14.Size = new System.Drawing.Size(187, 20);
-            this.textEdit14.StyleController = this.layoutControl1;
-            this.textEdit14.TabIndex = 17;
+            this.tbxaffectsthecostofgoodsinmaterialreceipt.EnterMoveNextControl = true;
+            this.tbxaffectsthecostofgoodsinmaterialreceipt.Location = new System.Drawing.Point(345, 252);
+            this.tbxaffectsthecostofgoodsinmaterialreceipt.Name = "tbxaffectsthecostofgoodsinmaterialreceipt";
+            this.tbxaffectsthecostofgoodsinmaterialreceipt.Size = new System.Drawing.Size(187, 20);
+            this.tbxaffectsthecostofgoodsinmaterialreceipt.StyleController = this.layoutControl1;
+            this.tbxaffectsthecostofgoodsinmaterialreceipt.TabIndex = 17;
             // 
-            // textEdit13
+            // tbxaffectsthecostoofgoodsinmaterialissue
             // 
-            this.textEdit13.Location = new System.Drawing.Point(345, 228);
-            this.textEdit13.Name = "textEdit13";
-            this.textEdit13.Size = new System.Drawing.Size(187, 20);
-            this.textEdit13.StyleController = this.layoutControl1;
-            this.textEdit13.TabIndex = 16;
+            this.tbxaffectsthecostoofgoodsinmaterialissue.EnterMoveNextControl = true;
+            this.tbxaffectsthecostoofgoodsinmaterialissue.Location = new System.Drawing.Point(345, 228);
+            this.tbxaffectsthecostoofgoodsinmaterialissue.Name = "tbxaffectsthecostoofgoodsinmaterialissue";
+            this.tbxaffectsthecostoofgoodsinmaterialissue.Size = new System.Drawing.Size(187, 20);
+            this.tbxaffectsthecostoofgoodsinmaterialissue.StyleController = this.layoutControl1;
+            this.tbxaffectsthecostoofgoodsinmaterialissue.TabIndex = 16;
             // 
-            // textEdit12
+            // tbxafectsthecostoofgoodsinpurchase
             // 
-            this.textEdit12.Location = new System.Drawing.Point(345, 204);
-            this.textEdit12.Name = "textEdit12";
-            this.textEdit12.Size = new System.Drawing.Size(187, 20);
-            this.textEdit12.StyleController = this.layoutControl1;
-            this.textEdit12.TabIndex = 15;
+            this.tbxafectsthecostoofgoodsinpurchase.EnterMoveNextControl = true;
+            this.tbxafectsthecostoofgoodsinpurchase.Location = new System.Drawing.Point(345, 204);
+            this.tbxafectsthecostoofgoodsinpurchase.Name = "tbxafectsthecostoofgoodsinpurchase";
+            this.tbxafectsthecostoofgoodsinpurchase.Size = new System.Drawing.Size(187, 20);
+            this.tbxafectsthecostoofgoodsinpurchase.StyleController = this.layoutControl1;
+            this.tbxafectsthecostoofgoodsinpurchase.TabIndex = 15;
             // 
-            // textEdit11
+            // tbxaffectsthecostofgoodsinsle
             // 
-            this.textEdit11.Location = new System.Drawing.Point(345, 180);
-            this.textEdit11.Name = "textEdit11";
-            this.textEdit11.Size = new System.Drawing.Size(187, 20);
-            this.textEdit11.StyleController = this.layoutControl1;
-            this.textEdit11.TabIndex = 14;
+            this.tbxaffectsthecostofgoodsinsle.EnterMoveNextControl = true;
+            this.tbxaffectsthecostofgoodsinsle.Location = new System.Drawing.Point(345, 180);
+            this.tbxaffectsthecostofgoodsinsle.Name = "tbxaffectsthecostofgoodsinsle";
+            this.tbxaffectsthecostofgoodsinsle.Size = new System.Drawing.Size(187, 20);
+            this.tbxaffectsthecostofgoodsinsle.StyleController = this.layoutControl1;
+            this.tbxaffectsthecostofgoodsinsle.TabIndex = 14;
             // 
-            // textEdit10
+            // tbxsubtotalheading
             // 
-            this.textEdit10.Location = new System.Drawing.Point(345, 156);
-            this.textEdit10.Name = "textEdit10";
-            this.textEdit10.Size = new System.Drawing.Size(187, 20);
-            this.textEdit10.StyleController = this.layoutControl1;
-            this.textEdit10.TabIndex = 13;
+            this.tbxsubtotalheading.EnterMoveNextControl = true;
+            this.tbxsubtotalheading.Location = new System.Drawing.Point(345, 156);
+            this.tbxsubtotalheading.Name = "tbxsubtotalheading";
+            this.tbxsubtotalheading.Size = new System.Drawing.Size(187, 20);
+            this.tbxsubtotalheading.StyleController = this.layoutControl1;
+            this.tbxsubtotalheading.TabIndex = 13;
             // 
-            // textEdit9
+            // tbxdefaultvalue
             // 
-            this.textEdit9.Location = new System.Drawing.Point(345, 132);
-            this.textEdit9.Name = "textEdit9";
-            this.textEdit9.Size = new System.Drawing.Size(187, 20);
-            this.textEdit9.StyleController = this.layoutControl1;
-            this.textEdit9.TabIndex = 12;
+            this.tbxdefaultvalue.EnterMoveNextControl = true;
+            this.tbxdefaultvalue.Location = new System.Drawing.Point(345, 132);
+            this.tbxdefaultvalue.Name = "tbxdefaultvalue";
+            this.tbxdefaultvalue.Size = new System.Drawing.Size(187, 20);
+            this.tbxdefaultvalue.StyleController = this.layoutControl1;
+            this.tbxdefaultvalue.TabIndex = 12;
             // 
-            // textEdit8
+            // tbxbillsundrynarration
             // 
-            this.textEdit8.Location = new System.Drawing.Point(345, 108);
-            this.textEdit8.Name = "textEdit8";
-            this.textEdit8.Size = new System.Drawing.Size(187, 20);
-            this.textEdit8.StyleController = this.layoutControl1;
-            this.textEdit8.TabIndex = 11;
+            this.tbxbillsundrynarration.EnterMoveNextControl = true;
+            this.tbxbillsundrynarration.Location = new System.Drawing.Point(345, 108);
+            this.tbxbillsundrynarration.Name = "tbxbillsundrynarration";
+            this.tbxbillsundrynarration.Size = new System.Drawing.Size(187, 20);
+            this.tbxbillsundrynarration.StyleController = this.layoutControl1;
+            this.tbxbillsundrynarration.TabIndex = 11;
             // 
-            // textEdit7
+            // tbxbillsundrytype
             // 
-            this.textEdit7.Location = new System.Drawing.Point(345, 84);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Size = new System.Drawing.Size(187, 20);
-            this.textEdit7.StyleController = this.layoutControl1;
-            this.textEdit7.TabIndex = 10;
+            this.tbxbillsundrytype.EnterMoveNextControl = true;
+            this.tbxbillsundrytype.Location = new System.Drawing.Point(345, 84);
+            this.tbxbillsundrytype.Name = "tbxbillsundrytype";
+            this.tbxbillsundrytype.Size = new System.Drawing.Size(187, 20);
+            this.tbxbillsundrytype.StyleController = this.layoutControl1;
+            this.tbxbillsundrytype.TabIndex = 10;
             // 
-            // textEdit6
+            // tbxprintname
             // 
-            this.textEdit6.Location = new System.Drawing.Point(345, 60);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(187, 20);
-            this.textEdit6.StyleController = this.layoutControl1;
-            this.textEdit6.TabIndex = 9;
+            this.tbxprintname.EnterMoveNextControl = true;
+            this.tbxprintname.Location = new System.Drawing.Point(345, 60);
+            this.tbxprintname.Name = "tbxprintname";
+            this.tbxprintname.Size = new System.Drawing.Size(187, 20);
+            this.tbxprintname.StyleController = this.layoutControl1;
+            this.tbxprintname.TabIndex = 9;
             // 
-            // textEdit4
+            // tbxName
             // 
-            this.textEdit4.Location = new System.Drawing.Point(345, 12);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(187, 20);
-            this.textEdit4.StyleController = this.layoutControl1;
-            this.textEdit4.TabIndex = 4;
+            this.tbxName.EnterMoveNextControl = true;
+            this.tbxName.Location = new System.Drawing.Point(345, 12);
+            this.tbxName.Name = "tbxName";
+            this.tbxName.Size = new System.Drawing.Size(187, 20);
+            this.tbxName.StyleController = this.layoutControl1;
+            this.tbxName.TabIndex = 4;
             // 
             // textEdit1
             // 
+            this.textEdit1.EnterMoveNextControl = true;
             this.textEdit1.Location = new System.Drawing.Point(345, 564);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Size = new System.Drawing.Size(187, 20);
@@ -1132,6 +1149,7 @@
             // 
             // textEdit2
             // 
+            this.textEdit2.EnterMoveNextControl = true;
             this.textEdit2.Location = new System.Drawing.Point(755, 154);
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Size = new System.Drawing.Size(247, 20);
@@ -1140,6 +1158,7 @@
             // 
             // textEdit5
             // 
+            this.textEdit5.EnterMoveNextControl = true;
             this.textEdit5.Location = new System.Drawing.Point(345, 36);
             this.textEdit5.Name = "textEdit5";
             this.textEdit5.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -1155,7 +1174,7 @@
             this.layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem1,
             this.layoutControlItem3,
-            this.layoutControlItem5,
+            this.cbxalias,
             this.layoutControlItem6,
             this.layoutControlItem7,
             this.layoutControlItem8,
@@ -1185,11 +1204,9 @@
             this.layoutControlItem28,
             this.layoutControlItem4,
             this.layoutControlItem31,
-            this.layoutControlItem32,
             this.layoutControlItem33,
             this.layoutControlItem35,
             this.layoutControlItem36,
-            this.layoutControlItem34,
             this.layoutControlItem37,
             this.layoutControlItem38,
             this.layoutControlItem39,
@@ -1207,7 +1224,8 @@
             this.layoutControlItem51,
             this.emptySpaceItem3,
             this.emptySpaceItem4,
-            this.layoutControlItem52});
+            this.layoutControlItem52,
+            this.layoutControlItem32});
             this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup1.Name = "Root";
             this.layoutControlGroup1.Size = new System.Drawing.Size(1014, 639);
@@ -1217,7 +1235,7 @@
             // 
             this.layoutControlItem1.AppearanceItemCaption.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.layoutControlItem1.AppearanceItemCaption.Options.UseFont = true;
-            this.layoutControlItem1.Control = this.textEdit4;
+            this.layoutControlItem1.Control = this.tbxName;
             this.layoutControlItem1.CustomizationFormText = "layoutControlItem1";
             this.layoutControlItem1.Location = new System.Drawing.Point(114, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
@@ -1237,18 +1255,18 @@
             this.layoutControlItem3.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem3.TextSize = new System.Drawing.Size(216, 13);
             // 
-            // layoutControlItem5
+            // cbxalias
             // 
-            this.layoutControlItem5.Control = this.textEdit5;
-            this.layoutControlItem5.Location = new System.Drawing.Point(114, 24);
-            this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(410, 24);
-            this.layoutControlItem5.Text = "Alias";
-            this.layoutControlItem5.TextSize = new System.Drawing.Size(216, 13);
+            this.cbxalias.Control = this.textEdit5;
+            this.cbxalias.Location = new System.Drawing.Point(114, 24);
+            this.cbxalias.Name = "cbxalias";
+            this.cbxalias.Size = new System.Drawing.Size(410, 24);
+            this.cbxalias.Text = "Alias";
+            this.cbxalias.TextSize = new System.Drawing.Size(216, 13);
             // 
             // layoutControlItem6
             // 
-            this.layoutControlItem6.Control = this.textEdit6;
+            this.layoutControlItem6.Control = this.tbxprintname;
             this.layoutControlItem6.Location = new System.Drawing.Point(114, 48);
             this.layoutControlItem6.Name = "layoutControlItem6";
             this.layoutControlItem6.Size = new System.Drawing.Size(410, 24);
@@ -1257,7 +1275,7 @@
             // 
             // layoutControlItem7
             // 
-            this.layoutControlItem7.Control = this.textEdit7;
+            this.layoutControlItem7.Control = this.tbxbillsundrytype;
             this.layoutControlItem7.Location = new System.Drawing.Point(114, 72);
             this.layoutControlItem7.Name = "layoutControlItem7";
             this.layoutControlItem7.Size = new System.Drawing.Size(410, 24);
@@ -1266,7 +1284,7 @@
             // 
             // layoutControlItem8
             // 
-            this.layoutControlItem8.Control = this.textEdit8;
+            this.layoutControlItem8.Control = this.tbxbillsundrynarration;
             this.layoutControlItem8.Location = new System.Drawing.Point(114, 96);
             this.layoutControlItem8.Name = "layoutControlItem8";
             this.layoutControlItem8.Size = new System.Drawing.Size(410, 24);
@@ -1275,7 +1293,7 @@
             // 
             // layoutControlItem9
             // 
-            this.layoutControlItem9.Control = this.textEdit9;
+            this.layoutControlItem9.Control = this.tbxdefaultvalue;
             this.layoutControlItem9.Location = new System.Drawing.Point(114, 120);
             this.layoutControlItem9.Name = "layoutControlItem9";
             this.layoutControlItem9.Size = new System.Drawing.Size(410, 24);
@@ -1284,7 +1302,7 @@
             // 
             // layoutControlItem10
             // 
-            this.layoutControlItem10.Control = this.textEdit10;
+            this.layoutControlItem10.Control = this.tbxsubtotalheading;
             this.layoutControlItem10.Location = new System.Drawing.Point(114, 144);
             this.layoutControlItem10.Name = "layoutControlItem10";
             this.layoutControlItem10.Size = new System.Drawing.Size(410, 24);
@@ -1293,7 +1311,7 @@
             // 
             // layoutControlItem11
             // 
-            this.layoutControlItem11.Control = this.textEdit11;
+            this.layoutControlItem11.Control = this.tbxaffectsthecostofgoodsinsle;
             this.layoutControlItem11.Location = new System.Drawing.Point(114, 168);
             this.layoutControlItem11.Name = "layoutControlItem11";
             this.layoutControlItem11.Size = new System.Drawing.Size(410, 24);
@@ -1302,7 +1320,7 @@
             // 
             // layoutControlItem12
             // 
-            this.layoutControlItem12.Control = this.textEdit12;
+            this.layoutControlItem12.Control = this.tbxafectsthecostoofgoodsinpurchase;
             this.layoutControlItem12.Location = new System.Drawing.Point(114, 192);
             this.layoutControlItem12.Name = "layoutControlItem12";
             this.layoutControlItem12.Size = new System.Drawing.Size(410, 24);
@@ -1311,7 +1329,7 @@
             // 
             // layoutControlItem13
             // 
-            this.layoutControlItem13.Control = this.textEdit13;
+            this.layoutControlItem13.Control = this.tbxaffectsthecostoofgoodsinmaterialissue;
             this.layoutControlItem13.Location = new System.Drawing.Point(114, 216);
             this.layoutControlItem13.Name = "layoutControlItem13";
             this.layoutControlItem13.Size = new System.Drawing.Size(410, 24);
@@ -1320,7 +1338,7 @@
             // 
             // layoutControlItem14
             // 
-            this.layoutControlItem14.Control = this.textEdit14;
+            this.layoutControlItem14.Control = this.tbxaffectsthecostofgoodsinmaterialreceipt;
             this.layoutControlItem14.Location = new System.Drawing.Point(114, 240);
             this.layoutControlItem14.Name = "layoutControlItem14";
             this.layoutControlItem14.Size = new System.Drawing.Size(410, 24);
@@ -1329,7 +1347,7 @@
             // 
             // layoutControlItem15
             // 
-            this.layoutControlItem15.Control = this.textEdit15;
+            this.layoutControlItem15.Control = this.tbxaffectsthecostofggodsinstoclktransfer;
             this.layoutControlItem15.Location = new System.Drawing.Point(114, 264);
             this.layoutControlItem15.Name = "layoutControlItem15";
             this.layoutControlItem15.Size = new System.Drawing.Size(410, 24);
@@ -1338,7 +1356,7 @@
             // 
             // layoutControlItem16
             // 
-            this.layoutControlItem16.Control = this.textEdit16;
+            this.layoutControlItem16.Control = this.tbsaffectsaccounting;
             this.layoutControlItem16.Location = new System.Drawing.Point(114, 288);
             this.layoutControlItem16.Name = "layoutControlItem16";
             this.layoutControlItem16.Size = new System.Drawing.Size(410, 24);
@@ -1347,7 +1365,7 @@
             // 
             // layoutControlItem17
             // 
-            this.layoutControlItem17.Control = this.textEdit17;
+            this.layoutControlItem17.Control = this.tbxadjustsaleamount;
             this.layoutControlItem17.Location = new System.Drawing.Point(114, 312);
             this.layoutControlItem17.Name = "layoutControlItem17";
             this.layoutControlItem17.Size = new System.Drawing.Size(410, 24);
@@ -1356,7 +1374,7 @@
             // 
             // layoutControlItem18
             // 
-            this.layoutControlItem18.Control = this.textEdit18;
+            this.layoutControlItem18.Control = this.tbxaccountheadpost;
             this.layoutControlItem18.Location = new System.Drawing.Point(114, 336);
             this.layoutControlItem18.Name = "layoutControlItem18";
             this.layoutControlItem18.Size = new System.Drawing.Size(410, 24);
@@ -1365,7 +1383,7 @@
             // 
             // layoutControlItem19
             // 
-            this.layoutControlItem19.Control = this.textEdit19;
+            this.layoutControlItem19.Control = this.tbxadjustinpartyamount;
             this.layoutControlItem19.Location = new System.Drawing.Point(114, 360);
             this.layoutControlItem19.Name = "layoutControlItem19";
             this.layoutControlItem19.Size = new System.Drawing.Size(410, 24);
@@ -1374,7 +1392,7 @@
             // 
             // layoutControlItem20
             // 
-            this.layoutControlItem20.Control = this.textEdit20;
+            this.layoutControlItem20.Control = this.tbxaccounttoheadpost;
             this.layoutControlItem20.Location = new System.Drawing.Point(114, 384);
             this.layoutControlItem20.Name = "layoutControlItem20";
             this.layoutControlItem20.Size = new System.Drawing.Size(410, 24);
@@ -1383,7 +1401,7 @@
             // 
             // layoutControlItem21
             // 
-            this.layoutControlItem21.Control = this.textEdit21;
+            this.layoutControlItem21.Control = this.tbxpostoverandabove;
             this.layoutControlItem21.Location = new System.Drawing.Point(114, 408);
             this.layoutControlItem21.Name = "layoutControlItem21";
             this.layoutControlItem21.Size = new System.Drawing.Size(410, 24);
@@ -1392,7 +1410,7 @@
             // 
             // layoutControlItem22
             // 
-            this.layoutControlItem22.Control = this.textEdit22;
+            this.layoutControlItem22.Control = this.tbxaffectsaccounting;
             this.layoutControlItem22.Location = new System.Drawing.Point(114, 432);
             this.layoutControlItem22.Name = "layoutControlItem22";
             this.layoutControlItem22.Size = new System.Drawing.Size(410, 24);
@@ -1401,7 +1419,7 @@
             // 
             // layoutControlItem23
             // 
-            this.layoutControlItem23.Control = this.textEdit23;
+            this.layoutControlItem23.Control = this.tbxadjustinpurchaseamount;
             this.layoutControlItem23.Location = new System.Drawing.Point(114, 456);
             this.layoutControlItem23.Name = "layoutControlItem23";
             this.layoutControlItem23.Size = new System.Drawing.Size(410, 24);
@@ -1437,7 +1455,7 @@
             // 
             // layoutControlItem27
             // 
-            this.layoutControlItem27.Control = this.radioGroup1;
+            this.layoutControlItem27.Control = this.rbmatissuematreceiptmatstocktransfer;
             this.layoutControlItem27.Location = new System.Drawing.Point(524, 0);
             this.layoutControlItem27.Name = "layoutControlItem27";
             this.layoutControlItem27.Size = new System.Drawing.Size(470, 46);
@@ -1447,9 +1465,9 @@
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(524, 470);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(524, 475);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(470, 106);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(470, 101);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem2
@@ -1463,7 +1481,7 @@
             // 
             // layoutControlItem29
             // 
-            this.layoutControlItem29.Control = this.textEdit28;
+            this.layoutControlItem29.Control = this.tbxotherside;
             this.layoutControlItem29.Location = new System.Drawing.Point(524, 70);
             this.layoutControlItem29.Name = "layoutControlItem29";
             this.layoutControlItem29.Size = new System.Drawing.Size(470, 24);
@@ -1481,7 +1499,7 @@
             // 
             // layoutControlItem28
             // 
-            this.layoutControlItem28.Control = this.textEdit27;
+            this.layoutControlItem28.Control = this.tbxadjustinmc;
             this.layoutControlItem28.Location = new System.Drawing.Point(524, 118);
             this.layoutControlItem28.Name = "layoutControlItem28";
             this.layoutControlItem28.Size = new System.Drawing.Size(470, 24);
@@ -1508,28 +1526,19 @@
             this.layoutControlItem31.Text = "Post Over and Above";
             this.layoutControlItem31.TextSize = new System.Drawing.Size(216, 13);
             // 
-            // layoutControlItem32
-            // 
-            this.layoutControlItem32.Control = this.radioButton1;
-            this.layoutControlItem32.Location = new System.Drawing.Point(524, 190);
-            this.layoutControlItem32.Name = "layoutControlItem32";
-            this.layoutControlItem32.Size = new System.Drawing.Size(264, 29);
-            this.layoutControlItem32.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem32.TextVisible = false;
-            // 
             // layoutControlItem33
             // 
-            this.layoutControlItem33.Control = this.radioButton2;
-            this.layoutControlItem33.Location = new System.Drawing.Point(788, 190);
+            this.layoutControlItem33.Control = this.rbpercentrage;
+            this.layoutControlItem33.Location = new System.Drawing.Point(524, 219);
             this.layoutControlItem33.Name = "layoutControlItem33";
-            this.layoutControlItem33.Size = new System.Drawing.Size(206, 29);
+            this.layoutControlItem33.Size = new System.Drawing.Size(470, 29);
             this.layoutControlItem33.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem33.TextVisible = false;
             // 
             // layoutControlItem35
             // 
-            this.layoutControlItem35.Control = this.radioButton4;
-            this.layoutControlItem35.Location = new System.Drawing.Point(524, 219);
+            this.layoutControlItem35.Control = this.rbpermainqty;
+            this.layoutControlItem35.Location = new System.Drawing.Point(524, 248);
             this.layoutControlItem35.Name = "layoutControlItem35";
             this.layoutControlItem35.Size = new System.Drawing.Size(264, 29);
             this.layoutControlItem35.TextSize = new System.Drawing.Size(0, 0);
@@ -1537,26 +1546,17 @@
             // 
             // layoutControlItem36
             // 
-            this.layoutControlItem36.Control = this.radioButton5;
-            this.layoutControlItem36.Location = new System.Drawing.Point(788, 219);
+            this.layoutControlItem36.Control = this.rbperaltqty;
+            this.layoutControlItem36.Location = new System.Drawing.Point(788, 248);
             this.layoutControlItem36.Name = "layoutControlItem36";
             this.layoutControlItem36.Size = new System.Drawing.Size(206, 29);
             this.layoutControlItem36.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem36.TextVisible = false;
             // 
-            // layoutControlItem34
-            // 
-            this.layoutControlItem34.Control = this.textEdit31;
-            this.layoutControlItem34.Location = new System.Drawing.Point(524, 248);
-            this.layoutControlItem34.Name = "layoutControlItem34";
-            this.layoutControlItem34.Size = new System.Drawing.Size(470, 24);
-            this.layoutControlItem34.TextLocation = DevExpress.Utils.Locations.Right;
-            this.layoutControlItem34.TextSize = new System.Drawing.Size(216, 13);
-            // 
             // layoutControlItem37
             // 
-            this.layoutControlItem37.Control = this.radioButton3;
-            this.layoutControlItem37.Location = new System.Drawing.Point(524, 272);
+            this.layoutControlItem37.Control = this.rbnetbillamt;
+            this.layoutControlItem37.Location = new System.Drawing.Point(524, 277);
             this.layoutControlItem37.Name = "layoutControlItem37";
             this.layoutControlItem37.Size = new System.Drawing.Size(156, 29);
             this.layoutControlItem37.TextSize = new System.Drawing.Size(0, 0);
@@ -1564,8 +1564,8 @@
             // 
             // layoutControlItem38
             // 
-            this.layoutControlItem38.Control = this.radioButton6;
-            this.layoutControlItem38.Location = new System.Drawing.Point(524, 301);
+            this.layoutControlItem38.Control = this.rbitombasicamt;
+            this.layoutControlItem38.Location = new System.Drawing.Point(524, 306);
             this.layoutControlItem38.Name = "layoutControlItem38";
             this.layoutControlItem38.Size = new System.Drawing.Size(470, 29);
             this.layoutControlItem38.TextSize = new System.Drawing.Size(0, 0);
@@ -1573,8 +1573,8 @@
             // 
             // layoutControlItem39
             // 
-            this.layoutControlItem39.Control = this.radioButton7;
-            this.layoutControlItem39.Location = new System.Drawing.Point(524, 330);
+            this.layoutControlItem39.Control = this.rbtotalmrpofitems;
+            this.layoutControlItem39.Location = new System.Drawing.Point(524, 335);
             this.layoutControlItem39.Name = "layoutControlItem39";
             this.layoutControlItem39.Size = new System.Drawing.Size(175, 29);
             this.layoutControlItem39.TextSize = new System.Drawing.Size(0, 0);
@@ -1582,8 +1582,8 @@
             // 
             // layoutControlItem40
             // 
-            this.layoutControlItem40.Control = this.radioButton8;
-            this.layoutControlItem40.Location = new System.Drawing.Point(524, 359);
+            this.layoutControlItem40.Control = this.rbtaxableamt;
+            this.layoutControlItem40.Location = new System.Drawing.Point(524, 364);
             this.layoutControlItem40.Name = "layoutControlItem40";
             this.layoutControlItem40.Size = new System.Drawing.Size(175, 29);
             this.layoutControlItem40.TextSize = new System.Drawing.Size(0, 0);
@@ -1591,8 +1591,8 @@
             // 
             // layoutControlItem41
             // 
-            this.layoutControlItem41.Control = this.radioButton9;
-            this.layoutControlItem41.Location = new System.Drawing.Point(524, 388);
+            this.layoutControlItem41.Control = this.rbprevbillsundry;
+            this.layoutControlItem41.Location = new System.Drawing.Point(524, 393);
             this.layoutControlItem41.Name = "layoutControlItem41";
             this.layoutControlItem41.Size = new System.Drawing.Size(175, 29);
             this.layoutControlItem41.TextSize = new System.Drawing.Size(0, 0);
@@ -1600,8 +1600,8 @@
             // 
             // layoutControlItem42
             // 
-            this.layoutControlItem42.Control = this.radioButton10;
-            this.layoutControlItem42.Location = new System.Drawing.Point(524, 417);
+            this.layoutControlItem42.Control = this.rbotherbillsundry;
+            this.layoutControlItem42.Location = new System.Drawing.Point(524, 422);
             this.layoutControlItem42.Name = "layoutControlItem42";
             this.layoutControlItem42.Size = new System.Drawing.Size(175, 29);
             this.layoutControlItem42.TextSize = new System.Drawing.Size(0, 0);
@@ -1609,8 +1609,8 @@
             // 
             // layoutControlItem43
             // 
-            this.layoutControlItem43.Control = this.comboBoxEdit1;
-            this.layoutControlItem43.Location = new System.Drawing.Point(680, 272);
+            this.layoutControlItem43.Control = this.cbxselectivecalculation;
+            this.layoutControlItem43.Location = new System.Drawing.Point(680, 277);
             this.layoutControlItem43.Name = "layoutControlItem43";
             this.layoutControlItem43.Size = new System.Drawing.Size(314, 29);
             this.layoutControlItem43.Text = "Selective Calculation";
@@ -1618,8 +1618,8 @@
             // 
             // layoutControlItem44
             // 
-            this.layoutControlItem44.Control = this.checkEdit1;
-            this.layoutControlItem44.Location = new System.Drawing.Point(699, 330);
+            this.layoutControlItem44.Control = this.chbincludefreeqty;
+            this.layoutControlItem44.Location = new System.Drawing.Point(699, 335);
             this.layoutControlItem44.Name = "layoutControlItem44";
             this.layoutControlItem44.Size = new System.Drawing.Size(295, 29);
             this.layoutControlItem44.TextSize = new System.Drawing.Size(0, 0);
@@ -1627,8 +1627,8 @@
             // 
             // layoutControlItem45
             // 
-            this.layoutControlItem45.Control = this.comboBoxEdit2;
-            this.layoutControlItem45.Location = new System.Drawing.Point(699, 359);
+            this.layoutControlItem45.Control = this.cbxnoofbillsundry;
+            this.layoutControlItem45.Location = new System.Drawing.Point(699, 364);
             this.layoutControlItem45.Name = "layoutControlItem45";
             this.layoutControlItem45.Size = new System.Drawing.Size(295, 29);
             this.layoutControlItem45.Text = "No. of Bill Sundry(s)";
@@ -1636,8 +1636,8 @@
             // 
             // layoutControlItem46
             // 
-            this.layoutControlItem46.Control = this.comboBox1;
-            this.layoutControlItem46.Location = new System.Drawing.Point(699, 388);
+            this.layoutControlItem46.Control = this.cbxbillsundryamt;
+            this.layoutControlItem46.Location = new System.Drawing.Point(699, 393);
             this.layoutControlItem46.Name = "layoutControlItem46";
             this.layoutControlItem46.Size = new System.Drawing.Size(295, 29);
             this.layoutControlItem46.Text = "Consoilated Bill Sundaries Amt.";
@@ -1645,8 +1645,8 @@
             // 
             // layoutControlItem47
             // 
-            this.layoutControlItem47.Control = this.radioButton11;
-            this.layoutControlItem47.Location = new System.Drawing.Point(699, 417);
+            this.layoutControlItem47.Control = this.rbsundryamt;
+            this.layoutControlItem47.Location = new System.Drawing.Point(699, 422);
             this.layoutControlItem47.Name = "layoutControlItem47";
             this.layoutControlItem47.Size = new System.Drawing.Size(271, 29);
             this.layoutControlItem47.TextSize = new System.Drawing.Size(0, 0);
@@ -1655,7 +1655,7 @@
             // layoutControlItem48
             // 
             this.layoutControlItem48.Control = this.radioButton12;
-            this.layoutControlItem48.Location = new System.Drawing.Point(970, 417);
+            this.layoutControlItem48.Location = new System.Drawing.Point(970, 422);
             this.layoutControlItem48.Name = "layoutControlItem48";
             this.layoutControlItem48.Size = new System.Drawing.Size(24, 29);
             this.layoutControlItem48.TextSize = new System.Drawing.Size(0, 0);
@@ -1663,8 +1663,8 @@
             // 
             // layoutControlItem49
             // 
-            this.layoutControlItem49.Control = this.comboBoxEdit3;
-            this.layoutControlItem49.Location = new System.Drawing.Point(524, 446);
+            this.layoutControlItem49.Control = this.chbroundofbillsundryamt;
+            this.layoutControlItem49.Location = new System.Drawing.Point(524, 451);
             this.layoutControlItem49.Name = "layoutControlItem49";
             this.layoutControlItem49.Size = new System.Drawing.Size(470, 24);
             this.layoutControlItem49.Text = "Round off Bill Sundary Amount";
@@ -1672,7 +1672,7 @@
             // 
             // layoutControlItem50
             // 
-            this.layoutControlItem50.Control = this.simpleButton1;
+            this.layoutControlItem50.Control = this.btnsave;
             this.layoutControlItem50.Location = new System.Drawing.Point(735, 576);
             this.layoutControlItem50.Name = "layoutControlItem50";
             this.layoutControlItem50.Size = new System.Drawing.Size(95, 43);
@@ -1713,6 +1713,15 @@
             this.layoutControlItem52.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem52.TextVisible = false;
             // 
+            // layoutControlItem32
+            // 
+            this.layoutControlItem32.Control = this.rbabsoluteamt;
+            this.layoutControlItem32.Location = new System.Drawing.Point(524, 190);
+            this.layoutControlItem32.Name = "layoutControlItem32";
+            this.layoutControlItem32.Size = new System.Drawing.Size(470, 29);
+            this.layoutControlItem32.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem32.TextVisible = false;
+            // 
             // Billsundary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1731,46 +1740,45 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit31.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chbroundofbillsundryamt.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxnoofbillsundry.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chbincludefreeqty.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxselectivecalculation.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit30.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit29.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit28.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxotherside.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit27.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxadjustinmc.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rbmatissuematreceiptmatstocktransfer.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit26.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit25.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit24.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit23.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit22.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit21.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit20.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit19.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit18.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit17.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit16.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit15.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit14.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit13.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit12.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit11.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit10.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxadjustinpurchaseamount.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxaffectsaccounting.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxpostoverandabove.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxaccounttoheadpost.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxadjustinpartyamount.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxaccountheadpost.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxadjustsaleamount.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbsaffectsaccounting.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxaffectsthecostofggodsinstoclktransfer.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxaffectsthecostofgoodsinmaterialreceipt.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxaffectsthecostoofgoodsinmaterialissue.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxafectsthecostoofgoodsinpurchase.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxaffectsthecostofgoodsinsle.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxsubtotalheading.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxdefaultvalue.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxbillsundrynarration.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxbillsundrytype.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxprintname.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbxName.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbxalias)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
@@ -1800,11 +1808,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem32)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem33)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem35)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem36)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem34)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem37)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem38)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem39)).EndInit();
@@ -1823,6 +1829,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem52)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem32)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1833,25 +1840,25 @@
         private DevExpress.XtraEditors.TextEdit textEdit26;
         private DevExpress.XtraEditors.TextEdit textEdit25;
         private DevExpress.XtraEditors.TextEdit textEdit24;
-        private DevExpress.XtraEditors.TextEdit textEdit23;
-        private DevExpress.XtraEditors.TextEdit textEdit22;
-        private DevExpress.XtraEditors.TextEdit textEdit21;
-        private DevExpress.XtraEditors.TextEdit textEdit20;
-        private DevExpress.XtraEditors.TextEdit textEdit19;
-        private DevExpress.XtraEditors.TextEdit textEdit18;
-        private DevExpress.XtraEditors.TextEdit textEdit17;
-        private DevExpress.XtraEditors.TextEdit textEdit16;
-        private DevExpress.XtraEditors.TextEdit textEdit15;
-        private DevExpress.XtraEditors.TextEdit textEdit14;
-        private DevExpress.XtraEditors.TextEdit textEdit13;
-        private DevExpress.XtraEditors.TextEdit textEdit12;
-        private DevExpress.XtraEditors.TextEdit textEdit11;
-        private DevExpress.XtraEditors.TextEdit textEdit10;
-        private DevExpress.XtraEditors.TextEdit textEdit9;
-        private DevExpress.XtraEditors.TextEdit textEdit8;
-        private DevExpress.XtraEditors.TextEdit textEdit7;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
-        private DevExpress.XtraEditors.TextEdit textEdit4;
+        private DevExpress.XtraEditors.TextEdit tbxadjustinpurchaseamount;
+        private DevExpress.XtraEditors.TextEdit tbxaffectsaccounting;
+        private DevExpress.XtraEditors.TextEdit tbxpostoverandabove;
+        private DevExpress.XtraEditors.TextEdit tbxaccounttoheadpost;
+        private DevExpress.XtraEditors.TextEdit tbxadjustinpartyamount;
+        private DevExpress.XtraEditors.TextEdit tbxaccountheadpost;
+        private DevExpress.XtraEditors.TextEdit tbxadjustsaleamount;
+        private DevExpress.XtraEditors.TextEdit tbsaffectsaccounting;
+        private DevExpress.XtraEditors.TextEdit tbxaffectsthecostofggodsinstoclktransfer;
+        private DevExpress.XtraEditors.TextEdit tbxaffectsthecostofgoodsinmaterialreceipt;
+        private DevExpress.XtraEditors.TextEdit tbxaffectsthecostoofgoodsinmaterialissue;
+        private DevExpress.XtraEditors.TextEdit tbxafectsthecostoofgoodsinpurchase;
+        private DevExpress.XtraEditors.TextEdit tbxaffectsthecostofgoodsinsle;
+        private DevExpress.XtraEditors.TextEdit tbxsubtotalheading;
+        private DevExpress.XtraEditors.TextEdit tbxdefaultvalue;
+        private DevExpress.XtraEditors.TextEdit tbxbillsundrynarration;
+        private DevExpress.XtraEditors.TextEdit tbxbillsundrytype;
+        private DevExpress.XtraEditors.TextEdit tbxprintname;
+        private DevExpress.XtraEditors.TextEdit tbxName;
         private DevExpress.XtraEditors.TextEdit textEdit1;
         private DevExpress.XtraEditors.TextEdit textEdit2;
         private DevExpress.XtraEditors.ComboBoxEdit textEdit5;
@@ -1859,7 +1866,7 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem4;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem5;
+        private DevExpress.XtraLayout.LayoutControlItem cbxalias;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem6;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem7;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem8;
@@ -1882,41 +1889,39 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem25;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem26;
         private DevExpress.XtraEditors.TextEdit textEdit29;
-        private DevExpress.XtraEditors.TextEdit textEdit28;
+        private DevExpress.XtraEditors.TextEdit tbxotherside;
         private DevExpress.XtraEditors.TextEdit textEdit3;
-        private DevExpress.XtraEditors.TextEdit textEdit27;
-        private DevExpress.XtraEditors.RadioGroup radioGroup1;
+        private DevExpress.XtraEditors.TextEdit tbxadjustinmc;
+        private DevExpress.XtraEditors.RadioGroup rbmatissuematreceiptmatstocktransfer;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem27;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem28;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem29;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem30;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit3;
+        private DevExpress.XtraEditors.ComboBoxEdit chbroundofbillsundryamt;
         private System.Windows.Forms.RadioButton radioButton12;
-        private System.Windows.Forms.RadioButton radioButton11;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
-        private System.Windows.Forms.RadioButton radioButton10;
-        private System.Windows.Forms.RadioButton radioButton9;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private DevExpress.XtraEditors.TextEdit textEdit31;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rbsundryamt;
+        private System.Windows.Forms.ComboBox cbxbillsundryamt;
+        private DevExpress.XtraEditors.ComboBoxEdit cbxnoofbillsundry;
+        private DevExpress.XtraEditors.CheckEdit chbincludefreeqty;
+        private DevExpress.XtraEditors.ComboBoxEdit cbxselectivecalculation;
+        private System.Windows.Forms.RadioButton rbotherbillsundry;
+        private System.Windows.Forms.RadioButton rbprevbillsundry;
+        private System.Windows.Forms.RadioButton rbtaxableamt;
+        private System.Windows.Forms.RadioButton rbtotalmrpofitems;
+        private System.Windows.Forms.RadioButton rbitombasicamt;
+        private System.Windows.Forms.RadioButton rbnetbillamt;
+        private System.Windows.Forms.RadioButton rbperaltqty;
+        private System.Windows.Forms.RadioButton rbpermainqty;
+        private System.Windows.Forms.RadioButton rbpercentrage;
+        private System.Windows.Forms.RadioButton rbabsoluteamt;
         private DevExpress.XtraEditors.TextEdit textEdit30;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem31;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem32;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem33;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem35;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem36;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem34;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem37;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem38;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem39;
@@ -1930,7 +1935,7 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem47;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem48;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem49;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton btnsave;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem50;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem51;
@@ -1975,7 +1980,7 @@
         private DevExpress.XtraNavBar.NavBarItem navBarItem2;
         private DevExpress.XtraNavBar.NavBarItem navBarItem3;
         private DevExpress.XtraNavBar.NavBarGroup navBarGroup5;
-        private DevExpress.XtraNavBar.NavBarItem ListBillsundary;
+        private DevExpress.XtraNavBar.NavBarItem navBarItem7;
         private DevExpress.XtraNavBar.NavBarItem navBarItem8;
         private DevExpress.XtraNavBar.NavBarItem navBarItem9;
         private DevExpress.XtraNavBar.NavBarItem navBarItem4;

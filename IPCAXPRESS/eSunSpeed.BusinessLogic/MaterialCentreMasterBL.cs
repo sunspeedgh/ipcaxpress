@@ -26,25 +26,25 @@ namespace eSunSpeed.BusinessLogic
                 paramCollection.Add(new DBParameter("@PrintName", objMCM.PrintName));
                 paramCollection.Add(new DBParameter("@Group", objMCM.Group));
                 paramCollection.Add(new DBParameter("@StockAccount", objMCM.StockAccount));
-                paramCollection.Add(new DBParameter("@EnableStockinBal", objMCM.EnableStockinBal,System.Data.DbType.Boolean));
+                //paramCollection.Add(new DBParameter("@EnableStockinBal", objMCM.EnableStockinBal,System.Data.DbType.Boolean));
                 paramCollection.Add(new DBParameter("@SalesAccount", objMCM.SalesAccount));
                 paramCollection.Add(new DBParameter("@PurchaseAccount", objMCM.PurchaseAccount));
-                paramCollection.Add(new DBParameter("@EnableAccinTransfer", objMCM.EnableAccinTransfer,System.Data.DbType.Boolean));
+                //paramCollection.Add(new DBParameter("@EnableAccinTransfer", objMCM.EnableAccinTransfer,System.Data.DbType.Boolean));
                 paramCollection.Add(new DBParameter("@Address", objMCM.Address));
-                paramCollection.Add(new DBParameter("@Street", objMCM.Street));
-                paramCollection.Add(new DBParameter("@City", objMCM.City));
-                paramCollection.Add(new DBParameter("@State", objMCM.State));
+                //paramCollection.Add(new DBParameter("@Street", objMCM.Street));
+                //paramCollection.Add(new DBParameter("@City", objMCM.City));
+                //paramCollection.Add(new DBParameter("@State", objMCM.State));
 
-                paramCollection.Add(new DBParameter("@Country", objMCM.Country));
-                paramCollection.Add(new DBParameter("@PinCode", objMCM.PinCode));
-                paramCollection.Add(new DBParameter("@Mobile", objMCM.Mobile));
+                //paramCollection.Add(new DBParameter("@Country", objMCM.Country));
+                //paramCollection.Add(new DBParameter("@PinCode", objMCM.PinCode));
+                //paramCollection.Add(new DBParameter("@Mobile", objMCM.Mobile));
 
                 paramCollection.Add(new DBParameter("@CreatedBy","Admin"));
 
-                Query = "INSERT INTO MaterialCentreMaster([Name],[Alias],[PrintName],[Group],[StockAccount],[EnableStockinBal],[SalesAccount],[PurchaseAccount]," +
-                "[EnableAccinTransfer],[Address],[Street],[City],[State],[Country],[PinCode],[Mobile],[CreatedBy])" +
-                 "VALUES(@Name,@Alias,@PrintName,@Group,@StockAccount,@EnableStockinBal,@SalesAccount,@PurchaseAccount,@EnableAccinTransfer,@Address,@Street,@City," +
-                 "@State,@Counry,@PinCode,@Mobile,@CreatedBy)";
+                Query = "INSERT INTO MaterialCentreMaster(`Name`,`Alias`,`PrintName`,`Group`,`StockAccount`,`SalesAccount`,`PurchaseAccount`," +
+                "`Address`)" +
+                 "VALUES(@Name,@Alias,@PrintName,@Group,@StockAccount,@SalesAccount,@PurchaseAccount," +
+                 "@Address)";
 
                 if (_dbHelper.ExecuteNonQuery(Query, paramCollection) > 0)
                     isSaved = true;
